@@ -6,7 +6,7 @@
 Welcome to Read the Docs Template's documentation!
 ==================================================
 
-Contents:
+Contents: YES THIUS IS
 
 .. toctree::
    :maxdepth: 2
