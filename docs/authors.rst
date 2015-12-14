@@ -1,1 +1,1 @@
-.. include:: ../AUTHORS.rst
+Authors: Thiago Souza a.k.a. '@thiagoroshi'
