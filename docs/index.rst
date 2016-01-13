@@ -12,9 +12,14 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   *
+Hello world!
+============
 
+This is some text.
 
+* sandwiches
+* noodles
+* rice
 
 Indices and tables
 ==================
