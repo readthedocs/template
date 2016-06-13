@@ -2,6 +2,7 @@ Authors
 -------
 
 * Eric (New contributor)
-* Anthony 
+* Anthon
 
-
+* Eric (New contributor)
+* Anthon
