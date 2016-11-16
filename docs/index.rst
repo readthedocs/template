@@ -17,3 +17,5 @@ Help topics:
    :glob:
 
    *
+
+HumanBase is actively developed by the Genomics group at the Flatiron Institute.
