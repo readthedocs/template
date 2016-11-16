@@ -1,5 +1,5 @@
 =======================================
-NetWAS - Network-wide association study
+NetWAS - Network-wide Association Study
 =======================================
 
 ---------------------------------------
