@@ -3,7 +3,7 @@ Tissue-specific Networks
 ===========================
 
 
-Functional integrations
+Functional interactions
 ---------------------------
 
 
