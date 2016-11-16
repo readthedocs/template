@@ -6,7 +6,7 @@
 HumanBase documentation
 ==================================================
 
-Contents:
+Help topics:
 
 .. toctree::
    :maxdepth: 2
