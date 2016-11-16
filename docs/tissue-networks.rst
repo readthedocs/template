@@ -3,7 +3,7 @@ Tissue-specific Networks
 ===========================
 
 
-Functional interactions
+Functional Interactions
 ---------------------------
 
 
