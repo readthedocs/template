@@ -1,3 +1,3 @@
 ====================================
-Biological Process-specific Networks
+Biological process-specific Networks
 ====================================
