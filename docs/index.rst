@@ -1,25 +1,23 @@
-.. Read the Docs Template documentation master file, created by
-   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. contents::
 
-Welcome to Read the Docs Template's documentation!
-==================================================
+Sekhar
+-------------------
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | ...        | ...      |          |
++------------------------+------------+----------+----------+
+Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_
 
-Contents:
+.. rubric:: Footnotes
 
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   *
+.. [#f1] Text of the first footnote.
+.. [#f2] Text of the second footnote.
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+Subarna
+-----------------------
+sadsadsdsd
