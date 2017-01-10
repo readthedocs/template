@@ -10,7 +10,7 @@ Tissue-specific networks provide a new means to generate hypotheses related to t
 
 GWAS File
 ---------------------------------------
-NetWAS requires as input a GWAS result file, with per-gene p-values. We suggest the versatile gene-based association study (VEGAS) system for calculating gene p-values, but we also support forge an pseq.
+NetWAS requires as input a GWAS result file, with per-gene p-values. We suggest the versatile gene-based association study (VEGAS) system for calculating gene p-values, but we also support forge and pseq.
 
 
 Method
