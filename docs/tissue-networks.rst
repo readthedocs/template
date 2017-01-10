@@ -12,7 +12,7 @@ HumanBase builds genome-scale functional maps of human tissues by integrating a 
 
 These maps can answer biological questions that are specific to a single gene in a single tissue. For example, we have used these maps for the gene IL1B (encoding interleukin (IL)-1β) in the blood vessel network, where it has a key role in inflammation, to predict lineage-specific responses to IL-1β stimulation, which we experimentally confirmed. 
 
-Data types
+Genomics data types
 ---------------------------
 We collected and integrated 987 genome-scale data sets encompassing approximately 38,000 conditions from an estimated 14,000 publications including both expression and interaction measurements. 
 
