@@ -10,10 +10,16 @@ Functional interactions
 
 HumanBase builds genome-scale functional maps of human tissues by integrating a collection of data sets covering thousands of experiments contained in more than 14,000 distinct publications. To integrate these data, we automatically assess each data set for its relevance to each of 144 tissue- and cell lineage–specific functional contexts. The resulting functional maps provide a detailed portrait of protein function and interactions in specific human tissues and cell lineages ranging from B lymphocytes to the renal glomerulus and the whole brain. This approach allows us to profile the specialized function of genes in a high-throughput manner, even in tissues and cell lineages for which no or few tissue-specific data exist.
 
-These maps can answer biological questions that are specific to a single gene in a single tissue. For example, we have used these maps for the gene IL1B (encoding interleukin (IL)-1β) in the blood vessel network, where it has a key role in inflammation18, to predict lineage-specific responses to IL-1β stimulation, which we experimentally confirmed. 
+These maps can answer biological questions that are specific to a single gene in a single tissue. For example, we have used these maps for the gene IL1B (encoding interleukin (IL)-1β) in the blood vessel network, where it has a key role in inflammation, to predict lineage-specific responses to IL-1β stimulation, which we experimentally confirmed. 
 
-Data download and processing
+Data types
 ---------------------------
-We collected and integrated 987 genome-scale data sets encompassing approximately 38,000 conditions from an estimated 14,000 publications including both expression and interaction measurements. We downloaded interaction data from BioGRID, IntAct, MINT and MIPS. Predicting transcriptional regulation on the basis of DNA sequence is a major challenge in understanding transcription at a systems level. To estimate shared transcription factor regulation, binding motifs were downloaded from JASPAR. Genes were scored for the presence of transcription factor binding sites. Chemical and genetic perturbation (c2:CGP) and microRNA target (c3:MIR) profiles were downloaded from the Molecular Signatures Database (MSigDB).
+We collected and integrated 987 genome-scale data sets encompassing approximately 38,000 conditions from an estimated 14,000 publications including both expression and interaction measurements. 
 
-We downloaded all gene expression data sets from NCBI's Gene Expression Omnibus74 (GEO) and collapsed duplicate samples. GEO contains 980 human data sets representing 20,868 conditions. 
+Gene co-expression: 
+
+Protein-interaction:
+
+TF binding sites:
+
+GSEA purturbations and miRNA:
