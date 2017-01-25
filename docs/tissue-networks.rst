@@ -28,6 +28,17 @@ To estimate shared transcription factor regulation between genes, we collected b
 MSigDB purturbations and miRNA:
 Chemical and genetic perturbation (c2:CGP) and microRNA target (c3:MIR) profiles were downloaded from the Molecular Signatures Database (MSigDB). Each gene pair's score was the sum of shared profiles weighted by the specificity of each profile
 
+
+Evidence
+---------------------------
+The "evidence" for an edge is measured as the contribution or "influence" of each dataset on the posterior classification probability. Each dataset contribution is calculated as the posterior probability of a functional relationship given only that dataset, minus the prior probablility.
+
+Contribution of dataset D to an edge functional relationship prediction (FR)::
+
+   contribution(D) = P(FR | D) - P(FR)
+
+Note that the contributions will not sum to 1.0, as each contribution is measured separately. Generally, individual gene expression datasets will not contribute much to the posterior probability but cumulatively can make a significant contribution.
+
 Examples
 ---------------------------
 
