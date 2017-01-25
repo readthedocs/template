@@ -7,6 +7,10 @@ GWAS File
 ---------------------------------------
 NetWAS requires as input a GWAS result file, with per-gene p-values. We suggest the versatile gene-based association study (VEGAS) system for calculating gene p-values, but we also support forge and pseq formats.
 
+* `VEGAS <http://gump.qimr.edu.au/VEGAS/>`_: versatile gene-based association study
+* `FORGE <https://github.com/inti/FORGE>`_: multivariate calculation of gene-wide p-values from Genome-Wide Association Studies Authors and Affiliations
+* `PLINK/SEQ <https://atgu.mgh.harvard.edu/plinkseq/index.shtml>`_: a library for the analysis of genetic variation data
+
 
 Method
 ---------------------------------------
@@ -16,4 +20,21 @@ To calculate per-gene P values for a GWAS, we suggest the versatile gene-based a
 
 We have performed and evaluated NetWAS on six GWAS: C-reactive protein levels (lnCRP), type 2 diabetes (T2D), body mass index (BMI), hypertension (ht), alzheimer's (adni) and advanced age-related macular degeneration (advanced AMD). 
 
+Examples
+---------------------------------------
 
+Hypertension GWAS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hypertension is a major cardiovascular risk factor and a complex trait involving a large number of genetic variants. We converted SNP-level association statistics into gene-level statistics for each of three recorded phenotypes—diastolic blood pressure (DBP), systolic blood pressure (SBP) and hypertension. Using the tissue-specific network for kidney, a tissue that has a central role in blood pressure control, NetWAS constructed a classifier that identified tissue-specific network connectivity patterns associated with the phenotype of interest. Genes annotated to hypertension phenotypes in the Online Mendelian Inheritance in Man (OMIM) database were more highly ranked by this classifier than by the initial GWAS. (`citation <http://www.nature.com/ng/journal/v47/n6/full/ng.3259.html>`_)
+
+.. figure:: http://www.nature.com/ng/journal/v47/n6/images/ng.3259-F5.jpg
+   :scale: 50%
+   
+   Genes ranked using GWAS (gray) and genes reprioritized using NetWAS (brown) were assessed for correspondence to genes known to be associated with hypertension phenotypes, regulatory processes and therapeutics. We compared individual (systolic blood pressure, SBP; diastolic blood pressure, DBP; hypertension, HTN) as well as combined hypertension endpoints. (a) Gene rankings were compared to OMIM-annotated hypertension genes using AUC. The AUC for the tissue-specific NetWAS is consistently higher than that for the original GWAS for all hypertension endpoints. Merging the network-based predictions for the three hypertension-related endpoints into a combined phenotype results in the best performance (AUC = 0.77; original GWAS AUC = 0.62; the dashed line at 0.5 denotes the AUC of a baseline random predictor). (b,c) Gene rankings were also assessed for enrichment of genes involved in the regulation of blood pressure (GO) (b) and targets of antihypertensive drugs (DrugBank) (c). The top NetWAS results were significantly enriched for genes involved in blood pressure regulation as well as for genes that are targets of antihypertensive drugs. Enrichment was calculated as a z score (Online Methods), with higher scores indicating a greater shift from the expected ranking toward the top of the list. In nearly all cases, the NetWAS ranking was both significantly enriched with the respective gene sets (z score > 1.645 ≈ P value < 0.05) and more enriched than in the original GWAS ranking.
+   
+   
+Additional GWAS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. figure:: http://www.nature.com/ng/journal/v47/n6/images/ng.3259-SF8.jpg
+
+ Each bar shows the performance of NetWAS reprioritization as measured by the area under the curve (AUC) of documented disease associations with the disease specified in the label above the plot. The horizontal axis shows relevant networks (colored bars) and GWAS alone (gray bars), and the horizontal axis label describes the GWAS phenotype from which associations were obtained.
