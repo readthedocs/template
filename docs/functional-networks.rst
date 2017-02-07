@@ -14,9 +14,9 @@ Genomics data types
 ---------------------------
 We collected and integrated 987 genome-scale data sets encompassing approximately 38,000 conditions from an estimated 14,000 publications including both expression and interaction measurements. 
 
-* Gene co-expression: Correlation of gene expression across multiple conditions in a dataset. All gene expression data sets are from NCBI's Gene Expression Omnibus (GEO). Genes with more than 30% of values missing were removed, and remaining missing values were imputed using ten neighbors75. Non-log-transformed data sets were log transformed. Expression measurements were summarized to Entrez76 identifiers, and duplicate identifiers were merged. The Pearson correlation was calculated for each gene pair, normalized with Fisher's z transform, mean subtracted and divided by the standard deviation. 
+* Gene co-expression: All gene expression data sets are from NCBI's Gene Expression Omnibus (GEO). Genes with more than 30% of values missing were removed, and remaining missing values were imputed using ten nearest neighbors. Non-log-transformed data sets were log transformed. Expression measurements were summarized to Entrez identifiers, and duplicate identifiers were merged. The Pearson correlation was calculated for each gene pair, normalized with Fisher's z transform, mean subtracted and divided by the standard deviation. 
 
-* Protein-interaction: Physical and genetic protein interactions. Interaction data are collected from BioGRID, IntAct, MINT, and MIPS.
+* Protein-interaction: Interaction data are collected from BioGRID, IntAct, MINT, and MIPS.
 
 * TF regulation: To estimate shared transcription factor regulation between genes, we collected binding motifs from JASPAR. Genes were scored for the presence of transcription factor binding sites using the MEME software suite. Motif matches were treated as binary scores (present if P < 0.001). The final score for each gene pair was obtained by calculating the Pearson correlation between the motif association vectors for the genes.
 
