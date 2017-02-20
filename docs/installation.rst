@@ -1,6 +1,6 @@
-============
-Installation
-============
+=====================
+Installation for demo
+=====================
 
 Install the package with pip::
 
