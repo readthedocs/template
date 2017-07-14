@@ -5,8 +5,7 @@
 
 V-FRONT v7
 ==================================================
-
-Contents:
+Index:
 
 .. toctree::
    :maxdepth: 2
