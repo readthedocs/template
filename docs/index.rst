@@ -34,4 +34,4 @@ Help topics
 
 Who are we?
 ---------------------
-HumanBase is actively developed by the Genomics group at the Flatiron Institute.
+HumanBase is actively developed by the Genomics group at the  `Flatiron Institute <https://www.simonsfoundation.org/flatiron-institute/>`_.
