@@ -24,30 +24,40 @@ NetWAS Results
 ---------------------------------------
 When a NetWAS analysis finishes, a result file will be emailed to the provided address and/or can be accessed at a given URL. An example file is show below: ::
 
- ##################################################################################
- # HumanBase NetWAS Analysis Results
- #
- # Job id:      d81a3872-3de8-4c83-a28c-ea4267f72870
- # Job title:   
- # Email:       aaronkw@gmail.com
- # Created:     2017-08-18 17:26:48 EDT
- # GWAS file:   bmi-2012.out.txt
- # GWAS format: vegas
- # Tissue:      adipose_tissue
- # P-value:     0.01
- #
- # NetWAS citation:
- # Greene CS*, Krishnan A*, Wong AK*, Ricciotti E, Zelaya RA, Himmelstein DS, Zhang
- # R, Hartmann BM, Zaslavsky E, Sealfon SC, Chasman DI, FitzGerald GA, Dolinski K,
- # Grosser T, Troyanskaya OG. (2015). Understanding multicellular function and
- # disease with human tissue-specific networks. Nature Genetics. 10.1038/ng.3259w.
- ##################################################################################
- KRT6B	-1	0.561327
- EMP1	-1	0.541169
- ZBTB41	-1	0.503238
- PNPLA8	-1	0.454396
- ITGB4	-1	0.440985
- ........
+##################################################################################
+# HumanBase NetWAS Analysis Results
+#
+# Job id:      d7732f19-916d-4458-97b5-936b8d6345cb
+# Job title:   
+# Email:       
+# Created:     2017-08-21 17:07:33 EDT
+# GWAS file:   bmi-2012.out.txt
+# GWAS format: vegas
+# Tissue:      adipose_tissue
+# P-value:     0.01
+#
+# Result file format:
+#
+# Column 1) Gene symbol
+# Column 2) Training label: 1 (+, nominally significant p-value)
+#                          -1 (-, not nominally significant p-value)
+#                           0 (not used in training)
+# Column 3) NetWAS Score: Distance from the SVM separating hyperplane. Positive scores
+# are in the positive direction (more like nominally significant), negative scores
+# are in the negative direction (more like non-significant)
+##################################################################################
+# NetWAS citation:
+# Greene CS*, Krishnan A*, Wong AK*, Ricciotti E, Zelaya RA, Himmelstein DS, Zhang
+# R, Hartmann BM, Zaslavsky E, Sealfon SC, Chasman DI, FitzGerald GA, Dolinski K,
+# Grosser T, Troyanskaya OG. (2015). Understanding multicellular function and
+# disease with human tissue-specific networks. Nature Genetics. 10.1038/ng.3259w.
+##################################################################################
+KRT6B	-1	0.561327
+EMP1	-1	0.541169
+ZBTB41	-1	0.503238
+PNPLA8	-1	0.454396
+ITGB4	-1	0.440985
+........
 
 
 
