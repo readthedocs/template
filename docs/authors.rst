@@ -1,1 +1,1 @@
-.. include:: ../AUTHORS.rst
+Projevi se zmena?
