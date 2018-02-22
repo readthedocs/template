@@ -1,10 +1,10 @@
 Welcome to pgCodeKeeper documentation!
 ==================================================
-Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и выборочного применения различий, с учетом возможных зависимостей между объектами схемы.
+The pgCodeKeeper plugin is designed to compare PostgreSQL database schemas and selectively use differences, taking into account possible dependencies between schema objects.
 
-Работа с pgCodeKeeper осуществляется с помощью проекта. Он представляет собой объекты схемы БД, хранимые в отдельных файлах в иерархической структуре.
+Working with pgCodeKeeper is done using the project. It is a database schema object stored in separate files in a hierarchical structure.
 
-С помощью проекта возможно просмотреть структуру объектов-файлов, и создать скрипт наката схемы проекта на БД, или наоборот, модифицировать структуру проекта объектами из какой-либо БД.
+Using the project, you can view the structure of file objects, and create a script for managing projects on the database, or vice versa, modify the project structure with objects from a database.
 
 The pgCodeKeeper code is open source, and available on `GitHub`_.
 
