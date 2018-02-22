@@ -6,9 +6,9 @@ Welcome to pgCodeKeeper documentation!
 
 С помощью проекта возможно просмотреть структуру объектов-файлов, и создать скрипт наката схемы проекта на БД, или наоборот, модифицировать структуру проекта объектами из какой-либо БД.
 
-The pgCodeKeeper code is open source, and `available on GitHub`_.
+The pgCodeKeeper code is open source, and available on `GitHub`_.
 
-.. _available on GitHub: https://github.com/pgcodekeeper/pgcodekeeper
+.. _GitHub: https://github.com/pgcodekeeper/pgcodekeeper
 
 Contents:
 
@@ -17,6 +17,7 @@ Contents:
    :caption: Getting started
 
    installation
+   new_project
    import_project
    convert_project
    editors
@@ -26,7 +27,6 @@ Contents:
    :maxdepth: 2
    :caption: Tasks
 
-   new_project
    project_update
    db_update
    object_search

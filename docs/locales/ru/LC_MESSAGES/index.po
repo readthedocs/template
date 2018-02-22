@@ -1,0 +1,3 @@
+#: ../../index.rst:7
+msgid "The pgCodeKeeper source code in open source, and available on "
+msgstr "Исходный код pgCodeKeeper находится в свободном доступе и доступен на "
