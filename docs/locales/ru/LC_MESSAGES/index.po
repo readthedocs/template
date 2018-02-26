@@ -15,8 +15,8 @@ msgid "Using the project, you can view the structure of file objects, and create
 msgstr "С помощью проекта возможно просмотреть структуру объектов-файлов, и создать скрипт наката схемы проекта на БД, или наоборот, модифицировать структуру проекта объектами из какой-либо БД."
 
 #: ../../index.rst:11
-msgid "The pgCodeKeeper source code in open source, and available on "
-msgstr "Исходный код pgCodeKeeper находится в свободном доступе и доступен на "
+msgid "The pgCodeKeeper source code in open source, and available on"
+msgstr "Исходный код pgCodeKeeper находится в свободном доступе и доступен на"
 
 #: ../../index.rst:17
 msgid "Getting started"

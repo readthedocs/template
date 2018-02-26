@@ -10,18 +10,18 @@ msgstr "Самый простой путь получить pgCodeKeeper – с�
 msgid "In the Work With field, enter the path to the update site. It can be either a remote resource http://pgcodekeeper.ru/update/release/, or local to your file system."
 msgstr "В поле Work With ввести путь к сайту обновлений. Это может быть как удаленный ресурс http://pgcodekeeper.ru/update/release/, так и локальный в вашей файловой системе."
 
-#: ../../index.rst:8
+#: ../../index.rst:9
 msgid "After pressing Enter, the available plug-ins will appear in the list below."
 msgstr "После нажатия Enter в списке ниже появятся доступные для установки плагины."
 
-#: ../../index.rst:10
+#: ../../index.rst:11
 msgid "Select the pgCodeKeeper package, agree to the installation, read the user agreement, click Finish, and the installation will begin."
 msgstr "Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish и начнется установка."
 
-#: ../../index.rst:14
+#: ../../index.rst:15
 msgid "When the installation is complete, you must restart Eclipse to apply the changes."
 msgstr "По завершению установки для применения изменений необходимо перезапустить Eclipse."
 
-#: ../../index.rst:16
-msgid "Start Eclipse and choose Window> Perspective> Open Perspective> Other> pgCodeKeeper.."
+#: ../../index.rst:17
+msgid "Start Eclipse and choose Window> Perspective> Open Perspective> Other> pgCodeKeeper."
 msgstr "Запустите Eclipse и выберите Window > Perspective > Open Perspective > Other > pgCodeKeeper."

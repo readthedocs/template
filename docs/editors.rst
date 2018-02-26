@@ -2,7 +2,7 @@
 Editors
 ============
 
-.. _`pgCodeKeeper project editor`:
+.. _projEditor :
 
 pgCodeKeeper project editor
 ~~~~~~~~~~~~
