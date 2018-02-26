@@ -2,15 +2,15 @@
 Installation
 ============
 
-Самый простой путь получить pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.2 или выше, выбрать Help > Install New Software... Откроется мастер установки плагинов средствами сайта обновлений.
+The easiest way to get pgCodeKeeper is the update site: in an Eclipse instance running version 4.2 or higher, select Help> Install New Software ... The plug-in installation wizard will open with the update site.
 
-В поле Work With ввести путь к сайту обновлений. Это может быть как удаленный ресурс http://pgcodekeeper.ru/update/release/, так и локальный в вашей файловой системе.
-После нажатия Enter в списке ниже появятся доступные для установки плагины.
+In the Work With field, enter the path to the update site. It can be either a remote resource http://pgcodekeeper.ru/update/release/, or local to your file system.
+After pressing Enter, the available plug-ins will appear in the list below.
 
-Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish и начнется установка.
+Select the pgCodeKeeper package, agree to the installation, read the user agreement, click Finish, and the installation will begin.
 
-.. image:: ../images/package_plugin.png
+.. image :: ../images/package_plugin.png
 
-По завершению установки для применения изменений необходимо перезапустить Eclipse
+When the installation is complete, you must restart Eclipse to apply the changes.
 
-Запустите Eclipse и выберите Window > Perspective > Open Perspective > Other > pgCodeKeeper.
+Start Eclipse and choose Window> Perspective> Open Perspective> Other> pgCodeKeeper.

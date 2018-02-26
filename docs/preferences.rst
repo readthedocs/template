@@ -2,5 +2,5 @@
 Preferences
 ============
 
-Основные настройки pgCodeKeeper
+pgCodeKeeper main preferences
 ~~~~~~~~~~~~
