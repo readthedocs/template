@@ -1,0 +1,47 @@
+#: ../../cli_version.rst:2
+msgid "CLI версия"
+msgstr ""
+
+#: ../../cli_version.rst:5
+msgid "В качестве альтернативы плагина для Eclipse IDE предоставляется возможность сравнения схем баз данных через командную строку. Для этого необходимо скачать pgCodeKeeper-cli приложение, которое работает автономно."
+msgstr ""
+
+#: ../../cli_version.rst:7
+msgid "Консольная сборка программы может быть использована для:"
+msgstr ""
+
+#: ../../cli_version.rst:9
+msgid "- создания из дампа файловой структуры "проекта" pgCodeKeeper (без проекта Eclipse)"
+msgstr ""
+
+#: ../../cli_version.rst:10
+msgid "- создания скриптов наката с использованием дампов и файловых структур pgCodeKeeper"
+msgstr ""
+
+#: ../../cli_version.rst:11
+msgid "- создания скриптов наката с использованием соединений к базам данных"
+msgstr ""
+
+#: ../../cli_version.rst:13
+msgid "Начало работы"
+msgstr ""
+
+#: ../../cli_version.rst:16
+msgid "Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем."
+msgstr ""
+
+#: ../../cli_version.rst:18
+msgid "Набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду:"
+msgstr ""
+
+#: ../../cli_version.rst:22
+msgid "Примеры"
+msgstr ""
+
+#: ../../cli_version.rst:27
+msgid "После выполнения этой команды в файл diff.sql будет записан скрипт миграции различий из проекта в директории test1 в базу данных testdb1 на сервере localhost:5432."
+msgstr ""
+
+#: ../../cli_version.rst:31
+msgid "После выполнения этой команды в консоли будет выведен скрипт миграции из файла backup в проект в директории test1."
+msgstr ""

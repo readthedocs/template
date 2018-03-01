@@ -1,8 +1,8 @@
-============
-Convert project
-============
+===================
+Конвертация проекта
+===================
 
-Любой проект можно сконвертировать в проект pgCodeKeeper. Для этого из меню проекта выберите пункт **Configure > Convert to pgCodeKeeper project.**
+Любой проект можно сконвертировать в проект pgCodeKeeper. Для этого из меню проекта выберите пункт **Configure -> Convert to pgCodeKeeper project.**
 
 .. image:: ../images/convert_project_menu.png
 

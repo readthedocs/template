@@ -1,0 +1,11 @@
+#: ../../convert_project.rst:2
+msgid "Конвертация проекта"
+msgstr ""
+
+#: ../../convert_project.rst:5
+msgid "Любой проект можно сконвертировать в проект pgCodeKeeper. Для этого из меню проекта выберите пункт **Configure -> Convert to pgCodeKeeper project.**"
+msgstr ""
+
+#: ../../convert_project.rst:9
+msgid "Если структура проекта не соответствует стандарту, будет показано предупреждение."
+msgstr ""

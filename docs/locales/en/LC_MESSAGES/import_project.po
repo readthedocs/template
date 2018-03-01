@@ -1,0 +1,51 @@
+#: ../../import_project.rst:2
+msgid "Импорт проекта"
+msgstr ""
+
+#: ../../import_project.rst:5
+msgid "Если имеется проект Eclipse (такой проект имеет файл .project в корне), то производится импорт существующего проекта:"
+msgstr ""
+
+#: ../../import_project.rst:7
+msgid "1. Из меню выберите пункт **File -> Import...** Откроется выбор мастеров импорта."
+msgstr ""
+
+#: ../../import_project.rst:8
+msgid "2. Выберите категорию **General -> Existing Project** into Workspace и нажмите **Next**."
+msgstr ""
+
+#: ../../import_project.rst:9
+msgid "3. Выберите директорию проекта."
+msgstr ""
+
+#: ../../import_project.rst:10
+msgid "4. Затем выберите проекты для импорта."
+msgstr ""
+
+#: ../../import_project.rst:11
+msgid "5. Закончите импорт нажатием на **Finish**."
+msgstr ""
+
+#: ../../import_project.rst:13
+msgid "В случае, если присутствует только структура проекта pgCodeKeeper, без файлов проекта Eclipse, то импорт производится с помощью мастера нового проекта. Хранение структуры проекта pgCodeKeeper без информации Eclipse – обычная практика, например при использовании системы контроля версий."
+msgstr ""
+
+#: ../../import_project.rst:15
+msgid "1. Из меню выберите пункт **File -> Import** ... Откроется выбор мастеров импорта."
+msgstr ""
+
+#: ../../import_project.rst:16
+msgid "2. Выберите **Проект pgCodeKeeper** в категории pgCodeKeeper и нажмите **Next**."
+msgstr ""
+
+#: ../../import_project.rst:20
+msgid "3. Укажите путь до директории со структурой проекта pgCodeKeeper и введите имя проекта."
+msgstr ""
+
+#: ../../import_project.rst:21
+msgid "4. Нажмите **Finish**."
+msgstr ""
+
+#: ../../import_project.rst:23
+msgid "Для корректной работы проект должен содержать файл '.pgcodekeeper' в корне директории. Мастер импорта проекта автоматически создаст данный файл при его отсутствии."
+msgstr ""

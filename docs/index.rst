@@ -1,20 +1,18 @@
-================
-pgCodeKeeper User Guide
-================
+=====================================
+Руководство пользователя pgCodeKeeper
+=====================================
 
-The pgCodeKeeper plugin is designed to compare PostgreSQL database schemas and selectively use differences, taking into account possible dependencies between schema objects.
+Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и выборочного применения различий, с учетом возможных зависимостей между объектами схемы.
 
-Working with pgCodeKeeper is done using the project. It is a database schema object stored in separate files in a hierarchical structure.
+Работа с pgCodeKeeper осуществляется с помощью проекта. Он представляет собой объекты схемы БД, хранимые в отдельных файлах в иерархической структуре.
 
-Using the project, you can view the structure of file objects, and create a script for managing projects on the database, or vice versa, modify the project structure with objects from a database.
+С помощью проекта возможно просмотреть структуру объектов-файлов, и создать скрипт наката схемы проекта на БД, или наоборот, модифицировать структуру проекта объектами из какой-либо БД.
 
-The pgCodeKeeper source code in open source, and available on `GitHub`_.
-
-.. _GitHub: https://github.com/pgcodekeeper/pgcodekeeper
+Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting started
+   :caption: Начало работы
 
    installation
    new_project
@@ -25,7 +23,7 @@ The pgCodeKeeper source code in open source, and available on `GitHub`_.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tasks
+   :caption: Задачи
 
    project_update
    db_update
@@ -35,10 +33,13 @@ The pgCodeKeeper source code in open source, and available on `GitHub`_.
    sort
    db_store
    diff
+   mock_data
 
 .. toctree::
    :maxdepth: 2
-   :caption: Other information
+   :caption: Дополнительная информация
 
    about
+   white_black_list
+   helper_functions
    cli_version
