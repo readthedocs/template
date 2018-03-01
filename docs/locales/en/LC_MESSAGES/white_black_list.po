@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-01 13:12+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../white_black_list.rst:3
+msgid "Черный/белый список"
+msgstr ""
+
+#: ../../white_black_list.rst:5
+msgid ""
+"В дополнение к странице настроек :ref:`ignoredObjects`, существует "
+"возможность хранить черный/белый список объектов для каждого проекта. "
+"Программа автоматически читает такой список из файла "
+"**.pgcodekeeperignore** в корне проекта."
+msgstr ""
+
+#: ../../white_black_list.rst:7
+msgid ""
+"Черный список разрешает показ всего, кроме объектов, указанных в списке. "
+"Белый список запрещает показ всех объектов, кроме явно указанных в "
+"правилах списка."
+msgstr ""
+
+#: ../../white_black_list.rst:9
+msgid ""
+"Черные и белые списки могут использоваться вместе. В таком случае, их "
+"правила объединяются в один общий список. Правила, контролирующие "
+"отображение одного и того же объекта, складываются в одно общее правило "
+"по следующим принципам:"
+msgstr ""
+
+#: ../../white_black_list.rst:11
+msgid ""
+"если \"широта\" правил различается, то преобладает более широкое правило "
+"(включающее в себя сам объект и его содержимое)"
+msgstr ""
+
+#: ../../white_black_list.rst:12
+msgid "если \"широта\" правил одинакова, то преобладает скрывающее объект правило"
+msgstr ""
+
+#: ../../white_black_list.rst:14
+msgid ""
+"Под \"широтой\" здесь подразумевает состояние опции правила *Игнорировать"
+" содержимое*."
+msgstr ""
+
+#: ../../white_black_list.rst:17
+msgid "Синтаксис списков"
+msgstr ""
+
+#: ../../white_black_list.rst:19
+msgid "Формат файлов чувствителен к регистру. Кодировка – UTF-8."
+msgstr ""
+
+#: ../../white_black_list.rst:21
+msgid "**Белый список**"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "# комментарий"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "SHOW ALL"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "HIDE flag [, ...] identifier [ db=identifier ] # комментарий"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "[ ... ]"
+msgstr ""
+
+#: ../../white_black_list.rst:29
+msgid "**Черный список**"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "HIDE ALL"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "SHOW flag [, ...] identifier [ db=identifier ] # комментарий"
+msgstr ""
+
+#: ../../white_black_list.rst:36
+msgid "Где:"
+msgstr ""
+
+#: ../../white_black_list.rst:38
+msgid "flag"
+msgstr ""
+
+#: ../../white_black_list.rst:39
+msgid "{ NONE | REGEX | CONTENT }"
+msgstr ""
+
+#: ../../white_black_list.rst:47
+msgid "identifier"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid ""
+"строка-идентификатор без кавычек, состоящая из латинских букв, цифр и "
+"подчеркиваний;"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "не может начинаться с цифры;"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid ""
+"строка идентификатор не может быть ключевым словом (зарезервированной "
+"директивой языка)"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "**или**"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid ""
+"строка, ограниченная двойными кавычками \" или апострофами ' "
+"(ограничители в начале и в конце строки должны совпадать);"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid ""
+"ограничители, содержащиеся в строке экранируются повтором символа "
+"(например: \"1\"\"2'3\" или '1\"2''3')"
+msgstr ""
+
+#: ../../white_black_list.rst:49
+msgid "Флаги:"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "REGEX"
+msgstr ""
+
+#: ../../white_black_list.rst:51
+msgid "воспринимает identifier не буквально, а как регулярное выражение"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "CONTENT"
+msgstr ""
+
+#: ../../white_black_list.rst:52
+msgid "применяет правило для совпавшего объекта и всего его содержимого"
+msgstr ""
+
+#: ../../white_black_list.rst
+msgid "NONE"
+msgstr ""
+
+#: ../../white_black_list.rst:53
+msgid "не имеет эффекта (применять при отсутствии флагов)"
+msgstr ""
+
+#: ../../white_black_list.rst:55
+msgid "Дополнительные опции:"
+msgstr ""
+
+#: ../../white_black_list.rst:57
+msgid ""
+"db=identifier правило будет применено только к БД, имя которой подходит "
+"под регулярное выражение, заданное этим параметром"
+msgstr ""
+
+#: ../../white_black_list.rst:59
+msgid "Ключевые слова:"
+msgstr ""
+
+#: ../../white_black_list.rst:61
+msgid "HIDE SHOW ALL REGEX CONTENT NONE"
+msgstr ""
+
+#: ../../white_black_list.rst:63
+msgid ""
+"Эти слова не могут быть идентификаторами, для их использования они должны"
+" быть взяты в кавычки. Зарезервированы только слова, полностью "
+"совпадающие по регистру, например Content – разрешенный идентификатор."
+msgstr ""
+
