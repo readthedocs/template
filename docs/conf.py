@@ -43,8 +43,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'pgCodeKeeper user documentation'
-copyright = u'2014, pgCodeKeeper'
+project = u'pgCodeKeeper'
+copyright = u'2016, pgCodeKeeper'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

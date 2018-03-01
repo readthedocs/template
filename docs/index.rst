@@ -36,10 +36,10 @@
    mock_data
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Дополнительная информация
 
-   about
    white_black_list
    helper_functions
    cli_version
+   about
