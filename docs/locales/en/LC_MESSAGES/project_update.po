@@ -1,58 +1,44 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, pgCodeKeeper
-# This file is distributed under the same license as the pgCodeKeeper
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
+"Language-Team: English\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/project_update.po\n"
+"Language: en_US\n"
 
 #: ../../project_update.rst:3
 msgid "Обновление проекта"
 msgstr ""
 
 #: ../../project_update.rst:5
-msgid ""
-"На тулбаре выбираем выбираем источник базы данных, на основании которого "
-"будет обновляться проект pgCodeKeeper."
+msgid "На тулбаре выбираем выбираем источник базы данных, на основании которого будет обновляться проект pgCodeKeeper."
 msgstr ""
 
 #: ../../project_update.rst:7
-msgid ""
-"На панели задач нажимаем кнопку **Получить изменения**. После недолгого "
-"ожидания на панели различий отобразится список различий с указанием типа "
-"изменения."
+msgid "На панели задач нажимаем кнопку **Получить изменения**. После недолгого ожидания на панели различий отобразится список различий с указанием типа изменения."
 msgstr ""
 
 #: ../../project_update.rst:11
-msgid ""
-"Флажками отмечаем объекты, которые мы хотим обновить. Нажимаем на кнопку "
-"**Применить к проекту**, открывается **диалог обновления проекта**."
+msgid "Флажками отмечаем объекты, которые мы хотим обновить. Нажимаем на кнопку **Применить к проекту**, открывается **диалог обновления проекта**."
 msgstr ""
 
 #: ../../project_update.rst:15
-msgid ""
-"Проверяем список объектов, выбранных пользователем, и список зависимых "
-"объектов. Будьте внимательны! Исключение объектов-зависимостей из "
-"обновления может привести к ошибкам или неожиданным результатам."
+msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
 msgstr ""
 
 #: ../../project_update.rst:17
-msgid ""
-"Для подтверждения применения изменений к проекту нажать кнопку **OK**. В "
-"случае успешного применения изменений в **консоли pgCodeKeeper** появится"
-" соответствующее сообщение."
+msgid "Для подтверждения применения изменений к проекту нажать кнопку **OK**. В случае успешного применения изменений в **консоли pgCodeKeeper** появится соответствующее сообщение."
 msgstr ""
 
 #: ../../project_update.rst:19
