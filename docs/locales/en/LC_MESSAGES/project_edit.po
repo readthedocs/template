@@ -1,45 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, pgCodeKeeper
-# This file is distributed under the same license as the pgCodeKeeper
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
+"Language-Team: English\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/project_edit.po\n"
+"Language: en_US\n"
 
 #: ../../project_edit.rst:3
 msgid "Редактирование pgCodeKeeper проекта"
 msgstr ""
 
 #: ../../project_edit.rst:5
-msgid ""
-"Редактирование проекта состоит в изменении содержимого файлов, а также "
-"добавлении и удалении файлов и каталогов находящихся под pgCodeKeeper "
-"проектом."
+msgid "Редактирование проекта состоит в изменении содержимого файлов, а также добавлении и удалении файлов и каталогов находящихся под pgCodeKeeper проектом."
 msgstr ""
 
 #: ../../project_edit.rst:7
-msgid ""
-"**Примечание:** Ручное редактирование объектов может привести к ошибкам в"
-" работе программы и к некорректному применению изменений к БД."
+msgid "**Примечание:** Ручное редактирование объектов может привести к ошибкам в работе программы и к некорректному применению изменений к БД."
 msgstr ""
 
 #: ../../project_edit.rst:11
-msgid ""
-"Для добавления объектов рекомендуем воспользоваться визардом создания SQL"
-" объектов: **File -> New -> Объект SQL** или горячей клавишей "
-"(по-умолчанию Alt + Insert)."
+msgid "Для добавления объектов рекомендуем воспользоваться визардом создания SQL объектов: **File -> New -> Объект SQL** или горячей клавишей (по-умолчанию Alt + Insert)."
 msgstr ""
 
 #: ../../project_edit.rst:15
@@ -47,24 +38,14 @@ msgid "Выберите проект, тип объекта, введите им
 msgstr ""
 
 #: ../../project_edit.rst:17
-msgid ""
-"После этого откроется SQL редактор с созданным шаблоном объекта. Если "
-"создаваемый объект уже существует, то в редакторе будет открыт этот "
-"объект."
+msgid "После этого откроется SQL редактор с созданным шаблоном объекта. Если создаваемый объект уже существует, то в редакторе будет открыт этот объект."
 msgstr ""
 
 #: ../../project_edit.rst:19
-msgid ""
-"Примечание: все возможные данные заполнятся автоматически. Например: если"
-" визард был вызван из контекстного меню файла функции, то автоматически "
-"будет выбран текущий проект, тип объекта станет **FUNCTION**, а имя "
-"объекта будет частично заполнено именем схемы, в которой находилась "
-"функция."
+msgid "Примечание: все возможные данные заполнятся автоматически. Например: если визард был вызван из контекстного меню файла функции, то автоматически будет выбран текущий проект, тип объекта станет **FUNCTION**, а имя объекта будет частично заполнено именем схемы, в которой находилась функция."
 msgstr ""
 
 #: ../../project_edit.rst:21
-msgid ""
-"Для редактирования существующего объекта достаточно изменить содержимое "
-"его файла в проекте."
+msgid "Для редактирования существующего объекта достаточно изменить содержимое его файла в проекте."
 msgstr ""
 
