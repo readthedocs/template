@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 03:03-0500\n"
+"POT-Creation-Date: 2018-03-02 12:00+0300\n"
+"PO-Revision-Date: 2018-03-02 04:08-0500\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Language: en_US\n"
 
 #: ../../about.rst:3
-msgid "О программе pgCodeKeeper"
-msgstr "About pgCodeKeeper"
+msgid "О дополнении pgCodeKeeper"
+msgstr ""
 
 #: ../../about.rst:5
 msgid "Программа pgCodeKeeper разработана и поддерживается ООО «Технология»."
