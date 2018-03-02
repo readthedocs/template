@@ -1,22 +1,31 @@
-pgCodeKeeper documentation
-==========================
+Сопровождение процесса документирования проекта pgCodeKeeper. 
+===============================================================
 
-You will find complete documentation at `the Read the Docs site`_.
+Единственным источником документации является сайт расположенный по адресу: https://pgcodekeeper.readthedocs.io
+Текущий документ описывает два рабочих процесса. Первый, это дополнение существующей документации. Второй, выполнение перевода документации.
 
-.. _the Read the Docs site: http://pgcodekeeper.readthedocs.io/
+Для внесения правок в существующую документацию нужно
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+1. Выполнить клонирование репозитория https://github.com/pgcodekeeper/pgcodekeeper-docs
+2. Внести правки в соответствующие файлы rst. Файлы с расширением po формируются автоматически. Ручная правка этих файлов запрещена! 
+3. Перейти в каталог docs и выполнить файл update_messages.sh в результате выполнения будут обновлены файлы po соответствующие отредактированным rst файлам.
+4. Пушим изменения в github. Если изменения были запушены в мастер, то документация на русском языке будет обновлена автоматически и будет доступна по адресу: https://pgcodekeeper.readthedocs.io/ru/latest/index.html
+5.	Для того, чтобы внесенные изменения стали видны на сайте переводчиков crowdin, необходимо выполнить синхронизацию документации. Для этого необходимо перейти по адресу: https://crowdin.com/project/pgcodekeeper-docs/settings#integration – настройки интеграций. Выбрать интеграцию с гитхабом и нажать кнопку “Sync now” для присоединённого репозитория.
 
-Localization
-~~~~~~~~~~~~
+Note: Для выполнения скрипта update_message.sh необходимо предварительно на локальной машине установить пакет sphinx-intl, установить который можно  командой **pip install sphinx-intl**, см. также: https://pypi.python.org/pypi/sphinx-intl/
 
-To update localization you can use `sphinx intl`_.
+Для выполнения перевода
+~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _sphinx intl: https://pypi.python.org/pypi/sphinx-intl/
+1. Источником перевода является русский язык.
+2. Заходим по адресу: https://crowdin.com/project/pgcodekeeper-docs и регистрируемся как контрибьюторы.
+3. Выбираем po файл и переводим его на целевой язык. Не забываем нажимать «Save» после выполнения перевода ключа. 
 
-Install sphinx-intl by **pip install sphinx-intl**.
+Для обновления перевода на сервере 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Start *docs/update_messages.sh* script.
+1. Входим в режим пруфридинга в crowdin.
+2. Выполняем апрув выполненного перевода.
+3. Заходим на гитхаб на страничку пул-реквестов https://github.com/pgcodekeeper/pgcodekeeper-docs/pulls и принимаем сформированный пул-реквест. После принятия пул-реквсеста документация будет (через некоторое время) доступна и на сайте readthedocs. Например, для английского языка это будет: https://pgcodekeeper.readthedocs.io/en/latest/
 
-You can help us with localization in `crownid`_.
-
-.. _crownid: https://crowdin.com/project/pgcodekeeper-docs
