@@ -1,43 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, pgCodeKeeper
-# This file is distributed under the same license as the pgCodeKeeper
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
+"Language-Team: English\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/import_project.po\n"
+"Language: en_US\n"
 
 #: ../../import_project.rst:3
 msgid "Импорт проекта"
 msgstr ""
 
 #: ../../import_project.rst:5
-msgid ""
-"Если имеется проект Eclipse (такой проект имеет файл .project в корне), "
-"то производится импорт существующего проекта:"
+msgid "Если имеется проект Eclipse (такой проект имеет файл .project в корне), то производится импорт существующего проекта:"
 msgstr ""
 
 #: ../../import_project.rst:7
-msgid ""
-"Из меню выберите пункт **File -> Import...** Откроется выбор мастеров "
-"импорта."
+msgid "Из меню выберите пункт **File -> Import...** Откроется выбор мастеров импорта."
 msgstr ""
 
 #: ../../import_project.rst:8
-msgid ""
-"Выберите категорию **General -> Existing Project** into Workspace и "
-"нажмите **Next**."
+msgid "Выберите категорию **General -> Existing Project** into Workspace и нажмите **Next**."
 msgstr ""
 
 #: ../../import_project.rst:9
@@ -53,29 +46,19 @@ msgid "Закончите импорт нажатием на **Finish**."
 msgstr ""
 
 #: ../../import_project.rst:13
-msgid ""
-"В случае, если присутствует только структура проекта pgCodeKeeper, без "
-"файлов проекта Eclipse, то импорт производится с помощью мастера нового "
-"проекта. Хранение структуры проекта pgCodeKeeper без информации Eclipse –"
-" обычная практика, например при использовании системы контроля версий."
+msgid "В случае, если присутствует только структура проекта pgCodeKeeper, без файлов проекта Eclipse, то импорт производится с помощью мастера нового проекта. Хранение структуры проекта pgCodeKeeper без информации Eclipse – обычная практика, например при использовании системы контроля версий."
 msgstr ""
 
 #: ../../import_project.rst:15
-msgid ""
-"Из меню выберите пункт **File -> Import** ... Откроется выбор мастеров "
-"импорта."
+msgid "Из меню выберите пункт **File -> Import** ... Откроется выбор мастеров импорта."
 msgstr ""
 
 #: ../../import_project.rst:16
-msgid ""
-"Выберите **Проект pgCodeKeeper** в категории pgCodeKeeper и нажмите "
-"**Next**."
+msgid "Выберите **Проект pgCodeKeeper** в категории pgCodeKeeper и нажмите **Next**."
 msgstr ""
 
 #: ../../import_project.rst:20
-msgid ""
-"Укажите путь до директории со структурой проекта pgCodeKeeper и введите "
-"имя проекта."
+msgid "Укажите путь до директории со структурой проекта pgCodeKeeper и введите имя проекта."
 msgstr ""
 
 #: ../../import_project.rst:21
@@ -83,9 +66,6 @@ msgid "Нажмите **Finish**."
 msgstr ""
 
 #: ../../import_project.rst:23
-msgid ""
-"Для корректной работы проект должен содержать файл '.pgcodekeeper' в "
-"корне директории. Мастер импорта проекта автоматически создаст данный "
-"файл при его отсутствии."
+msgid "Для корректной работы проект должен содержать файл '.pgcodekeeper' в корне директории. Мастер импорта проекта автоматически создаст данный файл при его отсутствии."
 msgstr ""
 
