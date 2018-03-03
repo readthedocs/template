@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 10:39+0300\n"
-"PO-Revision-Date: 2018-03-03 02:42-0500\n"
+"POT-Creation-Date: 2018-03-03 18:36+0300\n"
+"PO-Revision-Date: 2018-03-03 10:43-0500\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: en_US\n"
 
 #: ../../preface.rst:2
-msgid "Мотивация"
+msgid "Вступление"
 msgstr ""
 
 #: ../../preface.rst:4
@@ -72,4 +72,7 @@ msgstr ""
 #: ../../preface.rst:27
 msgid "Саушкин Андрей, 2018"
 msgstr ""
+
+#~ msgid "Мотивация"
+#~ msgstr ""
 
