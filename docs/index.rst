@@ -14,6 +14,7 @@
    :maxdepth: 2
    :caption: Начало работы
 
+   preface
    installation
    new_project
    import_project
@@ -42,4 +43,5 @@
    white_black_list
    helper_functions
    cli_version
+   contributors
    about

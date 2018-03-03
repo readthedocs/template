@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-02 12:00+0300\n"
+"POT-Creation-Date: 2018-03-03 09:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../about.rst:3
-msgid "О дополнении pgCodeKeeper"
+msgid "О pgCodeKeeper"
 msgstr ""
 
 #: ../../about.rst:5
@@ -165,4 +165,7 @@ msgstr ""
 #: ../../about.rst:33
 msgid "Свидетельство о регистрации"
 msgstr ""
+
+#~ msgid "О дополнении pgCodeKeeper"
+#~ msgstr ""
 
