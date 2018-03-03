@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 10:39+0300\n"
+"POT-Creation-Date: 2018-03-03 18:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../preface.rst:2
-msgid "Мотивация"
+msgid "Вступление"
 msgstr ""
 
 #: ../../preface.rst:4
@@ -114,4 +114,7 @@ msgstr ""
 #: ../../preface.rst:27
 msgid "Саушкин Андрей, 2018"
 msgstr ""
+
+#~ msgid "Мотивация"
+#~ msgstr ""
 

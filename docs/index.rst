@@ -11,10 +11,13 @@
 Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_.
 
 .. toctree::
+
+   preface
+
+.. toctree::
    :maxdepth: 2
    :caption: Начало работы
 
-   preface
    installation
    new_project
    import_project
