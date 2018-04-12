@@ -18,19 +18,18 @@
 
 Формат файлов чувствителен к регистру. Кодировка – UTF-8.
 
-**Белый список**
-
- | # комментарий
- | SHOW ALL
- | HIDE flag [, ...] identifier [ db=identifier ] # комментарий
- | [ ... ]
-
-
 **Черный список**
 
  | # комментарий
+ | SHOW ALL
+ | HIDE flag [, ...] identifier [ db=identifier ] [ type=identifier ] # комментарий
+ | [ ... ]
+
+**Белый список**
+
+ | # комментарий
  | HIDE ALL
- | SHOW flag [, ...] identifier [ db=identifier ] # комментарий
+ | SHOW flag [, ...] identifier [ db=identifier ] [ type=identifier ] # комментарий
  | [ ... ]
 
 Где:
@@ -55,6 +54,7 @@ identifier
 Дополнительные опции:
 
 - db=identifier правило будет применено только к БД, имя которой подходит под регулярное выражение, заданное этим параметром
+- type=identifier правило будет применено только к объектам с указанным типом
 
 Ключевые слова:
 
