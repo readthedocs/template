@@ -45,19 +45,29 @@
 
 .. image:: ../images/ignore_list_diff.png
 
-.. csv-table:: Исключение всех объектов в названиях которых есть слово "ignore"
+**Исключение всех объектов в названиях которых есть слово "ignore".**
+
+.. csv-table::
    :header: "Список исключенных объектов", "Результат"
    :widths: 5, 5
 
    .. image:: ../images/ignore_list_pattern.png, .. image:: ../images/ignore_list_pattern_diff.png
 
-.. csv-table:: Исключение объектов "ignore2" с содержимым
+----
+
+**Исключение объектов "ignore2" с содержимым.**
+
+.. csv-table::
    :header: "Список исключенных объектов", "Результат"
    :widths: 5, 5
 
    .. image:: ../images/ignore_list_content.png, .. image:: ../images/ignore_list_content_diff.png
 
-.. csv-table:: Исключение объектов в названиях которых есть слово "ignore" и тип которых соответствует типу "TABLE"
+----
+
+**Исключение объектов в названиях которых есть слово "ignore" и тип которых соответствует типу "TABLE".**
+
+.. csv-table::
    :header: "Список исключенных объектов", "Результат"
    :widths: 5, 5
 

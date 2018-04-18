@@ -40,7 +40,9 @@ Cинтаксис списков
  | HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # комментарий
  | [ ... ]
 
-.. csv-table:: Описание частей черного списка
+**Описание частей черного списка**
+
+.. csv-table:: 
    :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание"
    :widths: 9, 2, 5
 
@@ -54,7 +56,9 @@ Cинтаксис списков
  | SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # комментарий
  | [ ... ]
 
-.. csv-table:: Описание частей белого списка
+**Описание частей белого списка**
+
+.. csv-table:: 
    :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание"
    :widths: 9, 2, 5
 
@@ -106,7 +110,9 @@ flag { NONE | REGEX | CONTENT }
 
 .. attention:: Название базы данных чувствительно к регистру.
 
-.. csv-table:: Примеры для белого списка 
+**Примеры для белого списка **
+
+.. csv-table::
    :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание ", "Область действия правила" 
    :widths: 5, 3, 10, 10
 
@@ -115,7 +121,9 @@ flag { NONE | REGEX | CONTENT }
    SHOW CONTENT D, правило, разрешение отображать объект D и его содержимое, .. image:: ../images/white_black_hierarchy_content_show.png
    SHOW NONE D, правило, разрешение отображать только объект D, .. image:: ../images/white_black_hierarchy_none_show.png
 
-.. csv-table:: Примеры для черного списка
+**Примеры для черного списка**
+
+.. csv-table::
    :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание ", "Область действия правила"
    :widths: 5, 3, 10, 10
 
@@ -159,7 +167,9 @@ flag { NONE | REGEX | CONTENT }
  | **HIDE ALL**
  | **SHOW CONTENT KF**
 
-.. csv-table:: Область действия правила
+**Область действия правила**
+
+.. csv-table::
    :header: "Черный список", "Белый список"
    :widths: 5, 5
 
