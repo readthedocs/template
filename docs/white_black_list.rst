@@ -117,7 +117,7 @@ flag { NONE | REGEX | CONTENT }
    :widths: 8, 8, 25
 
    HIDE ALL, **заголовок** запрещает отображение всех объектов, .. image:: ../images/white_black_hierarchy_all_hide.png
-   SHOW REGEX K, **правило** разрешает отображать объекты в названии которых есть "K", .. image:: ../images/white_black_hierarchy_regex_show.png
+   SHOW REGEX K, **правило** разрешает отображать объекты которе частично попадают под регулярное выражение "K", .. image:: ../images/white_black_hierarchy_regex_show.png
    SHOW CONTENT D, **правило** разрешает отображать объект D и его содержимое, .. image:: ../images/white_black_hierarchy_content_show.png
    SHOW NONE D, **правило** разрешает отображать только объект D, .. image:: ../images/white_black_hierarchy_none_show.png
 
@@ -128,7 +128,7 @@ flag { NONE | REGEX | CONTENT }
    :widths: 8, 8, 25
 
    SHOW ALL, **заголовок** разрешает показывать все объекты, .. image:: ../images/white_black_hierarchy_all_show.png
-   HIDE REGEX K, **правило** исключает объекты в названии которых есть "K", .. image:: ../images/white_black_hierarchy_regex_hide.png
+   HIDE REGEX K, **правило** исключает объекты которые частично попадают под регулярное выражение "K", .. image:: ../images/white_black_hierarchy_regex_hide.png
    HIDE CONTENT D, **правило** исключает объект D и его содержимое, .. image:: ../images/white_black_hierarchy_content_hide.png
    HIDE NONE D, **правило** исключает только объект D, .. image:: ../images/white_black_hierarchy_none_hide.png
 
