@@ -28,7 +28,7 @@ Cинтаксис списков
 Файл **.pgcodekeeperignore** состоит из двух частей:
 
 заголовок
-        является обязательной частью, занимает первую строку и определяет тип списка;
+        является обязательным правилом, занимает первую строку и определяет тип списка;
 
 правила
         строки правил запрещающие или разрешающие (в зависимости от типа списка) показывать какой-либо объект.
@@ -110,27 +110,27 @@ flag { NONE | REGEX | CONTENT }
 
 .. attention:: Название базы данных чувствительно к регистру.
 
-**Примеры для белого списка **
+**Примеры для белого списка**
 
 .. csv-table::
-   :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание ", "Область действия правила" 
-   :widths: 5, 3, 10, 10
+   :header: "Правило", "Описание", "Область действия"
+   :widths: 8, 8, 25
 
-   HIDE ALL, заголовок, запрет на отображение всех объектов, .. image:: ../images/white_black_hierarchy_all_hide.png
-   SHOW REGEX K, правило, разрешение отображать объекты в названии которых есть "K", .. image:: ../images/white_black_hierarchy_regex_show.png
-   SHOW CONTENT D, правило, разрешение отображать объект D и его содержимое, .. image:: ../images/white_black_hierarchy_content_show.png
-   SHOW NONE D, правило, разрешение отображать только объект D, .. image:: ../images/white_black_hierarchy_none_show.png
+   HIDE ALL, **заголовок** запрещает отображение всех объектов, .. image:: ../images/white_black_hierarchy_all_hide.png
+   SHOW REGEX K, **правило** разрешает отображать объекты в названии которых есть "K", .. image:: ../images/white_black_hierarchy_regex_show.png
+   SHOW CONTENT D, **правило** разрешает отображать объект D и его содержимое, .. image:: ../images/white_black_hierarchy_content_show.png
+   SHOW NONE D, **правило** разрешает отображать только объект D, .. image:: ../images/white_black_hierarchy_none_show.png
 
 **Примеры для черного списка**
 
 .. csv-table::
-   :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание ", "Область действия правила"
-   :widths: 5, 3, 10, 10
+   :header: "Правило", "Описание", "Область действия"
+   :widths: 8, 8, 25
 
-   SHOW ALL, заголовок, разрешение показывать все объекты, .. image:: ../images/white_black_hierarchy_all_show.png
-   HIDE REGEX K, правило, исключение объектов в названии которых есть "K", .. image:: ../images/white_black_hierarchy_regex_hide.png
-   HIDE CONTENT D, правило, исключение объекта D и его содержимого, .. image:: ../images/white_black_hierarchy_content_hide.png
-   HIDE NONE D, правило, исключение только объекта D, .. image:: ../images/white_black_hierarchy_none_hide.png
+   SHOW ALL, **заголовок** разрешает показывать все объекты, .. image:: ../images/white_black_hierarchy_all_show.png
+   HIDE REGEX K, **правило** исключает объекты в названии которых есть "K", .. image:: ../images/white_black_hierarchy_regex_hide.png
+   HIDE CONTENT D, **правило** исключает объект D и его содержимое, .. image:: ../images/white_black_hierarchy_content_hide.png
+   HIDE NONE D, **правило** исключает только объект D, .. image:: ../images/white_black_hierarchy_none_hide.png
 
 ----
 
@@ -148,7 +148,7 @@ flag { NONE | REGEX | CONTENT }
 .. _whiteBlackCommonUsing :
 
 Совместное использоваение черного и белого списков
-""""""""""""""""""""""""""""""""""""""""""""""""""
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Черные и белые списки могут использоваться вместе. В таком случае, их правила объединяются в один общий список. Правила, контролирующие отображение одного и того же объекта, складываются в одно общее правило по следующим принципам:
 
@@ -180,7 +180,7 @@ flag { NONE | REGEX | CONTENT }
 .. note:: При работе в графической версии pgCodeKeeper добавление второго списка исключений производится путем использования **общий список исключаемых объектов** или путем добавления внешного списка через настройки редактирования хранилища БД (:ref:`dbStore`). При работе в CLI версии (:ref:`cliVersion`) pgCodeKeeper для добавление дополнительных списков исключений используется команда: **pgcodekeeper-cli -I (--ignore-list) <path> SOURCE DEST**.
 
 Примеры работы с файлом **.pgcodekeeperignore**
-"""""""""""""""""""""""""""""""""""""""""""""""
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Предположим имеется представление с именем ignore4 и набор из таблиц с именами: ignore, ignore2, ignore3. ignore2 в свою очередь имеет содержимое.
 
 .. csv-table::
