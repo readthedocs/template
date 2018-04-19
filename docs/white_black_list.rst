@@ -44,7 +44,7 @@ Cинтаксис списков
 
 .. csv-table:: 
    :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание"
-   :widths: 9, 2, 5
+   :widths: 6, 1, 3
 
    SHOW ALL, заголовок, разрешает показывать все объекты
    HIDE flag [ ...] objectName [ db=dbName ] [ type=objectType [ ...] ], правило, исключает из отображения какой-либо объект
@@ -60,7 +60,7 @@ Cинтаксис списков
 
 .. csv-table:: 
    :header: "Строка файла .pgcodekeeperignore", "Часть", "Описание"
-   :widths: 9, 2, 5
+   :widths: 6, 1, 3
 
    HIDE ALL, заголовок, запрещает показывать все объекты
    SHOW flag [ ...] objectName [ db=dbName ] [ type=objectType [ ...] ], правило, разрешает для отображения какой-либо объект
@@ -114,7 +114,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Правило", "Описание", "Область действия"
-   :widths: 8, 8, 25
+   :widths: 2, 2, 6
 
    HIDE ALL, **заголовок** запрещает отображение всех объектов, .. image:: ../images/white_black_hierarchy_all_hide.png
    SHOW REGEX K, **правило** разрешает отображать объекты которе частично попадают под регулярное выражение "K", .. image:: ../images/white_black_hierarchy_regex_show.png
@@ -125,7 +125,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Правило", "Описание", "Область действия"
-   :widths: 8, 8, 25
+   :widths: 2, 2, 6
 
    SHOW ALL, **заголовок** разрешает показывать все объекты, .. image:: ../images/white_black_hierarchy_all_show.png
    HIDE REGEX K, **правило** исключает объекты которые частично попадают под регулярное выражение "K", .. image:: ../images/white_black_hierarchy_regex_hide.png
@@ -185,7 +185,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Результат", "Схема "
-   :widths: 10, 10
+   :widths: 5, 5
 
    .. image:: ../images/ignore_list_diff.png, .. image:: ../images/white_black_hierarchy_example_project_base.png
 
@@ -196,7 +196,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Результат", "Схема "
-   :widths: 10, 10
+   :widths: 5, 5
 
    .. image:: ../images/ignore_list_pattern_diff.png, .. image:: ../images/white_black_hierarchy_example_project_regex.png
    
@@ -210,7 +210,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Результат", "Схема "
-   :widths: 10, 10
+   :widths: 5, 5
 
    .. image:: ../images/ignore_list_content_diff.png, .. image:: ../images/white_black_hierarchy_example_project_content.png
 
@@ -223,7 +223,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Результат", "Схема "
-   :widths: 10, 10
+   :widths: 5, 5
 
    .. image:: ../images/ignore_list_type_diff.png, .. image:: ../images/white_black_hierarchy_example_project_regex_type.png
 
@@ -238,7 +238,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Результат", "Схема "
-   :widths: 10, 10
+   :widths: 5, 5
 
    .. image:: ../images/ignore_list_diff.png, .. image:: ../images/white_black_hierarchy_example_project_base.png
 
@@ -249,7 +249,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Результат", "Схема "
-   :widths: 10, 10
+   :widths: 5, 5
 
    .. image:: ../images/ignore_list_db.png, .. image:: ../images/white_black_hierarchy_example_project_content_regex_db_type.png
 
@@ -273,7 +273,7 @@ flag { NONE | REGEX | CONTENT }
 
 .. csv-table::
    :header: "Результат", "Черный список", "Белый список"
-   :widths: 10, 10, 10
+   :widths: 3, 3, 3
 
    .. image:: ../images/ignore_list_pattern_diff.png, .. image:: ../images/white_black_hierarchy_example_project_regex.png, .. image:: ../images/white_black_hierarchy_example_project_content_white.png
 
