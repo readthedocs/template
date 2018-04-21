@@ -24,6 +24,7 @@
    convert_project
    editors
    preferences
+   properties
 
 .. toctree::
    :maxdepth: 2
