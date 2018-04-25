@@ -18,7 +18,7 @@ NetWAS requires as input a GWAS result file, with per-gene p-values. We suggest 
 * `VEGAS <http://gump.qimr.edu.au/VEGAS/>`_: versatile gene-based association study
 * `FORGE <https://github.com/inti/FORGE>`_: multivariate calculation of gene-wide p-values from Genome-Wide Association Studies Authors and Affiliations
 * `PLINK/SEQ <https://atgu.mgh.harvard.edu/plinkseq/index.shtml>`_: a library for the analysis of genetic variation data
-
+ * Note that the expected format is from the output of `Gene/group-based association tests <http://atgu.mgh.harvard.edu/plinkseq-0.07/assoc.shtmll>`_
 
 NetWAS Results
 ---------------------------------------
