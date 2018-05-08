@@ -1,4 +1,4 @@
-Template
+New edit-try
 ========
 
 $project will solve your problem of where to start with documentation,
