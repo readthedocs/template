@@ -26,7 +26,7 @@ Python yorumlanan bir programlama dilidir. Yani; geliştirici olarak siz .py uza
 
 Bir Python dosyasını yürütmenin yolu aşağıdaki gibi bir komutu komut satırında çalıştırmaktan ibarettir.::
 
-  C:\Users\Your Name(Kullanıcı Adı)\python merhabaDunya.py
+  C:\Users\Your Name(Kullanıcı Adı)\python merhaba_dunya.py
 
 Hadi herhangi bir metin düzenleyicide "merhaba_dunya.py" adlı ilk Python dosyamızı yazalım.
 
@@ -36,7 +36,7 @@ merhaba_dunya.py::
 
 İşte bu kadar basit. Dosyanızı kaydedin. Komut satırını açıp dosyanızı kaydettiğiniz dizine girin ve çalıştırın::
 
-  C:\Users\Your Name(Kullanıcı Adı)\python merhabaDunya.py
+  C:\Users\Your Name(Kullanıcı Adı)\python merhaba_dunya.py
 
 Şöyle bir çıktı göreceksiniz::
 
@@ -64,6 +64,6 @@ Komut satırında "Hello, World!" yazacak::
 
   Hello, World!
 
-Python komut satırı ile işiniz bitince, python komut satırı arabiriminden çıkmak için aşağıdakini yazabilirsiniz::
+Python komut satırı ile işiniz bitince, python komut satırı arabiriminden çıkmak için GNU/Linux terminalde "ctrl-D" kısayolu  kullanabilir veya aşağıdakini yazabilirsiniz::
 
   exit()

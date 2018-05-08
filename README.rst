@@ -1,41 +1,24 @@
-python-öğren
-========
+Python Öğren Belgelerine Hoşgeldiniz!
+=====================================
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+`python-ogren` projesi https://www.w3schools.com/python/ adresindeki anlatımların çevirilerini içerir.
+ Python hakkında ek bir Türkçe kaynak olmayı hedefler.
 
-Look how easy it is to use:
+ Dikkat ediniz
+ -------------
 
-    import project
-    # Get your stuff done
-    project.do_stuff()
+ - Çeviriler henüz düzenleme aşamasındadır.
+ - Program kodlarının Türkçeleştirilmesi sırasında hatalar olabilir.
+ - Çeviriler henüz üçüncü bir göz ile inclenmediği için karmaşık gelebilir.
 
-Features
---------
+ Katkıda bulunun
+ ---------------
 
-- Be awesome
-- Make things faster
+ - Düzenleme İsteği: https://github.com/ozgurturkiye/python-ogren/pulls
+ - Kaynak Code: https://github.com/ozgurturkiye/python-ogren
 
-Installation
-------------
+ Destek
+ ------
 
-Install $project by running:
-
-    install project
-
-Contribute
-----------
-
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
-
-License
--------
-
-The project is licensed under the BSD license.
+ Eğer katkıda bulunmak isterseniz lütfen bize bildirin.
+ İletişim için: ozgurturkiye@gmail.com
