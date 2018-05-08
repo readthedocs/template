@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Read the Docs Template's documentation!
-==================================================
+Python Öğren Belgelerine Hoşgeldiniz!
+=====================================
 
 Contents:
 
@@ -12,7 +12,26 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   *
+   intro
+   getstarted
+   syntax
+   variables
+   casting
+   strings
+   operators
+   lists
+   tuples
+   sets
+   dictionaries
+   conditions
+   while_loops
+   for_loops
+   functions
+   file_handling
+   file_open
+   file_write
+   file_remove
+   ../README
 
 
 
@@ -22,4 +41,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
