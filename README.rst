@@ -1,4 +1,4 @@
-New edit-try
+python-öğren
 ========
 
 $project will solve your problem of where to start with documentation,
