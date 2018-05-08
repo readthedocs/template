@@ -6,11 +6,14 @@
 Python Öğren Belgelerine Hoşgeldiniz!
 =====================================
 
-Contents:
+`python-ogren` https://www.w3schools.com/python/ adresindeki anlatımların çerisini içerir. Python hakkında ek bir Türkçe kaynak olmayı hedefler.
+
+İçindekiler:
 
 .. toctree::
    :maxdepth: 2
    :glob:
+   :caption: İçindekiler
 
    intro
    getstarted
@@ -31,7 +34,7 @@ Contents:
    file_open
    file_write
    file_remove
-   ../README
+   *
 
 
 
