@@ -7,9 +7,9 @@ Değişken Tanımlama
 
 Diğer programlama dillerinden farklı olarak, Python'ın bir değişken bildirme komutu yoktur.
 
-İlk değer atadığınız anda değişken tanımlanır.::
+İlk değer atadığınız anda değişken tanımlanır.
+Örnek::
 
-  Örnek
   x = 5
   y = "Özgür"
   print(x)
@@ -49,7 +49,8 @@ Hem metni hem de bir değişkeni birleştirmek için Python, + karakterini kulla
   x = "awesome"
   print("Python is " + x)
 
-Başka bir değişkene değişken eklemek için + karakterini de kullanabilirsiniz:
+Başka bir değişkene değişken eklemek için + karakterini de kullanabilirsiniz.
+
 Örnek::
 
   x = "awesome"
@@ -57,6 +58,7 @@ Başka bir değişkene değişken eklemek için + karakterini de kullanabilirsin
   print(x)
 
 Sayılar için + karakteri matematiksel bir operatör olarak çalışır:
+
 Örnek::
 
   x = 5
@@ -64,6 +66,7 @@ Sayılar için + karakteri matematiksel bir operatör olarak çalışır:
   print(x + y)
 
 Eğer bir strin ve sayıyı birleştirmeye çalışırsanız; Python hata verecektir.
+
 Örnek::
 
   x = 5

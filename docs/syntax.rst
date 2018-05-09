@@ -42,7 +42,7 @@ Python, kod içinde yorum ekleme yeteneğine sahiptir.
 
 Yorumlar # ile başlar ve bundan sonra Python satırın geri kalanını yorum olarak verir:
 
-Örnek
+Örnek::
 
 Python yorum satırı::
 
@@ -58,8 +58,7 @@ Python ayrıca belge dizisi olarak adlandırılan genişletilmiş belge kapasite
 Docstrings bir satır veya çok satırlı olabilir.
 Python, docstring'in başında ve sonunda üçlü tırnak kullanır:
 
-Örnek
------
+Örnek::
 
 Docstrings'ler yorum yazmak için de kullanılabilir::
 

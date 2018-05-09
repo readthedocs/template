@@ -8,7 +8,7 @@ Python Yükleme
 Birçok PC ve MAC bilgisayarda; Python zaten yüklü gelecektir.
 Windows yüklü bir PC’de Python yüklü olup olmadığını kontrol etmek için; arama çubuğunda Python’ı aratın veya aşağıdaki komutu komut satırında yürütün. (cmd.exe)
 
-For example::
+Örnek::
 
    C:\Users\Your Name(Kullanıcı Adı)\python --version
 
