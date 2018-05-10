@@ -9,6 +9,8 @@ Python Öğren Belgelerine Hoşgeldiniz!
 `python-ogren` projesi https://www.w3schools.com/python/ adresindeki anlatımların çevirilerini içerir.
 Python hakkında ek bir Türkçe kaynak olmayı hedefler.
 
+Belgelendirmeye erişmek için: http://python-ogren.readthedocs.io
+
 Dikkatli olun
 -------------
 

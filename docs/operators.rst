@@ -17,46 +17,55 @@ Python, işleçleri aşağıdaki gruplara ayırır:
 * Kimlik işleçleri
 * Üyelik işleçleri
 * Bit düzeyi işleçler
-* Python Arithmetik İşleçleri
-* Aritmetik işleçler, matematiksel işlemleri gerçekleştirmek için sayısal değerlerle kullanılır:
 
+Python Arithmetik İşleçleri
+===========================
 
-İşleç
-Ad
-Örnek
-Try it
-+
-Toplama
-x + y
-Try it »
--
-Çıkarma
-x - y
-Try it »
-*
-Çarpma
-x * y
-Try it »
-/
-Bölme
-x / y
-Try it »
-%
-Mod alma
-x % y
-Try it »
-**
-Kuvvet
-x ** y
+Aritmetik işleçler, matematiksel işlemleri gerçekleştirmek için sayısal değerlerle kullanılır:
 
-//
-Taban bölme
-x // y
+=====  ===========  ======
+İşleç  İsim         Örnek
+=====  ===========  ======
++      Toplama     	x + y
+-      Çıkarma     	x - y
+*      Çarpma     	x * y
+/      Bölme      	x / y
+%      Mod alma	    x % y
+**     Kuvvet alma	x ** y
+//     Taban bölme	x // y
+=====  ===========  ======
+
 
 Python Atama İşleçleri
 ======================
 
 Atama işleçleri değişkenlere değer atamak için kullanılır.
+
+Not: "Örnek 1" ve "Örnek 2" aynı işlemi yapar.
+
+=====  =======  ==========
+İşleç  Örnek 1  Örnek 2
+=====  =======  ==========
+=	     x = 5	  x = 5
++=	   x += 3	  x = x + 3
+-=	   x -= 3	  x = x - 3
+*=	   x *= 3	  x = x * 3
+/=	   x /= 3	  x = x / 3
+%=	   x %= 3	  x = x % 3
+//=	   x //= 3	x = x // 3
+**=	   x **= 3	x = x ** 3
+&=	   x &= 3	  x = x & 3
+|=	   x |= 3	  x = x | 3
+^=	   x ^= 3	  x = x ^ 3
+>>=	   x >>= 3	x = x >> 3
+<<=	   x <<= 3	x = x << 3
+=====  =======  ==========
+
+
+
+
+
+
 İşleç
 Örnek
 Diğer kullanım
