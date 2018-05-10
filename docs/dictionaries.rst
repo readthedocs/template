@@ -12,7 +12,7 @@ Python sözlük veri türünü tanımlarken küme parantezleri kullanılır ve b
 
 Bir sözlük oluşturma::
 
-  sözlük =	{
+  sözlük = {
     "apple": "green",
     "banana": "yellow",
     "cherry": "red"
@@ -23,7 +23,7 @@ Bir sözlük oluşturma::
 
 elma rengini “yesil” olarak değiştirme::
 
-  sözlük =	{
+  sözlük = {
     "elma": "yesil",
     "banana": "yellow",
     "cherry": "red"
@@ -38,7 +38,7 @@ Sözlük oluşturmak için ``dict()`` yapıcısını kullanmak da mümkündür.
 
 Örnek::
 
-  ornek_sozluk =	dict(apple="green", banana="yellow", cherry="red")
+  ornek_sozluk = dict(apple="green", banana="yellow", cherry="red")
   # sözlük anahtarlarının karakter dizisi olmadığına dikkat edin
   # atama için ``:`` yerine ``=`` kullanıldığına dikkat edin
   print(ornek_sozluk)
@@ -50,7 +50,7 @@ Sözlüğe bir öğe eklemek, yeni bir indeks anahtarı kullanarak ve buna değe
 
 Örnek::
 
-  sözlük =	dict(apple="green", banana="yellow", cherry="red")
+  sözlük = dict(apple="green", banana="yellow", cherry="red")
   sözlük["damson"] = "purple"
   print(sözlük)
 
@@ -61,7 +61,7 @@ Bir sözlük öğesini kaldırmak python'da  ``del()`` fonksiyonu kullanılarak 
 
 Örnek::
 
-  sözlük =	dict(apple="green", banana="yellow", cherry="red")
+  sözlük = dict(apple="green", banana="yellow", cherry="red")
   del(sözlük["banana"]
   print(sözlük)
 
@@ -72,5 +72,5 @@ Bir Sözlüğün Uzunluğunu Alma
 
 Örnek::
 
-  sözlük =	dict(apple="green", banana="yellow", cherry="red")
+  sözlük = dict(apple="green", banana="yellow", cherry="red")
   print(len(sözlük))
