@@ -9,7 +9,7 @@ Python'daki karakter dizileri, tek tırnak işaretleri veya çift tırnak işare
 
 `'hello'` ile  `"hello"`  aynıdır.
 
-Karakter dizileri print fonksiyonu kullanılarak ekrana basılabilir. Örnek olarak:: print("hello").
+Karakter dizileri print fonksiyonu kullanılarak ekrana basılabilir. Örnek olarak: `print("hello")`.
 
 Diğer birçok popüler programlama dilleri gibi, Python karakter dizileri de unicode karakterleri temsil eden bayt dizileridir. Bununla birlikte, Python'un bir karakter veri türü yoktur, tek bir karakter sadece 1 uzunluğunda bir dizedir. Dizenin elemanlarına erişmek için köşeli parantez kullanılabilir.
 
@@ -22,15 +22,15 @@ Birinci pozisyondaki karakteri alır::
 
 Örnek
 
-Alt dize. Karakterleri konum 2'den 5 konumuna alır::
+Karakter dizisinin belli bir bölümünü almak. 2. karakterden başlayarak 5. karaktere kadar alır::
 
   b = "world"
   print(b[2:5])
 
 Örnek
 
-The strip() method removes any whitespace from the beginning or the end:
-Strip () metodu, herhangi bir boşluğu başlangıç ​​veya bitişten kaldırır::
+The `strip()` method removes any whitespace from the beginning or the end:
+`strip()` metodu, herhangi bir boşluğu başlangıç ​​veya bitişten kaldırır::
 
   a = " Hello, World! "
   print(a.strip()) # returns "Hello, World!"
@@ -44,27 +44,27 @@ Karakter dizisinin boyutunu verir::
 
 Örnek
 
-lower() metodu küçük harfe döndürür::
+`lower()` metodu küçük harfe döndürür::
 
   a = "Hello, World!"
   print(a.lower())
 
 Örnek
-upper() metodu büyük harfe döndürür::
+`upper()` metodu büyük harfe döndürür::
 
   a = "Hello, World!"
   print(a.upper())
 
 Örnek
 
-replace() methodu bir karakteri başka bir karakterle değiştirir::
+`replace()` methodu bir karakteri başka bir karakterle değiştirir::
 
   a = "Hello, World!"
   print(a.replace("H", "J"))
 
 Örnek
 
-split() methodu karakter dizisini verilen ayırıyıcıya göre böler::
+`split()` methodu karakter dizisini verilen ayırıyıcıya göre böler::
 
   a = "Hello, World!"
   print(a.split(",")) # returns ['Hello', ' World!']

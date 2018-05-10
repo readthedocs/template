@@ -49,7 +49,7 @@ Hem metni hem de bir değişkeni birleştirmek için Python, + karakterini kulla
   x = "awesome"
   print("Python is " + x)
 
-Başka bir değişkene değişken eklemek için + karakterini de kullanabilirsiniz.
+Başka bir değişkene başka bir değişken eklemek için + operatörünü kullanabilirsiniz.
 
 Örnek::
 
@@ -65,7 +65,8 @@ Sayılar için + karakteri matematiksel bir operatör olarak çalışır:
   y = 10
   print(x + y)
 
-Eğer bir strin ve sayıyı birleştirmeye çalışırsanız; Python hata verecektir.
+Eğer bir karakter dizisini(str) ve sayıyı(int) + operatörü ile birleştirmeye çalışırsanız;
+Python karakter dizisi ve sayıyı birleştiremeyeceğine dair hata verecektir.
 
 Örnek::
 

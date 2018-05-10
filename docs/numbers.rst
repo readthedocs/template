@@ -14,7 +14,7 @@ Python'da üç sayısal tür vardır:
 Sayısal türdeki değişkenler, onlara bir değer atadığınızda oluşturulur:
 
 
-Python'daki herhangi bir nesnenin türünü doğrulamak için, type () işlevini kullanın:
+Python'daki herhangi bir nesnenin türünü doğrulamak için, `type()` fonksiyonunu kullanın:
 
 Örnek::
 
@@ -74,7 +74,7 @@ Floats::
 complex
 =======
 
-Karmaşık sayılar, hayali kısım olarak "j" ile yazılır:
+Karmaşık sayılarda sanal kısım "j" kullanılarak yazılır:
 
 Örnek:
 
