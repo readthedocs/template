@@ -26,12 +26,12 @@ Aritmetik işleçler, matematiksel işlemleri gerçekleştirmek için sayısal d
 =====  ===========  ======
 İşleç  İsim         Örnek
 =====  ===========  ======
-+      Toplama     	x + y
--      Çıkarma     	x - y
-*      Çarpma     	x * y
+\+      Toplama     	x + y
+\-      Çıkarma     	x - y
+\*      Çarpma     	x * y
 /      Bölme      	x / y
 %      Mod alma	    x % y
-**     Kuvvet alma	x ** y
+\**     Kuvvet alma	x ** y
 //     Taban bölme	x // y
 =====  ===========  ======
 
@@ -41,10 +41,11 @@ Python Atama İşleçleri
 
 Atama işleçleri değişkenlere değer atamak için kullanılır.
 
-Not: "Örnek 1" ve "Örnek 2" aynı işlemi yapar.
+Not: "Örnek-1" ve "Örnek-2" aynı işlemi yapar.
+
 
 =====  =======  ==========
-İşleç  Örnek 1  Örnek 2
+İşleç  Örnek-1  Örnek-2
 =====  =======  ==========
 =	     x = 5	  x = 5
 +=	   x += 3	  x = x + 3
@@ -52,16 +53,23 @@ Not: "Örnek 1" ve "Örnek 2" aynı işlemi yapar.
 *=	   x *= 3	  x = x * 3
 /=	   x /= 3	  x = x / 3
 %=	   x %= 3	  x = x % 3
-//=	   x //= 3	x = x // 3
-**=	   x **= 3	x = x ** 3
+//=	   x //= 3  x = x // 3
+**=	   x **= 3  x = x ** 3
 &=	   x &= 3	  x = x & 3
-|=	   x |= 3	  x = x | 3
-^=	   x ^= 3	  x = x ^ 3
->>=	   x >>= 3	x = x >> 3
-<<=	   x <<= 3	x = x << 3
+|=	   x |= 3   x = x | 3
+^=	   x ^= 3   x = x ^ 3
+>>=	   x >>= 3  x = x >> 3
+<<=	   x <<= 3  x = x << 3
 =====  =======  ==========
 
-
+=====  =====  =======
+A      B      A and B
+=====  =====  =======
+False  False  False
+True   False  False
+False  True   False
+True   True   True
+=====  =====  =======
 
 
 
