@@ -5,15 +5,11 @@ Python For Döngüleri
 Python For Döngüleri
 ====================
 
-A loop is used for iterating over a sequence (that is either a list, a tuple or a string).
-This is less like the for keyword in other programming language, and works more like an iterator method as found in other object-orientated programming languages.
-With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
-
-Bir ``for`` döngüsü, bir dizi üzerinde yineleme yapmak için kullanılır (yani, bir liste, bir tuple veya bir dize).
+Bir ``for`` döngüsü, bir dizi üzerinde yineleme yapmak için kullanılır (yani, bir liste, bir demet veya bir dize).
 
 Bu ``for`` kullanımı, diğer programlama dillerine göre daha az anahtar sözcük kullanır ve diğer nesne yönelimli programlama dillerinde bulunan bir yineleyici yöntemi gibi çalışır.
 
-for döngüsü ile bir dizi deyim, liste, demet, küme vb. nesneyi kullanabiliriz.
+``for`` döngüsü ile bir dizi deyim, liste, demet, küme vb. nesneyi kullanabiliriz.
 
 Örnek
 

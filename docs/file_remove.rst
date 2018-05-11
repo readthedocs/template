@@ -5,8 +5,10 @@ Python Dosya Silme
 Dosya Silme
 ===========
 
-Bir dosyayı silmek için, OS modülünü içe aktarmanız ve os.remove() metodunu çalıştırmanız gerekir:
+Bir dosyayı silmek için, OS modülünü içe aktarmanız ve ``os.remove()`` metodunu çalıştırmanız gerekir:
+
 Örnek
+
 "demofile.txt" dosyasını kaldırın::
 
   import os
@@ -16,7 +18,9 @@ Dosya var mı kontrol edin:
 ==========================
 
 Bir hata oluşmasını önlemek için, dosyayı silmeye çalışmadan önce mevcut olup olmadığını kontrol etmek isteyebilirsiniz:
+
 Örnek
+
 Dosyanın var olup olmadığını kontrol edin, ardından silin::
 
   import os
@@ -28,7 +32,8 @@ Dosyanın var olup olmadığını kontrol edin, ardından silin::
 Klasör Silme
 ============
 
-Tüm bir klasörü silmek için os.rmdir() metodunu kullanın:
+Tüm bir klasörü silmek için ``os.rmdir()`` metodunu kullanın:
+
 Örnek
 
 "myfolder" klasörünü kaldırın::
