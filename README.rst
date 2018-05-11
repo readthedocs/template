@@ -18,6 +18,7 @@ Katkıda bulunun
 
 - Düzenleme İsteği: https://github.com/ozgurturkiye/python-ogren/pulls
 - Kaynak Code: https://github.com/ozgurturkiye/python-ogren
+- Belgenin özgün kaynağı: https://www.w3schools.com/python/
 
 Destek
 ------
