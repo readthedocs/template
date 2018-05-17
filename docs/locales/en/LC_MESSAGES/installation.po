@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-05-17 09:43-0400\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-05-17 10:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgid "Установка"
 msgstr ""
 
 #: ../../installation.rst:6
-msgid "Eclipse marketplace"
+msgid "Eclipse Marketplace"
 msgstr ""
 
 #: ../../installation.rst:8
-msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.2 или выше с установленным markeplace, выбрать **Help > Eclipse Markeplace...**."
+msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.2 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
 msgstr ""
 
 #: ../../installation.rst:10
-msgid "В поле поиска набрать pgCodeKeeper."
+msgid "В поле поиска ввести: pgCodeKeeper."
 msgstr ""
 
 #: ../../installation.rst:12
@@ -64,27 +64,4 @@ msgstr ""
 #: ../../installation.rst:29
 msgid "Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с пользовательским соглашением, нажмите кнопку **Finish** и начнется установка."
 msgstr ""
-
-#~ msgid ""
-#~ "Самый простой путь получить pgCodeKeeper "
-#~ "– сайт обновлений: в запущенном "
-#~ "экземпляре Eclipse версии 4.2 или выше,"
-#~ " выбрать **Help> Install New Software...**"
-#~ " Откроется мастер установки плагинов "
-#~ "средствами сайта обновлений."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В поле **Work With** ввести путь к"
-#~ " сайту обновлений. Это может быть как"
-#~ " удаленный ресурс "
-#~ "http://pgcodekeeper.ru/update/release/, так и "
-#~ "локальный в вашей файловой системе."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Запустите Eclipse и выберите **Window> "
-#~ "Perspective> Open Perspective> Other> "
-#~ "pgCodeKeeper**."
-#~ msgstr ""
 
