@@ -2,12 +2,12 @@
 Установка
 =========
 
-Eclipse marketplace
+Eclipse Marketplace
 ~~~~~~~~~~~~~~~~~~~
 
-Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.2 или выше с установленным markeplace, выбрать **Help > Eclipse Markeplace...**. 
+Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.2 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**. 
 
-В поле поиска набрать pgCodeKeeper.
+В поле поиска ввести: pgCodeKeeper.
 
 Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish и начнется установка.
 
