@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-21 11:59+0300\n"
-"PO-Revision-Date: 2018-04-21 05:31-0400\n"
+"POT-Creation-Date: 2018-05-17 16:29+0300\n"
+"PO-Revision-Date: 2018-05-17 09:43-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -172,4 +172,14 @@ msgstr ""
 #: ../../editors.rst:98
 msgid "Кнопка |sync| отображает записи, относящиеся только к объектам, выбранным в панели различий активного редактора проекта."
 msgstr ""
+
+#: ../../editors.rst:102
+msgid "Контекстное меню позволяет открыть обе версии объекта, а также просмотреть различия в специальном редакторе сравнения."
+msgstr ""
+
+#~ msgid ""
+#~ "Контекстное меню позволяет открыть обе "
+#~ "версии объекта, а просмотреть различия в"
+#~ " специальном редакторе редакторе."
+#~ msgstr ""
 
