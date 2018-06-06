@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-06 07:43-0400\n"
+"PO-Revision-Date: 2018-06-06 07:51-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "1124501001580 issued by \tFederal Tax Agency's inspectorate in the town 
 
 #: ../../about.rst:14
 msgid "ИНН/КПП"
-msgstr ""
+msgstr "TIN/RRC"
 
 #: ../../about.rst:14
 msgid "4501173509/450101001"
