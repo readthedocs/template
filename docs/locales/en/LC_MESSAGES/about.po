@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-03-03 02:41-0500\n"
+"PO-Revision-Date: 2018-06-06 07:32-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../about.rst:3
 msgid "О pgCodeKeeper"
-msgstr ""
+msgstr "About pgCodeKeeper"
 
 #: ../../about.rst:5
 msgid "Программа pgCodeKeeper разработана и поддерживается ООО «Технология»."
-msgstr ""
+msgstr "The program pgCodeKeeper is developed and maintained by OOO \"Technology\"."
 
 #: ../../about.rst:8
 msgid "Карточка организации"
@@ -35,7 +35,7 @@ msgstr "Full name"
 
 #: ../../about.rst:11
 msgid "Общество с ограниченной ответственностью «Технология»"
-msgstr ""
+msgstr "Limited liaibility company «Technology»"
 
 #: ../../about.rst:12
 msgid "Сокращенное наименование"
@@ -47,7 +47,7 @@ msgstr "LLC Technology"
 
 #: ../../about.rst:13
 msgid "ОГРН"
-msgstr ""
+msgstr "Primary State Registration Number"
 
 #: ../../about.rst:13
 msgid "1124501001580 выдан ИФНС по г. Кургану 16.02.2012 , св-во 45 № 001022113"
