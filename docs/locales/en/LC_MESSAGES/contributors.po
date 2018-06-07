@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:35+0300\n"
-"PO-Revision-Date: 2018-06-07 07:54-0400\n"
+"PO-Revision-Date: 2018-06-07 08:06-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,31 +51,31 @@ msgstr "Development"
 
 #: ../../contributors.rst:22
 msgid "Левша Александр - ведущий программист"
-msgstr ""
+msgstr "Alexander Levsha - lead developer"
 
 #: ../../contributors.rst:23
 msgid "Галиев Мансур"
-msgstr ""
+msgstr "Mansur Galiev"
 
 #: ../../contributors.rst:24
 msgid "Шамсутдинов Ленар"
-msgstr ""
+msgstr "Lenar Shamsutdinov"
 
 #: ../../contributors.rst:25
 msgid "Ботов Анатолий"
-msgstr ""
+msgstr "Anatoly Botov"
 
 #: ../../contributors.rst:26
 msgid "Рябинин Антон"
-msgstr ""
+msgstr "Anton Ryabinin"
 
 #: ../../contributors.rst:27
 msgid "Акифьев Антон"
-msgstr ""
+msgstr "Anton Akifiev"
 
 #: ../../contributors.rst:28
 msgid "Шайдуллин Ильдар"
-msgstr ""
+msgstr "Ildar Shaydullin"
 
 #: ../../contributors.rst:31
 msgid "Дизайн и вёрстка сайта"
@@ -91,9 +91,9 @@ msgstr ""
 
 #: ../../contributors.rst:37
 msgid "Перевод документации"
-msgstr ""
+msgstr "Documentation Translation"
 
 #: ../../contributors.rst:39
 msgid "Мы ищем контрибьюторов для выполнения перевода документации."
-msgstr ""
+msgstr "We are in search of contributors who would translate the documentation."
 
