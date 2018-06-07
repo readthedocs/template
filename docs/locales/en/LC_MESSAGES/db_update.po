@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 03:51-0400\n"
+"PO-Revision-Date: 2018-06-07 04:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "For applying the roll-forward script to the database, you must specify t
 
 #: ../../db_update.rst:21
 msgid "После выбора способа обновления и ввода необходимых параметров нажмите кнопку Обновить DDL или горячей клавишей (по-умолчанию Ctrl+Alt+R). Скрипт наката будет применен для указанной базы данных. В случае успешного применения изменений в консоли pgCodeKeeper появится соответствующее сообщение."
-msgstr ""
+msgstr "After selecting the update method and entering the necessary parameters, click Update DDL or use hotkey (Ctrl + Alt + R by default). Roll forward script will be applied to the specified database. If successful, a corresponding message will appear in the pgCodeKeeper console."
 
 #: ../../db_update.rst:23
 msgid "Для большей гибкости имеется возможность наката выделенного фрагмента кода."
