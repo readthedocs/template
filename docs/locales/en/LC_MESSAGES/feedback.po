@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"PO-Revision-Date: 2018-06-07 00:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../feedback.rst:3
 msgid "Обратная связь"
-msgstr ""
+msgstr "Feedback"
 
 #: ../../feedback.rst:5
 msgid "Пользователь имеет возможность отправить сообщение разработчикам непосредственно из среды разработки. Для этого необходимо в меню **pgCodeKeeper** выбрать пункт **Обратная связь**. Откроется окно отправки сообщений."
