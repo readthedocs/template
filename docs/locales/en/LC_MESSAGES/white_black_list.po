@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-07 00:01-0400\n"
+"PO-Revision-Date: 2018-06-07 00:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT D**"
-msgstr ""
+msgstr "**SHOW CONTENT D**"
 
 #: ../../white_black_list.rst
 msgid "объект D и его"
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**SHOW NONE D**"
-msgstr ""
+msgstr "**SHOW NONE D**"
 
 #: ../../white_black_list.rst
 msgid "только объект D"
@@ -387,11 +387,11 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**SHOW ALL**"
-msgstr ""
+msgstr "**SHOW ALL**"
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX K**"
-msgstr ""
+msgstr "**HIDE REGEX K**"
 
 #: ../../white_black_list.rst
 msgid "исключает объекты"
@@ -447,7 +447,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**HIDE NONE \"SHOW\"**"
-msgstr ""
+msgstr "**HIDE NONE \"SHOW\"**"
 
 #: ../../white_black_list.rst:251
 msgid "Совместное использоваение черного и белого списков"
@@ -483,7 +483,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT KF**"
-msgstr ""
+msgstr "**SHOW CONTENT KF**"
 
 #: ../../white_black_list.rst:270
 msgid "**Область действия правила**"
@@ -491,11 +491,11 @@ msgstr ""
 
 #: ../../white_black_list.rst:1
 msgid "Черный список"
-msgstr ""
+msgstr "Black list"
 
 #: ../../white_black_list.rst:1
 msgid "Белый список"
-msgstr ""
+msgstr "White List"
 
 #: ../../white_black_list.rst:278
 msgid "В результате будет отображен объект с названием \"KF\", т.к. условие белого списка для данного объекта перекрывают по \"ширине\" условия черного списка."
@@ -515,11 +515,11 @@ msgstr ""
 
 #: ../../white_black_list.rst:1
 msgid "Результат"
-msgstr ""
+msgstr "Result"
 
 #: ../../white_black_list.rst:1
 msgid "Схема"
-msgstr ""
+msgstr "Scheme"
 
 #: ../../white_black_list.rst:292
 msgid "Для того, чтобы исключить все объекты частично попадающие под регулярное выражение \"ignore\" нужно в .pgcodekeeperignore написать следующие правила:"
