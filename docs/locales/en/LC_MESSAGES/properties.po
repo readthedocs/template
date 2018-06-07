@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-05-17 09:43-0400\n"
+"PO-Revision-Date: 2018-06-07 00:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../properties.rst:20
 msgid "Списки исключений"
-msgstr ""
+msgstr "Exception Lists"
 
 #: ../../properties.rst:22
 msgid "Настройки, управляющие списками игнор файлов для данного проекта. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
