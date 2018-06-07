@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 04:01-0400\n"
+"PO-Revision-Date: 2018-06-07 04:12-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -47,5 +47,5 @@ msgstr "After selecting the update method and entering the necessary parameters,
 
 #: ../../db_update.rst:23
 msgid "Для большей гибкости имеется возможность наката выделенного фрагмента кода."
-msgstr ""
+msgstr "For bigger flexibility, there is an opportunity to roll-forward a selected fragment of code."
 
