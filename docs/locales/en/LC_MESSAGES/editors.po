@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 04:58-0400\n"
+"PO-Revision-Date: 2018-06-07 05:08-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "**Differences table** shows the list of objects, which are different in 
 
 #: ../../editors.rst:35
 msgid "**Панель сравнения** показывает изменения, произошедшие в SQL представлении объекта."
-msgstr ""
+msgstr "**Comparison panel** shows changes which took place in SQL view of an object."
 
 #: ../../editors.rst:45
 msgid "SQL редактор"
