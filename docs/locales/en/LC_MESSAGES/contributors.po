@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:35+0300\n"
-"PO-Revision-Date: 2018-03-03 02:42-0500\n"
+"PO-Revision-Date: 2018-06-07 00:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../contributors.rst:7
 msgid "Идея"
-msgstr ""
+msgstr "Concept"
 
 #: ../../contributors.rst:9
 msgid "Мокеев Сергей"
