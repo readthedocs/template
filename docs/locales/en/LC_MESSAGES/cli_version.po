@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"PO-Revision-Date: 2018-06-07 00:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../cli_version.rst:3
 msgid "CLI версия"
-msgstr ""
+msgstr "CLI version"
 
 #: ../../cli_version.rst:5
 msgid "В качестве альтернативы плагина для Eclipse IDE предоставляется возможность сравнения схем баз данных через командную строку. Для этого необходимо скачать pgCodeKeeper-cli приложение, которое работает автономно."
@@ -55,15 +55,15 @@ msgstr ""
 
 #: ../../cli_version.rst:20
 msgid "./pgcodekeeper-cli.sh --help"
-msgstr ""
+msgstr "./pgcodekeeper-cli.sh --help"
 
 #: ../../cli_version.rst:23
 msgid "Примеры"
-msgstr ""
+msgstr "Examples"
 
 #: ../../cli_version.rst:25
 msgid "./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql jdbc:postgresql://localhost:5432/testdb1?user=user&password=password /home/codekeeper/projects/test1/"
-msgstr ""
+msgstr "./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql jdbc:postgresql://localhost:5432/testdb1?user=user&password=password /home/codekeeper/projects/test1/"
 
 #: ../../cli_version.rst:27
 msgid "После выполнения этой команды в файл diff.sql будет записан скрипт миграции различий из проекта в директории test1 в базу данных testdb1 на сервере localhost:5432."
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../cli_version.rst:29
 msgid "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql /home/codekeeper/projects/test1/"
-msgstr ""
+msgstr "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql /home/codekeeper/projects/test1/"
 
 #: ../../cli_version.rst:31
 msgid "После выполнения этой команды в консоли будет выведен скрипт миграции из файла backup в проект в директории test1."
