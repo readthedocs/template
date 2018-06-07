@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 00:50-0400\n"
+"PO-Revision-Date: 2018-06-07 01:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "Bank Name"
 
 #: ../../about.rst:18
 msgid "ОАО АКИБ «КУРГАН»"
-msgstr ""
+msgstr "OAO AKIB «KURGAN»"
 
 #: ../../about.rst:19 ../../about.rst:24
 msgid "Местонахождение банка"
@@ -111,7 +111,7 @@ msgstr "40702810100000001924"
 
 #: ../../about.rst:21 ../../about.rst:26
 msgid "БИК"
-msgstr ""
+msgstr "BIK"
 
 #: ../../about.rst:21
 msgid "043735830"
