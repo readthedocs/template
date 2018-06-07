@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 03:11-0400\n"
+"PO-Revision-Date: 2018-06-07 03:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,11 @@ msgstr "On the **toolbar**, set the parameters for getting a DB schema basing on
 
 #: ../../db_update.rst:7
 msgid "На панели действий нажимаем кнопку **Получить изменения**. После недолгого ожидания на панели различий отображается список объектов с указанием типа изменения."
-msgstr ""
+msgstr "On the action panel, click **Get changes**. After a short wait, the list of objects with indication of change type will be displayed on the differences panel."
 
 #: ../../db_update.rst:11
 msgid "Флажками отмечаем объекты которые мы хотим обновить, нажимаем на кнопку **Применить к базе данных**."
-msgstr ""
+msgstr "Tick off the objects we would like to update and click **Apply to database**."
 
 #: ../../db_update.rst:13
 msgid "После окончания генерации скрипта откроется SQL редактор. Проверяем сгенерированный скрипт, при необходимости вносим изменения самостоятельно."
