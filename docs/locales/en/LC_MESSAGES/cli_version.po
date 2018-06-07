@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 02:00-0400\n"
+"PO-Revision-Date: 2018-06-07 02:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "The latest version of cli assembly can be downloaded `here <https://gith
 
 #: ../../cli_version.rst:18
 msgid "Набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду:"
-msgstr ""
+msgstr "You can view the set of parameters available for work with the program by executing the command:"
 
 #: ../../cli_version.rst:20
 msgid "./pgcodekeeper-cli.sh --help"
