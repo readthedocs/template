@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 06:22-0400\n"
+"PO-Revision-Date: 2018-06-07 06:26-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -155,7 +155,7 @@ msgstr "The window consists of two parts which serve for adding the dependences 
 
 #: ../../editors.rst:85
 msgid "Для добавления зависимостей между объектами, достаточно ввести начльные буквы из названия объекта и из выпадающего списка выбрать имена зависимых объектов и нажать на кнопку **Добавить**. Зависимость отобразится в списке добавленных."
-msgstr ""
+msgstr "To add dependences between the objects, you can simply enter the initial letters of the object's name, select the names of depending objects from the drop-down list and click **Add**. The dependence will be displayed on the list of added."
 
 #: ../../editors.rst:87
 msgid "Для удаления выделите связку зависимых объектов и нажмите **Удалить**."
