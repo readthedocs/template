@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 04:31-0400\n"
+"PO-Revision-Date: 2018-06-07 04:42-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,15 +55,15 @@ msgstr "**Tool bar** is designed for working with list of objects. They have the
 
 #: ../../editors.rst:23
 msgid "|check_all| – выбрать все элементы."
-msgstr ""
+msgstr "| check_all | – select all objects."
 
 #: ../../editors.rst:24
 msgid "|uncheck_all| – снять выбор со всех элементов."
-msgstr ""
+msgstr "|uncheck_all| – deselect all the objects."
 
 #: ../../editors.rst:25
 msgid "|loop_obj| – инвертировать выбор элементов."
-msgstr ""
+msgstr "|loop_obj| – invert the selecting of objects."
 
 #: ../../editors.rst:26
 msgid "|copy_edit| – копировать набор выбранных элементов в буфер обмена как регулярное выражение."
