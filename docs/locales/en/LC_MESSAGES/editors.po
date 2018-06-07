@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 05:08-0400\n"
+"PO-Revision-Date: 2018-06-07 05:21-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgstr "SQL editor"
 
 #: ../../editors.rst:47
 msgid "SQL редактор внешне не отличается от обычного текстового редактора Eclipse, но в нем имеется возможность подсветки синтаксиса SQL, автоподстановки шаблонов SQL запросов и навигации по объектам схемы базы данных."
-msgstr ""
+msgstr "SQL editor is not different from a regular Eclipse text editor appearance-wise, but it has functions of SQL syntax highlighting, SQL requests template autofilling and database schema objects navigation."
 
 #: ../../editors.rst:52
 msgid "При работе с SQL редактором в верхнем тулбаре доступны следующие возможности:"
