@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 04:42-0400\n"
+"PO-Revision-Date: 2018-06-07 04:58-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,31 +67,31 @@ msgstr "|loop_obj| – invert the selecting of objects."
 
 #: ../../editors.rst:26
 msgid "|copy_edit| – копировать набор выбранных элементов в буфер обмена как регулярное выражение."
-msgstr ""
+msgstr "|copy_edit| – copy the set of selected objects to the clipboard as a regular expression."
 
 #: ../../editors.rst:27
 msgid "|empty_filter| / |filter_tsk| - неактивный / активный фильтр объектов."
-msgstr ""
+msgstr "|empty_filter| / |filter_tsk| - disabled / enabled object filter."
 
 #: ../../editors.rst:28
 msgid "Фильтр списка объектов по имени или регулярному выражению."
-msgstr ""
+msgstr "List of objects filter by name or regular expression."
 
 #: ../../editors.rst:29
 msgid "Применить изменения к проекту"
-msgstr ""
+msgstr "Apply changes to the project"
 
 #: ../../editors.rst:30
 msgid "Применить изменения к базе данных"
-msgstr ""
+msgstr "Apply changes to the database"
 
 #: ../../editors.rst:31
 msgid "Получить изменения"
-msgstr ""
+msgstr "Get changes"
 
 #: ../../editors.rst:33
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Объект может находиться в трех состояниях: существовать только в базе данных, только в проекте или и в проекте и в базе данных. В зависимости от состояния, объекты в списке изменений помечаются как remote, project и edit соответственно."
-msgstr ""
+msgstr "**Differences table** shows the list of objects, which are different in the DB schemas under comparison. An object can be in one of three conditions: exist only in a database, only in a project or both in a project and a database. Depending on the condition, objects in the list are marked as 'remote', 'project' and 'edit' respectively."
 
 #: ../../editors.rst:35
 msgid "**Панель сравнения** показывает изменения, произошедшие в SQL представлении объекта."
