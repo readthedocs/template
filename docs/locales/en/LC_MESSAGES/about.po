@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 01:20-0400\n"
+"PO-Revision-Date: 2018-06-07 01:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -147,7 +147,7 @@ msgstr "30101810900000000821"
 
 #: ../../about.rst:28
 msgid "ОКПО"
-msgstr ""
+msgstr "OKPO"
 
 #: ../../about.rst:28
 msgid "87299772"
