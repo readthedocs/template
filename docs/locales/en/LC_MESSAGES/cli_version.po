@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 00:11-0400\n"
+"PO-Revision-Date: 2018-06-07 01:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "CLI version"
 
 #: ../../cli_version.rst:5
 msgid "В качестве альтернативы плагина для Eclipse IDE предоставляется возможность сравнения схем баз данных через командную строку. Для этого необходимо скачать pgCodeKeeper-cli приложение, которое работает автономно."
-msgstr ""
+msgstr "As an alternative for Eclipse IDE plug-in, it is possible to compare database schemas by using command line. To do this, you should download pgCodeKeeper-cli application, which works in stand-alone mode."
 
 #: ../../cli_version.rst:7
 msgid "Консольная сборка программы может быть использована для:"
