@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 00:50-0400\n"
+"PO-Revision-Date: 2018-06-07 04:31-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,39 +19,39 @@ msgstr ""
 
 #: ../../editors.rst:3
 msgid "Виды и редакторы"
-msgstr ""
+msgstr "Types and edtors"
 
 #: ../../editors.rst:8
 msgid "Редактор проекта pgCodeKeeper"
-msgstr ""
+msgstr "PgCodeKeeper project editor"
 
 #: ../../editors.rst:10
 msgid "Редактор проекта – основной способ работы с pgCodeKeeper. Интерфейс редактора, состоящий из четырех основных частей:"
-msgstr ""
+msgstr "Project Editor is the main way of working with pgCodeKeeper. Editor interface, which consists of four main parts:"
 
 #: ../../editors.rst:12
 msgid "Тулбар"
-msgstr ""
+msgstr "Toolbar"
 
 #: ../../editors.rst:13
 msgid "Панель инструментов"
-msgstr "Toolbar"
+msgstr "Tool bar"
 
 #: ../../editors.rst:14
 msgid "Таблица различий"
-msgstr ""
+msgstr "Differences table"
 
 #: ../../editors.rst:15
 msgid "Панель сравнения"
-msgstr ""
+msgstr "Comparison panel"
 
 #: ../../editors.rst:19
 msgid "**Тулбар** предназачен для выбора источника данных, с которым предстоит работать."
-msgstr ""
+msgstr "**Toolbar** is designed for selecting the data source you want to work with."
 
 #: ../../editors.rst:21
 msgid "**Панель инструментов** предназначена для работы со списком объектов. Они имеют следующее предназначение:"
-msgstr ""
+msgstr "**Tool bar** is designed for working with list of objects. They have the following purpose:"
 
 #: ../../editors.rst:23
 msgid "|check_all| – выбрать все элементы."
