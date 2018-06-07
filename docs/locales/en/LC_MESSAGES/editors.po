@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 06:42-0400\n"
+"PO-Revision-Date: 2018-06-07 06:54-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -139,11 +139,11 @@ msgstr "The arrows show the direction of connection of the dependant object towa
 
 #: ../../editors.rst:75
 msgid "Переключатель **Проект - БД** позволяет выбрать, для какой БД, участвующей в сравнении, показывать объекты и зависимости. После переключения необходимо повторно выбрать элемент в панели различий редактора."
-msgstr "The **Project - DB** switch allows to select, for which DB under comparison to show objects and dependences. After toggling it is necessary to select the object on the editor's differences panel once again."
+msgstr "The **Project - DB** switch allows you to select, for which DB under comparison to show objects and dependences. After toggling it is necessary to select the object on the editor's differences panel once again."
 
 #: ../../editors.rst:77
 msgid "Кнопка **Добавить зависимости** позволяет открыть диалог ручного добавления зависимостей."
-msgstr "The **Add differences** button allows to add the differences manually via a dialog window."
+msgstr "The **Add differences** button allows you to add the differences manually via a dialog window."
 
 #: ../../editors.rst:81
 msgid "В этом диалоге можно явно задать зависимости между объектами БД. Это может понадобиться, например, в случае если автоматическое распознавание зависимостей не сработает для некоторой сложной зависимости. Добавленные зависимости будут учтены при генерации последовательности выражений скрипта наката."
@@ -167,15 +167,15 @@ msgstr "Overwriting objects"
 
 #: ../../editors.rst:94
 msgid "Вид **Перезапись объектов** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
-msgstr ""
+msgstr "The **Overwriting objects** view displays the list of redefined objects in libraries for the active project editor. This view is automatically displayed while getting the changes, if there is at least one conlict."
 
 #: ../../editors.rst:98
 msgid "Кнопка |sync| отображает записи, относящиеся только к объектам, выбранным в панели различий активного редактора проекта."
-msgstr ""
+msgstr "The |sync| button shows the notes concerning only the objects selected on the differences panel of the active project editor."
 
 #: ../../editors.rst:102
 msgid "Контекстное меню позволяет открыть обе версии объекта, а также просмотреть различия в специальном редакторе сравнения."
-msgstr ""
+msgstr "Right-click menu allows you to open both versions of the object, as well as to view the differences in a dedicated comparison editor."
 
 #~ msgid ""
 #~ "Контекстное меню позволяет открыть обе "
