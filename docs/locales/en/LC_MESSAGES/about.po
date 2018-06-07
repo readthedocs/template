@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 00:11-0400\n"
+"PO-Revision-Date: 2018-06-07 00:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "Primary State Registration Number"
 
 #: ../../about.rst:13
 msgid "1124501001580 выдан ИФНС по г. Кургану 16.02.2012 , св-во 45 № 001022113"
-msgstr "1124501001580 issued by \tFederal Tax Agency's inspectorate in the town of Kurgan on 16.02.2012, certificate 45 № 001022113"
+msgstr "1124501001580 issued by \tFederal Tax Agency's inspectorate in Kurgan on 16.02.2012, certificate 45 № 001022113"
 
 #: ../../about.rst:14
 msgid "ИНН/КПП"
@@ -99,7 +99,7 @@ msgstr "Bank location"
 
 #: ../../about.rst:19
 msgid "г. Курган"
-msgstr "city of Kurgan"
+msgstr "Kurgan"
 
 #: ../../about.rst:20 ../../about.rst:25
 msgid "Расчетный счет"
