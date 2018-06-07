@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 02:21-0400\n"
+"PO-Revision-Date: 2018-06-07 02:31-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -75,5 +75,5 @@ msgstr "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql /home/codekeeper/proje
 
 #: ../../cli_version.rst:31
 msgid "После выполнения этой команды в консоли будет выведен скрипт миграции из файла backup в проект в директории test1."
-msgstr ""
+msgstr "After executing this command, the console will display migration script from the backup file into the project in the test1 directory."
 
