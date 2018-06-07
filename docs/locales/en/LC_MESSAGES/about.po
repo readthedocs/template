@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 00:01-0400\n"
+"PO-Revision-Date: 2018-06-07 00:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../about.rst:16
 msgid "Почтовый адрес"
-msgstr ""
+msgstr "Mailing Address"
 
 #: ../../about.rst:16
 msgid "640003, Курганская область, город Курган, ул. Радионова, 17"
@@ -87,7 +87,7 @@ msgstr "\\(3522) 608294 / (3522) 601409"
 
 #: ../../about.rst:18 ../../about.rst:23
 msgid "Наименование банка"
-msgstr ""
+msgstr "Bank Name"
 
 #: ../../about.rst:18
 msgid "ОАО АКИБ «КУРГАН»"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../about.rst:19 ../../about.rst:24
 msgid "Местонахождение банка"
-msgstr ""
+msgstr "Bank location"
 
 #: ../../about.rst:19
 msgid "г. Курган"
@@ -115,7 +115,7 @@ msgstr ""
 
 #: ../../about.rst:21
 msgid "043735830"
-msgstr ""
+msgstr "043735830"
 
 #: ../../about.rst:22 ../../about.rst:27
 msgid "Корреспондирующий счет"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../../about.rst:22
 msgid "30101810700000000830"
-msgstr ""
+msgstr "30101810700000000830"
 
 #: ../../about.rst:23
 msgid "ООО КБ \"КЕТОВСКИЙ\""
