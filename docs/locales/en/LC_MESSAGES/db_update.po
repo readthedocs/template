@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 03:01-0400\n"
+"PO-Revision-Date: 2018-06-07 03:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Updating remote database"
 
 #: ../../db_update.rst:5
 msgid "На **тулбаре** указываем параметры для получения схемы БД, на основании которой будет сгенерирован DDL скрипт для применения изменений к удаленной базе данных."
-msgstr ""
+msgstr "On the **toolbar**, set the parameters for getting a DB schema basing on which a DDL script for applying changes to the remote database will be generated."
 
 #: ../../db_update.rst:7
 msgid "На панели действий нажимаем кнопку **Получить изменения**. После недолгого ожидания на панели различий отображается список объектов с указанием типа изменения."
