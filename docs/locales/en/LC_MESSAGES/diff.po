@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 04:21-0400\n"
+"PO-Revision-Date: 2018-06-07 04:31-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,9 +27,9 @@ msgstr "Start the database comparison wizard: **pgCodeKeeper - Comparison wizard
 
 #: ../../diff.rst:9
 msgid "В таблице сравнения отмечаем изменения, которые необходимо применить. Примечание: панель инструментов работает аналогично панели инструментов редактора проектов pgCodeKeeper."
-msgstr "In the comparison table, select the differences which should be applied. Note: toolbar works similarly to the pgCodeKeeper project editor toolbar."
+msgstr "In the comparison table, select the differences that should be applied. Note: tool bar works similarly to the pgCodeKeeper project editor tool bar."
 
 #: ../../diff.rst:14
 msgid "При нажатии кнопки **Finish** откроется SQL редактор со скриптом миграции, сгенерированным для выбранных изменений."
-msgstr ""
+msgstr "After clicking **Finish**, SQL editor with migration script, generated for the selected changes, will open."
 
