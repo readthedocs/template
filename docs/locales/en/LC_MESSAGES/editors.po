@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 05:21-0400\n"
+"PO-Revision-Date: 2018-06-07 05:32-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -107,15 +107,15 @@ msgstr "SQL editor is not different from a regular Eclipse text editor appearanc
 
 #: ../../editors.rst:52
 msgid "При работе с SQL редактором в верхнем тулбаре доступны следующие возможности:"
-msgstr ""
+msgstr "During work in SQL editor, the following functions are present in the upper toolbar:"
 
 #: ../../editors.rst:54
 msgid "|quick_update| - быстрый накат. Накат **различий** между текущий файлом и объектом в базе данных. Не работает в скриптах миграции."
-msgstr ""
+msgstr "|quick_update| - quick roll-forward. Roll-forward of **differences** between the current file and the database object. Does not work with the migration scripts."
 
 #: ../../editors.rst:55
 msgid "|update_ddl| - выполнить выбранное. Накат текущего скрипта на выбранную базу данных."
-msgstr ""
+msgstr "|update_ddl| - execute the selected. Roll-forward of the current script to the selected database."
 
 #: ../../editors.rst:56
 msgid "|progress_stop| - отменить выполнение. Отмена выполнения текущего наката изменений."
