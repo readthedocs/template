@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 06:35-0400\n"
+"PO-Revision-Date: 2018-06-07 06:42-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -163,7 +163,7 @@ msgstr "To remove a chain of dependent objects, highlight it and click **Delete*
 
 #: ../../editors.rst:92
 msgid "Перезапись объектов"
-msgstr ""
+msgstr "Overwriting objects"
 
 #: ../../editors.rst:94
 msgid "Вид **Перезапись объектов** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
