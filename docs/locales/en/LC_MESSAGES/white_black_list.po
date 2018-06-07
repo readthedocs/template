@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-04-20 09:21-0400\n"
+"PO-Revision-Date: 2018-06-07 00:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -527,7 +527,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX ignore**"
-msgstr ""
+msgstr "**HIDE REGEX ignore**"
 
 #: ../../white_black_list.rst:306
 msgid "Для того, чтобы исключить объект \"ignore2\" с содержимым нужно в .pgcodekeeperignore написать следующие правила:"
@@ -535,7 +535,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**HIDE CONTENT ignore2**"
-msgstr ""
+msgstr "**HIDE CONTENT ignore2**"
 
 #: ../../white_black_list.rst:319
 msgid "Для того, чтобы исключить все объекты с типом \"TABLE\", частично попадающие под регулярное выражение \"ignore\" нужно в .pgcodekeeperignore написать следующие правила:"
@@ -543,7 +543,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX ignore type=TABLE**"
-msgstr ""
+msgstr "**HIDE REGEX ignore type=TABLE**"
 
 #: ../../white_black_list.rst:332
 msgid "Для того, чтобы исключить все объекты частично попадающие под регулярное выражение \"ignore\", с типом *TABLE* и содержимым для указанной базы данных нужно в .pgcodekeeperignore написать следующие правила:"
@@ -551,7 +551,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
-msgstr ""
+msgstr "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
 
 #: ../../white_black_list.rst:337
 msgid "в вышеуказанных правилах использовано название другой базы данных, не той с которой ведется работа в данном примере, поэтому все останеться без изменений"
@@ -563,7 +563,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**HIDE CONTENT,REGEX ignore db=db1 type=TABLE**"
-msgstr ""
+msgstr "**HIDE CONTENT,REGEX ignore db=db1 type=TABLE**"
 
 #: ../../white_black_list.rst:358
 msgid "Для того, чтобы используя черный и белый списки одновременно разрешить отобразить объект \"ignore2\" нужно написать следующие правила:"
@@ -579,7 +579,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT ignore2**"
-msgstr ""
+msgstr "**SHOW CONTENT ignore2**"
 
 #: ../../white_black_list.rst:368
 msgid "Добавление дополнительного списка описано в разделе :ref:`whiteBlackCommonUsing`."
