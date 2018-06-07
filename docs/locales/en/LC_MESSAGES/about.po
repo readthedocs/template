@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 01:01-0400\n"
+"PO-Revision-Date: 2018-06-07 01:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgstr "Kurgan"
 
 #: ../../about.rst:20 ../../about.rst:25
 msgid "Расчетный счет"
-msgstr ""
+msgstr "Corporate bank account"
 
 #: ../../about.rst:20
 msgid "40702810100000001924"
@@ -119,7 +119,7 @@ msgstr "043735830"
 
 #: ../../about.rst:22 ../../about.rst:27
 msgid "Корреспондирующий счет"
-msgstr ""
+msgstr "Corresponding account"
 
 #: ../../about.rst:22
 msgid "30101810700000000830"
@@ -127,11 +127,11 @@ msgstr "30101810700000000830"
 
 #: ../../about.rst:23
 msgid "ООО КБ \"КЕТОВСКИЙ\""
-msgstr ""
+msgstr "OOO KB \"KETOVSKIY\""
 
 #: ../../about.rst:24
 msgid "с. Кетово"
-msgstr ""
+msgstr "Ketovo"
 
 #: ../../about.rst:25
 msgid "40702810200010000350"
@@ -163,7 +163,7 @@ msgstr ""
 
 #: ../../about.rst:33
 msgid "Свидетельство о регистрации"
-msgstr ""
+msgstr "Registration certificate"
 
 #~ msgid "О дополнении pgCodeKeeper"
 #~ msgstr ""
