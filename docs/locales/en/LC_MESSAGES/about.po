@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 00:41-0400\n"
+"PO-Revision-Date: 2018-06-07 00:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "Legal address"
 
 #: ../../about.rst:15
 msgid "640000, Курганская область, город Курган, ул. Коли Мяготина, 117/V"
-msgstr ""
+msgstr "640000, Kurgan oblast, Kurgan, Koli Myagotina str, 117/V"
 
 #: ../../about.rst:16
 msgid "Почтовый адрес"
@@ -75,11 +75,11 @@ msgstr "Mailing Address"
 
 #: ../../about.rst:16
 msgid "640003, Курганская область, город Курган, ул. Радионова, 17"
-msgstr ""
+msgstr "640003, Kurgan oblast, Kurgan, Radionova str, 17"
 
 #: ../../about.rst:17
 msgid "Телефон/факс"
-msgstr ""
+msgstr "Phone/Fax"
 
 #: ../../about.rst:17
 msgid "\\(3522) 608294 / (3522) 601409"
