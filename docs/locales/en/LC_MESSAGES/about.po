@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 01:30-0400\n"
+"PO-Revision-Date: 2018-06-07 02:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -155,11 +155,11 @@ msgstr "87299772"
 
 #: ../../about.rst:29
 msgid "Директор"
-msgstr ""
+msgstr "Director"
 
 #: ../../about.rst:29
 msgid "Татаринцев Игорь Витальевич"
-msgstr ""
+msgstr "Tatarintsev Igor Vitalyevich"
 
 #: ../../about.rst:33
 msgid "Свидетельство о регистрации"
