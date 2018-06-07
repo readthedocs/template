@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 06:26-0400\n"
+"PO-Revision-Date: 2018-06-07 06:35-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgstr "To add dependences between the objects, you can simply enter the initial
 
 #: ../../editors.rst:87
 msgid "Для удаления выделите связку зависимых объектов и нажмите **Удалить**."
-msgstr ""
+msgstr "To remove a chain of dependent objects, highlight it and click **Delete**."
 
 #: ../../editors.rst:92
 msgid "Перезапись объектов"
