@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-08 02:51-0400\n"
+"PO-Revision-Date: 2018-06-08 03:00-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Object filters"
 
 #: ../../object_search.rst:21
 msgid "Для фильтрации объектов можно использовать диалоговое окно, которой отобразится при нажатии кнопки |empty_filter| над списком изменений."
-msgstr ""
+msgstr "To filter the objects, you can use the dialogue window which will appear after you click|empty_filter|above the changes filter."
 
 #: ../../object_search.rst:25
 msgid "Список типов объектов позволяет отобразить только выбранные типы объектов. Если выбран тип TABLE или VIEW будут отображены все дочерние объекты."
@@ -83,15 +83,15 @@ msgstr ""
 
 #: ../../object_search.rst:41
 msgid "Для применения фильтров нажмите кнопку **ОК**."
-msgstr ""
+msgstr "To apply the filters, click **ОK**."
 
 #: ../../object_search.rst:43
 msgid "Для отмены текущих изменений нажмите кнопку **Cancel / Отмена**."
-msgstr ""
+msgstr "To cancel current changes, click **Cancel**."
 
 #: ../../object_search.rst:45
 msgid "Для сброса всех фильтров нажмите кнопку **Reset / Сбросить**."
-msgstr ""
+msgstr "To reset all the filters, click **Reset**."
 
 #: ../../object_search.rst:47
 msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
