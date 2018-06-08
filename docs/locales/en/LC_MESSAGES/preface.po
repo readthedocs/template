@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 18:36+0300\n"
-"PO-Revision-Date: 2018-06-08 03:40-0400\n"
+"PO-Revision-Date: 2018-06-08 03:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,11 @@ msgstr "Preface"
 
 #: ../../preface.rst:4
 msgid "В 2013 году, когда я приступил к работе в ООО «Технология», компания уже разрабатывала программное обеспечение для одного из крупнейших в России сервисов заказа такси «Максим». И одной из целей на тот период был переход в использовании от сервера баз данных MSSQL на PostgreSQL."
-msgstr ""
+msgstr "When I started working in OOO Technology in 2013, the company was already developing software for one of the most prominent taxi order services in Russia - Maxim. And one of the tasks of that time was to start using PostgreSQL database server instead of the MSSQL one."
 
 #: ../../preface.rst:6
 msgid "Мы начали процесс миграции с одной системы управления базами данных на другую и обнаружили две существенных особенностей PostgreSQL."
-msgstr ""
+msgstr "We started the migration process from one database management system to another and discovered two major peculiarities of PostgreSQL."
 
 #: ../../preface.rst:8
 msgid "Первое, набор инструментов, как для разработки БД, так и для её сопровождения, на тот момент значительно уступал относительно хорошо известного к тому времени MSSQL."
