@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-08 02:30-0400\n"
+"PO-Revision-Date: 2018-06-08 02:51-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,15 +35,15 @@ msgstr "The search is conducted by the names of the objects. When **RegEx** is t
 
 #: ../../object_search.rst:14
 msgid "Для начала просто введите часть имени в поле поиска. В таблице изменений отобразятся объекты, соответствующие данному условию."
-msgstr ""
+msgstr "To start with, just enter a part of the name into the search box. The objects satisfying this condition will be displayed in the changes table."
 
 #: ../../object_search.rst:16
 msgid "Поле поиска хранит последние 200 запросов."
-msgstr ""
+msgstr "The search box stores the last 200 entries."
 
 #: ../../object_search.rst:19
 msgid "Фильтры объектов"
-msgstr ""
+msgstr "Object filters"
 
 #: ../../object_search.rst:21
 msgid "Для фильтрации объектов можно использовать диалоговое окно, которой отобразится при нажатии кнопки |empty_filter| над списком изменений."
