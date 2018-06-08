@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 07:22-0400\n"
+"PO-Revision-Date: 2018-06-08 07:34-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -155,23 +155,23 @@ msgstr "**Display the migration script in a separate window** – allows to view
 
 #: ../../preferences.rst:86
 msgid "**Заключить скрипт наката в блок START TRANSACTION; ... COMMIT TRANSACTION;** – позволяет дополнять генерируемые скрипты парой start ... commit."
-msgstr ""
+msgstr "**Enclose the migration script into the START TRANSACTION; ... COMMIT TRANSACTION; block** - allows to add the 'start ... commit' pair to the generated scripts."
 
 #: ../../preferences.rst:87
 msgid "**Разрешить PostgreSQL проверять тела функций в скрипте наката** – позволяет при генерации скрипта добавлять проверку \"SET check_function_bodies = true;\" в начало скрипта."
-msgstr ""
+msgstr "**Allow PostgreSQL check the function bodies in the migration scrpt** – allows to add the \"SET check_function_bodies = true;\" check in the beginning of a generated script."
 
 #: ../../preferences.rst:88
 msgid "**Печатать ALTER COLUMN ... TYPE ... с USING expression** – позволяет добавлять в скрипт выражение, позволяющее изменить тип данных, при изменении типа столбца"
-msgstr ""
+msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to add the expression, permitting to change the data type when changing the column type, to the script"
 
 #: ../../preferences.rst:89
 msgid "**Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
-msgstr ""
+msgstr "**Migration command** - allows to use another utility or bootup options when applying migration script to the database."
 
 #: ../../preferences.rst:93
 msgid "Обновление проекта"
-msgstr ""
+msgstr "Project update"
 
 #: ../../preferences.rst:95
 msgid "Настройки, управляющие обновлением проекта."
