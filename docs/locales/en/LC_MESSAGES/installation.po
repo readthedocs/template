@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-08 00:30-0400\n"
+"PO-Revision-Date: 2018-06-08 00:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Eclipse Marketplace"
 
 #: ../../installation.rst:8
 msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.2 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
-msgstr ""
+msgstr "The easiest way to install pgCodeKeeper is Eclipse Marketplace: launch Eclipse, version 4.2 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Markeplace...**."
 
 #: ../../installation.rst:10
 msgid "В поле поиска ввести: pgCodeKeeper."
@@ -35,7 +35,7 @@ msgstr "Enter \"pgCodeKeeper\" into the search box."
 
 #: ../../installation.rst:12
 msgid "Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish и начнется установка."
-msgstr ""
+msgstr "Select the pgCodeKeeper package, review the Terms of service and click Finish for the installation to begin."
 
 #: ../../installation.rst:16 ../../installation.rst:33
 msgid "По завершению установки для применения изменений необходимо перезапустить Eclipse."
