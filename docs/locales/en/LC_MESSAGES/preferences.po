@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 07:34-0400\n"
+"PO-Revision-Date: 2018-06-08 07:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgstr "Project update"
 
 #: ../../preferences.rst:95
 msgid "Настройки, управляющие обновлением проекта."
-msgstr ""
+msgstr "Settings managing the project update."
 
 #: ../../preferences.rst:99
 msgid "На странице настроек **pgCodeKeeper -> Обновление проекта** Вы можете включить учет зависимостей объектов при обновлении проекта. Это дополнит диалог наката выбранных объектов на проект их зависимостями, без которых накат на проект может происходить с ошибками."
