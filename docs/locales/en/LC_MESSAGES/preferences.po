@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 07:52-0400\n"
+"PO-Revision-Date: 2018-06-08 08:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -211,11 +211,11 @@ msgstr "On the **pgCodeKeeper -> Project editor** settings page you can adjust t
 
 #: ../../preferences.rst:122
 msgid "**Переключать в перспективу pgCodeKeeper при открытии редактора** – определяет поведение переключения перспективы при открытии редактора проекта."
-msgstr ""
+msgstr "**Switch pgCodeKeeper to the perspective when starting the editor** – sets operations for switching the perspective while starting the project editor."
 
 #: ../../preferences.rst:123
 msgid "**После выполнения миграции на БД редактора выполнить** – определяет поведение редактора при накате скриптов миграции."
-msgstr ""
+msgstr "**After execution of migration to the editor DB execute** – sets the editor operations while migrating the migration scripts."
 
 #: ../../preferences.rst:124
 msgid "**Отображать пользователя git, совершившего изменение** – позволяет отображать в редакторе колонку с пользователем git, совершившем последнее изменение файла. Проект должен находиться под системой контроля версий."
