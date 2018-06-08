@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"PO-Revision-Date: 2018-06-08 01:00-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../mock_data.rst:3
 msgid "Генерация тестовых данных"
-msgstr ""
+msgstr "Text data generation"
 
 #: ../../mock_data.rst:5
 msgid "Существует возможность генерации тестовых данных для таблицы в виде **Insert** конструкции:"
