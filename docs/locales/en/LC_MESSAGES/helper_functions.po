@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 07:54-0400\n"
+"PO-Revision-Date: 2018-06-08 03:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,5 +31,5 @@ msgstr "To do this, open: **pgCodeKeeper - Install performance helpers - Server 
 
 #: ../../helper_functions.rst:11
 msgid "Будет открыт SQL редактор с сформированным скриптом, который можно накатить на базу данных."
-msgstr "You'll see a SQL editor with a ready script which can be implemented to the data base."
+msgstr "You'll see a SQL editor with a ready script which can be migrated to the data base."
 
