@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 08:52-0400\n"
+"PO-Revision-Date: 2018-06-08 09:18-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -303,11 +303,11 @@ msgstr "To delete a storage, select the required record and click |delete|."
 
 #: ../../preferences.rst:186
 msgid "Кнопка **Restore Defaults**, на странице настроек, удаляет все записи для подключения к базам данных и создает одну запись default без данных для подключения."
-msgstr ""
+msgstr "The **Restore Defaults** button on the settings page deletes all the records for the databases connection and creates one 'default' record without any data on the connection."
 
 #: ../../preferences.rst:188
 msgid "Для сохранения внесенных изменений, в хранилище параметров подключения к БД, на странице настроек необходимо нажать кнопку **Apply** или **Apply and Close**."
-msgstr ""
+msgstr "To save the changes, you should click **Apply** or **Apply and Close** in the DB connection parameters storage, on the settings page."
 
 #~ msgid "Настройки"
 #~ msgstr ""
