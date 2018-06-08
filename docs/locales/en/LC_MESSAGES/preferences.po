@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 06:11-0400\n"
+"PO-Revision-Date: 2018-06-08 06:22-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -63,19 +63,19 @@ msgstr "To add or remove an object to the list of excluded, use the |add_obj| an
 
 #: ../../preferences.rst:26
 msgid "При добавлении объекта в список исключенных можно выставить дополнительные настройки, которые влияют на исключение объекта при сравнении:"
-msgstr ""
+msgstr "When adding an object to the list of excluded you can set additional settings which will affect the object excluding during comparison:"
 
 #: ../../preferences.rst:28
 msgid "**Шаблон** – является ли имя объекта регулярным выражением."
-msgstr ""
+msgstr "**Template** – whether or not the object's name is a regular expression."
 
 #: ../../preferences.rst:29
 msgid "**Игнорировать содержимое** – позволяет пропустить объекты, вложенные в исключенный."
-msgstr ""
+msgstr "**Ignore content** – allows to skip the objects contained in the excluded one."
 
 #: ../../preferences.rst:30
 msgid "**Тип** – тип объекта (\"ALL\" предназначен для указания любого типа объекта)."
-msgstr ""
+msgstr "**Type** – object type (\"ALL\" is used for specifying any object type)."
 
 #: ../../preferences.rst:34
 msgid "Все настройки списка доступны для редактирования."
