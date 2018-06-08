@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 07:01-0400\n"
+"PO-Revision-Date: 2018-06-08 07:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -119,27 +119,27 @@ msgstr "**Excluding the objects with the “TABLE” type partially falling unde
 
 #: ../../preferences.rst:0
 msgid "**под регулярное выражение \"ignore\"**"
-msgstr ""
+msgstr "**the regular expression \"ignore\"**"
 
 #: ../../preferences.rst:74
 msgid "Обновление БД"
-msgstr ""
+msgstr "DB update"
 
 #: ../../preferences.rst:75
 msgid "Настройки, управляющие обновлением базы данных."
-msgstr ""
+msgstr "Settings managing the database updates."
 
 #: ../../preferences.rst:79
 msgid "На странице настроек **pgCodeKeeper -> Обновление БД** Вы можете настроить параметры для работы редактора скрипта наката."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> DB update** settings page you can adjust parameters for the work of the migration script editor."
 
 #: ../../preferences.rst:81
 msgid "**Создавать скрипт миграции в директории проекта** – определяет поведение при создании скриптов миграции."
-msgstr ""
+msgstr "**Create migration script in the project directory** – sets operations when new migration scripts are created."
 
 #: ../../preferences.rst:82
 msgid "**Удалять файлы скриптов миграции после закрытия редактора** – определяет поведение при закрытии скриптов миграции, если они были созданы в директории проекта."
-msgstr ""
+msgstr "**Delete migration script files after closing the editor** – sets oprations after closing the migration scripts, if they were created in the project directory."
 
 #: ../../preferences.rst:83
 msgid "**Выявлять зависимости PSQL после выполнения скрипта наката** – позволяет добавлять дополнительные зависимости из сообщения об ошибке наката PSQL."
