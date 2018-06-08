@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 18:36+0300\n"
-"PO-Revision-Date: 2018-06-08 05:01-0400\n"
+"PO-Revision-Date: 2018-06-08 05:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "Currently, pgCodeKeeper solves most of the problems at hand. But we are 
 
 #: ../../preface.rst:20
 msgid "Мы работаем над тем, чтобы pgCodeKeeper мог выступать в качестве инструмента для выполнения рефакторинга объектов базы данных, улучшение работы с кодом pl/pgSql, и извлечением и отображением данных."
-msgstr ""
+msgstr "We work hard for pgCodeKeeper to become a tool for database objects refactoring, as well as for improving work with the pl/pgSql code and data extraction and display."
 
 #: ../../preface.rst:22
 msgid "Теперь, когда у нас появился pgCodeKeeper, работа с PostgreSQL стала значительно проще. В конце 2017 года было принято решение вывести код продукта под одну из существующих лицензий с открытым исходным кодом. Мы остановились на лицензии Apache 2.0. И именно благодаря этому, теперь pgCodeKeeper стал доступен множеству участников по всему миру."
