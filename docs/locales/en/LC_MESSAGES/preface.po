@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 18:36+0300\n"
-"PO-Revision-Date: 2018-06-08 04:31-0400\n"
+"PO-Revision-Date: 2018-06-08 04:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "The migration proved to be very difficult to realize, because unlike DBM
 
 #: ../../preface.rst:14
 msgid "Нашим настоящим кошмаром стал ад зависимостей между объектами БД. При пересоздании объекта, в случае, если на него ссылались другие объекты БД приходилось удалять все зависимые объекты и создавать их повторно после пересоздания «родительского» объекта."
-msgstr ""
+msgstr "Pandemonium of dependences between the database objects has become our utter nightmare. When re-creating an object, if we found out it was referenced by other DB objects, we had to delete all the dependent objects and create them again after re-creating the «parent» object."
 
 #: ../../preface.rst:16
 msgid "Тогда и родилась идея о создании собственного продукта способного решить в первую очередь проблему при формировании скрипта миграции с зависимыми объектами, а более того способного облегчить работу разработчика и другими способами, такими как: автодополнение кода, навигация по коду, формирование скриптов с тестовыми данными для существующих таблиц и многое другое."
