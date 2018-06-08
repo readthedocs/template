@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-08 00:20-0400\n"
+"PO-Revision-Date: 2018-06-08 00:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,5 +67,5 @@ msgstr "Click **Finish**."
 
 #: ../../import_project.rst:23
 msgid "Для корректной работы проект должен содержать файл '.pgcodekeeper' в корне директории. Мастер импорта проекта автоматически создаст данный файл при его отсутствии."
-msgstr ""
+msgstr "For the correct work, the project should contain the '.pgcodekeeper' file in the root directory. If this file doesn't exist, project Import Wizard will automatically create it."
 
