@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 18:36+0300\n"
-"PO-Revision-Date: 2018-06-07 09:11-0400\n"
+"PO-Revision-Date: 2018-06-08 03:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../preface.rst:27
 msgid "Саушкин Андрей, 2018"
-msgstr ""
+msgstr "Andrei Saushkin, 2018"
 
 #~ msgid "Мотивация"
 #~ msgstr ""
