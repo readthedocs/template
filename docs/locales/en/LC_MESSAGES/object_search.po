@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-05-17 09:43-0400\n"
+"PO-Revision-Date: 2018-06-08 02:10-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../object_search.rst:3
 msgid "Поиск объекта"
-msgstr ""
+msgstr "Object search"
 
 #: ../../object_search.rst:6
 msgid "Поиск объекта в таблице изменений"
-msgstr ""
+msgstr "Object search in the changes table"
 
 #: ../../object_search.rst:8
 msgid "Для поиска объектов в таблице изменений удобно воспользоваться полем поиска над списком изменений."
-msgstr ""
+msgstr "The most convenient way of searching the objects in the changes table is the search box above the changes list."
 
 #: ../../object_search.rst:12
 msgid "Поиск происходит по именам объектов. При установленном флажке **RegEx** поиск осуществляется с использованием регулярных выражений."
