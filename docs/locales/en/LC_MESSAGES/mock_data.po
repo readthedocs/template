@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-08 01:20-0400\n"
+"PO-Revision-Date: 2018-06-08 01:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,47 +43,47 @@ msgstr "**Column type** - data type of the column. For unsupported types there i
 
 #: ../../mock_data.rst:15
 msgid "**Генератор** - алгоритм генерации данных. На данный момент их 4:"
-msgstr ""
+msgstr "**Generator** - data generation algorithm. Currently there are 4 of them:"
 
 #: ../../mock_data.rst
 msgid "RANDOM"
-msgstr ""
+msgstr "RANDOM"
 
 #: ../../mock_data.rst:17
 msgid "Случайное значение из диапозона."
-msgstr ""
+msgstr "A random value from the range."
 
 #: ../../mock_data.rst
 msgid "INCREMENT"
-msgstr ""
+msgstr "INCREMENT"
 
 #: ../../mock_data.rst:18
 msgid "Последовательное увеличение стартового значения на значение инкремента."
-msgstr ""
+msgstr "Consistent incerasing of the inital value by the increment value."
 
 #: ../../mock_data.rst
 msgid "CONSTANT"
-msgstr ""
+msgstr "CONSTANT"
 
 #: ../../mock_data.rst:19
 msgid "Константное значение. Текстовые значения будут заключены в одинарные кавычки."
-msgstr ""
+msgstr "A constant value. Text values will be enclosed in single quotes."
 
 #: ../../mock_data.rst
 msgid "ANY"
-msgstr ""
+msgstr "ANY"
 
 #: ../../mock_data.rst:20
 msgid "Любое значение (включая вызовы функций). Значение не будет отформатировано."
-msgstr ""
+msgstr "Any value (including function calls). The value will not be formatted."
 
 #: ../../mock_data.rst:22
 msgid "**Начало диапазона** - стартовое значение"
-msgstr ""
+msgstr "**Range start** - initial value"
 
 #: ../../mock_data.rst:23
 msgid "**Конец диапазона** - конечное значение"
-msgstr ""
+msgstr "**Range end** - final value"
 
 #: ../../mock_data.rst:24
 msgid "**Шаг инкремента** - значение шага инкремента"
