@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 18:36+0300\n"
-"PO-Revision-Date: 2018-06-08 04:54-0400\n"
+"PO-Revision-Date: 2018-06-08 05:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "It was then when we had an idea of creating our own product, which first
 
 #: ../../preface.rst:18
 msgid "На текущий момент pgCodeKeeper решает многие из поставленных целей. Но мы не останавливаемся. На очереди – как улучшение существующих возможностей, так и достижение новых целей."
-msgstr ""
+msgstr "Currently, pgCodeKeeper solves most of the problems at hand. But we are not planning to stop here. Next, we are aimed at both improving the existing possibilities and achieving new goals."
 
 #: ../../preface.rst:20
 msgid "Мы работаем над тем, чтобы pgCodeKeeper мог выступать в качестве инструмента для выполнения рефакторинга объектов базы данных, улучшение работы с кодом pl/pgSql, и извлечением и отображением данных."
@@ -67,7 +67,7 @@ msgstr "I thank you for the interest you have shown in our product and wish you 
 
 #: ../../preface.rst:26
 msgid "Руководитель отдела разработки ПО, г. Набережные Челны"
-msgstr ""
+msgstr "Head of software development subdivision, Naberezhnye Chelny"
 
 #: ../../preface.rst:27
 msgid "Саушкин Андрей, 2018"
