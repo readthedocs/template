@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 18:36+0300\n"
-"PO-Revision-Date: 2018-06-08 04:41-0400\n"
+"PO-Revision-Date: 2018-06-08 04:54-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Pandemonium of dependences between the database objects has become our u
 
 #: ../../preface.rst:16
 msgid "Тогда и родилась идея о создании собственного продукта способного решить в первую очередь проблему при формировании скрипта миграции с зависимыми объектами, а более того способного облегчить работу разработчика и другими способами, такими как: автодополнение кода, навигация по коду, формирование скриптов с тестовыми данными для существующих таблиц и многое другое."
-msgstr ""
+msgstr "It was then when we had an idea of creating our own product, which first of all would be able to solve the problem occuring while forming the migration script with dependent objects, and above that - able to ease the job of the developer in many other ways such as: code completion, code navigation, forming of scripts with test data for existing tables etc."
 
 #: ../../preface.rst:18
 msgid "На текущий момент pgCodeKeeper решает многие из поставленных целей. Но мы не останавливаемся. На очереди – как улучшение существующих возможностей, так и достижение новых целей."
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../preface.rst:24
 msgid "Я благодарю вас за интерес, который вы проявили к нашему продукту и желаю вам приятной работы с pgCodeKeeper."
-msgstr ""
+msgstr "I thank you for the interest you have shown in our product and wish you pleasant work with pgCodeKeeper."
 
 #: ../../preface.rst:26
 msgid "Руководитель отдела разработки ПО, г. Набережные Челны"
