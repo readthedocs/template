@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:29+0300\n"
-"PO-Revision-Date: 2018-06-07 06:54-0400\n"
+"PO-Revision-Date: 2018-06-08 03:10-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -111,15 +111,15 @@ msgstr "During work in SQL editor, the following functions are present in the up
 
 #: ../../editors.rst:54
 msgid "|quick_update| - быстрый накат. Накат **различий** между текущий файлом и объектом в базе данных. Не работает в скриптах миграции."
-msgstr "|quick_update| - quick roll-forward. Roll-forward of **differences** between the current file and the database object. Does not work with the migration scripts."
+msgstr "|quick_update| - quick migration. Migration of **differences** between the current file and the database object. Does not work with the migration scripts."
 
 #: ../../editors.rst:55
 msgid "|update_ddl| - выполнить выбранное. Накат текущего скрипта на выбранную базу данных."
-msgstr "|update_ddl| - execute the selected. Roll-forward of the current script to the selected database."
+msgstr "|update_ddl| - execute the selected. Migration of the current script to the selected database."
 
 #: ../../editors.rst:56
 msgid "|progress_stop| - отменить выполнение. Отмена выполнения текущего наката изменений."
-msgstr "|progress_stop| - cancel the selected. Cancelling the execution of the current roll-forward of the changes."
+msgstr "|progress_stop| - cancel the selected. Cancelling the execution of the current migration of the changes."
 
 #: ../../editors.rst:57
 msgid "|refresh| - получить изменения. Обновляет редактор проекта, в котором находится данный файл. Не работает в скриптах миграции."
@@ -147,7 +147,7 @@ msgstr "The **Add differences** button allows you to add the differences manuall
 
 #: ../../editors.rst:81
 msgid "В этом диалоге можно явно задать зависимости между объектами БД. Это может понадобиться, например, в случае если автоматическое распознавание зависимостей не сработает для некоторой сложной зависимости. Добавленные зависимости будут учтены при генерации последовательности выражений скрипта наката."
-msgstr "In this window, you can directly set the dependences between the DB objects. This may prove useful, for example, in case if automated recognition won't work for certain complex dependences. The added differences will be taken into consideration during generating the expression sequences for the roll-forward script."
+msgstr "In this window, you can directly set the dependences between the DB objects. This may prove useful, for example, in case if automated recognition won't work for certain complex dependences. The added differences will be taken into consideration during generating the expression sequences for the migration script."
 
 #: ../../editors.rst:83
 msgid "Окно состоит из двух частей, которые служат для добавления зависимостей к сравниваемым БД."
