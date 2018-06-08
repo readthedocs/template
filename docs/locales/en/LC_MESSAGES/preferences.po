@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 07:41-0400\n"
+"PO-Revision-Date: 2018-06-08 07:52-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -179,35 +179,35 @@ msgstr "Settings managing the project update."
 
 #: ../../preferences.rst:99
 msgid "На странице настроек **pgCodeKeeper -> Обновление проекта** Вы можете включить учет зависимостей объектов при обновлении проекта. Это дополнит диалог наката выбранных объектов на проект их зависимостями, без которых накат на проект может происходить с ошибками."
-msgstr ""
+msgstr "On the **pgCodeKeeper-> Project update** settings page you can enable object dependences consideration during the project updating. This will complement the migration dialogue of the selected objects to the project with thier dependences without which the migration to the project may occur with errors."
 
 #: ../../preferences.rst:103
 msgid "Отчеты об использовании"
-msgstr ""
+msgstr "Usage reports"
 
 #: ../../preferences.rst:105
 msgid "Настройки, управляющие отправкой отчетов."
-msgstr ""
+msgstr "Settings managing the usage reports."
 
 #: ../../preferences.rst:109
 msgid "На странице настроек **pgCodeKeeper -> Отчеты об использовании** Вы можете включить или выключить отправление статистики об использовании pgCodeKeeper."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> Usage reports** settings page you can enable or disable sending the pgCodeKeeper usage statistics."
 
 #: ../../preferences.rst:111
 msgid "Отправляемые значения для статистики Вы можете просмотреть в поле **Отправляемые значения**."
-msgstr ""
+msgstr "The values which are sent for the statistics you can review in the **Values sent** field."
 
 #: ../../preferences.rst:114
 msgid "Редактор проекта"
-msgstr ""
+msgstr "Project editor"
 
 #: ../../preferences.rst:116
 msgid "Настройки, управляющие редактором проекта."
-msgstr ""
+msgstr "Settings managing the project editor."
 
 #: ../../preferences.rst:120
 msgid "На странице настроек **pgCodeKeeper -> Редактор проекта** Вы можете настроить параметры редактора проекта."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> Project editor** settings page you can adjust the parameters of the project editor."
 
 #: ../../preferences.rst:122
 msgid "**Переключать в перспективу pgCodeKeeper при открытии редактора** – определяет поведение переключения перспективы при открытии редактора проекта."
