@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-08 03:30-0400\n"
+"PO-Revision-Date: 2018-06-08 03:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -75,11 +75,11 @@ msgstr "**Search by git user** searches for matches in the authors of the latest
 
 #: ../../object_search.rst:37
 msgid "**Show only local changes / Показывать только локальные изменения** отображает изменения произошедшие в локальном репозитории, с момента последнего коммита. Для использования проект должен находиться под системой контроля версий."
-msgstr ""
+msgstr "**Show only local changes** displays the changes that took place in local repository after the last commit. This can be used if the project is under the version control system."
 
 #: ../../object_search.rst:39
 msgid "**Hide lbrary objects / Скрывать библиотечные объекты** скрывает объекты загруженные из библиотек."
-msgstr ""
+msgstr "**Hide lbrary objects** hides the objects downloaded from libraries."
 
 #: ../../object_search.rst:41
 msgid "Для применения фильтров нажмите кнопку **ОК**."
