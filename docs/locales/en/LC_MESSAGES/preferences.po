@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 05:51-0400\n"
+"PO-Revision-Date: 2018-06-08 06:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -47,11 +47,11 @@ msgstr "**Do not consider privileges and object owners** - allows to disable the
 
 #: ../../preferences.rst:15
 msgid "**Использовать открытый редактор сравнения вместо создания новых** - позволяет использовать открытый редактор сравнения при сравнения объектов базы данных (В контекстном меню таблицы различий выбрать пункт **Показать различия**)."
-msgstr ""
+msgstr "**Use current comparison editor instead of creating the new ones** - allows to use the alerady running comparison editor for comparing database objects (Select **Show differences** in the right-click menu of the differnces table)."
 
 #: ../../preferences.rst:20
 msgid "Исключенные объекты"
-msgstr ""
+msgstr "Excluded objects"
 
 #: ../../preferences.rst:22
 msgid "Объекты, которые не должны учитываться при сравнении БД, можо указать на странице настроек **pgCodeKeeper -> Исключенные объекты**."
