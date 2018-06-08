@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-05-30 06:12-0400\n"
+"PO-Revision-Date: 2018-06-08 05:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../preferences.rst:3
 msgid "Глобальные настройки"
-msgstr ""
+msgstr "Global preferences"
 
 #: ../../preferences.rst:6
 msgid "Основные настройки pgCodeKeeper"
-msgstr ""
+msgstr "pgCodeKeeper basic settings"
 
 #: ../../preferences.rst:10
 msgid "**Использовать загрузчик pg_dump** - для загрузки базы данных использовать pg_dump вместо JDBC."
-msgstr ""
+msgstr "**Use the pg_dump loader** - use pg_dump instead of JDBC for loading the database."
 
 #: ../../preferences.rst:11
 msgid "**Исполняемый файл pg_dump** - путь к утилите pg_dump, либо к другому исполняемому файлу или скрипту, реализующему интерфейс pg_dump."
