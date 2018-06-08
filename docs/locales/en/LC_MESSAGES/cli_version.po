@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-07 02:31-0400\n"
+"PO-Revision-Date: 2018-06-08 02:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,11 +35,11 @@ msgstr "creating a pgCodeKeeper \"project\" from file structure dump (without Ec
 
 #: ../../cli_version.rst:10
 msgid "создания скриптов наката с использованием дампов и файловых структур pgCodeKeeper"
-msgstr "creating roll forward scripts using pgCodeKeeper dumps and file strucutres"
+msgstr "creating migration scripts using pgCodeKeeper dumps and file strucutres"
 
 #: ../../cli_version.rst:11
 msgid "создания скриптов наката с использованием соединений к базам данных"
-msgstr "creating roll forward scripts using database connections"
+msgstr "creating migration scripts using database connections"
 
 #: ../../cli_version.rst:14
 msgid "Начало работы"
