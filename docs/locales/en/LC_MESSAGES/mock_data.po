@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-08 01:50-0400\n"
+"PO-Revision-Date: 2018-06-08 02:00-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -115,15 +115,15 @@ msgstr "**Down** moves the selected column down in the list."
 
 #: ../../mock_data.rst:33
 msgid "**Удалить необязательные** удаляет колонки у которых нет свойства NOT NULL."
-msgstr ""
+msgstr "**Delete optional** deletes the columns without the NOT NULL property."
 
 #: ../../mock_data.rst:35
 msgid "Настройка **Явное приведение типов** добавляет явное приведение типов для каждого значения (например, 7::integer)."
-msgstr ""
+msgstr "The **Typcasting** setting adds typecasting for each value (for example, 7::integer)."
 
 #: ../../mock_data.rst:37
 msgid "После нажатия **Finish** будет открыт SQL редактор с готовым Insert запросом."
-msgstr ""
+msgstr "After clicking **Finish** you'll see the SQL editor with a ready Insert request."
 
 #: ../../mock_data.rst:39
 msgid "Примечание: Также имеется возможность вызвать данный визард из контекстного меню файла таблицы. В этом случае данные заполнятся автоматически."
