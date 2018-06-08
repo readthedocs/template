@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-08 01:40-0400\n"
+"PO-Revision-Date: 2018-06-08 01:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -95,23 +95,23 @@ msgstr "**Undefined value** - unidentified value which will be written without f
 
 #: ../../mock_data.rst:27
 msgid "Для управления списком колонок доступны следующие кнопки:"
-msgstr ""
+msgstr "To manage the column list, the following buttons are available:"
 
 #: ../../mock_data.rst:29
 msgid "**Добавить колонку** добавляет колонку типа INTEGER с генератором RANDOM."
-msgstr ""
+msgstr "**Add column** adds an INTEGER type column with the RANDOM generator."
 
 #: ../../mock_data.rst:30
 msgid "**Удалить колонку** удаляет выбранные колонки."
-msgstr ""
+msgstr "**Delete column** deletes the selected columns."
 
 #: ../../mock_data.rst:31
 msgid "**Вверх** передвигает выбранную колонку вверх в списке."
-msgstr ""
+msgstr "**Up** moves the selected column up in the list."
 
 #: ../../mock_data.rst:32
 msgid "**Вниз** передвигает выбранную колонку вниз в списке."
-msgstr ""
+msgstr "**Down** moves the selected column down in the list."
 
 #: ../../mock_data.rst:33
 msgid "**Удалить необязательные** удаляет колонки у которых нет свойства NOT NULL."
