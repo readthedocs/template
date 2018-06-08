@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 08:01-0400\n"
+"PO-Revision-Date: 2018-06-08 08:12-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -215,23 +215,23 @@ msgstr "**Switch pgCodeKeeper to the perspective when starting the editor** – 
 
 #: ../../preferences.rst:123
 msgid "**После выполнения миграции на БД редактора выполнить** – определяет поведение редактора при накате скриптов миграции."
-msgstr "**After execution of migration to the editor DB execute** – sets the editor operations while migrating the migration scripts."
+msgstr "**After execution of migration to the editor DB execute** – sets the editor operations while implementing the migration scripts."
 
 #: ../../preferences.rst:124
 msgid "**Отображать пользователя git, совершившего изменение** – позволяет отображать в редакторе колонку с пользователем git, совершившем последнее изменение файла. Проект должен находиться под системой контроля версий."
-msgstr ""
+msgstr "**Display the git user who made the change** – allows to display the column, containing the git user who made the last change to the file, in the editor. The project should be under the version control system."
 
 #: ../../preferences.rst:125
 msgid "**Отображать пользователя базы данных, совершившего изменение** – позволяет отображать в редакторе колонку с пользователем базы данных, совершившем последнее изменение объекта. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
-msgstr ""
+msgstr "**Display the database user who made the change** – allows to display the column, containing the database user who made the last change to the object, in the editor. The `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. extention is necessary for work."
 
 #: ../../preferences.rst:129
 msgid "Подсветка синтаксиса"
-msgstr ""
+msgstr "Syntax Highlighting"
 
 #: ../../preferences.rst:131
 msgid "Настройки, управляющие подсветкой синтаксиса."
-msgstr ""
+msgstr "Settings managing the syntax highlighting."
 
 #: ../../preferences.rst:135
 msgid "На странице настроек **pgCodeKeeper -> Редактор SQL -> Подсветка синтаксиса** Вы можете установить цвет и стиль шрифта, которым будет отображаться соответствующий синтаксис в SQL редакторе pgCodeKeeper."
