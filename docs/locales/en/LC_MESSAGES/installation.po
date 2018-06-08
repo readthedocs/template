@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-08 00:40-0400\n"
+"PO-Revision-Date: 2018-06-08 00:51-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,15 +39,15 @@ msgstr "Select the pgCodeKeeper package, review the Terms of service and click F
 
 #: ../../installation.rst:16 ../../installation.rst:33
 msgid "По завершению установки для применения изменений необходимо перезапустить Eclipse."
-msgstr ""
+msgstr "After the installation is finished, restart Eclipse to apply the changes."
 
 #: ../../installation.rst:18 ../../installation.rst:35
 msgid "Запустите Eclipse и выберите **Window > Perspective > Open Perspective > Other > pgCodeKeeper**."
-msgstr ""
+msgstr "Launch Eclipse and select **Window > Perspective > Open Perspective > Other > pgCodeKeeper**."
 
 #: ../../installation.rst:21
 msgid "Сайт обновления"
-msgstr ""
+msgstr "Update website"
 
 #: ../../installation.rst:23
 msgid "Альтернативный путь получить установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.2 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../installation.rst:25
 msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/release/."
-msgstr ""
+msgstr "In the **Work With** field specify the path to the update website: http://pgcodekeeper.org/update/release/."
 
 #: ../../installation.rst:27
 msgid "После нажатия **Enter** в списке ниже появятся доступные для установки плагины."
