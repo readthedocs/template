@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 08:32-0400\n"
+"PO-Revision-Date: 2018-06-08 08:41-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -279,15 +279,15 @@ msgstr "https://jdbc.postgresql.org/documentation/head/connect.html."
 
 #: ../../preferences.rst:170
 msgid "Для добавления хранилища на основе данных из уже созданного хранилища следует выделить объект хранилища баз данных, нажать кнопку |copy|. Откроется диалог **DB credentials** (Данные подключения к БД) в котором можно изменить параметры подключения."
-msgstr ""
+msgstr "To add a storage basing on the data from an already created storage, you should highlight the storage object without the data and click |copy|. The **DB credentials** dialogue will appear in which you can change the connection parameters."
 
 #: ../../preferences.rst:172
 msgid "Для добавления хранилища на основе данных из файла **.pgpass**, нажать кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать **.pgpass** файл. Далее откроется дилог  **Pgpass sources list** (Список источников из pgpass):"
-msgstr ""
+msgstr "To add a storage basing on the data from the **.pgpass** file, click |pg_pass|. A dialogue will appear, in which you should select the **.pgpass** file. After that, the **Pgpass sources list** dialogue will open:"
 
 #: ../../preferences.rst:176
 msgid "В нем нужно выбрать строку с данными на основе которых будет создаваться хранилище. Откроется диалог **DB credentials** (Данные подключения к БД) в котором можно подтвердить параметры подключения."
-msgstr ""
+msgstr "There, you should select the line with the data basing on which the storage will be created. The **DB credentials** dialogue will appear, where you can confirm the connection parameters."
 
 #: ../../preferences.rst:180
 msgid "После этого можно закрывать дилог **Pgpass sources list** (Список источников из pgpass)."
