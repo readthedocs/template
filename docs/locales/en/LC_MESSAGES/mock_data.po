@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-08 01:30-0400\n"
+"PO-Revision-Date: 2018-06-08 01:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -87,11 +87,11 @@ msgstr "**Range end** - final value"
 
 #: ../../mock_data.rst:24
 msgid "**Шаг инкремента** - значение шага инкремента"
-msgstr ""
+msgstr "**Increment step** - increment step value"
 
 #: ../../mock_data.rst:25
 msgid "**Произовольное выражение** - произвольное значение, которое будет записано без форматирования."
-msgstr ""
+msgstr "**Undefined value** - unidentified value which will be written without formatting."
 
 #: ../../mock_data.rst:27
 msgid "Для управления списком колонок доступны следующие кнопки:"
