@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 05:30-0400\n"
+"PO-Revision-Date: 2018-06-08 05:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,15 +31,15 @@ msgstr "**Use the pg_dump loader** - use pg_dump instead of JDBC for loading the
 
 #: ../../preferences.rst:11
 msgid "**Исполняемый файл pg_dump** - путь к утилите pg_dump, либо к другому исполняемому файлу или скрипту, реализующему интерфейс pg_dump."
-msgstr ""
+msgstr "**executable file pg_dump** - path to the pg_dump utility or any other executable file or script realizing the pg_dump interface."
 
 #: ../../preferences.rst:12
 msgid "**Дополнительные параметры pg_dump** - позволяет задавать дополнительные параметры вызова утилиты pg_dump."
-msgstr ""
+msgstr "**pg_dump additional parameters** - allows to set additional parameters for the pg_dump utility activation."
 
 #: ../../preferences.rst:13
 msgid "**Показывать консоль** - позволяет автоматически показывать консоль программы при выводе в нее."
-msgstr ""
+msgstr "**Show console** - allows to automatically show program console when opening it."
 
 #: ../../preferences.rst:14
 msgid "**Не учитывать привилегии и владельцев объектов** - позволяет отключить поиск различий в свойствах объектов, связанных с ролями БД."
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../preferences.rst:34
 msgid "Все настройки списка доступны для редактирования."
-msgstr ""
+msgstr "All the list settings are adjustable."
 
 #: ../../preferences.rst:38
 msgid "В данном случае список исключаемых объектов будет **общим** и будет распространять свое действие на все проекты находящиеся в директории проектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
