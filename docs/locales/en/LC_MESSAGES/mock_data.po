@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-08 01:10-0400\n"
+"PO-Revision-Date: 2018-06-08 01:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,15 +31,15 @@ msgstr "Open the new object creation wizard: **File -> New -> Others**, select t
 
 #: ../../mock_data.rst:11
 msgid "Для каждой колонки в зависимости от типа и генератора доступны слудеющие настройки:"
-msgstr ""
+msgstr "For each column, depending on type and generator, the following settings are available:"
 
 #: ../../mock_data.rst:13
 msgid "**Имя колонки** - имя текущей колонки."
-msgstr ""
+msgstr "**Column name** - the name of current column."
 
 #: ../../mock_data.rst:14
 msgid "**Тип колонки** - тип данных колонки. Для неподдерживаемых типов существует тип OTHER."
-msgstr ""
+msgstr "**Column type** - data type of the column. For unsupported types there is the OTHER type."
 
 #: ../../mock_data.rst:15
 msgid "**Генератор** - алгоритм генерации данных. На данный момент их 4:"
