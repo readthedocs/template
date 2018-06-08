@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 18:36+0300\n"
-"PO-Revision-Date: 2018-06-08 03:50-0400\n"
+"PO-Revision-Date: 2018-06-08 04:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "We started the migration process from one database management system to 
 
 #: ../../preface.rst:8
 msgid "Первое, набор инструментов, как для разработки БД, так и для её сопровождения, на тот момент значительно уступал относительно хорошо известного к тому времени MSSQL."
-msgstr ""
+msgstr "First, tool bar for both development and maintenance of databases at that time was vastly inferior to the well-known MSSQL."
 
 #: ../../preface.rst:10
 msgid "Второе, архитектура существующей информационной системы включала в себя значительный пласт бизнес-логики приложений расположенной в базе данных. Это и представления, связанные со множеством таблиц, и хранимые процедуры."
