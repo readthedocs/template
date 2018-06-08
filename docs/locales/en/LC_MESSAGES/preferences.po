@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 07:11-0400\n"
+"PO-Revision-Date: 2018-06-08 07:22-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -143,15 +143,15 @@ msgstr "**Delete migration script files after closing the editor** – sets opra
 
 #: ../../preferences.rst:83
 msgid "**Выявлять зависимости PSQL после выполнения скрипта наката** – позволяет добавлять дополнительные зависимости из сообщения об ошибке наката PSQL."
-msgstr ""
+msgstr "**Identify the PSQL dependences after executing the migration script** – allows to add additional dependences from the PSQL migration error message."
 
 #: ../../preferences.rst:84
 msgid "**Предупреждать, если в скрипте присутствуют следующие выражения:** – позволяет предупреждать, если при генерации скрипта образовались выбранные опасные выражения."
-msgstr ""
+msgstr "**Warn if the script contains the following expressions:** - allows to show notifications if any selected dangerous expressions were formed during script generation."
 
 #: ../../preferences.rst:85
 msgid "**Показывать вывод скрипт наката в отдельном окне** – позволяет просмотреть сообщение с ответом сервера при выполнении наката."
-msgstr ""
+msgstr "**Display the migration script in a separate window** – allows to view the message with the server response when migration is complete."
 
 #: ../../preferences.rst:86
 msgid "**Заключить скрипт наката в блок START TRANSACTION; ... COMMIT TRANSACTION;** – позволяет дополнять генерируемые скрипты парой start ... commit."
