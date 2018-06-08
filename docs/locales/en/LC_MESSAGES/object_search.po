@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-08 02:10-0400\n"
+"PO-Revision-Date: 2018-06-08 02:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "The most convenient way of searching the objects in the changes table is
 
 #: ../../object_search.rst:12
 msgid "Поиск происходит по именам объектов. При установленном флажке **RegEx** поиск осуществляется с использованием регулярных выражений."
-msgstr ""
+msgstr "The search is conducted by the names of the objects. When **RegEx** is ticked off, the search is conducted with the use of regular expressions."
 
 #: ../../object_search.rst:14
 msgid "Для начала просто введите часть имени в поле поиска. В таблице изменений отобразятся объекты, соответствующие данному условию."
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../object_search.rst:47
 msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
-msgstr ""
+msgstr "When the filter is on, the button icon will change to |filter_tsk|."
 
 #~ msgid ""
 #~ "**Фильтр по SQL коду объекта** ищет "
