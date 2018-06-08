@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 06:31-0400\n"
+"PO-Revision-Date: 2018-06-08 06:52-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "The **Blacklist** - **Whitelist** switch allows to invert blacklist to w
 
 #: ../../preferences.rst:42
 msgid "**Примеры работы с исключенными объектами**"
-msgstr ""
+msgstr "**Examples of work with excluded objects**"
 
 #: ../../preferences.rst:44
 msgid "Предположим имеются представление с именем ignore4 и набор таблиц с именами: ignore, ignore2, ignore3. ignore2 в свою очередь содержит индекс idx2."
