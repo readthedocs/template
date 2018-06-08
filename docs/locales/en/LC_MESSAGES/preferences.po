@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 08:12-0400\n"
+"PO-Revision-Date: 2018-06-08 08:21-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -235,23 +235,23 @@ msgstr "Settings managing the syntax highlighting."
 
 #: ../../preferences.rst:135
 msgid "На странице настроек **pgCodeKeeper -> Редактор SQL -> Подсветка синтаксиса** Вы можете установить цвет и стиль шрифта, которым будет отображаться соответствующий синтаксис в SQL редакторе pgCodeKeeper."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> SQL editor-> Syntax highlighting** you can set color and style for the font in which all the corresponding syntax will be displayed in the pgCodeKeeper SQL editor."
 
 #: ../../preferences.rst:138
 msgid "Шаблоны редактора SQL"
-msgstr ""
+msgstr "SQL editor templates"
 
 #: ../../preferences.rst:140
 msgid "Создание, удаление и редактирование шаблонов для автоподстановки в SQL редакторе"
-msgstr ""
+msgstr "Creating, deleting and editing the templates for auto expand in the SQL editor"
 
 #: ../../preferences.rst:144
 msgid "На странице настроек **pgCodeKeeper -> Редактор SQL -> Шаблоны редактора SQL** Вы можете управлять SQL шаблонами, доступными в SQL редакторе pgCodeKeeper. Список доступных действий отображается справа от списка шаблонов."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> SQL editor -> SQL editor templates** settings page you can manage SQL templates, available in the pgCodeKeeper SQL editor. The list of available actions is displayed to the right of the templates."
 
 #: ../../preferences.rst:149
 msgid "Хранилище БД"
-msgstr ""
+msgstr "DB storage"
 
 #: ../../preferences.rst:150
 msgid "Настройки, управляющие хранилищем параметров подключения к БД."
