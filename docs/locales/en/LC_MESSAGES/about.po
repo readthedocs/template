@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-07 04:42-0400\n"
+"PO-Revision-Date: 2018-06-08 03:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "About pgCodeKeeper"
 
 #: ../../about.rst:5
 msgid "Программа pgCodeKeeper разработана и поддерживается ООО «Технология»."
-msgstr "The pgCodeKeeper program is developed and maintained by OOO \"Technology\"."
+msgstr "The pgCodeKeeper program is developed and maintained by OOO Technology."
 
 #: ../../about.rst:8
 msgid "Карточка организации"
@@ -35,7 +35,7 @@ msgstr "Full name"
 
 #: ../../about.rst:11
 msgid "Общество с ограниченной ответственностью «Технология»"
-msgstr "Limited liaibility company «Technology»"
+msgstr "Limited liaibility company Technology"
 
 #: ../../about.rst:12
 msgid "Сокращенное наименование"
