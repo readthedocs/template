@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-08 06:52-0400\n"
+"PO-Revision-Date: 2018-06-08 07:01-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -95,27 +95,27 @@ msgstr "**Examples of work with excluded objects**"
 
 #: ../../preferences.rst:44
 msgid "Предположим имеются представление с именем ignore4 и набор таблиц с именами: ignore, ignore2, ignore3. ignore2 в свою очередь содержит индекс idx2."
-msgstr ""
+msgstr "Suppose there is a view named ignore4 and a set of tables with the names: ignore, ignore2, ignore3. In its turn, ignore2 contains the idx2 index."
 
 #: ../../preferences.rst:51
 msgid "Список исключенных объектов"
-msgstr ""
+msgstr "The list of excluded objects"
 
 #: ../../preferences.rst:51
 msgid "Результат"
-msgstr ""
+msgstr "Result"
 
 #: ../../preferences.rst:53
 msgid "**Исключение объектов частично попадающих под регулярное выражение \"ignore\"**"
-msgstr ""
+msgstr "**Excluding the objects partially falling under the regular expression \"ignore\"**"
 
 #: ../../preferences.rst:59
 msgid "**Исключение объектов \"ignore2\" с содержимым**"
-msgstr ""
+msgstr "**Excluding the \"ignore2\" objects with the content**"
 
 #: ../../preferences.rst:0
 msgid "**Исключение объектов с типом “TABLE” частично попадающих**"
-msgstr ""
+msgstr "**Excluding the objects with the “TABLE” type partially falling under**"
 
 #: ../../preferences.rst:0
 msgid "**под регулярное выражение \"ignore\"**"
