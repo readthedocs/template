@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 05:20-0400\n"
+"PO-Revision-Date: 2018-06-09 05:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -531,7 +531,7 @@ msgstr "**HIDE REGEX ignore**"
 
 #: ../../white_black_list.rst:306
 msgid "Для того, чтобы исключить объект \"ignore2\" с содержимым нужно в .pgcodekeeperignore написать следующие правила:"
-msgstr ""
+msgstr "To exclude the object \"ignore2\" and its content, you should write the following rules in .pgcodekeeperignore:"
 
 #: ../../white_black_list.rst
 msgid "**HIDE CONTENT ignore2**"
@@ -539,7 +539,7 @@ msgstr "**HIDE CONTENT ignore2**"
 
 #: ../../white_black_list.rst:319
 msgid "Для того, чтобы исключить все объекты с типом \"TABLE\", частично попадающие под регулярное выражение \"ignore\" нужно в .pgcodekeeperignore написать следующие правила:"
-msgstr ""
+msgstr "To exclude all the objects with the \"TABLE\" type, partially matching the regular expression \"ignore\", you should write the following rules in .pgcodekeeperignore:"
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX ignore type=TABLE**"
@@ -547,7 +547,7 @@ msgstr "**HIDE REGEX ignore type=TABLE**"
 
 #: ../../white_black_list.rst:332
 msgid "Для того, чтобы исключить все объекты частично попадающие под регулярное выражение \"ignore\", с типом *TABLE* и содержимым для указанной базы данных нужно в .pgcodekeeperignore написать следующие правила:"
-msgstr ""
+msgstr "To exclude all the objects partially matching the regular expression \"ignore\" with the \"TABLE\" type and content for the specified database, you should write the following rules in .pgcodekeeperignore:"
 
 #: ../../white_black_list.rst
 msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
