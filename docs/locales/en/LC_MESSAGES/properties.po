@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-09 01:50-0400\n"
+"PO-Revision-Date: 2018-06-09 02:00-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -83,11 +83,11 @@ msgstr "The libraries are loaded in order, in which they are indicated in the li
 
 #: ../../properties.rst:54
 msgid "Если вы не хотите использовать привилегии и владельцев объектов библиотеки, вы можете отключить их в столбце **Ignore privileges / Игнорировать привилегии**."
-msgstr ""
+msgstr "If you don't want to use privileges and library object owners, you can disable them in the **Ignore privileges** column."
 
 #: ../../properties.rst:56
 msgid "Привилегии объектов библиотек **не зависят** от глобальной настройки **Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов**, т.е. если у библиотеки не игнорируются привилегии, они будут отображены в любом случае."
-msgstr ""
+msgstr "Library object privileges **don't depend** on the **Ignore privileges and owners of database objects** global settings, that is, if a library does not ignore the privileges, they will be displayed anyway."
 
 #: ../../properties.rst:58
 msgid "**Disallow overrides / Запретить переопреление.** Не исключена ситуация, когда проект и библиотека (или две библиотеки) содержат объекты с одинаковыми именами. Существует два варианта обработки таких ситуаций. При включененной настройке, такие конфликты вызывают остановку сравнения объектов. Отключенная настройка позволяет игнорировать конфликты: будет использован первый загруженный объект. Вне зависимости от настройки будет отображен вид :ref:`overrideView`, в котором будут отображены все конфликты."
