@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-09 02:20-0400\n"
+"PO-Revision-Date: 2018-06-09 02:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,9 +31,9 @@ msgstr "By default, multiple sorting is used. When sorting a new column, the sor
 
 #: ../../sort.rst:11
 msgid "Для сброса сортировки можно кликнуть на заголовок столбца удерживая клавишу Ctrl."
-msgstr ""
+msgstr "To reset the sorting, you can click the column heading while holding Ctrl."
 
 #: ../../sort.rst:13
 msgid "Числа и стрелки в заголовках таблицы показывают порядок и направление сортировки."
-msgstr ""
+msgstr "Numbers and arrows in the table heading show the order and direction of sorting."
 
