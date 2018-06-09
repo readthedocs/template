@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"PO-Revision-Date: 2018-06-09 00:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,19 +19,19 @@ msgstr ""
 
 #: ../../project_update.rst:3
 msgid "Обновление проекта"
-msgstr ""
+msgstr "Project update"
 
 #: ../../project_update.rst:5
 msgid "На тулбаре выбираем выбираем источник базы данных, на основании которого будет обновляться проект pgCodeKeeper."
-msgstr ""
+msgstr "On the toolbar, select the database source, basing on which pgCodeKeeper project will be updated."
 
 #: ../../project_update.rst:7
 msgid "На панели задач нажимаем кнопку **Получить изменения**. После недолгого ожидания на панели различий отобразится список различий с указанием типа изменения."
-msgstr ""
+msgstr "On the task panel, click **Get changes**. After a short wait, the list of differences with indication of change type will be displayed on the differences panel."
 
 #: ../../project_update.rst:11
 msgid "Флажками отмечаем объекты, которые мы хотим обновить. Нажимаем на кнопку **Применить к проекту**, открывается **диалог обновления проекта**."
-msgstr ""
+msgstr "Tick off the object which you want to update. After you click **Apply to project**, **project update dialog** will appear on the screen."
 
 #: ../../project_update.rst:15
 msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
