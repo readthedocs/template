@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 04:40-0400\n"
+"PO-Revision-Date: 2018-06-09 04:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -439,7 +439,7 @@ msgstr "HIDE SHOW ALL REGEX CONTENT NONE"
 
 #: ../../white_black_list.rst:241
 msgid "Эти слова не могут быть идентификаторами, для их использования они должны быть взяты в кавычки. Зарезервированы только слова, полностью совпадающие по регистру, например Content – разрешенный идентификатор."
-msgstr ""
+msgstr "These words cannot be identifiers, since they need to be enclosed in quotes to be used. Only the words which match the case perfectly, are reserved. For example - Content is an allowed identifier."
 
 #: ../../white_black_list.rst:243
 msgid "Пример исключения объекта название, которого полностью совпадает (в том числе и по регистру) с ключевым словом **SHOW**:"
@@ -451,7 +451,7 @@ msgstr "**HIDE NONE \"SHOW\"**"
 
 #: ../../white_black_list.rst:251
 msgid "Совместное использоваение черного и белого списков"
-msgstr ""
+msgstr "Combined use of black and white lists"
 
 #: ../../white_black_list.rst:253
 msgid "Черные и белые списки могут использоваться вместе. В таком случае, их правила объединяются в один общий список. Правила, контролирующие отображение одного и того же объекта, складываются в одно общее правило по следующим принципам:"
