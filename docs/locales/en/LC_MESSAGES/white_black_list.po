@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 02:50-0400\n"
+"PO-Revision-Date: 2018-06-09 03:10-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "The **.pgcodekeeperignore** file format is case sensitive. You should us
 
 #: ../../white_black_list.rst:19
 msgid "Ниже, в разделе :ref:`listSyntax` рассмотрим правила формирования файла **.pgcodekeeperignore**."
-msgstr ""
+msgstr "In the following, in the :ref:`listSyntax` section, we will consider the rules of forming the **.pgcodekeeperignore** file."
 
 #: ../../white_black_list.rst:21
 msgid "В дополнении к **списку исключаемых объектов** файла **.pgcodekeeperignore**, в графической версии pgCodeKeeper существует **общий список исключаемых объектов** распространяющий свое действие на все проекты находящиеся в директории проектов. Заполнить его можно на странице с глобальными настройками в разделе :ref:`ignoredObjects`."
@@ -59,23 +59,23 @@ msgstr ""
 
 #: ../../white_black_list.rst:26
 msgid "Cинтаксис списков"
-msgstr ""
+msgstr "List syntax"
 
 #: ../../white_black_list.rst:28
 msgid "Файл **.pgcodekeeperignore** состоит из двух частей:"
-msgstr ""
+msgstr "**.pgcodekeeperignore** consists of two parts:"
 
 #: ../../white_black_list.rst:31
 msgid "заголовок"
-msgstr ""
+msgstr "title"
 
 #: ../../white_black_list.rst:31
 msgid "является обязательным правилом, занимает первую строку и определяет тип списка;"
-msgstr ""
+msgstr "is obligatory, occupies the first line and determines type of the list;"
 
 #: ../../white_black_list.rst:34
 msgid "правила"
-msgstr ""
+msgstr "rules"
 
 #: ../../white_black_list.rst:34
 msgid "строки правил запрещающие или разрешающие (в зависимости от типа списка) показывать какой-либо объект."
