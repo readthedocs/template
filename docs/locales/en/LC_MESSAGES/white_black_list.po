@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 02:40-0400\n"
+"PO-Revision-Date: 2018-06-09 02:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,11 +43,11 @@ msgstr "in opposition to black list, forbids displaying all the objects except t
 
 #: ../../white_black_list.rst:15
 msgid "В каждом проекте можно создать **список исключаемых объектов**, распространяющий свое действие только на данный проект, для этого в корне проекта необходимо создать файл **.pgcodekeeperignore** и заполнить его правилами согласно синтаксису списков."
-msgstr ""
+msgstr "In each project, it is possible to create a **list of excluded objects**, applying only to current project. To do this, create the **.pgcodekeeperignore** file in the project root and fill it with the rules according to the list syntax."
 
 #: ../../white_black_list.rst:17
 msgid "Формат файла **.pgcodekeeperignore** чувствителен к регистру. Кодировка должна быть – UTF-8."
-msgstr ""
+msgstr "The **.pgcodekeeperignore** file format is case sensitive. You should use UTF-8."
 
 #: ../../white_black_list.rst:19
 msgid "Ниже, в разделе :ref:`listSyntax` рассмотрим правила формирования файла **.pgcodekeeperignore**."
