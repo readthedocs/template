@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 03:30-0400\n"
+"PO-Revision-Date: 2018-06-09 03:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -151,55 +151,55 @@ msgstr "object"
 
 #: ../../white_black_list.rst:61
 msgid "**Белый список** работает от обратного, позволяя отображать только те объекты, которые указаны в правилах. Он построен таким образом, что заголовок списка запрещает показывать все объекты, а последующие за ним правила разрешают объекты для отображения."
-msgstr ""
+msgstr "**White list**, on the contrary, allows to display only the objects which are specified by rules. It is constructed so that the heading of the list forbids displaying all the objects, and the rules following it allow to display the objects."
 
 #: ../../white_black_list.rst ../../white_black_list.rst:75
 msgid "HIDE ALL"
-msgstr ""
+msgstr "HIDE ALL"
 
 #: ../../white_black_list.rst
 msgid "SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # комментарий"
-msgstr ""
+msgstr "SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # comment"
 
 #: ../../white_black_list.rst:68
 msgid "**Описание частей белого списка**"
-msgstr ""
+msgstr "**Description of white list components**"
 
 #: ../../white_black_list.rst
 msgid "запрещает показывать"
-msgstr ""
+msgstr "forbids displaying"
 
 #: ../../white_black_list.rst:79
 msgid "SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
-msgstr ""
+msgstr "SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
 
 #: ../../white_black_list.rst
 msgid "разрешает для"
-msgstr ""
+msgstr "allows for"
 
 #: ../../white_black_list.rst:86
 msgid "Где:"
-msgstr ""
+msgstr "Where:"
 
 #: ../../white_black_list.rst:89
 msgid "objectName, dbName, objectType"
-msgstr ""
+msgstr "objectName, dbName, objectType"
 
 #: ../../white_black_list.rst:89
 msgid "идентификаторы для поиска объекта имеющие общее синтаксическое правило написания описанное в **identifier**"
-msgstr ""
+msgstr "identifiers for object search which have a common syntactic rule of spelling described in **identifier**"
 
 #: ../../white_black_list.rst
 msgid "objectName"
-msgstr ""
+msgstr "objectName"
 
 #: ../../white_black_list.rst:91
 msgid "название искомого объекта (является обязательной частью правила)"
-msgstr ""
+msgstr "name of the target object (is an obligatory part of the rule)"
 
 #: ../../white_black_list.rst
 msgid "dbName"
-msgstr ""
+msgstr "dbName"
 
 #: ../../white_black_list.rst:92
 msgid "имя базы данных в которой будет искаться объект (опционально)"
