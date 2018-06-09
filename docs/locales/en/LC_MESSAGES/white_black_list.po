@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 04:20-0400\n"
+"PO-Revision-Date: 2018-06-09 04:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -275,7 +275,7 @@ msgstr "CONTENT"
 
 #: ../../white_black_list.rst:113
 msgid "применяет правило для совпавшего объекта и всего его содержимого"
-msgstr ""
+msgstr "applies the rule for the matched object and all of its content"
 
 #: ../../white_black_list.rst
 msgid "NONE"
@@ -283,35 +283,35 @@ msgstr "NONE"
 
 #: ../../white_black_list.rst:114
 msgid "строгое совпадение без регулярного выражения и без содержимого"
-msgstr ""
+msgstr "complete match without the regular expression and content"
 
 #: ../../white_black_list.rst:116
 msgid "Флаг **REGEX** позволяет правилу производить поиск частичных совпадений с регулярным выражением."
-msgstr ""
+msgstr "**REGEX** flag allows the rule to search for partial matches with the regular expression."
 
 #: ../../white_black_list.rst:118
 msgid "*Cодержимое* - это содержимое объекта согласно иерархии проекта pgCodeKeeper:"
-msgstr ""
+msgstr "*Content* is the object content, according to the pgCodeKeeper project hierarchy:"
 
 #: ../../white_black_list.rst:122
 msgid "Например для \"TABLE1\" содержимым будет являться \"INDEX1\", \"TRIGGER1\" и \"RULE1\"."
-msgstr ""
+msgstr "For example, \"INDEX1\", \"TRIGGER1\" and \"RULE1\" will be the content of \"TABLE1\"."
 
 #: ../../white_black_list.rst:124
 msgid "Дополнительные опции:"
-msgstr ""
+msgstr "Additional options:"
 
 #: ../../white_black_list.rst:126
 msgid "db=dbName правило будет применено только к БД, имя которой подходит под регулярное выражение, заданное этим параметром"
-msgstr ""
+msgstr "db=dbName the rule will work only for the DB, the name of which matches the regular expression set by this parameter"
 
 #: ../../white_black_list.rst:127
 msgid "type=objectType правило будет применено только к объектам с указанным типом"
-msgstr ""
+msgstr "type=objectType the rule will work only for the objects with the specified type"
 
 #: ../../white_black_list.rst:129
 msgid "Для указания нескольких типов для одного и того же объекта необходимо написать их через запятую."
-msgstr ""
+msgstr "To specify several types of one and the same object, you should separate them with commas."
 
 #: ../../white_black_list.rst:131
 msgid "Название базы данных чувствительно к регистру."
