@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 04:30-0400\n"
+"PO-Revision-Date: 2018-06-09 04:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -315,15 +315,15 @@ msgstr "To specify several types of one and the same object, you should separate
 
 #: ../../white_black_list.rst:131
 msgid "Название базы данных чувствительно к регистру."
-msgstr ""
+msgstr "Database name is case sensitive."
 
 #: ../../white_black_list.rst:133
 msgid "**Примеры для белого списка**"
-msgstr ""
+msgstr "**Examples for white list**"
 
 #: ../../white_black_list.rst:138 ../../white_black_list.rst:190
 msgid "Пример и описание"
-msgstr ""
+msgstr "Example and discription"
 
 #: ../../white_black_list.rst:138 ../../white_black_list.rst:190
 msgid "Область действия"
@@ -351,15 +351,15 @@ msgstr "allows to display"
 
 #: ../../white_black_list.rst
 msgid "объекты которые частично"
-msgstr ""
+msgstr "objects that partially"
 
 #: ../../white_black_list.rst
 msgid "попадают под регулярное"
-msgstr ""
+msgstr "match the regular"
 
 #: ../../white_black_list.rst
 msgid "выражение \"K\""
-msgstr ""
+msgstr "expression \"K\""
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT D**"
@@ -367,11 +367,11 @@ msgstr "**SHOW CONTENT D**"
 
 #: ../../white_black_list.rst
 msgid "объект D и его"
-msgstr ""
+msgstr "object D and its"
 
 #: ../../white_black_list.rst
 msgid "содержимое"
-msgstr ""
+msgstr "content"
 
 #: ../../white_black_list.rst
 msgid "**SHOW NONE D**"
@@ -379,11 +379,11 @@ msgstr "**SHOW NONE D**"
 
 #: ../../white_black_list.rst
 msgid "только объект D"
-msgstr ""
+msgstr "object D only"
 
 #: ../../white_black_list.rst:185
 msgid "**Примеры для черного списка**"
-msgstr ""
+msgstr "**Examples for black list**"
 
 #: ../../white_black_list.rst
 msgid "**SHOW ALL**"
@@ -395,47 +395,47 @@ msgstr "**HIDE REGEX K**"
 
 #: ../../white_black_list.rst
 msgid "исключает объекты"
-msgstr ""
+msgstr "excludes objects"
 
 #: ../../white_black_list.rst
 msgid "которые частично"
-msgstr ""
+msgstr "which partially"
 
 #: ../../white_black_list.rst
 msgid "все объекты)"
-msgstr ""
+msgstr "all the objects)"
 
 #: ../../white_black_list.rst
 msgid "**HIDE CONTENT D**"
-msgstr ""
+msgstr "**HIDE CONTENT D**"
 
 #: ../../white_black_list.rst
 msgid "исключает объект D"
-msgstr ""
+msgstr "exludes object D"
 
 #: ../../white_black_list.rst
 msgid "и его содержимое"
-msgstr ""
+msgstr "and its content"
 
 #: ../../white_black_list.rst
 msgid "**HIDE NONE D**"
-msgstr ""
+msgstr "**HIDE NONE D**"
 
 #: ../../white_black_list.rst
 msgid "исключает только"
-msgstr ""
+msgstr "excludes only"
 
 #: ../../white_black_list.rst
 msgid "объект D"
-msgstr ""
+msgstr "object D"
 
 #: ../../white_black_list.rst:237
 msgid "Ключевые слова:"
-msgstr ""
+msgstr "Key words:"
 
 #: ../../white_black_list.rst:239
 msgid "HIDE SHOW ALL REGEX CONTENT NONE"
-msgstr ""
+msgstr "HIDE SHOW ALL REGEX CONTENT NONE"
 
 #: ../../white_black_list.rst:241
 msgid "Эти слова не могут быть идентификаторами, для их использования они должны быть взяты в кавычки. Зарезервированы только слова, полностью совпадающие по регистру, например Content – разрешенный идентификатор."
@@ -475,11 +475,11 @@ msgstr ""
 
 #: ../../white_black_list.rst:264
 msgid "файл черного списока"
-msgstr ""
+msgstr "black list file"
 
 #: ../../white_black_list.rst:268
 msgid "файл белого списока"
-msgstr ""
+msgstr "white list file"
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT KF**"
@@ -487,7 +487,7 @@ msgstr "**SHOW CONTENT KF**"
 
 #: ../../white_black_list.rst:270
 msgid "**Область действия правила**"
-msgstr ""
+msgstr "**Effective range of the rule**"
 
 #: ../../white_black_list.rst:1
 msgid "Черный список"
