@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 03:40-0400\n"
+"PO-Revision-Date: 2018-06-09 03:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -203,23 +203,23 @@ msgstr "dbName"
 
 #: ../../white_black_list.rst:92
 msgid "имя базы данных в которой будет искаться объект (опционально)"
-msgstr ""
+msgstr "name of the database where the search for the object will take place (optional)"
 
 #: ../../white_black_list.rst
 msgid "objectType"
-msgstr ""
+msgstr "objectType"
 
 #: ../../white_black_list.rst:93
 msgid "тип искомого объекта (опционально)"
-msgstr ""
+msgstr "type of the target object (optional)"
 
 #: ../../white_black_list.rst:95
 msgid "**objectType** может быть равен одному из следующих значений: CONSTRAINT, DOMAIN, EXTENSION, FUNCTION, INDEX, RULE, SCHEMA, SEQUENCE, TABLE, TRIGGER, TYPE, VIEW."
-msgstr ""
+msgstr "**objectType** may be equal to one of the following values: CONSTRAINT, DOMAIN, EXTENSION, FUNCTION, INDEX, RULE, SCHEMA, SEQUENCE, TABLE, TRIGGER, TYPE, VIEW."
 
 #: ../../white_black_list.rst:103
 msgid "identifier"
-msgstr ""
+msgstr "identifier"
 
 #: ../../white_black_list.rst
 msgid "строка-идентификатор без кавычек, состоящая из латинских букв, цифр и подчеркиваний;"
