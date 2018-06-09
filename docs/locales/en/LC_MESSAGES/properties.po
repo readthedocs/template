@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-09 02:00-0400\n"
+"PO-Revision-Date: 2018-06-09 02:11-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "To delete a file, click |delete|."
 
 #: ../../properties.rst:30
 msgid "Для создания нового файла нажмите кнопку |add_file|. Будет открыт редактор списка правил, аналогичный редактору на странице глобальных настроек :ref:`ignoredObjects`."
-msgstr "To create a new file, click |add_file|. The list of rules editor will open, similar to the one on the :ref:`ignoredObjects`. global settings page."
+msgstr "To create a new file, click |add_file|. The list of rules editor will open, similar to the one on the :ref:`ignoredObjects` global settings page."
 
 #: ../../properties.rst:34
 msgid "Для редактирования файла нажмите кнопку |editor_area|. Будет открыт редактор списка правил из текущего файла."
