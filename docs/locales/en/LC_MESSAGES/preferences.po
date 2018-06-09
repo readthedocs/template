@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-09 02:30-0400\n"
+"PO-Revision-Date: 2018-06-09 02:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgstr "In this case, the list of excluded objects will be **general** and will 
 
 #: ../../preferences.rst:40
 msgid "Переключатель **Черный список** - **Белый список** позволяет инвертировать черный список в белый и обратно."
-msgstr "The **Blacklist** - **Whitelist** switch allows to invert blacklist to whitelist and the other way around."
+msgstr "The **Black list** - **White list** switch allows to invert black list to white list and the other way around."
 
 #: ../../preferences.rst:42
 msgid "**Примеры работы с исключенными объектами**"
