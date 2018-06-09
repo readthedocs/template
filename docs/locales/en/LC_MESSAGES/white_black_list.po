@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 02:30-0400\n"
+"PO-Revision-Date: 2018-06-09 02:40-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,23 +23,23 @@ msgstr "List of excluded objects"
 
 #: ../../white_black_list.rst:7
 msgid "Список исключаемых объектов - это список объектов, которые не должны или наоборот должны отображаться при сравнении баз данных. Соответственно существует два типа списков исключаемых объектов:"
-msgstr ""
+msgstr "List of excluded objects is a list of objects, which should not or, alternatively, should be displayed during database comparison. Accordingly, there are two types of lists of excluded objects:"
 
 #: ../../white_black_list.rst:10
 msgid "черный список"
-msgstr ""
+msgstr "black list"
 
 #: ../../white_black_list.rst:10
 msgid "разрешает отображение всех объектов, кроме указанных в правилах списка;"
-msgstr ""
+msgstr "allows displaying all the objects except the ones indicated in the rules of the list;"
 
 #: ../../white_black_list.rst:13
 msgid "белый список"
-msgstr ""
+msgstr "white list"
 
 #: ../../white_black_list.rst:13
 msgid "работает противоположно черному, запрещает отображение всех объектов, кроме указанных в правилах списка."
-msgstr ""
+msgstr "in opposition to black list, forbids displaying all the objects except the ones indicated in the rules of the list."
 
 #: ../../white_black_list.rst:15
 msgid "В каждом проекте можно создать **список исключаемых объектов**, распространяющий свое действие только на данный проект, для этого в корне проекта необходимо создать файл **.pgcodekeeperignore** и заполнить его правилами согласно синтаксису списков."
