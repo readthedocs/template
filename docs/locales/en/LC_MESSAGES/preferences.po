@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-30 11:48+0300\n"
-"PO-Revision-Date: 2018-06-09 00:50-0400\n"
+"PO-Revision-Date: 2018-06-09 02:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr "Suppose there is a view named ignore4 and a set of tables with the names
 
 #: ../../preferences.rst:51
 msgid "Список исключенных объектов"
-msgstr "The list of excluded objects"
+msgstr "List of excluded objects"
 
 #: ../../preferences.rst:51
 msgid "Результат"
