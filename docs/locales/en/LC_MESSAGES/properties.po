@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-09 02:11-0400\n"
+"PO-Revision-Date: 2018-06-09 02:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "Library object privileges **don't depend** on the **Ignore privileges an
 
 #: ../../properties.rst:58
 msgid "**Disallow overrides / Запретить переопреление.** Не исключена ситуация, когда проект и библиотека (или две библиотеки) содержат объекты с одинаковыми именами. Существует два варианта обработки таких ситуаций. При включененной настройке, такие конфликты вызывают остановку сравнения объектов. Отключенная настройка позволяет игнорировать конфликты: будет использован первый загруженный объект. Вне зависимости от настройки будет отображен вид :ref:`overrideView`, в котором будут отображены все конфликты."
-msgstr ""
+msgstr "**Disallow overrides.** There might be a situation when the a project and a library (or two libraries) contain objects with the same names. There are two ways of processing such situations. When this settings is on, such conflicts will cause the object comparison to stop. When it's off, it will allow to ignore the conflicts: the first loaded object will be used. Regardless of the settings, the :ref:`overrideView` view will be displayed, showing all the conflicts."
 
 #~ msgid ""
 #~ "**Отключить SQL парсер для сторонних "
