@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 04:10-0400\n"
+"PO-Revision-Date: 2018-06-09 04:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -239,15 +239,15 @@ msgstr "**or**"
 
 #: ../../white_black_list.rst
 msgid "строка, ограниченная двойными кавычками \" или апострофами ' (ограничители в начале и в конце строки должны совпадать);"
-msgstr ""
+msgstr "line limited by double quotes \" or apostrophes ' (separation symbols in the beginning and the end of the line should match);"
 
 #: ../../white_black_list.rst
 msgid "ограничители, содержащиеся в строке экранируются повтором символа (например: \"1\"\"2'3\" или '1\"2''3')"
-msgstr ""
+msgstr "separation symbols contained in the line, are screened off by repeating the symbol (for example: \"1\"\"2'3\" или '1\"2''3')"
 
 #: ../../white_black_list.rst:105
 msgid "На текущий момент нельзя использовать квалифицированные имена в качестве \"objectName\"."
-msgstr ""
+msgstr "Currently it is not possibe to use qualified names as \"objectName\"."
 
 #: ../../white_black_list.rst:107
 msgid "\"objectType\" чувствителен к регистру."
@@ -259,7 +259,7 @@ msgstr "flag { NONE | REGEX | CONTENT }"
 
 #: ../../white_black_list.rst:110
 msgid "флаг способа поиска объекта"
-msgstr ""
+msgstr "flag of ways of searching the object"
 
 #: ../../white_black_list.rst
 msgid "REGEX"
@@ -267,7 +267,7 @@ msgstr "REGEX"
 
 #: ../../white_black_list.rst:112
 msgid "воспринимает objectName как регулярное выражение [*]_"
-msgstr ""
+msgstr "treats objectName as a regualr expression [*]_"
 
 #: ../../white_black_list.rst
 msgid "CONTENT"
@@ -327,27 +327,27 @@ msgstr ""
 
 #: ../../white_black_list.rst:138 ../../white_black_list.rst:190
 msgid "Область действия"
-msgstr ""
+msgstr "Effective range"
 
 #: ../../white_black_list.rst
 msgid "**HIDE ALL**"
-msgstr ""
+msgstr "**HIDE ALL**"
 
 #: ../../white_black_list.rst
 msgid "запрещает отображение"
-msgstr ""
+msgstr "forbids displaying"
 
 #: ../../white_black_list.rst
 msgid "всех объектов"
-msgstr ""
+msgstr "all the objects"
 
 #: ../../white_black_list.rst
 msgid "**SHOW REGEX K**"
-msgstr ""
+msgstr "**SHOW REGEX K**"
 
 #: ../../white_black_list.rst
 msgid "разрешает отображать"
-msgstr ""
+msgstr "allows to display"
 
 #: ../../white_black_list.rst
 msgid "объекты которые частично"
@@ -571,7 +571,7 @@ msgstr ""
 
 #: ../../white_black_list.rst:362
 msgid "файл .pgcodekeeperignore - черный список"
-msgstr ""
+msgstr "file .pgcodekeeperignore - black list"
 
 #: ../../white_black_list.rst:366
 msgid "дополнительный файл списка исключаемых объектов - белый список"
