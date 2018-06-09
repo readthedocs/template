@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 04:00-0400\n"
+"PO-Revision-Date: 2018-06-09 04:10-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -231,11 +231,11 @@ msgstr "can't start with a numeral;"
 
 #: ../../white_black_list.rst
 msgid "строка идентификатор не может быть ключевым словом (зарезервированной директивой языка)"
-msgstr ""
+msgstr "identifier string can't be a key word (reserved language directive)"
 
 #: ../../white_black_list.rst
 msgid "**или**"
-msgstr ""
+msgstr "**or**"
 
 #: ../../white_black_list.rst
 msgid "строка, ограниченная двойными кавычками \" или апострофами ' (ограничители в начале и в конце строки должны совпадать);"
@@ -251,11 +251,11 @@ msgstr ""
 
 #: ../../white_black_list.rst:107
 msgid "\"objectType\" чувствителен к регистру."
-msgstr ""
+msgstr "\"objectType\" is case sensitive."
 
 #: ../../white_black_list.rst:110
 msgid "flag { NONE | REGEX | CONTENT }"
-msgstr ""
+msgstr "flag { NONE | REGEX | CONTENT }"
 
 #: ../../white_black_list.rst:110
 msgid "флаг способа поиска объекта"
@@ -263,7 +263,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "REGEX"
-msgstr ""
+msgstr "REGEX"
 
 #: ../../white_black_list.rst:112
 msgid "воспринимает objectName как регулярное выражение [*]_"
@@ -271,7 +271,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "CONTENT"
-msgstr ""
+msgstr "CONTENT"
 
 #: ../../white_black_list.rst:113
 msgid "применяет правило для совпавшего объекта и всего его содержимого"
@@ -279,7 +279,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "NONE"
-msgstr ""
+msgstr "NONE"
 
 #: ../../white_black_list.rst:114
 msgid "строгое совпадение без регулярного выражения и без содержимого"
