@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 05:10-0400\n"
+"PO-Revision-Date: 2018-06-09 05:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -499,19 +499,19 @@ msgstr "White List"
 
 #: ../../white_black_list.rst:278
 msgid "В результате будет отображен объект с названием \"KF\", т.к. условие белого списка для данного объекта перекрывают по \"ширине\" условия черного списка."
-msgstr ""
+msgstr "As as result, the object with the name \"KF\" will be displayed, because the condition of the white list for current object surpasses the condition of the black list in \"range\"."
 
 #: ../../white_black_list.rst:280
 msgid "При работе в графической версии pgCodeKeeper добавление второго списка исключений производится путем использования **общего списка исключаемых объектов** или путем добавления внешного списка через :ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper позволяет добавлять дополнительные списки исключений, с помощью команды: **pgcodekeeper-cli -I (--ignore-list) <path> SOURCE DEST**."
-msgstr ""
+msgstr "When working with the graphic version of pgCodeKeeper, adding the second list of exclusions is possible by using the **general list of the excluded objects** or by adding the external list through :ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper allows to add additional lists of exclusions with the help of the command: **pgcodekeeper-cli -I (--ignore-list) <path> SOURCE DEST**."
 
 #: ../../white_black_list.rst:283
 msgid "Примеры работы с файлом **.pgcodekeeperignore**"
-msgstr ""
+msgstr "Examples of work with **.pgcodekeeperignore**"
 
 #: ../../white_black_list.rst:284
 msgid "Предположим имеется представление с именем ignore4 и набор из таблиц с именами: ignore, ignore2, ignore3. ignore2 в свою очередь имеет содержимое."
-msgstr ""
+msgstr "Suppose there is a view named ignore4 and a set of tables with the names: ignore, ignore2, ignore3. In its turn, ignore2 has some content."
 
 #: ../../white_black_list.rst:1
 msgid "Результат"
@@ -523,7 +523,7 @@ msgstr "Schema"
 
 #: ../../white_black_list.rst:292
 msgid "Для того, чтобы исключить все объекты частично попадающие под регулярное выражение \"ignore\" нужно в .pgcodekeeperignore написать следующие правила:"
-msgstr ""
+msgstr "To exclude all the objects partially matching the regular expression \"ignore\", you should write the following rules in .pgcodekeeperignore:"
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX ignore**"
