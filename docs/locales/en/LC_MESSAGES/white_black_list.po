@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 03:20-0400\n"
+"PO-Revision-Date: 2018-06-09 03:30-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -83,71 +83,71 @@ msgstr "lines of rules which forbid or allow (depending on the type of list) dis
 
 #: ../../white_black_list.rst:36
 msgid "**Черный список** позволяет отображать только те объекты, которые не указаны в правилах. Он построен таким образом, что заголовок списка разрешает показывать все объекты, а последующие за ним правила исключают объекты из отображения."
-msgstr ""
+msgstr "**Black list** allows to display only the objects which are not specified by rules. It is constructed so that the heading of the list allows displaying all the objects, and the rules following it exclude the objects from displaying."
 
 #: ../../white_black_list.rst
 msgid "# комментарий"
-msgstr ""
+msgstr "# comment"
 
 #: ../../white_black_list.rst ../../white_black_list.rst:50
 msgid "SHOW ALL"
-msgstr ""
+msgstr "SHOW ALL"
 
 #: ../../white_black_list.rst
 msgid "HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # комментарий"
-msgstr ""
+msgstr "HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # comment"
 
 #: ../../white_black_list.rst
 msgid "[ ... ]"
-msgstr ""
+msgstr "[ ... ]"
 
 #: ../../white_black_list.rst:43
 msgid "**Описание частей черного списка**"
-msgstr ""
+msgstr "**Description of black list components**"
 
 #: ../../white_black_list.rst:48 ../../white_black_list.rst:73
 msgid "Строка файла .pgcodekeeperignore"
-msgstr ""
+msgstr ".pgcodekeeperignore file line"
 
 #: ../../white_black_list.rst:48 ../../white_black_list.rst:73
 msgid "Описание"
-msgstr ""
+msgstr "Description"
 
 #: ../../white_black_list.rst
 msgid "[заголовок]"
-msgstr ""
+msgstr "[title]"
 
 #: ../../white_black_list.rst
 msgid "разрешает показывать"
-msgstr ""
+msgstr "allows displaying"
 
 #: ../../white_black_list.rst
 msgid "все объекты"
-msgstr ""
+msgstr "all the objects"
 
 #: ../../white_black_list.rst:54
 msgid "HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
-msgstr ""
+msgstr "HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
 
 #: ../../white_black_list.rst
 msgid "[правило]"
-msgstr ""
+msgstr "[rule]"
 
 #: ../../white_black_list.rst
 msgid "исключает из"
-msgstr ""
+msgstr "excludes from"
 
 #: ../../white_black_list.rst
 msgid "отображения"
-msgstr ""
+msgstr "displaying"
 
 #: ../../white_black_list.rst
 msgid "какой-либо"
-msgstr ""
+msgstr "some"
 
 #: ../../white_black_list.rst
 msgid "объект"
-msgstr ""
+msgstr "object"
 
 #: ../../white_black_list.rst:61
 msgid "**Белый список** работает от обратного, позволяя отображать только те объекты, которые указаны в правилах. Он построен таким образом, что заголовок списка запрещает показывать все объекты, а последующие за ним правила разрешают объекты для отображения."
