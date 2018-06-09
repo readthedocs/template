@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 16:24+0300\n"
-"PO-Revision-Date: 2018-06-09 01:10-0400\n"
+"PO-Revision-Date: 2018-06-09 01:20-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,27 +35,27 @@ msgstr "**Disable SQL parser for unrelated files opened in SQL Editor** allows t
 
 #: ../../properties.rst:14
 msgid "**Use Unix-style newline characters / Использовать Unix символы переноса строк** - позволяет использовать Unix символы переноса в строках, например в телах функций, комментариях объектов и т.д."
-msgstr ""
+msgstr "**Use Unix-style newline characters** allows to use Unix hyphens in lines, for example, in function bodies, object commentaries etc."
 
 #: ../../properties.rst:16
 msgid "**Timezone for all DB connections / Временная зона для всех соединений с БД** - позволяет выбрать, какую временную зону использовать при соединении с базами данных."
-msgstr ""
+msgstr "**Timezone for all DB connections** allows to select, which time zone to use when connecting to databases."
 
 #: ../../properties.rst:20
 msgid "Списки исключений"
-msgstr "Exception Lists"
+msgstr "Ignore Lists"
 
 #: ../../properties.rst:22
 msgid "Настройки, управляющие списками игнор файлов для данного проекта. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
-msgstr ""
+msgstr "Settings managing the lists of ignored files for current project. A detailed description of work with the lists see in :ref:`ignoreList`."
 
 #: ../../properties.rst:26
 msgid "Для добавления существующего файла нажмите кнопку |add_obj|."
-msgstr ""
+msgstr "To add an existing file, click |add_obj|."
 
 #: ../../properties.rst:28
 msgid "Для удаления файла нажмите кнопку |delete|."
-msgstr ""
+msgstr "To delete a file, click |delete|."
 
 #: ../../properties.rst:30
 msgid "Для создания нового файла нажмите кнопку |add_file|. Будет открыт редактор списка правил, аналогичный редактору на странице глобальных настроек :ref:`ignoredObjects`."
