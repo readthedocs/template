@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 03:50-0400\n"
+"PO-Revision-Date: 2018-06-09 04:00-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -223,11 +223,11 @@ msgstr "identifier"
 
 #: ../../white_black_list.rst
 msgid "строка-идентификатор без кавычек, состоящая из латинских букв, цифр и подчеркиваний;"
-msgstr ""
+msgstr "identifier string without quotes, consisting of latin characters, numerals and underlining;"
 
 #: ../../white_black_list.rst
 msgid "не может начинаться с цифры;"
-msgstr ""
+msgstr "can't start with a numeral;"
 
 #: ../../white_black_list.rst
 msgid "строка идентификатор не может быть ключевым словом (зарезервированной директивой языка)"
