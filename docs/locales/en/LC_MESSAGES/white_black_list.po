@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 14:15+0300\n"
-"PO-Revision-Date: 2018-06-09 05:41-0400\n"
+"PO-Revision-Date: 2018-06-09 05:50-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -591,15 +591,15 @@ msgstr "The aim of the black list is to exclude all the objects partially matchi
 
 #: ../../white_black_list.rst:372
 msgid "Цель белого списка: убрать из исключенных объектов объект \"ignore2\"."
-msgstr ""
+msgstr "The aim of the white list is to remove \"ignore2\" from the excluded objects."
 
 #: ../../white_black_list.rst:380
 msgid "В результате в сравниваемых объектах останется только объект \"ignore2\", т.к. благодаря флагу \"CONTENT\" для объекта \"ignore2\" правило белого списка перекрывает по \"ширине\" правило черного списка \"HIDE REGEX ignore\"."
-msgstr ""
+msgstr "As a result, only \"ignore2\" will remain in the compared objects, because thanks to the \"CONTENT\" flag for the \"ignore2\" the white list rule surpasses the black list rule \"HIDE REGEX ignore\" in \"range\"."
 
 #: ../../white_black_list.rst:382
 msgid "Взаимодействие правил разных списков, контролирующих отображение одного и того же объекта, описано в разделе :ref:`whiteBlackCommonUsing`."
-msgstr ""
+msgstr "Interaction between the rules of different lists which regulate the display of one and the same object is described in the :ref:`whiteBlackCommonUsing` section."
 
 #~ msgid "Черный/белый список"
 #~ msgstr ""
