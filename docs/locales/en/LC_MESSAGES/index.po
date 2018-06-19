@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-06-08 03:10-0400\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:51+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -37,15 +37,15 @@ msgstr "Using the project, it is possible to view the structure of files-objects
 msgid "Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
 msgstr "pgCodeKeeper source code is available at `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_. for free"
 
-#: ../../index.rst:13
+#: ../../index.rst:17
 msgid "Начало работы"
 msgstr "Getting Started"
 
-#: ../../index.rst:24
+#: ../../index.rst:29
 msgid "Задачи"
 msgstr "Tasks"
 
-#: ../../index.rst:38
+#: ../../index.rst:43
 msgid "Дополнительная информация"
 msgstr "Additional Information"
 
