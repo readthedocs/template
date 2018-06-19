@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 14:15+0300\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -718,68 +718,4 @@ msgid ""
 "Взаимодействие правил разных списков, контролирующих отображение одного и"
 " того же объекта, описано в разделе :ref:`whiteBlackCommonUsing`."
 msgstr ""
-
-#~ msgid "Черный/белый список"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В дополнение к странице настроек "
-#~ ":ref:`ignoredObjects`, существует возможность "
-#~ "хранить черный/белый список объектов для "
-#~ "каждого проекта. Программа автоматически "
-#~ "читает такой список из файла "
-#~ "**.pgcodekeeperignore** в корне проекта."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Черный список разрешает показ всего, "
-#~ "кроме объектов, указанных в списке. "
-#~ "Белый список запрещает показ всех "
-#~ "объектов, кроме явно указанных в "
-#~ "правилах списка."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Под \"широтой\" здесь подразумевает состояние"
-#~ " опции правила *Игнорировать содержимое*."
-#~ msgstr ""
-
-#~ msgid "Синтаксис списков"
-#~ msgstr ""
-
-#~ msgid "Формат файлов чувствителен к регистру. Кодировка – UTF-8."
-#~ msgstr ""
-
-#~ msgid "**Белый список**"
-#~ msgstr ""
-
-#~ msgid "HIDE flag [, ...] identifier [ db=identifier ] # комментарий"
-#~ msgstr ""
-
-#~ msgid "**Черный список**"
-#~ msgstr ""
-
-#~ msgid "SHOW flag [, ...] identifier [ db=identifier ] # комментарий"
-#~ msgstr ""
-
-#~ msgid "flag"
-#~ msgstr ""
-
-#~ msgid "{ NONE | REGEX | CONTENT }"
-#~ msgstr ""
-
-#~ msgid "Флаги:"
-#~ msgstr ""
-
-#~ msgid "воспринимает identifier не буквально, а как регулярное выражение"
-#~ msgstr ""
-
-#~ msgid "не имеет эффекта (применять при отсутствии флагов)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "db=identifier правило будет применено только"
-#~ " к БД, имя которой подходит под "
-#~ "регулярное выражение, заданное этим параметром"
-#~ msgstr ""
 

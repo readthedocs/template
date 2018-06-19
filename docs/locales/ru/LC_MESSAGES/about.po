@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 09:36+0300\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,4 @@ msgstr ""
 #: ../../about.rst:33
 msgid "Свидетельство о регистрации"
 msgstr ""
-
-#~ msgid "О дополнении pgCodeKeeper"
-#~ msgstr ""
 

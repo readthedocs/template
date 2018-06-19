@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-02 12:00+0300\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../cli_version.rst:3
+#: ../../cli_version.rst:5
 msgid "CLI версия"
 msgstr ""
 
-#: ../../cli_version.rst:5
+#: ../../cli_version.rst:7
 msgid ""
 "В качестве альтернативы плагина для Eclipse IDE предоставляется "
 "возможность сравнения схем баз данных через командную строку. Для этого "
@@ -30,31 +30,31 @@ msgid ""
 "автономно."
 msgstr ""
 
-#: ../../cli_version.rst:7
+#: ../../cli_version.rst:9
 msgid "Консольная сборка программы может быть использована для:"
 msgstr ""
 
-#: ../../cli_version.rst:9
+#: ../../cli_version.rst:11
 msgid ""
 "создания из дампа файловой структуры \"проекта\" pgCodeKeeper (без "
 "проекта Eclipse)"
 msgstr ""
 
-#: ../../cli_version.rst:10
+#: ../../cli_version.rst:12
 msgid ""
 "создания скриптов наката с использованием дампов и файловых структур "
 "pgCodeKeeper"
 msgstr ""
 
-#: ../../cli_version.rst:11
+#: ../../cli_version.rst:13
 msgid "создания скриптов наката с использованием соединений к базам данных"
 msgstr ""
 
-#: ../../cli_version.rst:14
+#: ../../cli_version.rst:16
 msgid "Начало работы"
 msgstr ""
 
-#: ../../cli_version.rst:16
+#: ../../cli_version.rst:18
 msgid ""
 "Последнюю версию cli сборки можно скачать `здесь "
 "<https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В "
@@ -63,41 +63,41 @@ msgid ""
 "Windows систем."
 msgstr ""
 
-#: ../../cli_version.rst:18
+#: ../../cli_version.rst:20
 msgid ""
 "Набор параметров, доступных для работы с программой Вы можете посмотреть "
 "выполнив команду:"
 msgstr ""
 
-#: ../../cli_version.rst:20
+#: ../../cli_version.rst:22
 msgid "./pgcodekeeper-cli.sh --help"
 msgstr ""
 
-#: ../../cli_version.rst:23
+#: ../../cli_version.rst:25
 msgid "Примеры"
 msgstr ""
 
-#: ../../cli_version.rst:25
+#: ../../cli_version.rst:27
 msgid ""
 "./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql "
 "jdbc:postgresql://localhost:5432/testdb1?user=user&password=password "
 "/home/codekeeper/projects/test1/"
 msgstr ""
 
-#: ../../cli_version.rst:27
+#: ../../cli_version.rst:29
 msgid ""
 "После выполнения этой команды в файл diff.sql будет записан скрипт "
 "миграции различий из проекта в директории test1 в базу данных testdb1 на "
 "сервере localhost:5432."
 msgstr ""
 
-#: ../../cli_version.rst:29
+#: ../../cli_version.rst:31
 msgid ""
 "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql "
 "/home/codekeeper/projects/test1/"
 msgstr ""
 
-#: ../../cli_version.rst:31
+#: ../../cli_version.rst:33
 msgid ""
 "После выполнения этой команды в консоли будет выведен скрипт миграции из "
 "файла backup в проект в директории test1."

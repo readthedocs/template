@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pgCodeKeeper 4.2\n"
+"Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-02 12:00+0300\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,15 +49,15 @@ msgid ""
 "`GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
 msgstr ""
 
-#: ../../index.rst:13
+#: ../../index.rst:17
 msgid "Начало работы"
 msgstr ""
 
-#: ../../index.rst:24
+#: ../../index.rst:29
 msgid "Задачи"
 msgstr ""
 
-#: ../../index.rst:38
+#: ../../index.rst:43
 msgid "Дополнительная информация"
 msgstr ""
 
