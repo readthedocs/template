@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 09:36+0300\n"
-"PO-Revision-Date: 2018-06-08 03:40-0400\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:37+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -164,7 +164,4 @@ msgstr "Tatarintsev Igor Vitalyevich"
 #: ../../about.rst:33
 msgid "Свидетельство о регистрации"
 msgstr "Registration certificate"
-
-#~ msgid "О дополнении pgCodeKeeper"
-#~ msgstr ""
 
