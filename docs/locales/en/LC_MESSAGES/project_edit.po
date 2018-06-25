@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:45+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,33 +19,33 @@ msgstr ""
 
 #: ../../project_edit.rst:3
 msgid "Редактирование pgCodeKeeper проекта"
-msgstr ""
+msgstr "pgCodeKeeper project editing"
 
 #: ../../project_edit.rst:5
 msgid "Редактирование проекта состоит в изменении содержимого файлов, а также добавлении и удалении файлов и каталогов находящихся под pgCodeKeeper проектом."
-msgstr ""
+msgstr "Project editing consists of changing the file content, as well as of adding and deleting files and directories which are under a pgCodeKeeper project."
 
 #: ../../project_edit.rst:7
 msgid "**Примечание:** Ручное редактирование объектов может привести к ошибкам в работе программы и к некорректному применению изменений к БД."
-msgstr ""
+msgstr "**Note:** Manual object editing can lead to errors in the program and to incorrect applying of the changes to the DB."
 
 #: ../../project_edit.rst:11
 msgid "Для добавления объектов рекомендуем воспользоваться визардом создания SQL объектов: **File -> New -> Объект SQL** или горячей клавишей (по-умолчанию Alt + Insert)."
-msgstr ""
+msgstr "To add objects, we recomend you to use SQL objects creation wizard: **File -> New -> SQL object** or hotkey (Alt + Insert by default)."
 
 #: ../../project_edit.rst:15
 msgid "Выберите проект, тип объекта, введите имя и нажмите **Finish**."
-msgstr ""
+msgstr "Select the project abd the type of object and click **Finish**."
 
 #: ../../project_edit.rst:17
 msgid "После этого откроется SQL редактор с созданным шаблоном объекта. Если создаваемый объект уже существует, то в редакторе будет открыт этот объект."
-msgstr ""
+msgstr "After that, the SQL editor will appear with a created object template. If the object already exists, it will be opened in the editor."
 
 #: ../../project_edit.rst:19
 msgid "Примечание: все возможные данные заполнятся автоматически. Например: если визард был вызван из контекстного меню файла функции, то автоматически будет выбран текущий проект, тип объекта станет **FUNCTION**, а имя объекта будет частично заполнено именем схемы, в которой находилась функция."
-msgstr ""
+msgstr "Note: all possible data is filled in automatically. For example: if the wizard was launched with the help of right-click menu of the function file, current project would be selected automatically, type of object would be set to **FUNCTION**, and the name of object would be partially filled by the name of schema in which the function is contained."
 
 #: ../../project_edit.rst:21
 msgid "Для редактирования существующего объекта достаточно изменить содержимое его файла в проекте."
-msgstr ""
+msgstr "To edit an existing object, it is sufficient to change the content of its file in the project."
 

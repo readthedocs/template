@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:39+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,113 +19,113 @@ msgstr ""
 
 #: ../../mock_data.rst:3
 msgid "Генерация тестовых данных"
-msgstr ""
+msgstr "Test data generation"
 
 #: ../../mock_data.rst:5
 msgid "Существует возможность генерации тестовых данных для таблицы в виде **Insert** конструкции:"
-msgstr ""
+msgstr "There is a way of test data generation for the table in the form of the **Insert** construction:"
 
 #: ../../mock_data.rst:7
 msgid "Для этого откройте мастер создания нового объекта **File -> New -> Others** и выберите категорию **pgCodeKeeper -> Сформировать тестовые данные** и нажмите **Next**."
-msgstr ""
+msgstr "Open the new object creation wizard: **File -> New -> Others**, select the **pgCodeKeeper -> Generate test data** category and click **Next**."
 
 #: ../../mock_data.rst:11
 msgid "Для каждой колонки в зависимости от типа и генератора доступны слудеющие настройки:"
-msgstr ""
+msgstr "For each column, depending on type and generator, the following settings are available:"
 
 #: ../../mock_data.rst:13
 msgid "**Имя колонки** - имя текущей колонки."
-msgstr ""
+msgstr "**Column name** - the name of current column."
 
 #: ../../mock_data.rst:14
 msgid "**Тип колонки** - тип данных колонки. Для неподдерживаемых типов существует тип OTHER."
-msgstr ""
+msgstr "**Column type** - data type of the column. For unsupported types there is the OTHER type."
 
 #: ../../mock_data.rst:15
 msgid "**Генератор** - алгоритм генерации данных. На данный момент их 4:"
-msgstr ""
+msgstr "**Generator** - data generation algorithm. Currently there are 4 of them:"
 
 #: ../../mock_data.rst
 msgid "RANDOM"
-msgstr ""
+msgstr "RANDOM"
 
 #: ../../mock_data.rst:17
 msgid "Случайное значение из диапозона."
-msgstr ""
+msgstr "A random value from the range."
 
 #: ../../mock_data.rst
 msgid "INCREMENT"
-msgstr ""
+msgstr "INCREMENT"
 
 #: ../../mock_data.rst:18
 msgid "Последовательное увеличение стартового значения на значение инкремента."
-msgstr ""
+msgstr "Consistent incerasing of the inital value by the increment value."
 
 #: ../../mock_data.rst
 msgid "CONSTANT"
-msgstr ""
+msgstr "CONSTANT"
 
 #: ../../mock_data.rst:19
 msgid "Константное значение. Текстовые значения будут заключены в одинарные кавычки."
-msgstr ""
+msgstr "A constant value. Text values will be enclosed in single quotes."
 
 #: ../../mock_data.rst
 msgid "ANY"
-msgstr ""
+msgstr "ANY"
 
 #: ../../mock_data.rst:20
 msgid "Любое значение (включая вызовы функций). Значение не будет отформатировано."
-msgstr ""
+msgstr "Any value (including function calls). The value will not be formatted."
 
 #: ../../mock_data.rst:22
 msgid "**Начало диапазона** - стартовое значение"
-msgstr ""
+msgstr "**Range start** - initial value"
 
 #: ../../mock_data.rst:23
 msgid "**Конец диапазона** - конечное значение"
-msgstr ""
+msgstr "**Range end** - final value"
 
 #: ../../mock_data.rst:24
 msgid "**Шаг инкремента** - значение шага инкремента"
-msgstr ""
+msgstr "**Increment step** - increment step value"
 
 #: ../../mock_data.rst:25
 msgid "**Произовольное выражение** - произвольное значение, которое будет записано без форматирования."
-msgstr ""
+msgstr "**Undefined value** - unidentified value which will be written without formatting."
 
 #: ../../mock_data.rst:27
 msgid "Для управления списком колонок доступны следующие кнопки:"
-msgstr ""
+msgstr "To manage the column list, the following buttons are available:"
 
 #: ../../mock_data.rst:29
 msgid "**Добавить колонку** добавляет колонку типа INTEGER с генератором RANDOM."
-msgstr ""
+msgstr "**Add column** adds an INTEGER type column with the RANDOM generator."
 
 #: ../../mock_data.rst:30
 msgid "**Удалить колонку** удаляет выбранные колонки."
-msgstr ""
+msgstr "**Delete column** deletes the selected columns."
 
 #: ../../mock_data.rst:31
 msgid "**Вверх** передвигает выбранную колонку вверх в списке."
-msgstr ""
+msgstr "**Up** moves the selected column up in the list."
 
 #: ../../mock_data.rst:32
 msgid "**Вниз** передвигает выбранную колонку вниз в списке."
-msgstr ""
+msgstr "**Down** moves the selected column down in the list."
 
 #: ../../mock_data.rst:33
 msgid "**Удалить необязательные** удаляет колонки у которых нет свойства NOT NULL."
-msgstr ""
+msgstr "**Delete optional** deletes the columns without the NOT NULL property."
 
 #: ../../mock_data.rst:35
 msgid "Настройка **Явное приведение типов** добавляет явное приведение типов для каждого значения (например, 7::integer)."
-msgstr ""
+msgstr "The **Typcasting** setting adds typecasting for each value (for example, 7::integer)."
 
 #: ../../mock_data.rst:37
 msgid "После нажатия **Finish** будет открыт SQL редактор с готовым Insert запросом."
-msgstr ""
+msgstr "After clicking **Finish** you'll see the SQL editor with a ready Insert request."
 
 #: ../../mock_data.rst:39
 msgid "Примечание: Также имеется возможность вызвать данный визард из контекстного меню файла таблицы. В этом случае данные заполнятся автоматически."
-msgstr ""
+msgstr "Note: this wizard may be launched from the table's right-click menu as well. In this case, all the data is filled in automatically."
 

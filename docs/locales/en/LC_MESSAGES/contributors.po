@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 09:35+0300\n"
-"PO-Revision-Date: 2018-03-03 02:42-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:41+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,81 +19,81 @@ msgstr ""
 
 #: ../../contributors.rst:2
 msgid "Вклад участников"
-msgstr ""
+msgstr "Contribution of the participants"
 
 #: ../../contributors.rst:4
 msgid "В разработке продукта участвовало множество людей. Здесь зафиксирован вклад людей в разработку продукта."
-msgstr ""
+msgstr "This product is created with participation of many people. Here you'll see the people who contributed to the product development."
 
 #: ../../contributors.rst:7
 msgid "Идея"
-msgstr ""
+msgstr "Concept"
 
 #: ../../contributors.rst:9
 msgid "Мокеев Сергей"
-msgstr ""
+msgstr "Sergei Mokeev"
 
 #: ../../contributors.rst:11
 msgid "Хочется отметить, особый вклад в формирование идей, также Новгородова Дмитрия и Володина Андрея."
-msgstr ""
+msgstr "Dmitry Novgorodov's and Andrei Volodin's contribution to the shaping of concepts and ideas deserves an honorable mention as well."
 
 #: ../../contributors.rst:14
 msgid "Управление"
-msgstr ""
+msgstr "Management"
 
 #: ../../contributors.rst:16
 msgid "Саушкин Андрей - управление продуктом и иногда проектом"
-msgstr ""
+msgstr "Andrei Saushkin - product management and sometimes project management"
 
 #: ../../contributors.rst:20
 msgid "Разработка"
-msgstr ""
+msgstr "Development"
 
 #: ../../contributors.rst:22
 msgid "Левша Александр - ведущий программист"
-msgstr ""
+msgstr "Alexander Levsha - lead developer"
 
 #: ../../contributors.rst:23
 msgid "Галиев Мансур"
-msgstr ""
+msgstr "Mansur Galiev"
 
 #: ../../contributors.rst:24
 msgid "Шамсутдинов Ленар"
-msgstr ""
+msgstr "Lenar Shamsutdinov"
 
 #: ../../contributors.rst:25
 msgid "Ботов Анатолий"
-msgstr ""
+msgstr "Anatoly Botov"
 
 #: ../../contributors.rst:26
 msgid "Рябинин Антон"
-msgstr ""
+msgstr "Anton Ryabinin"
 
 #: ../../contributors.rst:27
 msgid "Акифьев Антон"
-msgstr ""
+msgstr "Anton Akifiev"
 
 #: ../../contributors.rst:28
 msgid "Шайдуллин Ильдар"
-msgstr ""
+msgstr "Ildar Shaydullin"
 
 #: ../../contributors.rst:31
 msgid "Дизайн и вёрстка сайта"
-msgstr ""
+msgstr "Website design and layout"
 
 #: ../../contributors.rst:33
 msgid "Хазиева Гульназ"
-msgstr ""
+msgstr "Gulnaz Khazieva"
 
 #: ../../contributors.rst:34
 msgid "Демаков Василий"
-msgstr ""
+msgstr "Vasily Demakov"
 
 #: ../../contributors.rst:37
 msgid "Перевод документации"
-msgstr ""
+msgstr "Documentation Translation"
 
 #: ../../contributors.rst:39
 msgid "Мы ищем контрибьюторов для выполнения перевода документации."
-msgstr ""
+msgstr "We are in search of contributors who would translate the documentation."
 

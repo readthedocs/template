@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:57+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +19,17 @@ msgstr ""
 
 #: ../../db_store.rst:3
 msgid "Выбор источника базы данных"
-msgstr ""
+msgstr "Selecting of the database sourse"
 
 #: ../../db_store.rst:5
 msgid "Для удобства выбора источника базы данных в различных частях плагина используется выпадающий список, который состоит из списка баз данных и 3-х последних дамп-файлов."
-msgstr ""
+msgstr "For a convenient selecting of the database source, a drop-down list is used in various parts of the plug-in consisting of a database list and three last dump files."
 
 #: ../../db_store.rst:9
 msgid "Список баз данных находится в :ref:`dbStore`, в которое можно перейти по кнопке **Редактировать**, находящейся слева от списка."
-msgstr ""
+msgstr "Database list is located in :ref:`dbStore`, which can be accessed by clicking the **Edit** button, to the left of the list."
 
 #: ../../db_store.rst:11
 msgid "Для выбора файл-дампа необходима выбрать элемент списка **Загрузить из файла...**. В открывшемся диалоговом окне выбираем нужный нам файл и нажимаем кнопку **OK**. Выбранный файл добавлен в список источников баз данных."
-msgstr ""
+msgstr "To select a dump file you should select the item from the **Load from file...** list. In the appeared dialog window choose the required file and click **OK**. The selected file is added to the database source list."
 

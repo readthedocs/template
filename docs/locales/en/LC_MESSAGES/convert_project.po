@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:58+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../convert_project.rst:3
 msgid "Конвертация проекта"
-msgstr ""
+msgstr "Project converting"
 
 #: ../../convert_project.rst:5
 msgid "Любой проект можно сконвертировать в проект pgCodeKeeper. Для этого из меню проекта выберите пункт **Configure -> Convert to pgCodeKeeper project.**"
-msgstr ""
+msgstr "Every project can be converted into a pgCodeKeeper project. To do this, select **Configure -> Convert to pgCodeKeeper project.** in the project menu."
 
 #: ../../convert_project.rst:9
 msgid "Если структура проекта не соответствует стандарту, будет показано предупреждение."
-msgstr ""
+msgstr "If the structure is not up to standard, a notification will appear."
 

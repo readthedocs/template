@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:43+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,21 +19,21 @@ msgstr ""
 
 #: ../../sort.rst:3
 msgid "Сортировка списка изменений"
-msgstr ""
+msgstr "List of changes sorting"
 
 #: ../../sort.rst:5
 msgid "Для сортировки объектов в списке изменений необходимо кликнуть по заголовку столбца."
-msgstr ""
+msgstr "To sort the objects in the changes list, click the column heading."
 
 #: ../../sort.rst:9
 msgid "По умолчанию используется множественная сортировка. При сортировке по новому столбцу учитывается сортировка по предыдущим выбранным столбцам."
-msgstr ""
+msgstr "By default, multiple sorting is used. When sorting a new column, the sorting of previous selected columns is considered."
 
 #: ../../sort.rst:11
 msgid "Для сброса сортировки можно кликнуть на заголовок столбца удерживая клавишу Ctrl."
-msgstr ""
+msgstr "To reset the sorting, you can click the column heading while holding Ctrl."
 
 #: ../../sort.rst:13
 msgid "Числа и стрелки в заголовках таблицы показывают порядок и направление сортировки."
-msgstr ""
+msgstr "Numbers and arrows in the table heading show the order and direction of sorting."
 

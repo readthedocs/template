@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:51+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,33 +19,33 @@ msgstr ""
 
 #: ../../index.rst:3
 msgid "Руководство пользователя pgCodeKeeper"
-msgstr ""
+msgstr "pgCodeKeeper User Guide"
 
 #: ../../index.rst:5
 msgid "Плагин pgCodeKeeper предназначен для сравнения схем БД PostgreSQL и выборочного применения различий, с учетом возможных зависимостей между объектами схемы."
-msgstr ""
+msgstr "The pgCodeKeeper plug-in is designed for comparing PostgreSQL DB scheams and selective applying the differences, considering possible dependences between the scheme objects."
 
 #: ../../index.rst:7
 msgid "Работа с pgCodeKeeper осуществляется с помощью проекта. Он представляет собой объекты схемы БД, хранимые в отдельных файлах в иерархической структуре."
-msgstr ""
+msgstr "Work in pgCodeKeeper is conducted with the help of projects. A project is represented by BD schema objects, stored in separate files with hierarchical structure."
 
 #: ../../index.rst:9
 msgid "С помощью проекта возможно просмотреть структуру объектов-файлов, и создать скрипт наката схемы проекта на БД, или наоборот, модифицировать структуру проекта объектами из какой-либо БД."
-msgstr ""
+msgstr "Using the project, it is possible to view the structure of files-objects and create a project scheme migration script for BD or vice versa, modify the project structure with objects from a DB."
 
 #: ../../index.rst:11
 msgid "Исходный код pgCodeKeeper находится в свободном доступе и доступен на `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_."
-msgstr ""
+msgstr "pgCodeKeeper source code is available at `GitHub <https://github.com/pgcodekeeper/pgcodekeeper>`_. for free"
 
-#: ../../index.rst:13
+#: ../../index.rst:17
 msgid "Начало работы"
-msgstr ""
+msgstr "Getting Started"
 
-#: ../../index.rst:24
+#: ../../index.rst:29
 msgid "Задачи"
-msgstr ""
+msgstr "Tasks"
 
-#: ../../index.rst:38
+#: ../../index.rst:43
 msgid "Дополнительная информация"
-msgstr ""
+msgstr "Additional Information"
 

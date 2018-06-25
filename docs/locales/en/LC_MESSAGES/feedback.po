@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:54+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,21 +19,21 @@ msgstr ""
 
 #: ../../feedback.rst:3
 msgid "Обратная связь"
-msgstr ""
+msgstr "Feedback"
 
 #: ../../feedback.rst:5
 msgid "Пользователь имеет возможность отправить сообщение разработчикам непосредственно из среды разработки. Для этого необходимо в меню **pgCodeKeeper** выбрать пункт **Обратная связь**. Откроется окно отправки сообщений."
-msgstr ""
+msgstr "The user can send a message to the developers directly from the development environment. To do this, select **Feedback** from the **pgCodeKeeper** menu. A window for sending messages will appear."
 
 #: ../../feedback.rst:7
 msgid "Примечание: пункт главного меню **pgCodeKeeper** отображается при использовании перспективы Eclipse **pgCodeKeeper**. Для переключения перспективы Eclipse воспользуйтесь пунктом меню **Window -> Perspective -> Open Perspective** или панелью быстрого переключения (по-умолчанию находится в верхнем правом углу Eclipse)."
-msgstr ""
+msgstr "Note: the **pgCodeKeeper** main menu item is displayed when using the Eclipse **pgCodeKeeper** perspective. To switch to the Eclipse perspective use **Window -> Perspective -> Open Perspective** or quick switch panel (by default located in the upper right corner of Eclipse)."
 
 #: ../../feedback.rst:12
 msgid "Заполняем необходимые поля. Желательно указать корректный электронный адрес для обратной связи. После заполнения полей нажать кнопку **Отправить**."
-msgstr ""
+msgstr "Fill the required fields. It is advisable to specify the correct email for the feedback. After finishing filling the fields, click the **Send** button."
 
 #: ../../feedback.rst:14
 msgid "Примечание: при сообщении об ошибке рекомендуется отметить флажком пункт **Отправить логи Eclipse** для отправки более подробной информации."
-msgstr ""
+msgstr "Note: if an error occured, it is advisible to tick off **Send the logs to Eclipse** to send a more detailed info."
 

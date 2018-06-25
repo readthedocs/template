@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:55+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,145 +19,161 @@ msgstr ""
 
 #: ../../editors.rst:3
 msgid "Виды и редакторы"
-msgstr ""
+msgstr "Views and edtors"
 
 #: ../../editors.rst:8
 msgid "Редактор проекта pgCodeKeeper"
-msgstr ""
+msgstr "PgCodeKeeper project editor"
 
 #: ../../editors.rst:10
 msgid "Редактор проекта – основной способ работы с pgCodeKeeper. Интерфейс редактора, состоящий из четырех основных частей:"
-msgstr ""
+msgstr "Project Editor is the main way of working with pgCodeKeeper. Editor interface, which consists of four main parts:"
 
 #: ../../editors.rst:12
 msgid "Тулбар"
-msgstr ""
+msgstr "Toolbar"
 
 #: ../../editors.rst:13
 msgid "Панель инструментов"
-msgstr ""
+msgstr "Tool bar"
 
 #: ../../editors.rst:14
 msgid "Таблица различий"
-msgstr ""
+msgstr "Differences table"
 
 #: ../../editors.rst:15
 msgid "Панель сравнения"
-msgstr ""
+msgstr "Comparison panel"
 
 #: ../../editors.rst:19
 msgid "**Тулбар** предназачен для выбора источника данных, с которым предстоит работать."
-msgstr ""
+msgstr "**Toolbar** is designed for selecting the data source you want to work with."
 
 #: ../../editors.rst:21
 msgid "**Панель инструментов** предназначена для работы со списком объектов. Они имеют следующее предназначение:"
-msgstr ""
+msgstr "**Tool bar** is designed for working with list of objects. They have the following purpose:"
 
 #: ../../editors.rst:23
 msgid "|check_all| – выбрать все элементы."
-msgstr ""
+msgstr "| check_all | – select all objects."
 
 #: ../../editors.rst:24
 msgid "|uncheck_all| – снять выбор со всех элементов."
-msgstr ""
+msgstr "|uncheck_all| – deselect all the objects."
 
 #: ../../editors.rst:25
 msgid "|loop_obj| – инвертировать выбор элементов."
-msgstr ""
+msgstr "|loop_obj| – invert the selecting of objects."
 
 #: ../../editors.rst:26
 msgid "|copy_edit| – копировать набор выбранных элементов в буфер обмена как регулярное выражение."
-msgstr ""
+msgstr "|copy_edit| – copy the set of selected objects to the clipboard as a regular expression."
 
 #: ../../editors.rst:27
 msgid "|empty_filter| / |filter_tsk| - неактивный / активный фильтр объектов."
-msgstr ""
+msgstr "|empty_filter| / |filter_tsk| - disabled / enabled object filter."
 
 #: ../../editors.rst:28
 msgid "Фильтр списка объектов по имени или регулярному выражению."
-msgstr ""
+msgstr "List of objects filter by name or regular expression."
 
 #: ../../editors.rst:29
 msgid "Применить изменения к проекту"
-msgstr ""
+msgstr "Apply changes to the project"
 
 #: ../../editors.rst:30
 msgid "Применить изменения к базе данных"
-msgstr ""
+msgstr "Apply changes to the database"
 
 #: ../../editors.rst:31
 msgid "Получить изменения"
-msgstr ""
+msgstr "Get changes"
 
 #: ../../editors.rst:33
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Объект может находиться в трех состояниях: существовать только в базе данных, только в проекте или и в проекте и в базе данных. В зависимости от состояния, объекты в списке изменений помечаются как remote, project и edit соответственно."
-msgstr ""
+msgstr "**Differences table** shows the list of objects, which are different in the DB schemas under comparison. An object can be in one of three conditions: exist only in a database, only in a project or both in a project and a database. Depending on the condition, objects in the list are marked as 'remote', 'project' and 'edit' respectively."
 
 #: ../../editors.rst:35
 msgid "**Панель сравнения** показывает изменения, произошедшие в SQL представлении объекта."
-msgstr ""
+msgstr "**Comparison panel** shows changes which took place in SQL view of an object."
 
 #: ../../editors.rst:45
 msgid "SQL редактор"
-msgstr ""
+msgstr "SQL editor"
 
 #: ../../editors.rst:47
 msgid "SQL редактор внешне не отличается от обычного текстового редактора Eclipse, но в нем имеется возможность подсветки синтаксиса SQL, автоподстановки шаблонов SQL запросов и навигации по объектам схемы базы данных."
-msgstr ""
+msgstr "SQL editor is not different from a regular Eclipse text editor appearance-wise, but it has functions of SQL syntax highlighting, SQL requests template autofilling and database schema objects navigation."
 
 #: ../../editors.rst:52
 msgid "При работе с SQL редактором в верхнем тулбаре доступны следующие возможности:"
-msgstr ""
+msgstr "During work in SQL editor, the following functions are present in the upper toolbar:"
 
 #: ../../editors.rst:54
 msgid "|quick_update| - быстрый накат. Накат **различий** между текущий файлом и объектом в базе данных. Не работает в скриптах миграции."
-msgstr ""
+msgstr "|quick_update| - quick migration. Migration of **differences** between the current file and the database object. Does not work with the migration scripts."
 
 #: ../../editors.rst:55
 msgid "|update_ddl| - выполнить выбранное. Накат текущего скрипта на выбранную базу данных."
-msgstr ""
+msgstr "|update_ddl| - execute the selected. Migration of the current script to the selected database."
 
 #: ../../editors.rst:56
 msgid "|progress_stop| - отменить выполнение. Отмена выполнения текущего наката изменений."
-msgstr ""
+msgstr "|progress_stop| - cancel the selected. Cancelling the execution of the current migration of the changes."
 
 #: ../../editors.rst:57
 msgid "|refresh| - получить изменения. Обновляет редактор проекта, в котором находится данный файл. Не работает в скриптах миграции."
-msgstr ""
+msgstr "|refresh| - get the changes. Refreshes the project editor, in which the file is located. Does not work with the migration scripts."
 
 #: ../../editors.rst:67
 msgid "Просмотр зависимостей объекта БД"
-msgstr ""
+msgstr "Viewing the dependences of DB objects"
 
-#: ../../editors.rst:68
+#: ../../editors.rst:69
 msgid "Вид **pg Зависимости** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
-msgstr ""
+msgstr "The **pg Dependences** view shows the dependencies in which the current object, selected on the differences panel of the active project editor, takes part."
 
-#: ../../editors.rst:72
+#: ../../editors.rst:73
 msgid "Стрелки указывают на направление связи от зависящего объекта к его зависимости."
-msgstr ""
+msgstr "The arrows show the direction of connection of the dependant object towards its dependence."
 
-#: ../../editors.rst:74
+#: ../../editors.rst:75
 msgid "Переключатель **Проект - БД** позволяет выбрать, для какой БД, участвующей в сравнении, показывать объекты и зависимости. После переключения необходимо повторно выбрать элемент в панели различий редактора."
-msgstr ""
+msgstr "The **Project - DB** switch allows you to select, for which DB under comparison to show objects and dependences. After toggling it is necessary to select the object on the editor's differences panel once again."
 
-#: ../../editors.rst:76
+#: ../../editors.rst:77
 msgid "Кнопка **Добавить зависимости** позволяет открыть диалог ручного добавления зависимостей."
-msgstr ""
+msgstr "The **Add differences** button allows you to add the differences manually via a dialog window."
 
-#: ../../editors.rst:80
+#: ../../editors.rst:81
 msgid "В этом диалоге можно явно задать зависимости между объектами БД. Это может понадобиться, например, в случае если автоматическое распознавание зависимостей не сработает для некоторой сложной зависимости. Добавленные зависимости будут учтены при генерации последовательности выражений скрипта наката."
-msgstr ""
+msgstr "In this window, you can directly set the dependences between the DB objects. This may prove useful, for example, in case if automated recognition won't work for certain complex dependences. The added differences will be taken into consideration during generating the expression sequences for the migration script."
 
-#: ../../editors.rst:82
+#: ../../editors.rst:83
 msgid "Окно состоит из двух частей, которые служат для добавления зависимостей к сравниваемым БД."
-msgstr ""
+msgstr "The window consists of two parts which serve for adding the dependences to the DB under comparison."
 
-#: ../../editors.rst:84
+#: ../../editors.rst:85
 msgid "Для добавления зависимостей между объектами, достаточно ввести начльные буквы из названия объекта и из выпадающего списка выбрать имена зависимых объектов и нажать на кнопку **Добавить**. Зависимость отобразится в списке добавленных."
-msgstr ""
+msgstr "To add dependences between the objects, you can simply enter the initial letters of the object's name, select the names of depending objects from the drop-down list and click **Add**. The dependence will be displayed on the list of added."
 
-#: ../../editors.rst:86
+#: ../../editors.rst:87
 msgid "Для удаления выделите связку зависимых объектов и нажмите **Удалить**."
-msgstr ""
+msgstr "To remove a chain of dependent objects, highlight it and click **Delete**."
+
+#: ../../editors.rst:92
+msgid "Перезапись объектов"
+msgstr "Overwriting objects"
+
+#: ../../editors.rst:94
+msgid "Вид **Перезапись объектов** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
+msgstr "The **Overwriting objects** view displays the list of redefined objects in libraries for the active project editor. This view is automatically displayed while getting the changes, if there is at least one conlict."
+
+#: ../../editors.rst:98
+msgid "Кнопка |sync| отображает записи, относящиеся только к объектам, выбранным в панели различий активного редактора проекта."
+msgstr "The |sync| button shows the notes concerning only the objects selected on the differences panel of the active project editor."
+
+#: ../../editors.rst:102
+msgid "Контекстное меню позволяет открыть обе версии объекта, а также просмотреть различия в специальном редакторе сравнения."
+msgstr "Right-click menu allows you to open both versions of the object, as well as to view the differences in a dedicated comparison editor."
 

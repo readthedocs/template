@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:53+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +19,17 @@ msgstr ""
 
 #: ../../helper_functions.rst:3
 msgid "Хелперы производительности"
-msgstr ""
+msgstr "Performance helpers"
 
 #: ../../helper_functions.rst:5
 msgid "Для ускорения загрузки данных, можно установить хелперы произволительности."
-msgstr ""
+msgstr "To speed up data downloading, you cand install the performance helpers."
 
 #: ../../helper_functions.rst:7
 msgid "Для этого открываем выбираем пункт меню: **pgCodeKeeper - Установить хелперы производительности - Версия сервера**."
-msgstr ""
+msgstr "To do this, open: **pgCodeKeeper - Install performance helpers - Server version**."
 
 #: ../../helper_functions.rst:11
 msgid "Будет открыт SQL редактор с сформированным скриптом, который можно накатить на базу данных."
-msgstr ""
+msgstr "You'll see a SQL editor with a ready script which can be migrated to the data base."
 

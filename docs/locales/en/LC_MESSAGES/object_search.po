@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:47+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,77 +19,81 @@ msgstr ""
 
 #: ../../object_search.rst:3
 msgid "Поиск объекта"
-msgstr ""
+msgstr "Object search"
 
 #: ../../object_search.rst:6
 msgid "Поиск объекта в таблице изменений"
-msgstr ""
+msgstr "Object search in the changes table"
 
 #: ../../object_search.rst:8
 msgid "Для поиска объектов в таблице изменений удобно воспользоваться полем поиска над списком изменений."
-msgstr ""
+msgstr "The most convenient way of searching the objects in the changes table is the search box above the changes list."
 
 #: ../../object_search.rst:12
 msgid "Поиск происходит по именам объектов. При установленном флажке **RegEx** поиск осуществляется с использованием регулярных выражений."
-msgstr ""
+msgstr "The search is conducted by the names of the objects. When **RegEx** is ticked off, the search is conducted with the use of regular expressions."
 
 #: ../../object_search.rst:14
 msgid "Для начала просто введите часть имени в поле поиска. В таблице изменений отобразятся объекты, соответствующие данному условию."
-msgstr ""
+msgstr "To start with, just enter a part of the name into the search box. The objects satisfying this condition will be displayed in the changes table."
 
 #: ../../object_search.rst:16
 msgid "Поле поиска хранит последние 200 запросов."
-msgstr ""
+msgstr "The search box stores the last 200 entries."
 
 #: ../../object_search.rst:19
 msgid "Фильтры объектов"
-msgstr ""
+msgstr "Object filters"
 
 #: ../../object_search.rst:21
 msgid "Для фильтрации объектов можно использовать диалоговое окно, которой отобразится при нажатии кнопки |empty_filter| над списком изменений."
-msgstr ""
+msgstr "To filter the objects, you can use the dialogue window which will appear after you click|empty_filter|above the changes filter."
 
 #: ../../object_search.rst:25
 msgid "Список типов объектов позволяет отобразить только выбранные типы объектов. Если выбран тип TABLE или VIEW будут отображены все дочерние объекты."
-msgstr ""
+msgstr "The object type list allows to display only selected types of objects. Selecting the TABLE or VIEW types will display all the descendant objects."
 
 #: ../../object_search.rst:27
 msgid "Список типов изменений позволяет отобразить только выбранные типы изменений."
-msgstr ""
+msgstr "The changes type list allows to display only the selected types of changes."
 
 #: ../../object_search.rst:29
-msgid "**Фильтр по SQL коду объекта** ищет в совпадения коде генерации объектов."
-msgstr ""
+msgid "**Filter by object's SQL code / Фильтр по SQL коду объекта** ищет в совпадения коде генерации объектов."
+msgstr "**Filter by object's SQL code** searches for matches in the object generation code."
 
 #: ../../object_search.rst:31
-msgid "**Поиск по контейнеру** ищет объекты, находящиеся в схемах с подходящими именами. Также будут отображены и сами объекты схем."
-msgstr ""
+msgid "**Search by container / Поиск по контейнеру** ищет объекты, находящиеся в схемах с подходящими именами. Также будут отображены и сами объекты схем."
+msgstr "**Search by container** searches for the objects located in the schemas with appropriate names. Schema objests will be displayed as well."
 
 #: ../../object_search.rst:33
-msgid "**Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
-msgstr ""
+msgid "**Search by database user / Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
+msgstr "**Search by database user** searches for matches in the authors of object changes in the thirdparty database. The `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. extention is necessary for work."
 
 #: ../../object_search.rst:35
-msgid "**Поиск по пользователю git** ищет совпадения по авторам последного изменений объекта в локальном репозитории. Для использования проект должен находиться под системой контроля версий."
-msgstr ""
+msgid "**Search by git user / Поиск по пользователю git** ищет совпадения по авторам последного изменений объекта в локальном репозитории. Для использования проект должен находиться под системой контроля версий."
+msgstr "**Search by git user** searches for matches in the authors of the latest object change in local repository. This can be used if the project is under the version control system."
 
 #: ../../object_search.rst:37
-msgid "**Показывать только локальные изменения** отображает изменения произошедшие в локальном репозитории, с момента последнего коммита. Для использования проект должен находиться под системой контроля версий."
-msgstr ""
+msgid "**Show only local changes / Показывать только локальные изменения** отображает изменения произошедшие в локальном репозитории, с момента последнего коммита. Для использования проект должен находиться под системой контроля версий."
+msgstr "**Show only local changes** displays the changes that took place in local repository after the last commit. This can be used if the project is under the version control system."
 
 #: ../../object_search.rst:39
-msgid "Для применения фильтров нажмите кнопку **ОК**."
-msgstr ""
+msgid "**Hide lbrary objects / Скрывать библиотечные объекты** скрывает объекты загруженные из библиотек."
+msgstr "**Hide lbrary objects** hides the objects downloaded from libraries."
 
 #: ../../object_search.rst:41
-msgid "Для отмены текущих изменений нажмите кнопку **Отмена**."
-msgstr ""
+msgid "Для применения фильтров нажмите кнопку **ОК**."
+msgstr "To apply the filters, click **ОK**."
 
 #: ../../object_search.rst:43
-msgid "Для сброса всех фильтров нажмите кнопку **Сбросить**."
-msgstr ""
+msgid "Для отмены текущих изменений нажмите кнопку **Cancel / Отмена**."
+msgstr "To cancel current changes, click **Cancel**."
 
 #: ../../object_search.rst:45
+msgid "Для сброса всех фильтров нажмите кнопку **Reset / Сбросить**."
+msgstr "To reset all the filters, click **Reset**."
+
+#: ../../object_search.rst:47
 msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
-msgstr ""
+msgstr "When the filter is on, the button icon will change to |filter_tsk|."
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 13:10+0300\n"
-"PO-Revision-Date: 2018-03-02 01:46-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-08 01:00-0400\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,29 +19,49 @@ msgstr ""
 
 #: ../../installation.rst:3
 msgid "Установка"
-msgstr ""
+msgstr "Installation"
 
-#: ../../installation.rst:5
-msgid "Самый простой путь получить pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.2 или выше, выбрать **Help> Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
-msgstr ""
+#: ../../installation.rst:6
+msgid "Eclipse Marketplace"
+msgstr "Eclipse Marketplace"
 
-#: ../../installation.rst:7
-msgid "В поле **Work With** ввести путь к сайту обновлений. Это может быть как удаленный ресурс http://pgcodekeeper.ru/update/release/, так и локальный в вашей файловой системе."
-msgstr ""
+#: ../../installation.rst:8
+msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.2 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
+msgstr "The easiest way to install pgCodeKeeper is Eclipse Marketplace: launch Eclipse, version 4.2 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Markeplace...**."
 
-#: ../../installation.rst:9
-msgid "После нажатия **Enter** в списке ниже появятся доступные для установки плагины."
-msgstr ""
+#: ../../installation.rst:10
+msgid "В поле поиска ввести: pgCodeKeeper."
+msgstr "Enter \"pgCodeKeeper\" into the search box."
 
-#: ../../installation.rst:11
-msgid "Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с пользовательским соглашением, нажмите кнопку **Finish** и начнется установка."
-msgstr ""
+#: ../../installation.rst:12
+msgid "Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish и начнется установка."
+msgstr "Select the pgCodeKeeper package, review the Terms of service and click Finish for the installation to begin."
 
-#: ../../installation.rst:15
+#: ../../installation.rst:16 ../../installation.rst:33
 msgid "По завершению установки для применения изменений необходимо перезапустить Eclipse."
-msgstr ""
+msgstr "After the installation is finished, restart Eclipse to apply the changes."
 
-#: ../../installation.rst:17
-msgid "Запустите Eclipse и выберите **Window> Perspective> Open Perspective> Other> pgCodeKeeper**."
-msgstr ""
+#: ../../installation.rst:18 ../../installation.rst:35
+msgid "Запустите Eclipse и выберите **Window > Perspective > Open Perspective > Other > pgCodeKeeper**."
+msgstr "Launch Eclipse and select **Window > Perspective > Open Perspective > Other > pgCodeKeeper**."
+
+#: ../../installation.rst:21
+msgid "Сайт обновления"
+msgstr "Update website"
+
+#: ../../installation.rst:23
+msgid "Альтернативный путь получить установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.2 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
+msgstr "Another way to install pgCodeKeeper is the update website: launch Eclipse, version 4.2 or higher, select **Help > Install New Software...** Plug-in installation (with the help of the update web-site) wizard will appear on the screen."
+
+#: ../../installation.rst:25
+msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/release/."
+msgstr "In the **Work With** field specify the path to the update website: http://pgcodekeeper.org/update/release/."
+
+#: ../../installation.rst:27
+msgid "После нажатия **Enter** в списке ниже появятся доступные для установки плагины."
+msgstr "After pressing **Enter** you'll see the available plug-ins in the list below."
+
+#: ../../installation.rst:29
+msgid "Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с пользовательским соглашением, нажмите кнопку **Finish** и начнется установка."
+msgstr "Select the pgCodeKeeper package, agree to the installation, review the Terms of service and click **Finish** for the installation to begin."
 

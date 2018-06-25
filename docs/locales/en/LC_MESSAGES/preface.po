@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 10:39+0300\n"
-"PO-Revision-Date: 2018-03-03 02:42-0500\n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: 2018-06-19T13:12:40+0000\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -18,58 +18,58 @@ msgstr ""
 "Language: en_US\n"
 
 #: ../../preface.rst:2
-msgid "Мотивация"
-msgstr ""
+msgid "Вступление"
+msgstr "Preface"
 
 #: ../../preface.rst:4
 msgid "В 2013 году, когда я приступил к работе в ООО «Технология», компания уже разрабатывала программное обеспечение для одного из крупнейших в России сервисов заказа такси «Максим». И одной из целей на тот период был переход в использовании от сервера баз данных MSSQL на PostgreSQL."
-msgstr ""
+msgstr "When I started working in OOO Technology in 2013, the company was already developing software for one of the most prominent taxi order services in Russia - Maxim. And one of the tasks of that time was to start using PostgreSQL database server instead of the MSSQL one."
 
 #: ../../preface.rst:6
 msgid "Мы начали процесс миграции с одной системы управления базами данных на другую и обнаружили две существенных особенностей PostgreSQL."
-msgstr ""
+msgstr "We started the migration process from one database management system to another and discovered two major peculiarities of PostgreSQL."
 
 #: ../../preface.rst:8
 msgid "Первое, набор инструментов, как для разработки БД, так и для её сопровождения, на тот момент значительно уступал относительно хорошо известного к тому времени MSSQL."
-msgstr ""
+msgstr "First, tool bar for both development and maintenance of databases at that time was vastly inferior to the well-known MSSQL."
 
 #: ../../preface.rst:10
 msgid "Второе, архитектура существующей информационной системы включала в себя значительный пласт бизнес-логики приложений расположенной в базе данных. Это и представления, связанные со множеством таблиц, и хранимые процедуры."
-msgstr ""
+msgstr "Second, architecture of the existing informational system included a broad layer of application business logic situated in the database. These are views related to a great number of tables and the procedures contained there."
 
 #: ../../preface.rst:12
 msgid "Мы столкнулись с существенной сложностью при миграции, т.к. в отличие от СУБД подобных MSSQL и Oracle, которые при пересоздании объекта с зависимостями выполняли инвалидацию зависимых объектов, с возможностью выполнения дальнейшей перекомпиляции невалидных объектов, PostgreSQL поступал совсем по-другому."
-msgstr ""
+msgstr "The migration proved to be very difficult to realize, because unlike DBMS such as MSSQL a Oracle, which conducted invalidation of dependent files when re-creating the object with dependences, with an ability of conducting further recompillation of invalid objects, PostgreSQL acted in a very different manner."
 
 #: ../../preface.rst:14
 msgid "Нашим настоящим кошмаром стал ад зависимостей между объектами БД. При пересоздании объекта, в случае, если на него ссылались другие объекты БД приходилось удалять все зависимые объекты и создавать их повторно после пересоздания «родительского» объекта."
-msgstr ""
+msgstr "Pandemonium of dependences between the database objects has become our utter nightmare. When re-creating an object, if we found out it was referenced by other DB objects, we had to delete all the dependent objects and create them again after re-creating the «parent» object."
 
 #: ../../preface.rst:16
 msgid "Тогда и родилась идея о создании собственного продукта способного решить в первую очередь проблему при формировании скрипта миграции с зависимыми объектами, а более того способного облегчить работу разработчика и другими способами, такими как: автодополнение кода, навигация по коду, формирование скриптов с тестовыми данными для существующих таблиц и многое другое."
-msgstr ""
+msgstr "It was then when we had an idea of creating our own product, which first of all would be able to solve the problem occuring while forming the migration script with dependent objects, and above that - able to ease the job of the developer in many other ways such as: code completion, code navigation, forming of scripts with test data for existing tables etc."
 
 #: ../../preface.rst:18
 msgid "На текущий момент pgCodeKeeper решает многие из поставленных целей. Но мы не останавливаемся. На очереди – как улучшение существующих возможностей, так и достижение новых целей."
-msgstr ""
+msgstr "Currently, pgCodeKeeper solves most of the problems at hand. But we are not planning to stop here. Next, we are aimed at both improving the existing possibilities and achieving new goals."
 
 #: ../../preface.rst:20
 msgid "Мы работаем над тем, чтобы pgCodeKeeper мог выступать в качестве инструмента для выполнения рефакторинга объектов базы данных, улучшение работы с кодом pl/pgSql, и извлечением и отображением данных."
-msgstr ""
+msgstr "We work hard for pgCodeKeeper to become a tool for database objects refactoring, as well as for improving work with the pl/pgSql code and data extraction and display."
 
 #: ../../preface.rst:22
 msgid "Теперь, когда у нас появился pgCodeKeeper, работа с PostgreSQL стала значительно проще. В конце 2017 года было принято решение вывести код продукта под одну из существующих лицензий с открытым исходным кодом. Мы остановились на лицензии Apache 2.0. И именно благодаря этому, теперь pgCodeKeeper стал доступен множеству участников по всему миру."
-msgstr ""
+msgstr "Now that we have pgCodeKeeper, working with PostgreSQL has become significantly easier. In late 2017, it was decided to make our product code subject to one of the existing open source licenses. We went for the Apache 2.0. licence. And thanks to that, pgCodeKeeper is now available for many participants all over the world."
 
 #: ../../preface.rst:24
 msgid "Я благодарю вас за интерес, который вы проявили к нашему продукту и желаю вам приятной работы с pgCodeKeeper."
-msgstr ""
+msgstr "I thank you for the interest you have shown in our product and wish you pleasant work with pgCodeKeeper."
 
 #: ../../preface.rst:26
 msgid "Руководитель отдела разработки ПО, г. Набережные Челны"
-msgstr ""
+msgstr "Head of software development subdivision, Naberezhnye Chelny"
 
 #: ../../preface.rst:27
 msgid "Саушкин Андрей, 2018"
-msgstr ""
+msgstr "Andrei Saushkin, 2018"
 
