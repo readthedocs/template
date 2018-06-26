@@ -185,9 +185,6 @@ htmlhelp_basename = 'pgCodeKeeper user documentation'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-# gracefully handles untranslated cyrillics in english pdf build
-latex_engine = 'xelatex'
-
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
