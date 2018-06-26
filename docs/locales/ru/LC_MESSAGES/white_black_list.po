@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"POT-Creation-Date: 2018-06-26 09:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../white_black_list.rst:5
 msgid "Список исключаемых объектов"
@@ -316,7 +316,7 @@ msgid "REGEX"
 msgstr ""
 
 #: ../../white_black_list.rst:112
-msgid "воспринимает objectName как регулярное выражение [*]_"
+msgid "воспринимает objectName как регулярное выражение [1]_"
 msgstr ""
 
 #: ../../white_black_list.rst

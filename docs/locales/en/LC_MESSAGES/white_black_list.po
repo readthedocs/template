@@ -266,8 +266,8 @@ msgid "REGEX"
 msgstr "REGEX"
 
 #: ../../white_black_list.rst:112
-msgid "воспринимает objectName как регулярное выражение [*]_"
-msgstr "treats objectName as a regualr expression [*]_"
+msgid "воспринимает objectName как регулярное выражение [1]_"
+msgstr "treats objectName as a regular expression [1]_"
 
 #: ../../white_black_list.rst
 msgid "CONTENT"
