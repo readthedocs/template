@@ -193,7 +193,11 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+
+# incorrect language order for english build
+# but otherwise it fails on untraslated strings
+# pending issues: #4021, #1556
+'preamble': '\usepackage[english,russian]{babel}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
