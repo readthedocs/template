@@ -198,7 +198,7 @@ latex_elements = {
 # incorrect language order for english build
 # but otherwise it fails on untraslated strings
 # pending issues: #4021, #1556
-'babel': '\usepackage[english,russian]{babel}',
+'babel': '\usepackage[english,main=russian]{babel}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
