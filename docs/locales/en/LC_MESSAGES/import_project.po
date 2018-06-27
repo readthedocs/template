@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-19 13:12+0000\n"
+"PO-Revision-Date: 2018-06-27 09:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "If there is an Eclipse project (such projects have the .project file in 
 
 #: ../../import_project.rst:7
 msgid "Из меню выберите пункт **File -> Import...** Откроется выбор мастеров импорта."
-msgstr "Select **File -> Import...** from the menu. An imoprt wizard selection screen will appear."
+msgstr "Select **File -> Import...** from the menu. An import wizard selection screen will appear."
 
 #: ../../import_project.rst:8
 msgid "Выберите категорию **General -> Existing Project** into Workspace и нажмите **Next**."
