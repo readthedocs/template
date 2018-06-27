@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 4.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../contributors.rst:2
+msgid "Вклад участников"
+msgstr ""
+
+#: ../../contributors.rst:4
+msgid ""
+"В разработке продукта участвовало множество людей. Здесь зафиксирован "
+"вклад людей в разработку продукта."
+msgstr ""
+
+#: ../../contributors.rst:7
+msgid "Идея"
+msgstr ""
+
+#: ../../contributors.rst:9
+msgid "Мокеев Сергей"
+msgstr ""
+
+#: ../../contributors.rst:11
+msgid ""
+"Хочется отметить, особый вклад в формирование идей, также Новгородова "
+"Дмитрия и Володина Андрея."
+msgstr ""
+
+#: ../../contributors.rst:14
+msgid "Управление"
+msgstr ""
+
+#: ../../contributors.rst:16
+msgid "Саушкин Андрей - управление продуктом и иногда проектом"
+msgstr ""
+
+#: ../../contributors.rst:20
+msgid "Разработка"
+msgstr ""
+
+#: ../../contributors.rst:22
+msgid "Левша Александр - ведущий программист"
+msgstr ""
+
+#: ../../contributors.rst:23
+msgid "Галиев Мансур"
+msgstr ""
+
+#: ../../contributors.rst:24
+msgid "Шамсутдинов Ленар"
+msgstr ""
+
+#: ../../contributors.rst:25
+msgid "Ботов Анатолий"
+msgstr ""
+
+#: ../../contributors.rst:26
+msgid "Рябинин Антон"
+msgstr ""
+
+#: ../../contributors.rst:27
+msgid "Акифьев Антон"
+msgstr ""
+
+#: ../../contributors.rst:28
+msgid "Шайдуллин Ильдар"
+msgstr ""
+
+#: ../../contributors.rst:31
+msgid "Дизайн и вёрстка сайта"
+msgstr ""
+
+#: ../../contributors.rst:33
+msgid "Хазиева Гульназ"
+msgstr ""
+
+#: ../../contributors.rst:34
+msgid "Демаков Василий"
+msgstr ""
+
+#: ../../contributors.rst:37
+msgid "Перевод документации"
+msgstr ""
+
+#: ../../contributors.rst:39
+msgid "Мы ищем контрибьюторов для выполнения перевода документации."
+msgstr ""
+
