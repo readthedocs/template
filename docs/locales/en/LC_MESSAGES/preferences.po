@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-28 10:26\n"
+"PO-Revision-Date: 2018-06-28 10:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -143,7 +143,7 @@ msgstr "**Create migration script files in project directory** – sets operatio
 
 #: ../../preferences.rst:79
 msgid "**Delete migration script files when closing migration editor / Удалять файлы скриптов миграции после закрытия редактора** – определяет поведение при закрытии скриптов миграции, если они были созданы в директории проекта."
-msgstr ""
+msgstr "**Delete migration script files when closing migration editor** – sets oprations after closing the migration scripts, if they were created in the project directory."
 
 #: ../../preferences.rst:80
 msgid "**Warn about dangerous scripts containig: / Предупреждать, если в скрипте присутствуют следующие выражения:** – позволяет предупреждать, если при генерации скрипта образовались выбранные опасные выражения."
