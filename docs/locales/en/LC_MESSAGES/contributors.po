@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 13:31+0300\n"
-"PO-Revision-Date: 2018-06-27 10:33\n"
+"PO-Revision-Date: 2018-06-28 11:22\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "Documentation Translation"
 
 #: ../../contributors.rst:39
 msgid "Пигин Кирилл"
-msgstr ""
+msgstr "Kirill Pigin"
 
 #: ../../contributors.rst:40
 msgid "Мы ищем контрибьюторов для выполнения перевода документации."
