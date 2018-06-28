@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-28 10:41\n"
+"PO-Revision-Date: 2018-06-28 10:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -147,7 +147,7 @@ msgstr "**Delete migration script files when closing migration editor** – sets
 
 #: ../../preferences.rst:80
 msgid "**Warn about dangerous scripts containig: / Предупреждать, если в скрипте присутствуют следующие выражения:** – позволяет предупреждать, если при генерации скрипта образовались выбранные опасные выражения."
-msgstr ""
+msgstr "**Warn about dangerous scripts containig:** - allows to show notifications if any selected dangerous expressions were formed during script generation."
 
 #: ../../preferences.rst:81
 msgid "**Show script output in separate window / Показывать вывод скрипт наката в отдельном окне** – позволяет просмотреть сообщение с ответом сервера при выполнении наката."
