@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-28 11:01\n"
+"PO-Revision-Date: 2018-06-28 11:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -167,11 +167,11 @@ msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to 
 
 #: ../../preferences.rst:85
 msgid "**Print CREATE INDEX ... in CONCURRENTLY mode / Печатать CREATE INDEX ... в режиме CONCURRENTLY** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY. Такие индексы невозможно создать в блоке транзакции."
-msgstr ""
+msgstr "**Print CREATE INDEX ... in CONCURRENTLY mode** – in scripts, allows to create indexes in CONCURRENTLY mode. Such indexes are impossible to create in the transaction block."
 
 #: ../../preferences.rst:86
 msgid "**Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
-msgstr ""
+msgstr "**Migration command** - allows to use another utility or bootup options when applying migration script to the database."
 
 #: ../../preferences.rst:90
 msgid "Обновление проекта"
@@ -199,7 +199,7 @@ msgstr "On the **pgCodeKeeper -> Usage reports** settings page you can enable or
 
 #: ../../preferences.rst:108
 msgid "Отправляемые значения для статистики Вы можете просмотреть в поле **Reported Values / Отправляемые значения**."
-msgstr ""
+msgstr "The values which are sent for the statistics you can review in the **Values sent** field."
 
 #: ../../preferences.rst:111
 msgid "Редактор проекта"
@@ -215,31 +215,31 @@ msgstr "On the **pgCodeKeeper -> Project editor** settings page you can adjust t
 
 #: ../../preferences.rst:119
 msgid "**Switch to pgCodeKeeper perspective when opening editor / Переключать в перспективу pgCodeKeeper при открытии редактора** – определяет поведение переключения перспективы при открытии редактора проекта."
-msgstr ""
+msgstr "**Switch to pgCodeKeeper perspective when opening editor** – sets operations for switching the perspective while starting the project editor."
 
 #: ../../preferences.rst:120
 msgid "**After applying a migration to editor's DB do: / После выполнения миграции на БД редактора выполнить:** – определяет поведение редактора при накате скриптов миграции."
-msgstr ""
+msgstr "**After applying a migration to editor's DB do:** – sets the editor operations while implementing the migration scripts."
 
 #: ../../preferences.rst:121
 msgid "**Display git user that math the change / Отображать пользователя git, совершившего изменение** – позволяет отображать в редакторе колонку с пользователем git, совершившем последнее изменение файла. Проект должен находиться под системой контроля версий."
-msgstr ""
+msgstr "**Display git user that math the change** – allows to display the column, containing the git user who made the latest change to the file, in the editor. The project should be under the version control system."
 
 #: ../../preferences.rst:124
 msgid "Редактор SQL"
-msgstr ""
+msgstr "SQL Editor"
 
 #: ../../preferences.rst:126
 msgid "Настройки, управляющие редактором SQL."
-msgstr ""
+msgstr "Settings managing the SQL editor."
 
 #: ../../preferences.rst:130
 msgid "На странице настроек **pgCodeKeeper -> Редактор SQL** Вы можете настроить параметры редактора SQL."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> SQL editor** settings page you can adjust the options of the SQL editor."
 
 #: ../../preferences.rst:132
 msgid "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в одном из режимов."
-msgstr ""
+msgstr "**Bracket highlight** – enables bracket highlight in one of the modes."
 
 #: ../../preferences.rst:133
 msgid "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную скобку."
