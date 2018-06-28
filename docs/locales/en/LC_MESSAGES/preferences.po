@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-28 10:11\n"
+"PO-Revision-Date: 2018-06-28 10:26\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,23 +35,23 @@ msgstr "**pg_dump executable** - path to the pg_dump utility or any other execut
 
 #: ../../preferences.rst:12
 msgid "**pg_dump custom parameters / Дополнительные параметры pg_dump** - позволяет задавать дополнительные параметры вызова утилиты pg_dump."
-msgstr ""
+msgstr "**pg_dump custom parameters** - allows to set additional settings for the pg_dump utility activation."
 
 #: ../../preferences.rst:13
 msgid "**Use pg_dbo_timestamp extension / Использовать расширение pg_dbo_timestamps** - позволяет использовать расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. Расширение позволяет ускорить загрузку схем базы данных, а также позволяет отображать в редакторе колонку с пользователем базы данных, совершившем последнее изменение объекта."
-msgstr ""
+msgstr "**Use pg_dbo_timestamp extension** - allows to use the extension `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. This extension allows to speed up the loading of data base schemas, as well as to display the column with the data base user, which made the latest changes into the object, in the editor."
 
 #: ../../preferences.rst:14
 msgid "**Show console on new output / Показывать консоль** - позволяет автоматически показывать консоль программы при выводе в нее."
-msgstr ""
+msgstr "**Show console on new output** - allows to automatically show program console when opening it."
 
 #: ../../preferences.rst:15
 msgid "**Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов** - позволяет отключить поиск различий в свойствах объектов, связанных с ролями БД."
-msgstr ""
+msgstr "**Ignore privileges and owners of database objects** - allows to disable the search for differences in the properties of the objects related to DB roles."
 
 #: ../../preferences.rst:16
 msgid "**Reuse compare editor instead of opening new ones / Использовать открытый редактор сравнения вместо создания новых** - позволяет использовать открытый редактор сравнения при сравнения объектов базы данных (В контекстном меню таблицы различий выбрать пункт **Показать различия**)."
-msgstr ""
+msgstr "**Reuse compare editor instead of opening new ones** - allows to use the alerady running comparison editor for comparing database objects (Select **Show differences** in the right-click menu of the differnces table)."
 
 #: ../../preferences.rst:21
 msgid "Исключенные объекты"
@@ -139,7 +139,7 @@ msgstr "On the **pgCodeKeeper -> DB update** settings page you can adjust parame
 
 #: ../../preferences.rst:78
 msgid "**Create migration script files in project directory / Создавать скрипт миграции в директории проекта** – определяет поведение при создании скриптов миграции."
-msgstr ""
+msgstr "**Create migration script files in project directory** – sets operations when creating migration scripts."
 
 #: ../../preferences.rst:79
 msgid "**Delete migration script files when closing migration editor / Удалять файлы скриптов миграции после закрытия редактора** – определяет поведение при закрытии скриптов миграции, если они были созданы в директории проекта."
