@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-28 10:08\n"
+"PO-Revision-Date: 2018-06-28 10:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "**Use pg_dump DB loader instead of JDBC** - use pg_dump instead of JDBC 
 
 #: ../../preferences.rst:11
 msgid "**pg_dump executable / Исполняемый файл pg_dump** - путь к утилите pg_dump, либо к другому исполняемому файлу или скрипту, реализующему интерфейс pg_dump."
-msgstr ""
+msgstr "**pg_dump executable** - path to the pg_dump utility or any other executable file or script which realizes the pg_dump interface."
 
 #: ../../preferences.rst:12
 msgid "**pg_dump custom parameters / Дополнительные параметры pg_dump** - позволяет задавать дополнительные параметры вызова утилиты pg_dump."
