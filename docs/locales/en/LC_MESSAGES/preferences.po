@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-28 10:51\n"
+"PO-Revision-Date: 2018-06-28 11:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -151,19 +151,19 @@ msgstr "**Warn about dangerous scripts containig:** - allows to show notificatio
 
 #: ../../preferences.rst:81
 msgid "**Show script output in separate window / Показывать вывод скрипт наката в отдельном окне** – позволяет просмотреть сообщение с ответом сервера при выполнении наката."
-msgstr ""
+msgstr "**Show script output in separate window** – allows to view the message with the server response when migration is complete."
 
 #: ../../preferences.rst:82
 msgid "**Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION; / Заключить скрипт наката в блок START TRANSACTION; ... COMMIT TRANSACTION;** – позволяет дополнять генерируемые скрипты парой start ... commit."
-msgstr ""
+msgstr "**Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION;** – allows to add the start ... commit pair to the generating scripts."
 
 #: ../../preferences.rst:83
 msgid "**Allow PostgreSQL to validate function bodies in DDL update script / Разрешить PostgreSQL проверять тела функций в скрипте наката** – позволяет при генерации скрипта добавлять проверку \"SET check_function_bodies = true;\" в начало скрипта."
-msgstr ""
+msgstr "**Allow PostgreSQL to validate function bodies in DDL update script** – allows to add the \"SET check_function_bodies = true;\" check in the beginning of a generating script."
 
 #: ../../preferences.rst:84
 msgid "**Print ALTER COLUMN ... TYPE with USING expression / Печатать ALTER COLUMN ... TYPE ... с USING expression** – позволяет добавлять в скрипт выражение, позволяющее изменить тип данных, при изменении типа столбца"
-msgstr ""
+msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to add the expression, permitting to change the data type when changing the column type, to the script"
 
 #: ../../preferences.rst:85
 msgid "**Print CREATE INDEX ... in CONCURRENTLY mode / Печатать CREATE INDEX ... в режиме CONCURRENTLY** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY. Такие индексы невозможно создать в блоке транзакции."
