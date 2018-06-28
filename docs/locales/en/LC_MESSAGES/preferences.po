@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-28 11:11\n"
+"PO-Revision-Date: 2018-06-28 11:22\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "**pg_dump custom parameters** - allows to set additional settings for th
 
 #: ../../preferences.rst:13
 msgid "**Use pg_dbo_timestamp extension / Использовать расширение pg_dbo_timestamps** - позволяет использовать расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. Расширение позволяет ускорить загрузку схем базы данных, а также позволяет отображать в редакторе колонку с пользователем базы данных, совершившем последнее изменение объекта."
-msgstr "**Use pg_dbo_timestamp extension** - allows to use the extension `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. This extension allows to speed up the loading of data base schemas, as well as to display the column with the data base user, which made the latest changes into the object, in the editor."
+msgstr "**Use pg_dbo_timestamp extension** - allows to use the extension `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. This extension allows to speed up the loading of database schemas, as well as to display the column with the data base user, which made the latest changes into the object, in the editor."
 
 #: ../../preferences.rst:14
 msgid "**Show console on new output / Показывать консоль** - позволяет автоматически показывать консоль программы при выводе в нее."
@@ -243,19 +243,19 @@ msgstr "**Bracket highlight** – enables bracket highlight in one of the modes.
 
 #: ../../preferences.rst:133
 msgid "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную скобку."
-msgstr ""
+msgstr "**Single bracket** – when selecting a bracket, highlights the matching bracket."
 
 #: ../../preferences.rst:134
 msgid "**Both brackets / Обе скобка** – при выборе скобки, подсвечивает текущую и парную скобку."
-msgstr ""
+msgstr "**Both brackets** – when selecting a bracket, highlights the selected and the matching brackets."
 
 #: ../../preferences.rst:135
 msgid "**Current block brackets / Скобки текущего блока** – подсвечивает скобки, между которыми находится курсор."
-msgstr ""
+msgstr "**Current block brackets** – highlights the brackets between which the cursor is situated."
 
 #: ../../preferences.rst:136
 msgid "**Bracket highlight color / Цвет подсветки скобок** – позволяет выбрать цвет подсветки скобок."
-msgstr ""
+msgstr "**Bracket highlight color** – allows to select the color of brackets highlighting."
 
 #: ../../preferences.rst:140
 msgid "Подсветка синтаксиса"
@@ -291,7 +291,7 @@ msgstr "Settings managing the storage of the parameters of the DB connection."
 
 #: ../../preferences.rst:163
 msgid "На странице настроек **pgCodeKeeper -> DB Store** (Хранилище БД) находится список записей для подключения к базам данных."
-msgstr ""
+msgstr "On the **pgCodeKeeper ->DB Store** settings page you can find the list of records for connecting to the databases."
 
 #: ../../preferences.rst:167
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль. Название записи можно указать вручную, для этого нужно убрать галочку с чекбокса **Auto-generate** (Автогенерация)."
