@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-19 13:12+0000\n"
+"PO-Revision-Date: 2018-06-29 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../db_store.rst:3
 msgid "Выбор источника базы данных"
-msgstr "Selecting of the database sourse"
+msgstr "Selecting of the database source"
 
 #: ../../db_store.rst:5
 msgid "Для удобства выбора источника базы данных в различных частях плагина используется выпадающий список, который состоит из списка баз данных и 3-х последних дамп-файлов."
