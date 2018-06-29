@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-19 13:12+0000\n"
+"PO-Revision-Date: 2018-06-29 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "INCREMENT"
 
 #: ../../mock_data.rst:18
 msgid "Последовательное увеличение стартового значения на значение инкремента."
-msgstr "Consistent incerasing of the inital value by the increment value."
+msgstr "Consistent increasing of the inital value by the increment value."
 
 #: ../../mock_data.rst
 msgid "CONSTANT"
