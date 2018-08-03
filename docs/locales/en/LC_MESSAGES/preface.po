@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-08-03 07:51\n"
+"PO-Revision-Date: 2018-08-03 08:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Second, an architecture of the existing information system included a si
 
 #: ../../preface.rst:12
 msgid "Мы столкнулись с существенной сложностью при миграции, т.к. в отличие от СУБД подобных MSSQL и Oracle, которые при пересоздании объекта с зависимостями выполняли инвалидацию зависимых объектов, с возможностью выполнения дальнейшей перекомпиляции невалидных объектов, PostgreSQL поступал совсем по-другому."
-msgstr "The migration proved to be very difficult to realize, because unlike DBMS such as MSSQL a Oracle, which conducted invalidation of dependent files when re-creating the object with dependences, with an ability of conducting further recompillation of invalid objects, PostgreSQL acted in a very different manner."
+msgstr "We faced with the significant complexity of the migration process because, unlike DBMS such as MSSQL or Oracle, which recompile invalidated database objects, PostgreSQL acted in a very different manner."
 
 #: ../../preface.rst:14
 msgid "Нашим настоящим кошмаром стал ад зависимостей между объектами БД. При пересоздании объекта, в случае, если на него ссылались другие объекты БД приходилось удалять все зависимые объекты и создавать их повторно после пересоздания «родительского» объекта."
