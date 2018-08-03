@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-19 16:02+0300\n"
-"PO-Revision-Date: 2018-06-19 13:12+0000\n"
+"PO-Revision-Date: 2018-06-28 11:22\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,31 +27,31 @@ msgstr "pgCodeKeeper basic settings"
 
 #: ../../preferences.rst:10
 msgid "**Use pg_dump DB loader instead of JDBC / Использовать загрузчик pg_dump** - для загрузки базы данных использовать pg_dump вместо JDBC."
-msgstr ""
+msgstr "**Use pg_dump DB loader instead of JDBC** - use pg_dump instead of JDBC to load the database."
 
 #: ../../preferences.rst:11
 msgid "**pg_dump executable / Исполняемый файл pg_dump** - путь к утилите pg_dump, либо к другому исполняемому файлу или скрипту, реализующему интерфейс pg_dump."
-msgstr ""
+msgstr "**pg_dump executable** - path to the pg_dump utility or any other executable file or script which realizes the pg_dump interface."
 
 #: ../../preferences.rst:12
 msgid "**pg_dump custom parameters / Дополнительные параметры pg_dump** - позволяет задавать дополнительные параметры вызова утилиты pg_dump."
-msgstr ""
+msgstr "**pg_dump custom parameters** - allows to set additional settings for the pg_dump utility activation."
 
 #: ../../preferences.rst:13
 msgid "**Use pg_dbo_timestamp extension / Использовать расширение pg_dbo_timestamps** - позволяет использовать расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. Расширение позволяет ускорить загрузку схем базы данных, а также позволяет отображать в редакторе колонку с пользователем базы данных, совершившем последнее изменение объекта."
-msgstr ""
+msgstr "**Use pg_dbo_timestamp extension** - allows to use the extension `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. This extension allows to speed up the loading of database schemas, as well as to display the column with the data base user, which made the latest changes into the object, in the editor."
 
 #: ../../preferences.rst:14
 msgid "**Show console on new output / Показывать консоль** - позволяет автоматически показывать консоль программы при выводе в нее."
-msgstr ""
+msgstr "**Show console on new output** - allows to automatically show program console when opening it."
 
 #: ../../preferences.rst:15
 msgid "**Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов** - позволяет отключить поиск различий в свойствах объектов, связанных с ролями БД."
-msgstr ""
+msgstr "**Ignore privileges and owners of database objects** - allows to disable the search for differences in the properties of the objects related to DB roles."
 
 #: ../../preferences.rst:16
 msgid "**Reuse compare editor instead of opening new ones / Использовать открытый редактор сравнения вместо создания новых** - позволяет использовать открытый редактор сравнения при сравнения объектов базы данных (В контекстном меню таблицы различий выбрать пункт **Показать различия**)."
-msgstr ""
+msgstr "**Reuse compare editor instead of opening new ones** - allows to use the alerady running comparison editor for comparing database objects (Select **Show differences** in the right-click menu of the differnces table)."
 
 #: ../../preferences.rst:21
 msgid "Исключенные объекты"
@@ -139,39 +139,39 @@ msgstr "On the **pgCodeKeeper -> DB update** settings page you can adjust parame
 
 #: ../../preferences.rst:78
 msgid "**Create migration script files in project directory / Создавать скрипт миграции в директории проекта** – определяет поведение при создании скриптов миграции."
-msgstr ""
+msgstr "**Create migration script files in project directory** – sets operations when creating migration scripts."
 
 #: ../../preferences.rst:79
 msgid "**Delete migration script files when closing migration editor / Удалять файлы скриптов миграции после закрытия редактора** – определяет поведение при закрытии скриптов миграции, если они были созданы в директории проекта."
-msgstr ""
+msgstr "**Delete migration script files when closing migration editor** – sets oprations after closing the migration scripts, if they were created in the project directory."
 
 #: ../../preferences.rst:80
 msgid "**Warn about dangerous scripts containig: / Предупреждать, если в скрипте присутствуют следующие выражения:** – позволяет предупреждать, если при генерации скрипта образовались выбранные опасные выражения."
-msgstr ""
+msgstr "**Warn about dangerous scripts containig:** - allows to show notifications if any selected dangerous expressions were formed during script generation."
 
 #: ../../preferences.rst:81
 msgid "**Show script output in separate window / Показывать вывод скрипт наката в отдельном окне** – позволяет просмотреть сообщение с ответом сервера при выполнении наката."
-msgstr ""
+msgstr "**Show script output in separate window** – allows to view the message with the server response when migration is complete."
 
 #: ../../preferences.rst:82
 msgid "**Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION; / Заключить скрипт наката в блок START TRANSACTION; ... COMMIT TRANSACTION;** – позволяет дополнять генерируемые скрипты парой start ... commit."
-msgstr ""
+msgstr "**Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION;** – allows to add the start ... commit pair to the generating scripts."
 
 #: ../../preferences.rst:83
 msgid "**Allow PostgreSQL to validate function bodies in DDL update script / Разрешить PostgreSQL проверять тела функций в скрипте наката** – позволяет при генерации скрипта добавлять проверку \"SET check_function_bodies = true;\" в начало скрипта."
-msgstr ""
+msgstr "**Allow PostgreSQL to validate function bodies in DDL update script** – allows to add the \"SET check_function_bodies = true;\" check in the beginning of a generating script."
 
 #: ../../preferences.rst:84
 msgid "**Print ALTER COLUMN ... TYPE with USING expression / Печатать ALTER COLUMN ... TYPE ... с USING expression** – позволяет добавлять в скрипт выражение, позволяющее изменить тип данных, при изменении типа столбца"
-msgstr ""
+msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to add the expression, permitting to change the data type when changing the column type, to the script"
 
 #: ../../preferences.rst:85
 msgid "**Print CREATE INDEX ... in CONCURRENTLY mode / Печатать CREATE INDEX ... в режиме CONCURRENTLY** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY. Такие индексы невозможно создать в блоке транзакции."
-msgstr ""
+msgstr "**Print CREATE INDEX ... in CONCURRENTLY mode** – in scripts, allows to create indexes in CONCURRENTLY mode. Such indexes are impossible to create in the transaction block."
 
 #: ../../preferences.rst:86
 msgid "**Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
-msgstr ""
+msgstr "**Migration command** - allows to use another utility or bootup options when applying migration script to the database."
 
 #: ../../preferences.rst:90
 msgid "Обновление проекта"
@@ -199,7 +199,7 @@ msgstr "On the **pgCodeKeeper -> Usage reports** settings page you can enable or
 
 #: ../../preferences.rst:108
 msgid "Отправляемые значения для статистики Вы можете просмотреть в поле **Reported Values / Отправляемые значения**."
-msgstr ""
+msgstr "The values which are sent for the statistics you can review in the **Values sent** field."
 
 #: ../../preferences.rst:111
 msgid "Редактор проекта"
@@ -215,47 +215,47 @@ msgstr "On the **pgCodeKeeper -> Project editor** settings page you can adjust t
 
 #: ../../preferences.rst:119
 msgid "**Switch to pgCodeKeeper perspective when opening editor / Переключать в перспективу pgCodeKeeper при открытии редактора** – определяет поведение переключения перспективы при открытии редактора проекта."
-msgstr ""
+msgstr "**Switch to pgCodeKeeper perspective when opening editor** – sets operations for switching the perspective while starting the project editor."
 
 #: ../../preferences.rst:120
 msgid "**After applying a migration to editor's DB do: / После выполнения миграции на БД редактора выполнить:** – определяет поведение редактора при накате скриптов миграции."
-msgstr ""
+msgstr "**After applying a migration to editor's DB do:** – sets the editor operations while implementing the migration scripts."
 
 #: ../../preferences.rst:121
 msgid "**Display git user that math the change / Отображать пользователя git, совершившего изменение** – позволяет отображать в редакторе колонку с пользователем git, совершившем последнее изменение файла. Проект должен находиться под системой контроля версий."
-msgstr ""
+msgstr "**Display git user that math the change** – allows to display the column, containing the git user who made the latest change to the file, in the editor. The project should be under the version control system."
 
 #: ../../preferences.rst:124
 msgid "Редактор SQL"
-msgstr ""
+msgstr "SQL Editor"
 
 #: ../../preferences.rst:126
 msgid "Настройки, управляющие редактором SQL."
-msgstr ""
+msgstr "Settings managing the SQL editor."
 
 #: ../../preferences.rst:130
 msgid "На странице настроек **pgCodeKeeper -> Редактор SQL** Вы можете настроить параметры редактора SQL."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> SQL editor** settings page you can adjust the options of the SQL editor."
 
 #: ../../preferences.rst:132
 msgid "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в одном из режимов."
-msgstr ""
+msgstr "**Bracket highlight** – enables bracket highlight in one of the modes."
 
 #: ../../preferences.rst:133
 msgid "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную скобку."
-msgstr ""
+msgstr "**Single bracket** – when selecting a bracket, highlights the matching bracket."
 
 #: ../../preferences.rst:134
 msgid "**Both brackets / Обе скобка** – при выборе скобки, подсвечивает текущую и парную скобку."
-msgstr ""
+msgstr "**Both brackets** – when selecting a bracket, highlights the selected and the matching brackets."
 
 #: ../../preferences.rst:135
 msgid "**Current block brackets / Скобки текущего блока** – подсвечивает скобки, между которыми находится курсор."
-msgstr ""
+msgstr "**Current block brackets** – highlights the brackets between which the cursor is situated."
 
 #: ../../preferences.rst:136
 msgid "**Bracket highlight color / Цвет подсветки скобок** – позволяет выбрать цвет подсветки скобок."
-msgstr ""
+msgstr "**Bracket highlight color** – allows to select the color of brackets highlighting."
 
 #: ../../preferences.rst:140
 msgid "Подсветка синтаксиса"
@@ -291,7 +291,7 @@ msgstr "Settings managing the storage of the parameters of the DB connection."
 
 #: ../../preferences.rst:163
 msgid "На странице настроек **pgCodeKeeper -> DB Store** (Хранилище БД) находится список записей для подключения к базам данных."
-msgstr ""
+msgstr "On the **pgCodeKeeper ->DB Store** settings page you can find the list of records for connecting to the databases."
 
 #: ../../preferences.rst:167
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль. Название записи можно указать вручную, для этого нужно убрать галочку с чекбокса **Auto-generate** (Автогенерация)."

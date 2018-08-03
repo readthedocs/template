@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-19 13:13+0000\n"
+"PO-Revision-Date: 2018-06-29 06:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "To edit a file, click |editor_area|. The editor of list of rules from cu
 
 #: ../../properties.rst:44
 msgid "Библиотечные зависимости"
-msgstr "Libraty dependences"
+msgstr "Library dependences"
 
 #: ../../properties.rst:46
 msgid "Настройки, управляющие библиотеками проекта."

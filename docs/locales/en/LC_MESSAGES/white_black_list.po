@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-26 09:53+0300\n"
-"PO-Revision-Date: 2018-06-27 06:42\n"
+"PO-Revision-Date: 2018-06-29 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "In the following, in the :ref:`listSyntax` section, we will consider the
 
 #: ../../white_black_list.rst:21
 msgid "В дополнении к **списку исключаемых объектов** файла **.pgcodekeeperignore**, в графической версии pgCodeKeeper существует **общий список исключаемых объектов** распространяющий свое действие на все проекты находящиеся в директории проектов. Заполнить его можно на странице с глобальными настройками в разделе :ref:`ignoredObjects`."
-msgstr "In addition to the **list of excluded objects** of the **.pgcodekeeperignore** file, in the grafical version of pgCodeKeeper, there is a **general list of excluded objects** which affects all the projects located in the project directory. You can fill it on the global settings page in the :ref:`ignoredObjects` section."
+msgstr "In addition to the **list of excluded objects** of the **.pgcodekeeperignore** file, in the graphical version of pgCodeKeeper, there is a **general list of excluded objects** which affects all the projects located in the project directory. You can fill it on the global settings page in the :ref:`ignoredObjects` section."
 
 #: ../../white_black_list.rst:26
 msgid "Cинтаксис списков"
@@ -247,7 +247,7 @@ msgstr "separation symbols contained in the line, are screened off by repeating 
 
 #: ../../white_black_list.rst:105
 msgid "На текущий момент нельзя использовать квалифицированные имена в качестве \"objectName\"."
-msgstr "Currently it is not possibe to use qualified names as \"objectName\"."
+msgstr "Currently it is not possible to use qualified names as \"objectName\"."
 
 #: ../../white_black_list.rst:107
 msgid "\"objectType\" чувствителен к регистру."
