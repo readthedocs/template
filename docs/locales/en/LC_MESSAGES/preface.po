@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-08-03 08:21\n"
+"PO-Revision-Date: 2018-08-03 08:31\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "When I started working in Technology LTD in 2013, the company had alread
 
 #: ../../preface.rst:6
 msgid "Мы начали процесс миграции с одной системы управления базами данных на другую и обнаружили две существенных особенностей PostgreSQL."
-msgstr "We started the migration process from one database management system to another and discovered two major drawbacks of PostgreSQL."
+msgstr "We started the migration process from one database management system to another and discovered two key features of PostgreSQL."
 
 #: ../../preface.rst:8
 msgid "Первое, набор инструментов, как для разработки БД, так и для её сопровождения, на тот момент значительно уступал относительно хорошо известного к тому времени MSSQL."
