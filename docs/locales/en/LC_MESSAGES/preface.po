@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-29 06:21\n"
+"PO-Revision-Date: 2018-08-03 07:42\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,15 +23,15 @@ msgstr "Preface"
 
 #: ../../preface.rst:4
 msgid "В 2013 году, когда я приступил к работе в ООО «Технология», компания уже разрабатывала программное обеспечение для одного из крупнейших в России сервисов заказа такси «Максим». И одной из целей на тот период был переход в использовании от сервера баз данных MSSQL на PostgreSQL."
-msgstr "When I started working in OOO Technology in 2013, the company was already developing software for one of the most prominent taxi order services in Russia - Maxim. And one of the tasks of that time was to start using PostgreSQL database server instead of the MSSQL one."
+msgstr "When I started working in Technology LTD in 2013, the company had already been developing software for one of the most leading taxi booking services in Russia - Maxim. And one of the tasks of that time was to start using PostgreSQL database server instead of the MSSQL."
 
 #: ../../preface.rst:6
 msgid "Мы начали процесс миграции с одной системы управления базами данных на другую и обнаружили две существенных особенностей PostgreSQL."
-msgstr "We started the migration process from one database management system to another and discovered two major peculiarities of PostgreSQL."
+msgstr "We started the migration process from one database management system to another and discovered two major drawbacks of PostgreSQL."
 
 #: ../../preface.rst:8
 msgid "Первое, набор инструментов, как для разработки БД, так и для её сопровождения, на тот момент значительно уступал относительно хорошо известного к тому времени MSSQL."
-msgstr "First, tool bar for both development and maintenance of databases at that time was vastly inferior to the well-known MSSQL."
+msgstr "First, set of tools for both development and maintenance of databases at that time was vastly inferior to the well-known MSSQL."
 
 #: ../../preface.rst:10
 msgid "Второе, архитектура существующей информационной системы включала в себя значительный пласт бизнес-логики приложений расположенной в базе данных. Это и представления, связанные со множеством таблиц, и хранимые процедуры."
