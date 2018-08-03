@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-08-03 07:42\n"
+"PO-Revision-Date: 2018-08-03 07:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "First, set of tools for both development and maintenance of databases at
 
 #: ../../preface.rst:10
 msgid "Второе, архитектура существующей информационной системы включала в себя значительный пласт бизнес-логики приложений расположенной в базе данных. Это и представления, связанные со множеством таблиц, и хранимые процедуры."
-msgstr "Second, architecture of the existing informational system included a broad layer of application business logic situated in the database. These are views related to a great number of tables and the procedures contained there."
+msgstr "Second, an architecture of the existing information system included a significant overlap of application business logic resided in the database. These are database views related to a notable number of tables and stored procedures contained there."
 
 #: ../../preface.rst:12
 msgid "Мы столкнулись с существенной сложностью при миграции, т.к. в отличие от СУБД подобных MSSQL и Oracle, которые при пересоздании объекта с зависимостями выполняли инвалидацию зависимых объектов, с возможностью выполнения дальнейшей перекомпиляции невалидных объектов, PostgreSQL поступал совсем по-другому."
