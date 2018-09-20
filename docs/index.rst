@@ -45,7 +45,6 @@
    :caption: Дополнительная информация
 
    white_black_list
-   helper_functions
    cli_version
    contributors
    about
