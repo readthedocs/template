@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-19 13:12+0000\n"
+"PO-Revision-Date: 2018-10-03 09:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,5 +35,5 @@ msgstr "Fill the required fields. It is advisable to specify the correct email f
 
 #: ../../feedback.rst:14
 msgid "Примечание: при сообщении об ошибке рекомендуется отметить флажком пункт **Отправить логи Eclipse** для отправки более подробной информации."
-msgstr "Note: if an error occured, it is advisible to tick off **Send the logs to Eclipse** to send a more detailed info."
+msgstr "Note: if an error occurred, it is advisable to tick off **Send the logs to Eclipse** to send a more detailed info."
 
