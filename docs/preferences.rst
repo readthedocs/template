@@ -173,7 +173,6 @@
 .. image:: ../images/new_connection_ignore_list.png
 
 Свойства соединения можно дополнить параметрами указанными по адресу: 
-
 https://jdbc.postgresql.org/documentation/head/connect.html.
 
 .. image:: ../images/new_connection_properties.png
@@ -197,15 +196,6 @@ https://jdbc.postgresql.org/documentation/head/connect.html.
 .. attention:: Кнопка **Restore Defaults**, на странице настроек, удаляет все записи для подключения к базам данных и создает одну запись default без данных для подключения.
 
 .. attention:: Для сохранения внесенных изменений, в хранилище параметров подключения к БД, на странице настроек необходимо нажать кнопку **Apply** или **Apply and Close**.
-
-Windows аутентификация
-----------------------
-
-При работе под ОС Windows для подключения к серверам БД Microsoft SQL доступен режим Windows аутентификации. Он позволяет вместо явного указания имени пользователя и пароля брать эти данные из текущего пользователя Windows, либо пользователя, от имени которого запущена программа.
-
-Для использования Windows аутентификации приложению должна быть доступна DLL Microsoft JDBC драйвера, *sqljdbc_auth.dll*. Ее следует извлечь из `пакета драйвера <https://www.microsoft.com/ru-RU/download/details.aspx?id=57175>`_ и поместить в директорию, присутствующую в переменной окружения *PATH*, либо в свойстве JVM *java.library.path*. Битность библиотеки должна соответствовать битности используемой вами версии Eclipse.
-
-Наиболее простой и универсальный вариант – сохранить библиотеку в директории *C:\\Windows\\System32\\*. В 64-битных системах эта директория содержит 64-битные библиотеки. В случае использования 32-битного Eclipse на 64-битной системе, 32-битную библиотеку следует сохранить в директорию *C:\\Windows\\SysWOW64\\*.
 
 .. |copy| image:: ../images/pgcodekeeper_project_view/copy_edit.png
 .. |pg_pass| image:: ../images/pgcodekeeper_project_view/pg_pass.png

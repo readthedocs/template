@@ -46,5 +46,6 @@
 
    white_black_list
    cli_version
+   windowsauth
    contributors
    about
