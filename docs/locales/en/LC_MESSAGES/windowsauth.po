@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-04 09:31+0300\n"
-"PO-Revision-Date: 2018-10-04 08:21\n"
+"PO-Revision-Date: 2018-10-04 12:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../windowsauth.rst:3
 msgid "Windows аутентификация"
-msgstr ""
+msgstr "Windows authentication"
 
 #: ../../windowsauth.rst:5
 msgid "При работе под ОС Windows для подключения к серверам БД Microsoft SQL доступен режим Windows аутентификации. Это позволяет вместо явного указания имени пользователя и пароля использовать данные текущего пользователя Windows, либо пользователя, от имени которого запущена программа."
