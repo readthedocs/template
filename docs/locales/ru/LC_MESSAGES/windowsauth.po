@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-04 09:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../windowsauth.rst:3
+msgid "Windows аутентификация"
+msgstr ""
+
+#: ../../windowsauth.rst:5
+msgid ""
+"При работе под ОС Windows для подключения к серверам БД Microsoft SQL "
+"доступен режим Windows аутентификации. Это позволяет вместо явного "
+"указания имени пользователя и пароля использовать данные текущего "
+"пользователя Windows, либо пользователя, от имени которого запущена "
+"программа."
+msgstr ""
+
+#: ../../windowsauth.rst:7
+msgid ""
+"Для включения режима Windows аутентификации достаточно включить "
+"соответствующую опцию в настройках подключения к БД. В случае "
+"использования CLI версии требуется указать параметр "
+"``integratedSecurity`` в `строке подключения <https://docs.microsoft.com"
+"/ru-ru/sql/connect/jdbc/building-the-connection-"
+"url#Connectingintegrated>`_."
+msgstr ""
+
+#: ../../windowsauth.rst:10
+msgid "Конфигурация системы"
+msgstr ""
+
+#: ../../windowsauth.rst:12
+msgid ""
+"Для использования Windows аутентификации приложению должна быть доступна "
+"DLL Microsoft JDBC драйвера, *sqljdbc_auth.dll*. Ее следует извлечь из "
+"`пакета драйвера <https://www.microsoft.com/ru-"
+"RU/download/details.aspx?id=57175>`_ и поместить в директорию, "
+"присутствующую в переменной окружения *PATH*, либо в свойстве JVM "
+"*java.library.path*. Битность библиотеки должна соответствовать битности "
+"используемой вами версии Eclipse."
+msgstr ""
+
+#: ../../windowsauth.rst:14
+msgid ""
+"Наиболее простой и универсальный вариант – сохранить библиотеку в "
+"директории *C:\\\\Windows\\\\System32\\\\*. В 64-битных системах эта "
+"директория содержит 64-битные библиотеки. В случае использования "
+"32-битного Eclipse на 64-битной системе, 32-битную библиотеку следует "
+"сохранить в директорию *C:\\\\Windows\\\\SysWOW64\\\\*."
+msgstr ""
+
