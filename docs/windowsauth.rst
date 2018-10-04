@@ -6,6 +6,14 @@ Windows аутентификация
 
 Для включения режима Windows аутентификации достаточно включить соответствующую опцию в настройках подключения к БД. В случае использования CLI версии требуется указать параметр ``integratedSecurity`` в `строке подключения <https://docs.microsoft.com/ru-ru/sql/connect/jdbc/building-the-connection-url#Connectingintegrated>`_.
 
+Примеры использования Windows аутентификации в GUI и CLI:
+
+.. image:: ../images/winauth.png
+
+::
+
+  pgcodekeeper-cli.bat --ms-sql jdbc:sqlserver://127.0.0.1;databaseName={master};integratedSecurity=true NUL
+
 Конфигурация системы
 ~~~~~~~~~~~~~~~~~~~~
 
