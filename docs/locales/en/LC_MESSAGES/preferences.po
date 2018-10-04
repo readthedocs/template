@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-04 09:31+0300\n"
-"PO-Revision-Date: 2018-10-04 06:41\n"
+"PO-Revision-Date: 2018-10-04 12:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -303,7 +303,7 @@ msgstr ":ref:`ignoreList` can be connected as an external file."
 
 #: ../../preferences.rst:175
 msgid "Свойства соединения можно дополнить параметрами указанными по адресу: https://jdbc.postgresql.org/documentation/head/connect.html."
-msgstr ""
+msgstr "You can add the parameters specified at https://jdbc.postgresql.org/documentation/head/connect.html to the connection properties."
 
 #: ../../preferences.rst:180
 msgid "Для добавления хранилища на основе данных из уже созданного хранилища следует выделить объект хранилища баз данных, нажать кнопку |copy|. Откроется диалог **DB credentials** (Данные подключения к БД) в котором можно изменить параметры подключения."
