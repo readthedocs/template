@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-04 09:31+0300\n"
-"PO-Revision-Date: 2018-10-05 06:10\n"
+"PO-Revision-Date: 2018-10-05 06:20\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "When working with Windows, you can use the Windows authentication mode t
 
 #: ../../windowsauth.rst:7
 msgid "Для включения режима Windows аутентификации достаточно включить соответствующую опцию в настройках подключения к БД. В случае использования CLI версии требуется указать параметр ``integratedSecurity`` в `строке подключения <https://docs.microsoft.com/ru-ru/sql/connect/jdbc/building-the-connection-url#Connectingintegrated>`_."
-msgstr "To enable the Windows authentication mode, you just need to enable the corresponding option in DB connection settings. If you use the CLI version, you'll have to indicate the ``integratedSecurity`` parameter in `connection string <https://docs.microsoft.com/ru-ru/sql/connect/jdbc/building-the-connection-url#Connectingintegrated>`_."
+msgstr "To enable the Windows authentication mode, you just need to enable the corresponding option in DB connection settings. If you use a CLI version, you'll have to indicate the ``integratedSecurity`` parameter in `connection string <https://docs.microsoft.com/ru-ru/sql/connect/jdbc/building-the-connection-url#Connectingintegrated>`_."
 
 #: ../../windowsauth.rst:10
 msgid "Конфигурация системы"
@@ -39,5 +39,5 @@ msgstr "To use Windows authentication, you should make the Microsoft JDBC driver
 
 #: ../../windowsauth.rst:14
 msgid "Наиболее простой и универсальный вариант – сохранить библиотеку в директории *C:\\\\Windows\\\\System32\\\\*. В 64-битных системах эта директория содержит 64-битные библиотеки. В случае использования 32-битного Eclipse на 64-битной системе, 32-битную библиотеку следует сохранить в директорию *C:\\\\Windows\\\\SysWOW64\\\\*."
-msgstr ""
+msgstr "The easiest and most universal way to achieve this is to save the library in the *C:\\\\Windows\\\\System32\\\\* directory. In 64-bit systems, this directory contains 64-bit libraries. If you use a 32-bit Eclipse version for the 64-bit system, save the 32-bit library in the *C:\\\\Windows\\\\SysWOW64\\\\* directory."
 
