@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-04 09:31+0300\n"
-"PO-Revision-Date: 2018-10-05 05:11\n"
+"PO-Revision-Date: 2018-10-05 06:10\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "System configuration"
 
 #: ../../windowsauth.rst:12
 msgid "Для использования Windows аутентификации приложению должна быть доступна DLL Microsoft JDBC драйвера, *sqljdbc_auth.dll*. Ее следует извлечь из `пакета драйвера <https://www.microsoft.com/ru-RU/download/details.aspx?id=57175>`_ и поместить в директорию, присутствующую в переменной окружения *PATH*, либо в свойстве JVM *java.library.path*. Битность библиотеки должна соответствовать битности используемой вами версии Eclipse."
-msgstr ""
+msgstr "To use Windows authentication, you should make the Microsoft JDBC driver's *sqljdbc_auth.dll* available to the app. Extract the DLL file from the `driver pack <https://www.microsoft.com/ru-RU/download/details.aspx?id=57175>`_ and put it to the directory present in the *PATH* environment variable, or in the *java.library.path* JVM property. Library bitness should match the bitness of the Eclipse version you use."
 
 #: ../../windowsauth.rst:14
 msgid "Наиболее простой и универсальный вариант – сохранить библиотеку в директории *C:\\\\Windows\\\\System32\\\\*. В 64-битных системах эта директория содержит 64-битные библиотеки. В случае использования 32-битного Eclipse на 64-битной системе, 32-битную библиотеку следует сохранить в директорию *C:\\\\Windows\\\\SysWOW64\\\\*."
