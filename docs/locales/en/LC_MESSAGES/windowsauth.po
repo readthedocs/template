@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-04 09:31+0300\n"
-"PO-Revision-Date: 2018-10-04 13:01\n"
+"PO-Revision-Date: 2018-10-05 04:52\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Windows authentication"
 
 #: ../../windowsauth.rst:5
 msgid "При работе под ОС Windows для подключения к серверам БД Microsoft SQL доступен режим Windows аутентификации. Это позволяет вместо явного указания имени пользователя и пароля использовать данные текущего пользователя Windows, либо пользователя, от имени которого запущена программа."
-msgstr "When working with Windows, you can use the Windows authentification mode to connect to the Microsoft SQL DB servers. This mode allows you to use the data of the current Windows user or the user on behalf of which you run a program, rather than explicitly indicating the username and password."
+msgstr "When working with Windows, you can use the Windows authentification mode to connect to the Microsoft SQL DB servers. This mode allows you to use the data of the current Windows user or the user you run a program as, rather than explicitly indicating the username and password."
 
 #: ../../windowsauth.rst:7
 msgid "Для включения режима Windows аутентификации достаточно включить соответствующую опцию в настройках подключения к БД. В случае использования CLI версии требуется указать параметр ``integratedSecurity`` в `строке подключения <https://docs.microsoft.com/ru-ru/sql/connect/jdbc/building-the-connection-url#Connectingintegrated>`_."
