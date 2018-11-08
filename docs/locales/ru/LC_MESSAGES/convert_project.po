@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"POT-Creation-Date: 2018-11-08 17:28+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,12 @@ msgid ""
 msgstr ""
 
 #: ../../convert_project.rst:9
+msgid ""
+"В некоторых случаях может потребоваться выбрать тип проекта: PostgreSQL "
+"или MS SQL."
+msgstr ""
+
+#: ../../convert_project.rst:13
 msgid ""
 "Если структура проекта не соответствует стандарту, будет показано "
 "предупреждение."

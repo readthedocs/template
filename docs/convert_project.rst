@@ -6,6 +6,10 @@
 
 .. image:: ../images/convert_project_menu.png
 
+В некоторых случаях может потребоваться выбрать тип проекта: PostgreSQL или MS SQL.
+
+.. image:: ../images/convert_project_choice.png
+
 Если структура проекта не соответствует стандарту, будет показано предупреждение.
 
 .. image:: ../images/convert_project_warning.png

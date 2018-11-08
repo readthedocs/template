@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"POT-Creation-Date: 2018-11-08 17:28+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../import_project.rst:8
 msgid ""
-"Выберите категорию **General -> Existing Project** into Workspace и "
+"Выберите категорию **General -> Existing Project into Workspace** и "
 "нажмите **Next**."
 msgstr ""
 
@@ -55,9 +55,9 @@ msgstr ""
 #: ../../import_project.rst:13
 msgid ""
 "В случае, если присутствует только структура проекта pgCodeKeeper, без "
-"файлов проекта Eclipse, то импорт производится с помощью мастера нового "
-"проекта. Хранение структуры проекта pgCodeKeeper без информации Eclipse –"
-" обычная практика, например при использовании системы контроля версий."
+"файлов проекта Eclipse, то импорт производится с помощью мастера импорта."
+" Хранение структуры проекта pgCodeKeeper без информации Eclipse – обычная"
+" практика, например при использовании системы контроля версий."
 msgstr ""
 
 #: ../../import_project.rst:15
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../import_project.rst:16
 msgid ""
-"Выберите **Проект pgCodeKeeper** в категории pgCodeKeeper и нажмите "
+"Выберите **pgCodeKeeper Project** в категории pgCodeKeeper и нажмите "
 "**Next**."
 msgstr ""
 
@@ -79,13 +79,47 @@ msgid ""
 msgstr ""
 
 #: ../../import_project.rst:21
-msgid "Нажмите **Finish**."
+msgid ""
+"Если импортируемый проект для MS SQL, то необходимо выбрать "
+"соответствующую опцию."
+msgstr ""
+
+#: ../../import_project.rst:22
+msgid ""
+"Для добавления проекта в рабочую область, можно выбрать соответствующую "
+"опцию."
 msgstr ""
 
 #: ../../import_project.rst:23
+msgid "Нажмите **Finish**."
+msgstr ""
+
+#: ../../import_project.rst:25
 msgid ""
 "Для корректной работы проект должен содержать файл '.pgcodekeeper' в "
 "корне директории. Мастер импорта проекта автоматически создаст данный "
 "файл при его отсутствии."
 msgstr ""
+
+#~ msgid ""
+#~ "Выберите категорию **General -> Existing "
+#~ "Project** into Workspace и нажмите "
+#~ "**Next**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "В случае, если присутствует только "
+#~ "структура проекта pgCodeKeeper, без файлов "
+#~ "проекта Eclipse, то импорт производится "
+#~ "с помощью мастера нового проекта. "
+#~ "Хранение структуры проекта pgCodeKeeper без"
+#~ " информации Eclipse – обычная практика, "
+#~ "например при использовании системы контроля"
+#~ " версий."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выберите **Проект pgCodeKeeper** в категории"
+#~ " pgCodeKeeper и нажмите **Next**."
+#~ msgstr ""
 
