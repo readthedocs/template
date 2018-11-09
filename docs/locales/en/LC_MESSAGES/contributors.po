@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 13:31+0300\n"
-"PO-Revision-Date: 2018-06-28 11:22\n"
+"PO-Revision-Date: 2018-08-03 09:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Management"
 
 #: ../../contributors.rst:16
 msgid "Саушкин Андрей - управление продуктом и иногда проектом"
-msgstr "Andrei Saushkin - product management and sometimes project management"
+msgstr "Andrew Saushkin - product and sometimes project management"
 
 #: ../../contributors.rst:20
 msgid "Разработка"

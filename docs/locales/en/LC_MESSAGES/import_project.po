@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-27 09:51\n"
+"POT-Creation-Date: 2018-11-08 17:28+0300\n"
+"PO-Revision-Date: 2018-11-09 06:31\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,8 @@ msgid "Из меню выберите пункт **File -> Import...** Откр�
 msgstr "Select **File -> Import...** from the menu. An import wizard selection screen will appear."
 
 #: ../../import_project.rst:8
-msgid "Выберите категорию **General -> Existing Project** into Workspace и нажмите **Next**."
-msgstr "Select **General -> Existing Project** into Workspace and click **Next**."
+msgid "Выберите категорию **General -> Existing Project into Workspace** и нажмите **Next**."
+msgstr "Select **General -> Existing Project into Workplace** and click **Next**."
 
 #: ../../import_project.rst:9
 msgid "Выберите директорию проекта."
@@ -46,26 +46,56 @@ msgid "Закончите импорт нажатием на **Finish**."
 msgstr "Finish the import by clicking **Finish**."
 
 #: ../../import_project.rst:13
-msgid "В случае, если присутствует только структура проекта pgCodeKeeper, без файлов проекта Eclipse, то импорт производится с помощью мастера нового проекта. Хранение структуры проекта pgCodeKeeper без информации Eclipse – обычная практика, например при использовании системы контроля версий."
-msgstr "If there is only a pgCodeKeeper project structure, without the Eclipse project files, importing is done with the help of the new project wizard. Storing your pgCodeKeeper project structure without the Eclipse information is a common practice, for example, if you use a version control system."
+msgid "В случае, если присутствует только структура проекта pgCodeKeeper, без файлов проекта Eclipse, то импорт производится с помощью мастера импорта. Хранение структуры проекта pgCodeKeeper без информации Eclipse – обычная практика, например при использовании системы контроля версий."
+msgstr "If there is only a pgCodeKeeper project structure, without the Eclipse project files, importing is done with the help of the import wizard. Storing your pgCodeKeeper project structure without the Eclipse information is a common practice, for example, if you use a version control system."
 
 #: ../../import_project.rst:15
 msgid "Из меню выберите пункт **File -> Import** ... Откроется выбор мастеров импорта."
 msgstr "Select **File -> Import** from the menu ... An import wizard selection screen will appear."
 
 #: ../../import_project.rst:16
-msgid "Выберите **Проект pgCodeKeeper** в категории pgCodeKeeper и нажмите **Next**."
-msgstr "Select **pgCodeKeeper project** in the pgCodeKeeper category and click **Next**."
+msgid "Выберите **pgCodeKeeper Project** в категории pgCodeKeeper и нажмите **Next**."
+msgstr "Select **pgCodeKeeper Project** in the pgCodeKeeper category and click **Next**."
 
 #: ../../import_project.rst:20
 msgid "Укажите путь до директории со структурой проекта pgCodeKeeper и введите имя проекта."
 msgstr "Specify the path to the directory containing the pgCodeKeeper project structure and enter the name of the project."
 
 #: ../../import_project.rst:21
+msgid "Если импортируемый проект для MS SQL, то необходимо выбрать соответствующую опцию."
+msgstr "If you import a project for MS SQL, you'll need to select the corresponding option."
+
+#: ../../import_project.rst:22
+msgid "Для добавления проекта в рабочую область, можно выбрать соответствующую опцию."
+msgstr "To add the project to the workspace, select the corresponding option."
+
+#: ../../import_project.rst:23
 msgid "Нажмите **Finish**."
 msgstr "Click **Finish**."
 
-#: ../../import_project.rst:23
+#: ../../import_project.rst:25
 msgid "Для корректной работы проект должен содержать файл '.pgcodekeeper' в корне директории. Мастер импорта проекта автоматически создаст данный файл при его отсутствии."
 msgstr "For the correct work, the project should contain the '.pgcodekeeper' file in the root directory. If this file doesn't exist, project Import Wizard will automatically create it."
+
+#~ msgid ""
+#~ "Выберите категорию **General -> Existing "
+#~ "Project** into Workspace и нажмите "
+#~ "**Next**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "В случае, если присутствует только "
+#~ "структура проекта pgCodeKeeper, без файлов "
+#~ "проекта Eclipse, то импорт производится "
+#~ "с помощью мастера нового проекта. "
+#~ "Хранение структуры проекта pgCodeKeeper без"
+#~ " информации Eclipse – обычная практика, "
+#~ "например при использовании системы контроля"
+#~ " версий."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выберите **Проект pgCodeKeeper** в категории"
+#~ " pgCodeKeeper и нажмите **Next**."
+#~ msgstr ""
 

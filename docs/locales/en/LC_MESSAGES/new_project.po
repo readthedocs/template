@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-19 13:12+0000\n"
+"POT-Creation-Date: 2018-11-08 17:28+0300\n"
+"PO-Revision-Date: 2018-11-09 07:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -25,19 +25,61 @@ msgstr "Creating a new project"
 msgid "Открываем мастер создания нового проекта: **File -> New -> Project...**"
 msgstr "Start the new project creation wizard: **File-> New-> Project...**"
 
+#: ../../new_project.rst:6
+msgid "Выбираем **pgCodeKeeper Project** для работы с PostgreSQL или **pgCodeKeeper MS SQL Project** для работы с MS SQL в категории **pgCodeKeeper**. Нажимаем кнопку **Next**."
+msgstr "In the **pgCodeKeeper** category, select **pgCodeKeeper Project** to work with PostgreSQL or **pgCodeKeeper MS SQL Project** to work with MS SQL. Click **Next**."
+
 #: ../../new_project.rst:7
-msgid "Выбираем **Проект pgCodeKeeper**. Нажимаем кнопку **Next**."
-msgstr "Select **pgCodeKeeper project**. Click **Next**."
+msgid "Указываем имя проекта."
+msgstr "Enter the project name."
+
+#: ../../new_project.rst:8
+msgid "При необходимости изменяем местоположение и рабочую область проекта."
+msgstr "Change the location and workspace of the project, if necessary."
 
 #: ../../new_project.rst:9
-msgid "Указываем имя проекта. Нажимаем кнопку **Next**."
-msgstr "Specify the project name. Click **Next**."
+msgid "Нажимаем кнопку **Next**."
+msgstr "Click **Next**."
 
 #: ../../new_project.rst:13
-msgid "Выбираем источник базы данных, кодировку проекта и временную зону подключения к БД (имеется возможность получить из текущей БД) или отключаем параметр \"Инициализировать проект базой данных\" и оставляем поля пустыми, а затем нажимаем кнопку **Finish**."
-msgstr "Select the database source, the project encoding and the time zone of database connection (you can get it from the current database), or disable the \"Initialize database project\" parameter and leave the fields blank, and then click **Finish**."
+msgid "Выбираем источник базы данных или отключаем параметр **Initialize project using database / Инициализировать проект базой данных**."
+msgstr "Select the database source or disable the **Initialize project using database** parameter."
+
+#: ../../new_project.rst:14
+msgid "Выбираем кодировку проекта."
+msgstr "Select the project's encoding."
 
 #: ../../new_project.rst:15
-msgid "После короткого ожидания получаем новый проект и автоматически открывается :ref:`projEditor`."
-msgstr "After a short wait, a new project appears and :ref:`projEditor` opens automatically."
+msgid "Выбираем временную зону подключения к БД (имеется возможность получить из текущей БД). Данный шаг не доступен для проектов MS SQL."
+msgstr "Select the timezone of the DB connection (you can get it from the current DB). This step is not available for MS SQL projects."
+
+#: ../../new_project.rst:16
+msgid "Нажимаем кнопку **Finish**."
+msgstr "Click **Finish**."
+
+#: ../../new_project.rst:18
+msgid "После короткого ожидания получаем новый проект и будет автоматически открыт :ref:`projEditor`."
+msgstr "After a short wait, a new project appears and :ref: `projEditor` opens automatically."
+
+#~ msgid "Выбираем **Проект pgCodeKeeper**. Нажимаем кнопку **Next**."
+#~ msgstr ""
+
+#~ msgid "Указываем имя проекта. Нажимаем кнопку **Next**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выбираем источник базы данных, кодировку "
+#~ "проекта и временную зону подключения к"
+#~ " БД (имеется возможность получить из "
+#~ "текущей БД) или отключаем параметр "
+#~ "\"Инициализировать проект базой данных\" и "
+#~ "оставляем поля пустыми, а затем нажимаем"
+#~ " кнопку **Finish**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "После короткого ожидания получаем новый "
+#~ "проект и автоматически открывается "
+#~ ":ref:`projEditor`."
+#~ msgstr ""
 

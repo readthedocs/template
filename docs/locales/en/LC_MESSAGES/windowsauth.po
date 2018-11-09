@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pgcodekeeper-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-08 17:28+0300\n"
+"PO-Revision-Date: 2018-11-09 04:51\n"
+"Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/windowsauth.po\n"
+"Language: en_US\n"
+
+#: ../../windowsauth.rst:3
+msgid "Windows аутентификация"
+msgstr "Windows authentication"
+
+#: ../../windowsauth.rst:5
+msgid "При работе под ОС Windows для подключения к серверам БД Microsoft SQL доступен режим Windows аутентификации. Это позволяет вместо явного указания имени пользователя и пароля использовать данные текущего пользователя Windows, либо пользователя, от имени которого запущена программа."
+msgstr "When working with Windows, you can use the Windows authentication mode to connect to the Microsoft SQL DB servers. This mode allows you to use the data of the current Windows user or the user you run a program as, rather than explicitly indicating the username and password."
+
+#: ../../windowsauth.rst:7
+msgid "Для включения режима Windows аутентификации достаточно включить соответствующую опцию в настройках подключения к БД. В случае использования CLI версии требуется указать параметр ``integratedSecurity`` в `строке подключения <https://docs.microsoft.com/ru-ru/sql/connect/jdbc/building-the-connection-url#Connectingintegrated>`_."
+msgstr "To enable the Windows authentication mode, you just need to enable the corresponding option in DB connection settings. If you use a CLI version, you'll have to indicate the ``integratedSecurity`` parameter in `connection string <https://docs.microsoft.com/ru-ru/sql/connect/jdbc/building-the-connection-url#Connectingintegrated>`_."
+
+#: ../../windowsauth.rst:9
+msgid "Примеры использования Windows аутентификации в GUI и CLI:"
+msgstr "Examples of using Windows authentication in GUI and CLI:"
+
+#: ../../windowsauth.rst:18
+msgid "Конфигурация системы"
+msgstr "System configuration"
+
+#: ../../windowsauth.rst:20
+msgid "Для использования Windows аутентификации приложению должна быть доступна DLL Microsoft JDBC драйвера, *sqljdbc_auth.dll*. Ее следует извлечь из `пакета драйвера <https://www.microsoft.com/ru-RU/download/details.aspx?id=57175>`_ и поместить в директорию, присутствующую в переменной окружения *PATH*, либо в свойстве JVM *java.library.path*. Битность библиотеки должна соответствовать битности используемой вами версии Eclipse."
+msgstr "To use Windows authentication, you should make the Microsoft JDBC driver's *sqljdbc_auth.dll* available to the app. Extract the DLL file from the `driver pack <https://www.microsoft.com/ru-RU/download/details.aspx?id=57175>`_ and put it to the directory present in the *PATH* environment variable, or in the *java.library.path* JVM property. Library bitness should match the bitness of the Eclipse version you use."
+
+#: ../../windowsauth.rst:22
+msgid "Наиболее простой и универсальный вариант – сохранить библиотеку в директории *C:\\\\Windows\\\\System32\\\\*. В 64-битных системах эта директория содержит 64-битные библиотеки. В случае использования 32-битного Eclipse на 64-битной системе, 32-битную библиотеку следует сохранить в директорию *C:\\\\Windows\\\\SysWOW64\\\\*."
+msgstr "The easiest and most universal way to achieve this is to save the library in the *C:\\\\Windows\\\\System32\\\\* directory. In 64-bit systems, this directory contains 64-bit libraries. If you use a 32-bit Eclipse version for the 64-bit system, save the 32-bit library in the *C:\\\\Windows\\\\SysWOW64\\\\* directory."
+
