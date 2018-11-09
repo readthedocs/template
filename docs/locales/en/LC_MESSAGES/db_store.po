@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-09 05:51\n"
+"PO-Revision-Date: 2018-11-09 06:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Database list is located in :ref: `dbStore`, which can be accessed by cl
 
 #: ../../db_store.rst:11
 msgid "Для выбора файл-дампа необходима выбрать элемент списка **Load from file... / Загрузить из файла...**. В открывшемся диалоговом окне выбираем нужный нам файл и нажимаем кнопку **OK**. Выбранный файл добавлен в список источников баз данных."
-msgstr "To select a dump file, you should select the item from the **Load from file...** list. In the appeared dialog window choose the required file and click **OK**. The selected file is added to the database source list."
+msgstr "To select a dump file, you should select the item from the **Load from file...** list. In the appeared dialog window select the required file and click **OK**. The selected file is added to the database source list."
 
 #~ msgid ""
 #~ "Список баз данных находится в "
