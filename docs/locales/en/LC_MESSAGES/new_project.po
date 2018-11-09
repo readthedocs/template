@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-08 14:50\n"
+"PO-Revision-Date: 2018-11-09 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,11 @@ msgstr "Start the new project creation wizard: **File-> New-> Project...**"
 
 #: ../../new_project.rst:6
 msgid "Выбираем **pgCodeKeeper Project** для работы с PostgreSQL или **pgCodeKeeper MS SQL Project** для работы с MS SQL в категории **pgCodeKeeper**. Нажимаем кнопку **Next**."
-msgstr ""
+msgstr "In the **pgCodeKeeper** category, select **pgCodeKeeper Project** to work with PostgreSQL or **pgCodeKeeper MS SQL Project** to work with MS SQL. Click **Next**."
 
 #: ../../new_project.rst:7
 msgid "Указываем имя проекта."
-msgstr ""
+msgstr "Enter the project name."
 
 #: ../../new_project.rst:8
 msgid "При необходимости изменяем местоположение и рабочую область проекта."
