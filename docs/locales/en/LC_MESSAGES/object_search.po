@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-11-09 08:02\n"
+"PO-Revision-Date: 2018-11-09 13:12\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "**Search by container** searches for the objects located in the schemas 
 
 #: ../../object_search.rst:33
 msgid "**Search by database user / Поиск по пользователю БД** ищет совпадения по авторам изменений объектов в сторонней базе данных. Для использования необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
-msgstr "**Search by database user** searches for matches in the authors of object changes in the thirdparty database. The `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. extension is necessary for work."
+msgstr "**Search by database user** searches for matches in the authors of object changes in the thirdparty database. The `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ extension is necessary for work."
 
 #: ../../object_search.rst:35
 msgid "**Search by git user / Поиск по пользователю git** ищет совпадения по авторам последного изменений объекта в локальном репозитории. Для использования проект должен находиться под системой контроля версий."
