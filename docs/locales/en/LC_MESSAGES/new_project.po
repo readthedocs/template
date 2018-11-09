@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-09 06:31\n"
+"PO-Revision-Date: 2018-11-09 06:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Click **Next**."
 
 #: ../../new_project.rst:13
 msgid "Выбираем источник базы данных или отключаем параметр **Initialize project using database / Инициализировать проект базой данных**."
-msgstr ""
+msgstr "Select the database source or disable the **Initialize project using database** parameter."
 
 #: ../../new_project.rst:14
 msgid "Выбираем кодировку проекта."
