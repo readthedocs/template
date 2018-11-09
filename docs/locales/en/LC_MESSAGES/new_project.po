@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-09 06:41\n"
+"PO-Revision-Date: 2018-11-09 06:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -47,11 +47,11 @@ msgstr "Select the database source or disable the **Initialize project using dat
 
 #: ../../new_project.rst:14
 msgid "Выбираем кодировку проекта."
-msgstr ""
+msgstr "Select the project's encoding."
 
 #: ../../new_project.rst:15
 msgid "Выбираем временную зону подключения к БД (имеется возможность получить из текущей БД). Данный шаг не доступен для проектов MS SQL."
-msgstr ""
+msgstr "Select the timezone of the DB connection (you can get it from the current DB). This step is not available for MS SQL projects."
 
 #: ../../new_project.rst:16
 msgid "Нажимаем кнопку **Finish**."
