@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-09 06:21\n"
+"PO-Revision-Date: 2018-11-09 06:31\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -35,11 +35,11 @@ msgstr "Enter the project name."
 
 #: ../../new_project.rst:8
 msgid "При необходимости изменяем местоположение и рабочую область проекта."
-msgstr ""
+msgstr "Change the location and workspace of the project, if necessary."
 
 #: ../../new_project.rst:9
 msgid "Нажимаем кнопку **Next**."
-msgstr ""
+msgstr "Click **Next**."
 
 #: ../../new_project.rst:13
 msgid "Выбираем источник базы данных или отключаем параметр **Initialize project using database / Инициализировать проект базой данных**."
