@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-29 06:11\n"
+"PO-Revision-Date: 2018-11-09 08:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Object filters"
 
 #: ../../object_search.rst:21
 msgid "Для фильтрации объектов можно использовать диалоговое окно, которой отобразится при нажатии кнопки |empty_filter| над списком изменений."
-msgstr "To filter the objects, you can use the dialog window which will appear after you click|empty_filter|above the changes filter."
+msgstr "To filter the objects, you can use the dialog window which will appear after you click |empty_filter| above the changes filter."
 
 #: ../../object_search.rst:25
 msgid "Список типов объектов позволяет отобразить только выбранные типы объектов. Если выбран тип TABLE или VIEW будут отображены все дочерние объекты."
