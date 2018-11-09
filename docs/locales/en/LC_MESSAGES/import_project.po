@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-08 14:51\n"
+"PO-Revision-Date: 2018-11-09 06:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Select **File -> Import...** from the menu. An import wizard selection s
 
 #: ../../import_project.rst:8
 msgid "Выберите категорию **General -> Existing Project into Workspace** и нажмите **Next**."
-msgstr ""
+msgstr "Select **General -> Existing Project into Workplace** and click **Next**."
 
 #: ../../import_project.rst:9
 msgid "Выберите директорию проекта."
