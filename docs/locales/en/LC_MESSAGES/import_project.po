@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-09 06:11\n"
+"PO-Revision-Date: 2018-11-09 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "If you import a project for MS SQL, you'll need to select the correspond
 
 #: ../../import_project.rst:22
 msgid "Для добавления проекта в рабочую область, можно выбрать соответствующую опцию."
-msgstr ""
+msgstr "To add the project to the workplace, select the corresponding option."
 
 #: ../../import_project.rst:23
 msgid "Нажмите **Finish**."
