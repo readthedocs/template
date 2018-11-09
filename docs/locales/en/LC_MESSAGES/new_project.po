@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-09 06:51\n"
+"PO-Revision-Date: 2018-11-09 07:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,11 +55,11 @@ msgstr "Select the timezone of the DB connection (you can get it from the curren
 
 #: ../../new_project.rst:16
 msgid "Нажимаем кнопку **Finish**."
-msgstr ""
+msgstr "Click **Finish**."
 
 #: ../../new_project.rst:18
 msgid "После короткого ожидания получаем новый проект и будет автоматически открыт :ref:`projEditor`."
-msgstr ""
+msgstr "After a short wait, a new project appears and :ref: `projEditor` opens automatically."
 
 #~ msgid "Выбираем **Проект pgCodeKeeper**. Нажимаем кнопку **Next**."
 #~ msgstr ""
