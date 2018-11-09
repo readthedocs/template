@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-27 09:51\n"
+"PO-Revision-Date: 2018-11-09 08:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Views and editors"
 
 #: ../../editors.rst:8
 msgid "Редактор проекта pgCodeKeeper"
-msgstr "PgCodeKeeper project editor"
+msgstr "pgCodeKeeper project editor"
 
 #: ../../editors.rst:10
 msgid "Редактор проекта – основной способ работы с pgCodeKeeper. Интерфейс редактора, состоящий из четырех основных частей:"
