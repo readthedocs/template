@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2018-11-09 04:42\n"
+"PO-Revision-Date: 2018-11-09 06:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Every project can be converted into a pgCodeKeeper project. To do this, 
 
 #: ../../convert_project.rst:9
 msgid "В некоторых случаях может потребоваться выбрать тип проекта: PostgreSQL или MS SQL."
-msgstr "In some cases, you'll need to choose the type of project: PostgreSQL or MS SQL."
+msgstr "In some cases, you'll need to select the type of project: PostgreSQL or MS SQL."
 
 #: ../../convert_project.rst:13
 msgid "Если структура проекта не соответствует стандарту, будет показано предупреждение."
