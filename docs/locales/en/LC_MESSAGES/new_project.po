@@ -59,7 +59,7 @@ msgstr "Click **Finish**."
 
 #: ../../new_project.rst:18
 msgid "После короткого ожидания получаем новый проект и будет автоматически открыт :ref:`projEditor`."
-msgstr "After a short wait, a new project appears and :ref: `projEditor` opens automatically."
+msgstr "After a short wait, a new project appears and :ref:`projEditor` opens automatically."
 
 #~ msgid "Выбираем **Проект pgCodeKeeper**. Нажимаем кнопку **Next**."
 #~ msgstr ""
