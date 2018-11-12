@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 06:41\n"
+"PO-Revision-Date: 2018-11-12 07:09\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -95,19 +95,19 @@ msgstr "Get changes"
 
 #: ../../editors.rst:34
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных."
-msgstr ""
+msgstr "**Diff table** shows the list of objects different for the DB schemas under comparison. Here you can find the info on object type, change type, object name, container, git user, database user."
 
 #: ../../editors.rst:36
 msgid "Тип объекта - поддерживаются следующие типы объектов: SCHEMA, FUNCTION, PROCEDURE, TABLE, VIEW, CONSTRAINT, INDEX, TRIGGER."
-msgstr ""
+msgstr "Object type - the following object types are supported: SCHEMA, FUNCTION, PROCEDURE, TABLE, VIEW, CONSTRAINT, INDEX, TRIGGER."
 
 #: ../../editors.rst:38
 msgid "Для **PostgreSQL** дополнительно поддерживаются следующие типы: TYPE, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATIO, RULE."
-msgstr ""
+msgstr "TYPE, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATIO, RULE are supported additionally for **PostgreSQL**."
 
 #: ../../editors.rst:40
 msgid "Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY."
-msgstr ""
+msgstr "USER, ROLE, ASSEMBLY are supported additionally for **MS SQL**."
 
 #: ../../editors.rst:42
 msgid "Тип изменения - объект может находиться в трех состояниях: существовать только в базе данных, только в проекте или и в проекте и в базе данных. В зависимости от состояния, объекты в списке изменений помечаются как remote, project и edit соответственно."
