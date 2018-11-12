@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 07:41\n"
+"PO-Revision-Date: 2018-11-12 08:16\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -119,11 +119,11 @@ msgstr "Container - parent object name. For example, for an index it is the name
 
 #: ../../editors.rst:46
 msgid "Пользователь git - имя пользователя, который последним изменил файл проекта для данного объекта. В том случае, если файлы были изменены локально, то к имени пользователя будет добавлен символ '*'. Для отображения данного столбца, проект должен быть подключен к системе контроля версий и должна быть включена соответствующая опция на странице настроек :ref:`projEditorPref`."
-msgstr ""
+msgstr "Git user - name of the user, who was the last one to change the project file for this object. In case if the files were changed locally, you'll see a '*' next to the username. To see this column, you should connect the project to the version control system and enable the corresponding option on the :ref:`projEditorPref` settings page."
 
 #: ../../editors.rst:48
 msgid "Пользователь базы данных - имя пользователя базы данных, который последним изменил объект в базе данных. Для отображения данного столбца необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
-msgstr ""
+msgstr "Database user - name of the database user who was the last one to change the object in the database. To display this column, you'll need the `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. extension."
 
 #: ../../editors.rst:50
 msgid "**Панель сравнения** показывает изменения, произошедшие в SQL представлении объекта."
