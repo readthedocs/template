@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 08:52\n"
+"PO-Revision-Date: 2018-11-12 09:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -167,7 +167,7 @@ msgstr "Viewing the dependences of DB objects"
 
 #: ../../editors.rst:85
 msgid "Вид **pg Dependencies / pg Зависимости** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
-msgstr ""
+msgstr "The **pg Dependencies** view shows the dependencies containing the current object selected on the diff panel of the active project editor."
 
 #: ../../editors.rst:89
 msgid "Стрелки указывают на направление связи от зависящего объекта к его зависимости."
