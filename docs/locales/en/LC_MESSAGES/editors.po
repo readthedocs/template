@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 07:21\n"
+"PO-Revision-Date: 2018-11-12 07:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +115,7 @@ msgstr "Change type - an object can be in one of three conditions: exist only in
 
 #: ../../editors.rst:44
 msgid "Контейнер - имя родительского объекта, например для индекса - это имя таблицы, которой он принадлежит."
-msgstr ""
+msgstr "Container - parent object name. For example, for an index it is the name of the table it belongs to."
 
 #: ../../editors.rst:46
 msgid "Пользователь git - имя пользователя, который последним изменил файл проекта для данного объекта. В том случае, если файлы были изменены локально, то к имени пользователя будет добавлен символ '*'. Для отображения данного столбца, проект должен быть подключен к системе контроля версий и должна быть включена соответствующая опция на странице настроек :ref:`projEditorPref`."
