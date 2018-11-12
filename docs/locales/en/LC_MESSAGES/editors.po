@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 08:42\n"
+"PO-Revision-Date: 2018-11-12 08:52\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgstr "|progress_stop| - Cancel execution. Cancel of execution of the current m
 
 #: ../../editors.rst:74
 msgid "|refresh| - Get changes / Получить изменения. Обновляет редактор проекта, в котором находится текущий файл. Применимо только к файлам проекта."
-msgstr "|refresh| - Get changes. Refreshes the editor of the project containing the current file. Applicable only to project files."
+msgstr "|refresh| - Get changes. Refreshes the editor of the project containing the current file. Applicable to project files only."
 
 #: ../../editors.rst:83
 msgid "Просмотр зависимостей объекта БД"
