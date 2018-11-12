@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 06:31\n"
+"PO-Revision-Date: 2018-11-12 06:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "**Eclipse tool bar** contains tools for selecting the source of data you
 
 #: ../../editors.rst:22
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
-msgstr ""
+msgstr "**Editor tool bar** is used for working with the object list. There are the following opportunities:"
 
 #: ../../editors.rst:24
 msgid "|check_all| – выбрать все элементы."
@@ -143,7 +143,7 @@ msgstr "SQL editor is not different from a regular Eclipse text editor appearanc
 
 #: ../../editors.rst:69
 msgid "При работе с SQL редактором в верхнем тулбаре доступны следующие возможности:"
-msgstr "During work in SQL editor, the following functions are present in the upper toolbar:"
+msgstr "During work in SQL editor, the following functions are present on the upper toolbar:"
 
 #: ../../editors.rst:71
 msgid "|quick_update| - Quick update / Быстрое обновление. Исполнение скрипта миграции для **различий** между объектом в текущем файле проекта и соответствующим объектом в базе данных. Если изменения затрагивают объекты из других файлов или модифицируют данные (например удаление колонки), то обновление не произодет."
