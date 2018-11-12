@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 06:01\n"
+"PO-Revision-Date: 2018-11-12 06:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Start the database diff wizard: **pgCodeKeeper - Diff Wizard** or open t
 
 #: ../../diff.rst:6
 msgid "Выбираем источник исходной схемы базы данных, которую нужно обновить, и целевой схемы базы данных, на основании которой обновляем исходную базу данных."
-msgstr ""
+msgstr "Select the source of the original database schema which you want to update and the target database schema, basing on which you are going to update the original one."
 
 #: ../../diff.rst:7
 msgid "Выбираем дополнительные параметры: кодировки источников и временную зона БД."
