@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-12 09:34+0300\n"
-"PO-Revision-Date: 2018-11-12 09:50\n"
+"PO-Revision-Date: 2018-11-12 09:52\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Feedback"
 
 #: ../../feedback.rst:5
 msgid "Пользователь имеет возможность отправить сообщение разработчикам непосредственно из среды разработки. Для этого необходимо в меню **pgCodeKeeper** выбрать пункт **Feedback / Обратная связь**. Откроется окно отправки сообщений."
-msgstr ""
+msgstr "A user can send a message to the developers directly from the development environment. To do this, select **Feedback** from the **pgCodeKeeper** menu. The message window will appear."
 
 #: ../../feedback.rst:7
 msgid "Пункт главного меню **pgCodeKeeper** отображается при использовании перспективы Eclipse **pgCodeKeeper**. Для переключения перспективы Eclipse воспользуйтесь пунктом меню **Window -> Perspective -> Open Perspective** или панелью быстрого переключения (по-умолчанию находится в верхнем правом углу Eclipse)."
