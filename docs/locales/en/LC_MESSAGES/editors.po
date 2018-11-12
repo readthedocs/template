@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 09:50\n"
+"PO-Revision-Date: 2018-11-12 11:12\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -123,7 +123,7 @@ msgstr "Git user - name of the user, who was the last one to change the project 
 
 #: ../../editors.rst:48
 msgid "Пользователь базы данных - имя пользователя базы данных, который последним изменил объект в базе данных. Для отображения данного столбца необходимо расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_."
-msgstr "Database user - name of the database user who was the last one to change the object in the database. To display this column, you'll need the `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. extension."
+msgstr "Database user - name of the database user who was the last one to change the object in the database. To display this column, you'll need the `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_ extension."
 
 #: ../../editors.rst:50
 msgid "**Панель сравнения** показывает изменения, произошедшие в SQL представлении объекта."
