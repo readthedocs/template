@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 09:22\n"
+"PO-Revision-Date: 2018-11-12 09:32\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -179,7 +179,7 @@ msgstr "The **Project - Remote** switch allows you to select the database under 
 
 #: ../../editors.rst:93
 msgid "Кнопка **Add depcy / Добавить зависимости** позволяет открыть диалог ручного добавления зависимостей."
-msgstr ""
+msgstr "**Add depcy** allows you to open the dialog of manual adding of the dependencies."
 
 #: ../../editors.rst:97
 msgid "В этом диалоге можно явно задать зависимости между объектами БД. Это может понадобиться, например, в случае если автоматическое распознавание зависимостей не сработает для некоторой сложной зависимости. Добавленные зависимости будут учтены при генерации последовательности выражений скрипта наката."
@@ -191,7 +191,7 @@ msgstr "The window consists of two parts which serve for adding the dependences 
 
 #: ../../editors.rst:101
 msgid "Для добавления зависимостей между объектами, достаточно ввести начльные буквы из названия объекта и из выпадающего списка выбрать имена зависимых объектов и нажать на кнопку **Add / Добавить**. Зависимость отобразится в списке добавленных."
-msgstr ""
+msgstr "To add dependencies between objects, simply start entering the first letters of the object name, select the names of the dependent objects in the drop-down list and click **Add**. You'll see the dependency in the list of added."
 
 #: ../../editors.rst:103
 msgid "Для удаления выделите связку зависимых объектов и нажмите **Remove / Удалить**."
