@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 09:02\n"
+"PO-Revision-Date: 2018-11-12 09:22\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgstr "The arrows show the direction of connection of the dependant object towa
 
 #: ../../editors.rst:91
 msgid "Переключатель **Project - Remote / Проект - БД** позволяет выбрать, для какой БД, участвующей в сравнении, показывать объекты и зависимости. После переключения необходимо повторно выбрать элемент в панели различий редактора."
-msgstr ""
+msgstr "The **Project - Remote** switch allows you to select the database under comparison for which you want to display objects and dependencies. After switching, you should select the element on the editor diff panel once again."
 
 #: ../../editors.rst:93
 msgid "Кнопка **Add depcy / Добавить зависимости** позволяет открыть диалог ручного добавления зависимостей."
