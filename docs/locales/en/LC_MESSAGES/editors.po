@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 08:33\n"
+"PO-Revision-Date: 2018-11-12 08:42\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -151,15 +151,15 @@ msgstr "|quick_update| - Quick update. Execution of the migration script for **d
 
 #: ../../editors.rst:72
 msgid "|update_ddl| - Execute selection / Выполнить выбранное. Исполнение текущего скрипта миграции (или выделенного текста) в выбранной базе данных."
-msgstr ""
+msgstr "|update_ddl| - Execute selection. Execution of the current migration script (or the highlighted text) in the selected database."
 
 #: ../../editors.rst:73
 msgid "|progress_stop| - Cancel execution / Отменить выполнение. Отмена исполнения текущего скрипта миграции."
-msgstr ""
+msgstr "|progress_stop| - Cancel execution. Cancel of execution of the current migration script."
 
 #: ../../editors.rst:74
 msgid "|refresh| - Get changes / Получить изменения. Обновляет редактор проекта, в котором находится текущий файл. Применимо только к файлам проекта."
-msgstr ""
+msgstr "|refresh| - Get changes. Refreshes the editor of the project containing the current file. Applicable only to project files."
 
 #: ../../editors.rst:83
 msgid "Просмотр зависимостей объекта БД"
