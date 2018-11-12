@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-09 14:23\n"
+"PO-Revision-Date: 2018-11-12 06:31\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,15 +27,15 @@ msgstr "pgCodeKeeper project editor"
 
 #: ../../editors.rst:10
 msgid "Редактор проекта – основной способ работы с pgCodeKeeper. Интерфейс редактора, состоящий из нескольких основных частей:"
-msgstr ""
+msgstr "Project editor is the main way of working with pgCodeKeeper. The editor interface consists of several main parts:"
 
 #: ../../editors.rst:12
 msgid "Панель инструментов Eclipse"
-msgstr ""
+msgstr "Eclipse tool bar"
 
 #: ../../editors.rst:13
 msgid "Панель инструментов редактора"
-msgstr ""
+msgstr "Editor tool bar"
 
 #: ../../editors.rst:14
 msgid "Таблица различий"
@@ -47,11 +47,11 @@ msgstr "Comparison panel"
 
 #: ../../editors.rst:16
 msgid "Счетчик объектов"
-msgstr ""
+msgstr "Object counter"
 
 #: ../../editors.rst:20
 msgid "**Панель инструментов Eclipse** содержит инструменты для выбора источника данных, с которым предстоит работать."
-msgstr ""
+msgstr "**Eclipse tool bar** contains tools for selecting the source of data you are going to work with."
 
 #: ../../editors.rst:22
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
