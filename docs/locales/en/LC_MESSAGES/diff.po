@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-09 14:23\n"
+"PO-Revision-Date: 2018-11-12 06:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../diff.rst:3
 msgid "Сравнение баз данных"
-msgstr "Database comparison"
+msgstr "Database diff"
 
 #: ../../diff.rst:5
 msgid "Открываем мастер сравнения баз данных: **pgCodeKeeper - Diff Wizard / Мастер сравнения** или вызываем контекстное меню pgCodeKeeper проекта и выбираем **pgCodeKeeper - Diff... / Сравнить...**."
-msgstr ""
+msgstr "Start the database diff wizard: **pgCodeKeeper - Diff Wizard** or open the pgCodeKeeper project right-click menu and select **pgCodeKeeper - Diff...**."
 
 #: ../../diff.rst:6
 msgid "Выбираем источник исходной схемы базы данных, которую нужно обновить, и целевой схемы базы данных, на основании которой обновляем исходную базу данных."
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../diff.rst:9
 msgid "Нажимаем кнопку **Next**."
-msgstr ""
+msgstr "Click **Next**."
 
 #: ../../diff.rst:13
 msgid "В таблице сравнения отмечаем изменения, которые необходимо применить. Примечание: панель инструментов работает аналогично панели инструментов редактора проектов pgCodeKeeper."
