@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2018-11-12 11:12\n"
+"PO-Revision-Date: 2018-11-12 11:43\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "**Editor tool bar** is used for working with the object list. There are 
 
 #: ../../editors.rst:24
 msgid "|check_all| – выбрать все элементы."
-msgstr "| check_all | – select all objects."
+msgstr "|check_all| – select all objects."
 
 #: ../../editors.rst:25
 msgid "|uncheck_all| – снять выбор со всех элементов."
