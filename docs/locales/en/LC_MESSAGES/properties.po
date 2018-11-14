@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-13 14:09+0300\n"
-"PO-Revision-Date: 2018-11-14 09:13\n"
+"PO-Revision-Date: 2018-11-14 10:23\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "Settings managing project libraries."
 
 #: ../../properties.rst:50
 msgid "**Библиотеки** - это подключаемые наборы данных объектов, которые \"*склеиваются*\" с объектами проекта при сравнении с удаленной базой данных. В качестве библиотек можно использовать директории (это может быть как другой pgCodeKeeper проект, так и обычная директория с файлами), дампы или же удаленная база данных. Кроме того, библиотеки возможно упаковать в zip-архив, загрузить на сервер, и подключить, указав URL архива. Для добавления библиотек воспользуйтесь соответствующими кнопками на боковой панели."
-msgstr ""
+msgstr "**Libraries** are plugged-in sets of object data which are \"*glued*\" with project objects during the comparison with the remote database. Directories (a regular directory with files as well as another pgCodeKeeper project), dumps or remote databases can serve as libraries. Besides, you can compress libraries into a zip-archive, upload them to a server and connect them by specifying the archive's URL. To add libraries, use corresponding buttons on the side panel."
 
 #: ../../properties.rst:53
 msgid "Библиотеки загружаются в порядке, в котором они указаны в списке (самая верхняя библиотека будет загружена первой). Для изменения порядка воспользуйтесь соответствующими кнопками на боковой панели."
