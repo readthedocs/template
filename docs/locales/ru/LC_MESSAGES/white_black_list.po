@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-26 09:53+0300\n"
+"POT-Creation-Date: 2018-11-27 15:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../white_black_list.rst:5
 msgid "Список исключаемых объектов"
@@ -517,7 +517,7 @@ msgid "**HIDE NONE \"SHOW\"**"
 msgstr ""
 
 #: ../../white_black_list.rst:251
-msgid "Совместное использоваение черного и белого списков"
+msgid "Совместное использование черного и белого списков"
 msgstr ""
 
 #: ../../white_black_list.rst:253
@@ -551,11 +551,11 @@ msgid "Пример совместного использования черно
 msgstr ""
 
 #: ../../white_black_list.rst:264
-msgid "файл черного списока"
+msgid "файл черного списка"
 msgstr ""
 
 #: ../../white_black_list.rst:268
-msgid "файл белого списока"
+msgid "файл белого списка"
 msgstr ""
 
 #: ../../white_black_list.rst
@@ -656,7 +656,7 @@ msgstr ""
 #: ../../white_black_list.rst:337
 msgid ""
 "в вышеуказанных правилах использовано название другой базы данных, не той"
-" с которой ведется работа в данном примере, поэтому все останеться без "
+" с которой ведется работа в данном примере, поэтому все останется без "
 "изменений"
 msgstr ""
 
@@ -718,4 +718,20 @@ msgid ""
 "Взаимодействие правил разных списков, контролирующих отображение одного и"
 " того же объекта, описано в разделе :ref:`whiteBlackCommonUsing`."
 msgstr ""
+
+#~ msgid "Совместное использоваение черного и белого списков"
+#~ msgstr ""
+
+#~ msgid "файл черного списока"
+#~ msgstr ""
+
+#~ msgid "файл белого списока"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "в вышеуказанных правилах использовано название"
+#~ " другой базы данных, не той с "
+#~ "которой ведется работа в данном примере,"
+#~ " поэтому все останеться без изменений"
+#~ msgstr ""
 

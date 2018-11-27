@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-04 09:31+0300\n"
+"POT-Creation-Date: 2018-11-27 15:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../preferences.rst:3
 msgid "Глобальные настройки"
@@ -83,8 +83,8 @@ msgstr ""
 
 #: ../../preferences.rst:23
 msgid ""
-"Объекты, которые не должны учитываться при сравнении БД, можо указать на "
-"странице настроек **pgCodeKeeper -> Исключенные объекты**."
+"Объекты, которые не должны учитываться при сравнении БД, возможно указать"
+" на странице настроек **pgCodeKeeper -> Исключенные объекты**."
 msgstr ""
 
 #: ../../preferences.rst:25
@@ -202,9 +202,9 @@ msgstr ""
 
 #: ../../preferences.rst:80
 msgid ""
-"**Warn about dangerous scripts containig: / Предупреждать, если в скрипте"
-" присутствуют следующие выражения:** – позволяет предупреждать, если при "
-"генерации скрипта образовались выбранные опасные выражения."
+"**Warn about dangerous scripts containing: / Предупреждать, если в "
+"скрипте присутствуют следующие выражения:** – позволяет предупреждать, "
+"если при генерации скрипта образовались выбранные опасные выражения."
 msgstr ""
 
 #: ../../preferences.rst:81
@@ -288,35 +288,35 @@ msgid ""
 "**Reported Values / Отправляемые значения**."
 msgstr ""
 
-#: ../../preferences.rst:111
+#: ../../preferences.rst:113
 msgid "Редактор проекта"
 msgstr ""
 
-#: ../../preferences.rst:113
+#: ../../preferences.rst:115
 msgid "Настройки, управляющие редактором проекта."
 msgstr ""
 
-#: ../../preferences.rst:117
+#: ../../preferences.rst:119
 msgid ""
 "На странице настроек **pgCodeKeeper -> Редактор проекта** Вы можете "
 "настроить параметры редактора проекта."
 msgstr ""
 
-#: ../../preferences.rst:119
+#: ../../preferences.rst:121
 msgid ""
 "**Switch to pgCodeKeeper perspective when opening editor / Переключать в "
 "перспективу pgCodeKeeper при открытии редактора** – определяет поведение "
 "переключения перспективы при открытии редактора проекта."
 msgstr ""
 
-#: ../../preferences.rst:120
+#: ../../preferences.rst:122
 msgid ""
 "**After applying a migration to editor's DB do: / После выполнения "
 "миграции на БД редактора выполнить:** – определяет поведение редактора "
 "при накате скриптов миграции."
 msgstr ""
 
-#: ../../preferences.rst:121
+#: ../../preferences.rst:123
 msgid ""
 "**Display git user that math the change / Отображать пользователя git, "
 "совершившего изменение** – позволяет отображать в редакторе колонку с "
@@ -324,76 +324,76 @@ msgid ""
 "находиться под системой контроля версий."
 msgstr ""
 
-#: ../../preferences.rst:124
+#: ../../preferences.rst:126
 msgid "Редактор SQL"
 msgstr ""
 
-#: ../../preferences.rst:126
+#: ../../preferences.rst:128
 msgid "Настройки, управляющие редактором SQL."
 msgstr ""
 
-#: ../../preferences.rst:130
+#: ../../preferences.rst:132
 msgid ""
 "На странице настроек **pgCodeKeeper -> Редактор SQL** Вы можете настроить"
 " параметры редактора SQL."
 msgstr ""
 
-#: ../../preferences.rst:132
+#: ../../preferences.rst:134
 msgid ""
 "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в "
 "одном из режимов."
 msgstr ""
 
-#: ../../preferences.rst:133
+#: ../../preferences.rst:135
 msgid ""
 "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную"
 " скобку."
 msgstr ""
 
-#: ../../preferences.rst:134
+#: ../../preferences.rst:136
 msgid ""
 "**Both brackets / Обе скобка** – при выборе скобки, подсвечивает текущую "
 "и парную скобку."
 msgstr ""
 
-#: ../../preferences.rst:135
+#: ../../preferences.rst:137
 msgid ""
 "**Current block brackets / Скобки текущего блока** – подсвечивает скобки,"
 " между которыми находится курсор."
 msgstr ""
 
-#: ../../preferences.rst:136
+#: ../../preferences.rst:138
 msgid ""
 "**Bracket highlight color / Цвет подсветки скобок** – позволяет выбрать "
 "цвет подсветки скобок."
 msgstr ""
 
-#: ../../preferences.rst:140
+#: ../../preferences.rst:142
 msgid "Подсветка синтаксиса"
 msgstr ""
 
-#: ../../preferences.rst:142
+#: ../../preferences.rst:144
 msgid "Настройки, управляющие подсветкой синтаксиса."
 msgstr ""
 
-#: ../../preferences.rst:146
+#: ../../preferences.rst:148
 msgid ""
 "На странице настроек **pgCodeKeeper -> Редактор SQL -> Подсветка "
 "синтаксиса** Вы можете установить цвет и стиль шрифта, которым будет "
 "отображаться соответствующий синтаксис в SQL редакторе pgCodeKeeper."
 msgstr ""
 
-#: ../../preferences.rst:149
+#: ../../preferences.rst:151
 msgid "Шаблоны редактора SQL"
 msgstr ""
 
-#: ../../preferences.rst:151
+#: ../../preferences.rst:153
 msgid ""
 "Создание, удаление и редактирование шаблонов для автоподстановки в SQL "
 "редакторе"
 msgstr ""
 
-#: ../../preferences.rst:155
+#: ../../preferences.rst:157
 msgid ""
 "На странице настроек **pgCodeKeeper -> Редактор SQL -> Шаблоны редактора "
 "SQL** Вы можете управлять SQL шаблонами, доступными в SQL редакторе "
@@ -401,21 +401,21 @@ msgid ""
 "шаблонов."
 msgstr ""
 
-#: ../../preferences.rst:160
+#: ../../preferences.rst:162
 msgid "Хранилище БД"
 msgstr ""
 
-#: ../../preferences.rst:161
+#: ../../preferences.rst:163
 msgid "Настройки, управляющие хранилищем параметров подключения к БД."
 msgstr ""
 
-#: ../../preferences.rst:163
+#: ../../preferences.rst:165
 msgid ""
 "На странице настроек **pgCodeKeeper -> DB Store** (Хранилище БД) "
 "находится список записей для подключения к базам данных."
 msgstr ""
 
-#: ../../preferences.rst:167
+#: ../../preferences.rst:169
 msgid ""
 "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB "
 "credentials** (Данные подключения к БД), в котором нужно указать "
@@ -424,17 +424,17 @@ msgid ""
 "чекбокса **Auto-generate** (Автогенерация)."
 msgstr ""
 
-#: ../../preferences.rst:171
+#: ../../preferences.rst:173
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
 msgstr ""
 
-#: ../../preferences.rst:175
+#: ../../preferences.rst:177
 msgid ""
 "Свойства соединения можно дополнить параметрами указанными по адресу: "
 "https://jdbc.postgresql.org/documentation/head/connect.html."
 msgstr ""
 
-#: ../../preferences.rst:180
+#: ../../preferences.rst:182
 msgid ""
 "Для добавления хранилища на основе данных из уже созданного хранилища "
 "следует выделить объект хранилища баз данных, нажать кнопку |copy|. "
@@ -442,48 +442,48 @@ msgid ""
 "можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:182
+#: ../../preferences.rst:184
 msgid ""
 "Для добавления хранилища на основе данных из файла **.pgpass**, нажать "
 "кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать "
-"**.pgpass** файл. Далее откроется дилог  **Pgpass sources list** (Список "
-"источников из pgpass):"
+"**.pgpass** файл. Далее откроется диалог  **Pgpass sources list** (Список"
+" источников из pgpass):"
 msgstr ""
 
-#: ../../preferences.rst:186
+#: ../../preferences.rst:188
 msgid ""
 "В нем нужно выбрать строку с данными на основе которых будет создаваться "
 "хранилище. Откроется диалог **DB credentials** (Данные подключения к БД) "
 "в котором можно подтвердить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:190
+#: ../../preferences.rst:192
 msgid ""
-"После этого можно закрывать дилог **Pgpass sources list** (Список "
+"После этого можно закрывать диалог **Pgpass sources list** (Список "
 "источников из pgpass)."
 msgstr ""
 
-#: ../../preferences.rst:192
+#: ../../preferences.rst:194
 msgid ""
 "Для редактирования хранилища выделить объект хранилища баз данных, нажать"
 " кнопку |editor_area|. Откроется диалог **DB credentials** (Данные "
 "подключения к БД) в котором можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:194
+#: ../../preferences.rst:196
 msgid ""
 "Для удаления хранилища выбрать необходимую запись и нажать кнопку "
 "|delete|."
 msgstr ""
 
-#: ../../preferences.rst:196
+#: ../../preferences.rst:198
 msgid ""
 "Кнопка **Restore Defaults**, на странице настроек, удаляет все записи для"
 " подключения к базам данных и создает одну запись default без данных для "
 "подключения."
 msgstr ""
 
-#: ../../preferences.rst:198
+#: ../../preferences.rst:200
 msgid ""
 "Для сохранения внесенных изменений, в хранилище параметров подключения к "
 "БД, на странице настроек необходимо нажать кнопку **Apply** или **Apply "
@@ -572,5 +572,36 @@ msgstr ""
 #~ " Eclipse на 64-битной системе, 32-битную"
 #~ " библиотеку следует сохранить в директорию"
 #~ " *C:\\\\Windows\\\\SysWOW64\\\\*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Объекты, которые не должны учитываться "
+#~ "при сравнении БД, можо указать на "
+#~ "странице настроек **pgCodeKeeper -> "
+#~ "Исключенные объекты**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Warn about dangerous scripts containig: "
+#~ "/ Предупреждать, если в скрипте "
+#~ "присутствуют следующие выражения:** – "
+#~ "позволяет предупреждать, если при генерации"
+#~ " скрипта образовались выбранные опасные "
+#~ "выражения."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для добавления хранилища на основе "
+#~ "данных из файла **.pgpass**, нажать "
+#~ "кнопку |pg_pass|. Откроется диалог в "
+#~ "котором необходимо выбрать **.pgpass** файл."
+#~ " Далее откроется дилог  **Pgpass sources"
+#~ " list** (Список источников из pgpass):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "После этого можно закрывать дилог "
+#~ "**Pgpass sources list** (Список источников "
+#~ "из pgpass)."
 #~ msgstr ""
 

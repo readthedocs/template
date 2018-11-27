@@ -21,6 +21,7 @@
    installation
    new_project
    import_project
+   project_structure
    convert_project
    editors
    preferences

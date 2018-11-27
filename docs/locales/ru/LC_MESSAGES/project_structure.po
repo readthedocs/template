@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, pgCodeKeeper
+# This file is distributed under the same license as the pgCodeKeeper
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pgCodeKeeper 5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-27 15:16+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../project_structure.rst:3
+msgid "Структура проекта"
+msgstr ""
+
+#: ../../project_structure.rst:5
+msgid "Проект **PostgreSQL** имеет следующую структуру: ::"
+msgstr ""
+
+#: ../../project_structure.rst:31
+msgid "schema_name ... another_schema_name - имена схем."
+msgstr ""
+
+#: ../../project_structure.rst:32
+msgid ""
+"another_schema_name.sql - обязательный файл с определение схемы, имя "
+"должно совпадать с именем директории."
+msgstr ""
+
+#: ../../project_structure.rst:33
+msgid ""
+"table_name.sql, type_name.sql, view_name.sql - файлы с определениями "
+"объектов. Имена указываются без имени схем."
+msgstr ""
+
+#: ../../project_structure.rst:34
+msgid ""
+"все перегруженные функции хранятся в одном файле. Например, функции "
+"**public.func(int)** и **public.func(text)** будут расположены в "
+"**SCHEMA/public/FUNCTION/func.sql**."
+msgstr ""
+
+#: ../../project_structure.rst:35
+msgid ""
+"определения индексов, ограничений, триггеров и правил расположены в "
+"файлах родительских объектов. Например, индекс **public.ii** для таблицы "
+"**public.t1** будет расположен в **SCHEMA/public/TABLE/t1.sql**."
+msgstr ""
+
+#: ../../project_structure.rst:37
+msgid "Проект **MS SQL** содержит следующую структуру: ::"
+msgstr ""
+
+#: ../../project_structure.rst:57
+msgid "schema_name.sql - обязательный файл с определение схемы."
+msgstr ""
+
+#: ../../project_structure.rst:58
+msgid ""
+"schema_name.table_name.sql, schema_name.type_name.sql, "
+"schema_name.view_name.sql - файлы с определениями объектов. Имена "
+"указываются с именем схемы."
+msgstr ""
+
+#: ../../project_structure.rst:59
+msgid ""
+"определения индексов, ограничений, триггеров расположены в файлах "
+"родительских объектов. Например, индекс **dbo.ii** для таблицы **dbo.t1**"
+" будет расположен в **Tables/dbo.t1.sql**."
+msgstr ""
+
+#: ../../project_structure.rst:61
+msgid "Кроме этого в проекте могут содержаться следующие директории:"
+msgstr ""
+
+#: ../../project_structure.rst:63
+msgid ""
+"**MIGRATION**. Содержит сохраненные скрипты миграции. Автоматическое "
+"сохранение и удаление скриптов миграции в данной директории можно выбрать"
+" на странице настроек :ref:`dbUpdate`."
+msgstr ""
+
+#: ../../project_structure.rst:65
+msgid ""
+"**OVERRIDES**. Содержит файлы переопределения свойств объектов. "
+"Внутренняя структура данной директории дублирует структуру проекта. "
+"Сохранить переопределения свойств возможно выбрав соответствующую опцию "
+"при сохранении объектов в проект. На данный момент поддерживается "
+"переопределение привилегий и владельцев объектов базы данных."
+msgstr ""
+

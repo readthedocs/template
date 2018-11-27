@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"POT-Creation-Date: 2018-11-27 15:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,8 +109,8 @@ msgstr ""
 
 #: ../../object_search.rst:39
 msgid ""
-"**Hide lbrary objects / Скрывать библиотечные объекты** скрывает объекты "
-"загруженные из библиотек."
+"**Hide library objects / Скрывать библиотечные объекты** скрывает объекты"
+" загруженные из библиотек."
 msgstr ""
 
 #: ../../object_search.rst:41
@@ -128,4 +128,10 @@ msgstr ""
 #: ../../object_search.rst:47
 msgid "При включенном фильтре иконка кнопки изменится на |filter_tsk|."
 msgstr ""
+
+#~ msgid ""
+#~ "**Hide lbrary objects / Скрывать "
+#~ "библиотечные объекты** скрывает объекты "
+#~ "загруженные из библиотек."
+#~ msgstr ""
 
