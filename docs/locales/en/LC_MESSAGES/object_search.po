@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-11-27 12:22\n"
+"PO-Revision-Date: 2018-12-03 06:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr "**Show only local changes** displays the changes that took place in loca
 
 #: ../../object_search.rst:39
 msgid "**Hide library objects / Скрывать библиотечные объекты** скрывает объекты загруженные из библиотек."
-msgstr ""
+msgstr "**Hide library objects** hides the objects downloaded from libraries."
 
 #: ../../object_search.rst:41
 msgid "Для применения фильтров нажмите кнопку **ОК**."
