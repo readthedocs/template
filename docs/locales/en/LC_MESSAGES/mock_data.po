@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-11-27 12:22\n"
+"PO-Revision-Date: 2018-12-03 06:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Open the new object creation wizard: **File -> New -> Others**, select t
 
 #: ../../mock_data.rst:11
 msgid "Для каждой колонки в зависимости от типа и генератора доступны следующие настройки:"
-msgstr ""
+msgstr "For each column, depending on type and generator, the following settings are available:"
 
 #: ../../mock_data.rst:13
 msgid "**Имя колонки** - имя текущей колонки."
@@ -51,7 +51,7 @@ msgstr "RANDOM"
 
 #: ../../mock_data.rst:17
 msgid "Случайное значение из диапазона."
-msgstr ""
+msgstr "A random value from the range."
 
 #: ../../mock_data.rst
 msgid "INCREMENT"
@@ -91,7 +91,7 @@ msgstr "**Increment step** - increment step value"
 
 #: ../../mock_data.rst:25
 msgid "**Произвольное выражение** - произвольное значение, которое будет записано без форматирования."
-msgstr ""
+msgstr "**Undefined value** - unidentified value which will be written without formatting."
 
 #: ../../mock_data.rst:27
 msgid "Для управления списком колонок доступны следующие кнопки:"
@@ -127,7 +127,7 @@ msgstr "After clicking **Finish** you'll see the SQL editor with a ready Insert 
 
 #: ../../mock_data.rst:39
 msgid "Примечание: Также имеется возможность вызвать данный мастер из контекстного меню файла таблицы. В этом случае данные заполнятся автоматически."
-msgstr ""
+msgstr "Note: this wizard may be launched from the table's right-click menu as well. In this case, all the data is filled in automatically."
 
 #~ msgid ""
 #~ "Для каждой колонки в зависимости от "
