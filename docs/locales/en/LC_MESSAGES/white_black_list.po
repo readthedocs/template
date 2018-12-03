@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-11-27 12:22\n"
+"PO-Revision-Date: 2018-12-03 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -451,7 +451,7 @@ msgstr "**HIDE NONE \"SHOW\"**"
 
 #: ../../white_black_list.rst:251
 msgid "Совместное использование черного и белого списков"
-msgstr ""
+msgstr "Combined use of black and white lists"
 
 #: ../../white_black_list.rst:253
 msgid "Черные и белые списки могут использоваться вместе. В таком случае, их правила объединяются в один общий список. Правила, контролирующие отображение одного и того же объекта, складываются в одно общее правило по следующим принципам:"
@@ -475,11 +475,11 @@ msgstr "Example of combined use of black and white lists:"
 
 #: ../../white_black_list.rst:264
 msgid "файл черного списка"
-msgstr ""
+msgstr "black list file"
 
 #: ../../white_black_list.rst:268
 msgid "файл белого списка"
-msgstr ""
+msgstr "white list file"
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT KF**"
@@ -555,7 +555,7 @@ msgstr "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
 
 #: ../../white_black_list.rst:337
 msgid "в вышеуказанных правилах использовано название другой базы данных, не той с которой ведется работа в данном примере, поэтому все останется без изменений"
-msgstr ""
+msgstr "abovementioned rules use the name of another database, not the one which is in work in this example, so everything will remain unchanged"
 
 #: ../../white_black_list.rst:345
 msgid "но если указать название базы данных с которой ведется работа, то из отображаемых объектов исчезнут все объекты кроме одного, который не соответствует типу."
