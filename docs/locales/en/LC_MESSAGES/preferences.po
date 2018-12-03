@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-11-27 12:22\n"
+"PO-Revision-Date: 2018-12-03 06:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "Excluded objects"
 
 #: ../../preferences.rst:23
 msgid "Объекты, которые не должны учитываться при сравнении БД, возможно указать на странице настроек **pgCodeKeeper -> Исключенные объекты**."
-msgstr ""
+msgstr "You can specify the objects that should not be considered when comparing datebases ont the **pgCodeKeeper -> Excluded objects** settings page."
 
 #: ../../preferences.rst:25
 msgid "Для добавления объекта в список исключенных или удаления из него, служат кнопки |add_obj| и  |delete| соответственно."
@@ -147,7 +147,7 @@ msgstr "**Delete migration script files when closing migration editor** – sets
 
 #: ../../preferences.rst:80
 msgid "**Warn about dangerous scripts containing: / Предупреждать, если в скрипте присутствуют следующие выражения:** – позволяет предупреждать, если при генерации скрипта образовались выбранные опасные выражения."
-msgstr ""
+msgstr "**Warn about dangerous scripts containing:** - allows to show notifications if any selected dangerous expressions were formed during script generation."
 
 #: ../../preferences.rst:81
 msgid "**Show script output in separate window / Показывать вывод скрипт наката в отдельном окне** – позволяет просмотреть сообщение с ответом сервера при выполнении наката."
