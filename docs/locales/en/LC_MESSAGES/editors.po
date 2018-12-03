@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-11-27 12:23\n"
+"PO-Revision-Date: 2018-12-03 06:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -99,11 +99,11 @@ msgstr "**Diff table** shows the list of objects different for the DB schemas un
 
 #: ../../editors.rst:36
 msgid "Тип объекта - поддерживаются следующие типы объектов: SCHEMA, TYPE, FUNCTION, PROCEDURE, TABLE, VIEW, CONSTRAINT, INDEX, TRIGGER."
-msgstr ""
+msgstr "Object type - the following object types are supported: SCHEMA, TYPE, FUNCTION, PROCEDURE, TABLE, VIEW, CONSTRAINT, INDEX, TRIGGER."
 
 #: ../../editors.rst:38
 msgid "Для **PostgreSQL** дополнительно поддерживаются следующие типы: DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, RULE."
-msgstr ""
+msgstr "DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, RULE are supported additionally for **PostgreSQL**."
 
 #: ../../editors.rst:40
 msgid "Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY."
@@ -147,7 +147,7 @@ msgstr "During work in SQL editor, the following functions are present on the up
 
 #: ../../editors.rst:74
 msgid "|quick_update| - Quick update / Быстрое обновление. Исполнение скрипта миграции для **различий** между объектом в текущем файле проекта и соответствующим объектом в базе данных. Если изменения затрагивают объекты из других файлов или модифицируют данные (например удаление колонки), то обновление не произойдет."
-msgstr ""
+msgstr "|quick_update| - Quick update. Execution of the migration script for **differences** between the object in the current file of the project and the respective object in the database. If the changes concern objects from other files or modify the data (for example, delete a column), there will be no update."
 
 #: ../../editors.rst:75
 msgid "|update_ddl| - Execute selection / Выполнить выбранное. Исполнение текущего скрипта миграции (или выделенного текста) в выбранной базе данных."
@@ -191,7 +191,7 @@ msgstr "The window consists of two parts which serve for adding the dependences 
 
 #: ../../editors.rst:104
 msgid "Для добавления зависимостей между объектами, достаточно ввести начальные буквы из названия объекта и из выпадающего списка выбрать имена зависимых объектов и нажать на кнопку **Add / Добавить**. Зависимость отобразится в списке добавленных."
-msgstr ""
+msgstr "To add dependencies between objects, simply start entering the first letters of the object name, select the names of the dependent objects in the drop-down list and click **Add**. You'll see the dependency in the list of added."
 
 #: ../../editors.rst:106
 msgid "Для удаления выделите связку зависимых объектов и нажмите **Remove / Удалить**."
