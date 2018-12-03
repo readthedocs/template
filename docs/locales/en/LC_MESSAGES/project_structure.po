@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 07:42\n"
+"PO-Revision-Date: 2018-12-03 08:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,11 @@ msgstr "Project structure"
 
 #: ../../project_structure.rst:5
 msgid "Проект **PostgreSQL** имеет следующую структуру: ::"
-msgstr ""
+msgstr "The **PostgreSQL** project has the following structure: ::"
 
 #: ../../project_structure.rst:31
 msgid "schema_name ... another_schema_name - имена схем."
-msgstr ""
+msgstr "schema_name ... another_schema_name - schemas' names."
 
 #: ../../project_structure.rst:32
 msgid "another_schema_name.sql - обязательный файл с определение схемы, имя должно совпадать с именем директории."
