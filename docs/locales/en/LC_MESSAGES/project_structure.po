@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 12:22\n"
+"PO-Revision-Date: 2018-12-03 13:03\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,11 +43,11 @@ msgstr "all the overloaded functions are stored in a single file. For example, t
 
 #: ../../project_structure.rst:35
 msgid "определения индексов, ограничений, триггеров и правил расположены в файлах родительских объектов. Например, индекс **public.ii** для таблицы **public.t1** будет расположен в **SCHEMA/public/TABLE/t1.sql**."
-msgstr ""
+msgstr "definition of indexes, limits, triggers and rules are located in the files of parent objects. For example, index **public.ii** for the **public.t1** table will be located in **SCHEMA/public/TABLE/t1.sql**."
 
 #: ../../project_structure.rst:37
 msgid "Проект **MS SQL** содержит следующую структуру: ::"
-msgstr ""
+msgstr "The **MS SQL** project has the following structure: ::"
 
 #: ../../project_structure.rst:57
 msgid "schema_name.sql - обязательный файл с определение схемы."
