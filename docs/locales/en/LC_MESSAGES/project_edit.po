@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-11-27 12:22\n"
+"PO-Revision-Date: 2018-12-03 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "**Note:** Manual object editing can lead to errors in the program and to
 
 #: ../../project_edit.rst:11
 msgid "Для добавления объектов рекомендуем воспользоваться мастером создания SQL объектов: **File -> New -> Объект SQL** или горячей клавишей (по-умолчанию Alt + Insert)."
-msgstr ""
+msgstr "To add objects, we recommend you to use SQL objects creation wizard: **File -> New -> SQL object** or hotkey (Alt + Insert by default)."
 
 #: ../../project_edit.rst:15
 msgid "Выберите проект, тип объекта, введите имя и нажмите **Finish**."
@@ -43,7 +43,7 @@ msgstr "After that, the SQL editor will appear with a created object template. I
 
 #: ../../project_edit.rst:19
 msgid "Примечание: все возможные данные заполнятся автоматически. Например: если мастер был вызван из контекстного меню файла функции, то автоматически будет выбран текущий проект, тип объекта станет **FUNCTION**, а имя объекта будет частично заполнено именем схемы, в которой находилась функция."
-msgstr ""
+msgstr "Note: all possible data is filled in automatically. For example: if the wizard was launched with the help of right-click menu of the function file, current project would be selected automatically, type of object would be set to **FUNCTION**, and the name of object would be partially filled by the name of schema in which the function is contained."
 
 #: ../../project_edit.rst:21
 msgid "Для редактирования существующего объекта достаточно изменить содержимое его файла в проекте."
