@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 08:32\n"
+"PO-Revision-Date: 2018-12-03 12:22\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "table_name.sql, type_name.sql, view_name.sql - files with objects' defin
 
 #: ../../project_structure.rst:34
 msgid "все перегруженные функции хранятся в одном файле. Например, функции **public.func(int)** и **public.func(text)** будут расположены в **SCHEMA/public/FUNCTION/func.sql**."
-msgstr ""
+msgstr "all the overloaded functions are stored in a single file. For example, the functions **public.func(int)** and **public.func(text)** will be located in **SCHEMA/public/FUNCTION/func.sql**."
 
 #: ../../project_structure.rst:35
 msgid "определения индексов, ограничений, триггеров и правил расположены в файлах родительских объектов. Например, индекс **public.ii** для таблицы **public.t1** будет расположен в **SCHEMA/public/TABLE/t1.sql**."
