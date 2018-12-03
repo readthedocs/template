@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 06:21\n"
+"PO-Revision-Date: 2018-12-03 07:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Check the list of objects selected by the user and the list of dependent
 
 #: ../../project_update.rst:17
 msgid "Если вместо изменения самих объектов необходимо сохранить переопределения их свойств (например, привилегии), то выбираем соответствующую опцию. Выполняется только для объектов с типом изменения **edit**."
-msgstr ""
+msgstr "If instead of changing the objects themselves you need to save overrides of their properties (for example privileges), select the corresponding option. This can be done only for the objects with the **edit** change type."
 
 #: ../../project_update.rst:19
 msgid "Для подтверждения применения изменений к проекту нажать кнопку **OK**. В случае успешного применения изменений в **консоли pgCodeKeeper** появится соответствующее сообщение."
