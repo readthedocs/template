@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-04 06:11\n"
+"PO-Revision-Date: 2018-12-04 07:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -71,5 +71,5 @@ msgstr "**MIGRATION**. Contains the saved migration scripts. You can select auto
 
 #: ../../project_structure.rst:65
 msgid "**OVERRIDES**. Содержит файлы переопределения свойств объектов. Внутренняя структура данной директории дублирует структуру проекта. Сохранить переопределения свойств возможно выбрав соответствующую опцию при сохранении объектов в проект. На данный момент поддерживается переопределение привилегий и владельцев объектов базы данных."
-msgstr ""
+msgstr "**OVERRIDES**. Contains files of object properties override. The inner structure of this directory duplicates the project structure. You can save the properties override by selecting the corresponding item while saving the objects in the project. Overriding privileges and owners of database objects is currently supported."
 
