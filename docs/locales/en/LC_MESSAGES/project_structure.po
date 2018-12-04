@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 13:03\n"
+"PO-Revision-Date: 2018-12-04 06:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "schema_name.sql - an obligatory file with schema definition."
 
 #: ../../project_structure.rst:58
 msgid "schema_name.table_name.sql, schema_name.type_name.sql, schema_name.view_name.sql - файлы с определениями объектов. Имена указываются с именем схемы."
-msgstr ""
+msgstr "schema_name.table_name.sql, schema_name.type_name.sql, schema_name.view_name.sql - files with object definitions объектов. Names are specified with the schema name."
 
 #: ../../project_structure.rst:59
 msgid "определения индексов, ограничений, триггеров расположены в файлах родительских объектов. Например, индекс **dbo.ii** для таблицы **dbo.t1** будет расположен в **Tables/dbo.t1.sql**."
