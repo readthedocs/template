@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-04 06:01\n"
+"PO-Revision-Date: 2018-12-04 06:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -59,15 +59,15 @@ msgstr "schema_name.table_name.sql, schema_name.type_name.sql, schema_name.view_
 
 #: ../../project_structure.rst:59
 msgid "определения индексов, ограничений, триггеров расположены в файлах родительских объектов. Например, индекс **dbo.ii** для таблицы **dbo.t1** будет расположен в **Tables/dbo.t1.sql**."
-msgstr ""
+msgstr "definitions of indexes, limits, triggers are located in the files of parent objects. For example, index **dbo.ii** for the **dbo.t1** table will be located in **Tables/dbo.t1.sql**."
 
 #: ../../project_structure.rst:61
 msgid "Кроме этого в проекте могут содержаться следующие директории:"
-msgstr ""
+msgstr "Apart from this, a project may contain the following directories:"
 
 #: ../../project_structure.rst:63
 msgid "**MIGRATION**. Содержит сохраненные скрипты миграции. Автоматическое сохранение и удаление скриптов миграции в данной директории можно выбрать на странице настроек :ref:`dbUpdate`."
-msgstr ""
+msgstr "**MIGRATION**. Contains the saved migration scripts. You can select automatic save and deletion of migration scripts for this directory on the settings page :ref:`dbUpdate`."
 
 #: ../../project_structure.rst:65
 msgid "**OVERRIDES**. Содержит файлы переопределения свойств объектов. Внутренняя структура данной директории дублирует структуру проекта. Сохранить переопределения свойств возможно выбрав соответствующую опцию при сохранении объектов в проект. На данный момент поддерживается переопределение привилегий и владельцев объектов базы данных."
