@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pgcodekeeper-docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-27 15:16+0300\n"
+"PO-Revision-Date: 2018-12-10 07:21\n"
+"Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/project_structure.po\n"
+"Language: en_US\n"
+
+#: ../../project_structure.rst:3
+msgid "Структура проекта"
+msgstr "Project structure"
+
+#: ../../project_structure.rst:5
+msgid "Проект **PostgreSQL** имеет следующую структуру: ::"
+msgstr "The **PostgreSQL** project has the following structure: ::"
+
+#: ../../project_structure.rst:31
+msgid "schema_name ... another_schema_name - имена схем."
+msgstr "schema_name ... another_schema_name - schema names."
+
+#: ../../project_structure.rst:32
+msgid "another_schema_name.sql - обязательный файл с определение схемы, имя должно совпадать с именем директории."
+msgstr "another_schema_name.sql - an obligatory file with schema definition, the name should be identical to the directory name."
+
+#: ../../project_structure.rst:33
+msgid "table_name.sql, type_name.sql, view_name.sql - файлы с определениями объектов. Имена указываются без имени схем."
+msgstr "table_name.sql, type_name.sql, view_name.sql - files with objects' definition. The names are specified without schema names."
+
+#: ../../project_structure.rst:34
+msgid "все перегруженные функции хранятся в одном файле. Например, функции **public.func(int)** и **public.func(text)** будут расположены в **SCHEMA/public/FUNCTION/func.sql**."
+msgstr "all the overloaded functions are stored in a single file. For example, the functions **public.func(int)** and **public.func(text)** will be located in **SCHEMA/public/FUNCTION/func.sql**."
+
+#: ../../project_structure.rst:35
+msgid "определения индексов, ограничений, триггеров и правил расположены в файлах родительских объектов. Например, индекс **public.ii** для таблицы **public.t1** будет расположен в **SCHEMA/public/TABLE/t1.sql**."
+msgstr "definition of indexes, constraints, triggers and rules are located in the files of parent objects. For example, index **public.ii** for the **public.t1** table will be located in **SCHEMA/public/TABLE/t1.sql**."
+
+#: ../../project_structure.rst:37
+msgid "Проект **MS SQL** содержит следующую структуру: ::"
+msgstr "The **MS SQL** project has the following structure: ::"
+
+#: ../../project_structure.rst:57
+msgid "schema_name.sql - обязательный файл с определение схемы."
+msgstr "schema_name.sql - an obligatory file with schema definition."
+
+#: ../../project_structure.rst:58
+msgid "schema_name.table_name.sql, schema_name.type_name.sql, schema_name.view_name.sql - файлы с определениями объектов. Имена указываются с именем схемы."
+msgstr "schema_name.table_name.sql, schema_name.type_name.sql, schema_name.view_name.sql - files with object definitions объектов. Names are specified with the schema name."
+
+#: ../../project_structure.rst:59
+msgid "определения индексов, ограничений, триггеров расположены в файлах родительских объектов. Например, индекс **dbo.ii** для таблицы **dbo.t1** будет расположен в **Tables/dbo.t1.sql**."
+msgstr "definitions of indexes, constraints, triggers are located in the files of parent objects. For example, index **dbo.ii** for the **dbo.t1** table will be located in **Tables/dbo.t1.sql**."
+
+#: ../../project_structure.rst:61
+msgid "Кроме этого в проекте могут содержаться следующие директории:"
+msgstr "Apart from this, a project may contain the following directories:"
+
+#: ../../project_structure.rst:63
+msgid "**MIGRATION**. Содержит сохраненные скрипты миграции. Автоматическое сохранение и удаление скриптов миграции в данной директории можно выбрать на странице настроек :ref:`dbUpdate`."
+msgstr "**MIGRATION**. Contains the saved migration scripts. You can select automatic save and deletion of migration scripts for this directory on the settings page :ref:`dbUpdate`."
+
+#: ../../project_structure.rst:65
+msgid "**OVERRIDES**. Содержит файлы переопределения свойств объектов. Внутренняя структура данной директории дублирует структуру проекта. Сохранить переопределения свойств возможно выбрав соответствующую опцию при сохранении объектов в проект. На данный момент поддерживается переопределение привилегий и владельцев объектов базы данных."
+msgstr "**OVERRIDES**. Contains files of object properties override. The inner structure of this directory duplicates the project structure. You can save the properties override by selecting the corresponding item while saving the objects in the project. Overriding privileges and owners of database objects is currently supported."
+

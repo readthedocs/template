@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-06-19 13:12+0000\n"
+"POT-Creation-Date: 2018-11-27 15:16+0300\n"
+"PO-Revision-Date: 2018-12-03 07:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -26,22 +26,41 @@ msgid "На тулбаре выбираем выбираем источник б
 msgstr "On the toolbar, select the database source, basing on which pgCodeKeeper project will be updated."
 
 #: ../../project_update.rst:7
-msgid "На панели задач нажимаем кнопку **Получить изменения**. После недолгого ожидания на панели различий отобразится список различий с указанием типа изменения."
+msgid "На панели задач нажимаем кнопку **Получить изменения  / Get changes**. После недолгого ожидания на панели различий отобразится список различий с указанием типа изменения."
 msgstr "On the task panel, click **Get changes**. After a short wait, the list of differences with indication of change type will be displayed on the differences panel."
 
 #: ../../project_update.rst:11
-msgid "Флажками отмечаем объекты, которые мы хотим обновить. Нажимаем на кнопку **Применить к проекту**, открывается **диалог обновления проекта**."
-msgstr "Tick off the object which you want to update. After you click **Apply to project**, **project update dialog** will appear on the screen."
+msgid "Флажками отмечаем объекты, которые мы хотим обновить. Нажимаем на кнопку **Применить к проекту / Apply to project**, открывается диалог **Подтвердите обновление проекта / Confirm Project Update**."
+msgstr "Tick off the object which you want to update. After you click **Apply to project**, the **Confirm Project Update** dialogue will appear on the screen."
 
 #: ../../project_update.rst:15
 msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
 msgstr "Check the list of objects selected by the user and the list of dependent objects. Be careful! Excluding dependence objects from the update can lead to errors and unexpected results."
 
 #: ../../project_update.rst:17
+msgid "Если вместо изменения самих объектов необходимо сохранить переопределения их свойств (например, привилегии), то выбираем соответствующую опцию. Выполняется только для объектов с типом изменения **edit**."
+msgstr "If instead of changing the objects themselves you need to save overrides of their properties (for example privileges), select the corresponding option. This can be done only for the objects with the **edit** change type."
+
+#: ../../project_update.rst:19
 msgid "Для подтверждения применения изменений к проекту нажать кнопку **OK**. В случае успешного применения изменений в **консоли pgCodeKeeper** появится соответствующее сообщение."
 msgstr "Click **OK** to confirm the applying of changes to the project. If successful, **pgCodeKeeper console** will display a corresponding message."
 
-#: ../../project_update.rst:19
+#: ../../project_update.rst:21
 msgid "**Обновление файлов проекта приводит к сбросу списка различий.**"
 msgstr "**Project file update resets the differences list.**"
+
+#~ msgid ""
+#~ "На панели задач нажимаем кнопку "
+#~ "**Получить изменения**. После недолгого "
+#~ "ожидания на панели различий отобразится "
+#~ "список различий с указанием типа "
+#~ "изменения."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Флажками отмечаем объекты, которые мы "
+#~ "хотим обновить. Нажимаем на кнопку "
+#~ "**Применить к проекту**, открывается **диалог"
+#~ " обновления проекта**."
+#~ msgstr ""
 

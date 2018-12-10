@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-26 09:53+0300\n"
-"PO-Revision-Date: 2018-06-29 06:21\n"
+"POT-Creation-Date: 2018-11-27 15:16+0300\n"
+"PO-Revision-Date: 2018-12-03 06:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
@@ -450,7 +450,7 @@ msgid "**HIDE NONE \"SHOW\"**"
 msgstr "**HIDE NONE \"SHOW\"**"
 
 #: ../../white_black_list.rst:251
-msgid "Совместное использоваение черного и белого списков"
+msgid "Совместное использование черного и белого списков"
 msgstr "Combined use of black and white lists"
 
 #: ../../white_black_list.rst:253
@@ -474,11 +474,11 @@ msgid "Пример совместного использования черно
 msgstr "Example of combined use of black and white lists:"
 
 #: ../../white_black_list.rst:264
-msgid "файл черного списока"
+msgid "файл черного списка"
 msgstr "black list file"
 
 #: ../../white_black_list.rst:268
-msgid "файл белого списока"
+msgid "файл белого списка"
 msgstr "white list file"
 
 #: ../../white_black_list.rst
@@ -554,7 +554,7 @@ msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
 msgstr "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
 
 #: ../../white_black_list.rst:337
-msgid "в вышеуказанных правилах использовано название другой базы данных, не той с которой ведется работа в данном примере, поэтому все останеться без изменений"
+msgid "в вышеуказанных правилах использовано название другой базы данных, не той с которой ведется работа в данном примере, поэтому все останется без изменений"
 msgstr "abovementioned rules use the name of another database, not the one which is in work in this example, so everything will remain unchanged"
 
 #: ../../white_black_list.rst:345
@@ -600,4 +600,20 @@ msgstr "As a result, only \"ignore2\" will remain in the compared objects, becau
 #: ../../white_black_list.rst:382
 msgid "Взаимодействие правил разных списков, контролирующих отображение одного и того же объекта, описано в разделе :ref:`whiteBlackCommonUsing`."
 msgstr "Interaction between the rules of different lists which regulate the display of one and the same object is described in the :ref:`whiteBlackCommonUsing` section."
+
+#~ msgid "Совместное использоваение черного и белого списков"
+#~ msgstr ""
+
+#~ msgid "файл черного списока"
+#~ msgstr ""
+
+#~ msgid "файл белого списока"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "в вышеуказанных правилах использовано название"
+#~ " другой базы данных, не той с "
+#~ "которой ведется работа в данном примере,"
+#~ " поэтому все останеться без изменений"
+#~ msgstr ""
 
