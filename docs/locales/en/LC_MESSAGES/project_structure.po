@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-04 07:41\n"
+"PO-Revision-Date: 2018-12-10 07:21\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "The **PostgreSQL** project has the following structure: ::"
 
 #: ../../project_structure.rst:31
 msgid "schema_name ... another_schema_name - имена схем."
-msgstr "schema_name ... another_schema_name - schemas' names."
+msgstr "schema_name ... another_schema_name - schema names."
 
 #: ../../project_structure.rst:32
 msgid "another_schema_name.sql - обязательный файл с определение схемы, имя должно совпадать с именем директории."
@@ -43,7 +43,7 @@ msgstr "all the overloaded functions are stored in a single file. For example, t
 
 #: ../../project_structure.rst:35
 msgid "определения индексов, ограничений, триггеров и правил расположены в файлах родительских объектов. Например, индекс **public.ii** для таблицы **public.t1** будет расположен в **SCHEMA/public/TABLE/t1.sql**."
-msgstr "definition of indexes, limits, triggers and rules are located in the files of parent objects. For example, index **public.ii** for the **public.t1** table will be located in **SCHEMA/public/TABLE/t1.sql**."
+msgstr "definition of indexes, constraints, triggers and rules are located in the files of parent objects. For example, index **public.ii** for the **public.t1** table will be located in **SCHEMA/public/TABLE/t1.sql**."
 
 #: ../../project_structure.rst:37
 msgid "Проект **MS SQL** содержит следующую структуру: ::"
@@ -59,7 +59,7 @@ msgstr "schema_name.table_name.sql, schema_name.type_name.sql, schema_name.view_
 
 #: ../../project_structure.rst:59
 msgid "определения индексов, ограничений, триггеров расположены в файлах родительских объектов. Например, индекс **dbo.ii** для таблицы **dbo.t1** будет расположен в **Tables/dbo.t1.sql**."
-msgstr "definitions of indexes, limits, triggers are located in the files of parent objects. For example, index **dbo.ii** for the **dbo.t1** table will be located in **Tables/dbo.t1.sql**."
+msgstr "definitions of indexes, constraints, triggers are located in the files of parent objects. For example, index **dbo.ii** for the **dbo.t1** table will be located in **Tables/dbo.t1.sql**."
 
 #: ../../project_structure.rst:61
 msgid "Кроме этого в проекте могут содержаться следующие директории:"
