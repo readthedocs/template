@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 06:21\n"
+"PO-Revision-Date: 2018-12-13 06:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -71,11 +71,11 @@ msgstr "When adding an object to the list of excluded you can set additional set
 
 #: ../../preferences.rst:29
 msgid "**Шаблон** – является ли имя объекта регулярным выражением."
-msgstr "**Template** – whether or not the object's name is a regular expression."
+msgstr "**Pattern** – whether or not the object's name is a regular expression."
 
 #: ../../preferences.rst:30
 msgid "**Игнорировать содержимое** – позволяет пропустить объекты, вложенные в исключенный."
-msgstr "**Ignore content** – allows to skip the objects contained in the excluded one."
+msgstr "**Ignore contents** – allows to skip the objects contained in the excluded one."
 
 #: ../../preferences.rst:31
 msgid "**Тип** – тип объекта (\"ALL\" предназначен для указания любого типа объекта)."
