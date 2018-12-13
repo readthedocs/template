@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 06:21\n"
+"PO-Revision-Date: 2018-12-13 07:41\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../white_black_list.rst:5
 msgid "Список исключаемых объектов"
-msgstr "List of excluded objects"
+msgstr "Ignore List"
 
 #: ../../white_black_list.rst:7
 msgid "Список исключаемых объектов - это список объектов, которые не должны или наоборот должны отображаться при сравнении баз данных. Соответственно существует два типа списков исключаемых объектов:"
-msgstr "List of excluded objects is a list of objects, which should not or, alternatively, should be displayed during database comparison. Accordingly, there are two types of lists of excluded objects:"
+msgstr "Ignore List is a list of objects, which should not or, alternatively, should be displayed during database comparison. Accordingly, there are two types of lists of excluded objects:"
 
 #: ../../white_black_list.rst:10
 msgid "черный список"
@@ -43,7 +43,7 @@ msgstr "in opposition to black list, forbids displaying all the objects except t
 
 #: ../../white_black_list.rst:15
 msgid "В каждом проекте можно создать **список исключаемых объектов**, распространяющий свое действие только на данный проект, для этого в корне проекта необходимо создать файл **.pgcodekeeperignore** и заполнить его правилами согласно синтаксису списков."
-msgstr "In each project, it is possible to create a **list of excluded objects**, applying only to current project. To do this, create the **.pgcodekeeperignore** file in the project root and fill it with the rules according to the list syntax."
+msgstr "In each project, it is possible to create a **ignore list**, applying only to current project. To do this, create the **.pgcodekeeperignore** file in the project root and fill it with the rules according to the list syntax."
 
 #: ../../white_black_list.rst:17
 msgid "Формат файла **.pgcodekeeperignore** чувствителен к регистру. Кодировка должна быть – UTF-8."
@@ -55,7 +55,7 @@ msgstr "In the following, in the :ref:`listSyntax` section, we will consider the
 
 #: ../../white_black_list.rst:21
 msgid "В дополнении к **списку исключаемых объектов** файла **.pgcodekeeperignore**, в графической версии pgCodeKeeper существует **общий список исключаемых объектов** распространяющий свое действие на все проекты находящиеся в директории проектов. Заполнить его можно на странице с глобальными настройками в разделе :ref:`ignoredObjects`."
-msgstr "In addition to the **list of excluded objects** of the **.pgcodekeeperignore** file, in the graphical version of pgCodeKeeper, there is a **general list of excluded objects** which affects all the projects located in the project directory. You can fill it on the global settings page in the :ref:`ignoredObjects` section."
+msgstr "In addition to the **list of ignored objects** of the **.pgcodekeeperignore** file, in the graphical version of pgCodeKeeper, there is a **general list of ignored objects** which affects all the projects located in the project directory. You can fill it on the global settings page in the :ref:`ignoredObjects` section."
 
 #: ../../white_black_list.rst:26
 msgid "Cинтаксис списков"
@@ -467,7 +467,7 @@ msgstr "if the \"range\" of the rules is the same, then the rule that hides the 
 
 #: ../../white_black_list.rst:258
 msgid "\"Широта\" правила - это включение или не включение, в область действия правила, содержимого того или иного объекта, т.е. состояние флага CONTENT (для **общего списка** графической версии pgCodeKeeper, это опция \"Игнорировать содержимое\" описанная в разделе :ref:`ignoredObjects`)."
-msgstr "Rule's \"range\" is including or not including an object's content into the effective range of the rule, that is, the condition of the CONTENT flag (for **common list** of the pgCodeKeeper graphic version, it's the \"Ignore content\" option, described in the :ref:`ignoredObjects` section)."
+msgstr "Rule's \"range\" is including or not including an object's content into the effective range of the rule, that is, the condition of the CONTENT flag (for **common list** of the pgCodeKeeper graphic version, it's the \"Ignore contents\" option, described in the :ref:`ignoredObjects` section)."
 
 #: ../../white_black_list.rst:260
 msgid "Пример совместного использования черного и белого списков:"

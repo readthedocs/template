@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 06:21\n"
+"PO-Revision-Date: 2018-12-13 07:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -71,11 +71,11 @@ msgstr "When adding an object to the list of excluded you can set additional set
 
 #: ../../preferences.rst:29
 msgid "**Шаблон** – является ли имя объекта регулярным выражением."
-msgstr "**Template** – whether or not the object's name is a regular expression."
+msgstr "**Pattern** – whether or not the object's name is a regular expression."
 
 #: ../../preferences.rst:30
 msgid "**Игнорировать содержимое** – позволяет пропустить объекты, вложенные в исключенный."
-msgstr "**Ignore content** – allows to skip the objects contained in the excluded one."
+msgstr "**Ignore contents** – allows to skip the objects contained in the excluded one."
 
 #: ../../preferences.rst:31
 msgid "**Тип** – тип объекта (\"ALL\" предназначен для указания любого типа объекта)."
@@ -199,7 +199,7 @@ msgstr "On the **pgCodeKeeper -> Usage reports** settings page you can enable or
 
 #: ../../preferences.rst:108
 msgid "Отправляемые значения для статистики Вы можете просмотреть в поле **Reported Values / Отправляемые значения**."
-msgstr "The values which are sent for the statistics you can review in the **Values sent** field."
+msgstr "The values which are sent for the statistics you can review in the **Reported Values** field."
 
 #: ../../preferences.rst:113
 msgid "Редактор проекта"
@@ -259,7 +259,7 @@ msgstr "**Bracket highlight color** – allows to select the color of brackets h
 
 #: ../../preferences.rst:142
 msgid "Подсветка синтаксиса"
-msgstr "Syntax Highlighting"
+msgstr "Syntax Coloring"
 
 #: ../../preferences.rst:144
 msgid "Настройки, управляющие подсветкой синтаксиса."
@@ -267,11 +267,11 @@ msgstr "Settings managing the syntax highlighting."
 
 #: ../../preferences.rst:148
 msgid "На странице настроек **pgCodeKeeper -> Редактор SQL -> Подсветка синтаксиса** Вы можете установить цвет и стиль шрифта, которым будет отображаться соответствующий синтаксис в SQL редакторе pgCodeKeeper."
-msgstr "On the **pgCodeKeeper -> SQL editor-> Syntax highlighting** you can set color and style for the font in which all the corresponding syntax will be displayed in the pgCodeKeeper SQL editor."
+msgstr "On the **pgCodeKeeper -> SQL editor-> Syntax Coloring** you can set color and style for the font in which all the corresponding syntax will be displayed in the pgCodeKeeper SQL editor."
 
 #: ../../preferences.rst:151
 msgid "Шаблоны редактора SQL"
-msgstr "SQL editor templates"
+msgstr "SQL Editor Templates"
 
 #: ../../preferences.rst:153
 msgid "Создание, удаление и редактирование шаблонов для автоподстановки в SQL редакторе"
@@ -279,7 +279,7 @@ msgstr "Creating, deleting and editing the templates for auto expand in the SQL 
 
 #: ../../preferences.rst:157
 msgid "На странице настроек **pgCodeKeeper -> Редактор SQL -> Шаблоны редактора SQL** Вы можете управлять SQL шаблонами, доступными в SQL редакторе pgCodeKeeper. Список доступных действий отображается справа от списка шаблонов."
-msgstr "On the **pgCodeKeeper -> SQL editor -> SQL editor templates** settings page you can manage SQL templates, available in the pgCodeKeeper SQL editor. The list of available actions is displayed to the right of the templates."
+msgstr "On the **pgCodeKeeper -> SQL editor -> SQL Editor Templates** settings page you can manage SQL templates, available in the pgCodeKeeper SQL editor. The list of available actions is displayed to the right of the templates."
 
 #: ../../preferences.rst:162
 msgid "Хранилище БД"
@@ -295,7 +295,7 @@ msgstr "On the **pgCodeKeeper ->DB Store** settings page you can find the list o
 
 #: ../../preferences.rst:169
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль. Название записи можно указать вручную, для этого нужно убрать галочку с чекбокса **Auto-generate** (Автогенерация)."
-msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear (DB connection data), in which you should specify the parameters of the connection data: host, port, DB name, user, password. You can specify the name of the record manually. To do this, uncheck **Auto-generate**."
+msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear, in which you should specify the parameters of the connection data: host, port, DB name, user, password. You can specify the name of the record manually. To do this, uncheck **Auto-generate**."
 
 #: ../../preferences.rst:173
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
@@ -311,7 +311,7 @@ msgstr "To add a storage basing on the data from an already created storage, you
 
 #: ../../preferences.rst:184
 msgid "Для добавления хранилища на основе данных из файла **.pgpass**, нажать кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать **.pgpass** файл. Далее откроется диалог  **Pgpass sources list** (Список источников из pgpass):"
-msgstr "To add a storage basing on the data from the **.pgpass** file, click |pg_pass|. A dialogue will appear, in which you should select the **.pgpass** file. After that, the **Pgpass sources list** (List of sources from pgpass) dialogue will open:"
+msgstr "To add a storage basing on the data from the **.pgpass** file, click |pg_pass|. A dialogue will appear, in which you should select the **.pgpass** file. After that, the **Pgpass sources list** dialogue will open:"
 
 #: ../../preferences.rst:188
 msgid "В нем нужно выбрать строку с данными на основе которых будет создаваться хранилище. Откроется диалог **DB credentials** (Данные подключения к БД) в котором можно подтвердить параметры подключения."
@@ -319,7 +319,7 @@ msgstr "There, you should select the line with the data basing on which the stor
 
 #: ../../preferences.rst:192
 msgid "После этого можно закрывать диалог **Pgpass sources list** (Список источников из pgpass)."
-msgstr "After that, you can close the **Pgpass sources list** (List of sources from pgpass) dialogue."
+msgstr "After that, you can close the **Pgpass sources list** dialogue."
 
 #: ../../preferences.rst:194
 msgid "Для редактирования хранилища выделить объект хранилища баз данных, нажать кнопку |editor_area|. Откроется диалог **DB credentials** (Данные подключения к БД) в котором можно изменить параметры подключения."
