@@ -92,7 +92,7 @@ objectName, dbName, objectType
 :dbName: имя базы данных в которой будет искаться объект (опционально)
 :objectType: тип искомого объекта (опционально)
 
-.. important:: **objectType** может быть равен одному из следующих значений: CONSTRAINT, DOMAIN, EXTENSION, FUNCTION, INDEX, RULE, SCHEMA, SEQUENCE, TABLE, TRIGGER, TYPE, VIEW.
+.. important:: **objectType** может быть равен одному из следующих значений: USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, FUNCTION, PROCEDURE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, CONSTRAINT, INDEX, VIEW, TRIGGER, RULE.
 
 identifier
     | строка-идентификатор без кавычек, состоящая из латинских букв, цифр и подчеркиваний; 

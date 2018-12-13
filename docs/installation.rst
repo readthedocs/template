@@ -11,7 +11,7 @@ Eclipse Marketplace
 
 Выберите пакет pgCodeKeeper, ознакомьтесь с пользовательским соглашением, нажмите кнопку Finish и начнется установка.
 
-.. image :: ../images/marketplace.png
+.. image:: ../images/marketplace.png
 
 По завершению установки для применения изменений необходимо перезапустить Eclipse.
 
@@ -28,7 +28,7 @@ Eclipse Marketplace
 
 Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с пользовательским соглашением, нажмите кнопку **Finish** и начнется установка.
 
-.. image :: ../images/package_plugin.png
+.. image:: ../images/package_plugin.png
 
 По завершению установки для применения изменений необходимо перезапустить Eclipse.
 
