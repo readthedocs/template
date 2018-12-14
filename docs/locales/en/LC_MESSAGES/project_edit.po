@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-13 10:17\n"
+"PO-Revision-Date: 2018-12-14 05:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,11 @@ msgstr "Project editing consists of changing the file content, as well as of add
 
 #: ../../project_edit.rst:7
 msgid "Ручное редактирование объектов может привести к ошибкам в работе программы и к некорректному применению изменений к БД."
-msgstr ""
+msgstr "Manual object editing can lead to errors in the program and to incorrect applying of the changes to the DB."
 
 #: ../../project_edit.rst:11
 msgid "Для добавления объектов рекомендуем воспользоваться мастером создания SQL объектов: **File -> New -> SQL Object / Объект SQL** или горячей клавишей (по-умолчанию Alt + Insert)."
-msgstr ""
+msgstr "To add objects, we recommend you to use SQL objects creation wizard: **File -> New -> SQL object** or hotkey (Alt + Insert by default)."
 
 #: ../../project_edit.rst:15
 msgid "Выберите проект, тип объекта, введите имя и нажмите **Finish**."
