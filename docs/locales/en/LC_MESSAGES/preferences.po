@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-14 09:22\n"
+"PO-Revision-Date: 2018-12-14 11:02\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -295,7 +295,7 @@ msgstr "On the **pgCodeKeeper -> DB Store** settings page you can find the list 
 
 #: ../../preferences.rst:169
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**."
-msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear (DB connection data), in which you should specify the parameters of the connection data: host, port, DB name, user, password. You can specify the name of the record manually. To do this, disable the **Auto-generate** function."
+msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear (DB connection data), in which you should specify the parameters of the connection data: host, port, DB name, user, password. You can specify the name of the record manually. To do this, disable the **Auto-generate** option."
 
 #: ../../preferences.rst:173
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
