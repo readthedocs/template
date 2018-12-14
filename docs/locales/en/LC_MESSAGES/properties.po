@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 06:21\n"
+"POT-Creation-Date: 2018-12-13 11:49+0300\n"
+"PO-Revision-Date: 2018-12-14 06:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -82,14 +82,22 @@ msgid "Библиотеки загружаются в порядке, в кот�
 msgstr "The libraries are loaded in order, in which they are indicated in the list (the topmost library will be loaded first). To change the order, use corresponding buttons on the side panel."
 
 #: ../../properties.rst:55
+msgid "Столбец **Owner / Владелец** позволяет установить нового владельца для всех объектов библиотеки."
+msgstr "The **Owner** column allows setting a new owner for all the objects in the library."
+
+#: ../../properties.rst:57
+msgid "Если у библиотеки заполнен владелец, он будет отображен вне зависимости от прочих настроек pgCodeKeeper."
+msgstr "If a library already has an owner, this information will be displayed regardless of other pgCodeKeeper settings."
+
+#: ../../properties.rst:59
 msgid "Если вы не хотите использовать привилегии и владельцев объектов библиотеки, вы можете отключить их в столбце **Ignore privileges / Игнорировать привилегии**."
 msgstr "If you don't want to use privileges and library object owners, you can disable them in the **Ignore privileges** column."
 
-#: ../../properties.rst:57
-msgid "Привилегии объектов библиотек **не зависят** от глобальной настройки **Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов**, т.е. если у библиотеки не игнорируются привилегии, они будут отображены в любом случае."
-msgstr "Library object privileges **don't depend** on the **Ignore privileges and owners of database objects** global settings, that is, if a library does not ignore the privileges, they will be displayed anyway."
+#: ../../properties.rst:61
+msgid "Если у библиотеки не игнорируются привилегии, они будут отображены вне зависимости от прочих настроек pgCodeKeeper."
+msgstr "If a library doesn't ignore privileges, they will be displayed regardless of other pgCodeKeeper settings."
 
-#: ../../properties.rst:59
+#: ../../properties.rst:63
 msgid "**Disallow overrides / Запретить переопределение.** Не исключена ситуация, когда проект и библиотека (или две библиотеки) содержат объекты с одинаковыми именами. Существует два варианта обработки таких ситуаций. При включенной настройке, такие конфликты вызывают остановку сравнения объектов. Отключенная настройка позволяет игнорировать конфликты: будет использован первый загруженный объект. Вне зависимости от настройки будет отображен вид :ref:`overrideView`, в котором будут отображены все конфликты."
 msgstr "**Disallow overrides.** There might be a situation when a project and a library (or two libraries) contain objects with the same names. There are two ways of processing such situations. When this settings is on, such conflicts will cause the object comparison to stop. When it's off, it will allow you to ignore the conflicts: the first loaded object will be used. Regardless of the settings, the :ref:`overrideView` view will be displayed, showing all the conflicts."
 
@@ -136,5 +144,15 @@ msgstr "**Disallow overrides.** There might be a situation when a project and a 
 #~ "зависимости от настройки будет отображен "
 #~ "вид :ref:`overrideView`, в котором будут "
 #~ "отображены все конфликты."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Привилегии объектов библиотек **не зависят**"
+#~ " от глобальной настройки **Ignore "
+#~ "privileges and owners of database "
+#~ "objects / Не учитывать привилегии и "
+#~ "владельцев объектов**, т.е. если у "
+#~ "библиотеки не игнорируются привилегии, они "
+#~ "будут отображены в любом случае."
 #~ msgstr ""
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-13 07:41\n"
+"POT-Creation-Date: 2018-12-13 11:49+0300\n"
+"PO-Revision-Date: 2018-12-14 05:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -214,8 +214,8 @@ msgid "тип искомого объекта (опционально)"
 msgstr "type of the target object (optional)"
 
 #: ../../white_black_list.rst:95
-msgid "**objectType** может быть равен одному из следующих значений: CONSTRAINT, DOMAIN, EXTENSION, FUNCTION, INDEX, RULE, SCHEMA, SEQUENCE, TABLE, TRIGGER, TYPE, VIEW."
-msgstr "**objectType** may be equal to one of the following values: CONSTRAINT, DOMAIN, EXTENSION, FUNCTION, INDEX, RULE, SCHEMA, SEQUENCE, TABLE, TRIGGER, TYPE, VIEW."
+msgid "**objectType** может быть равен одному из следующих значений: USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, FUNCTION, PROCEDURE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, CONSTRAINT, INDEX, VIEW, TRIGGER, RULE."
+msgstr "**objectType** may be equal to one of the following values: USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, FUNCTION, PROCEDURE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, CONSTRAINT, INDEX, VIEW, TRIGGER, RULE."
 
 #: ../../white_black_list.rst:103
 msgid "identifier"
@@ -615,5 +615,12 @@ msgstr "Interaction between the rules of different lists which regulate the disp
 #~ " другой базы данных, не той с "
 #~ "которой ведется работа в данном примере,"
 #~ " поэтому все останеться без изменений"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**objectType** может быть равен одному "
+#~ "из следующих значений: CONSTRAINT, DOMAIN, "
+#~ "EXTENSION, FUNCTION, INDEX, RULE, SCHEMA, "
+#~ "SEQUENCE, TABLE, TRIGGER, TYPE, VIEW."
 #~ msgstr ""
 

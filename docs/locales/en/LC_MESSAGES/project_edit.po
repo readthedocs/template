@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2018-12-03 06:21\n"
+"POT-Creation-Date: 2018-12-13 11:49+0300\n"
+"PO-Revision-Date: 2018-12-14 05:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -26,11 +26,11 @@ msgid "Редактирование проекта состоит в измен�
 msgstr "Project editing consists of changing the file content, as well as of adding and deleting files and directories which are under a pgCodeKeeper project."
 
 #: ../../project_edit.rst:7
-msgid "**Примечание:** Ручное редактирование объектов может привести к ошибкам в работе программы и к некорректному применению изменений к БД."
-msgstr "**Note:** Manual object editing can lead to errors in the program and to incorrect applying of the changes to the DB."
+msgid "Ручное редактирование объектов может привести к ошибкам в работе программы и к некорректному применению изменений к БД."
+msgstr "Manual object editing can lead to errors in the program and to incorrect applying of the changes to the DB."
 
 #: ../../project_edit.rst:11
-msgid "Для добавления объектов рекомендуем воспользоваться мастером создания SQL объектов: **File -> New -> Объект SQL** или горячей клавишей (по-умолчанию Alt + Insert)."
+msgid "Для добавления объектов рекомендуем воспользоваться мастером создания SQL объектов: **File -> New -> SQL Object / Объект SQL** или горячей клавишей (по-умолчанию Alt + Insert)."
 msgstr "To add objects, we recommend you to use SQL objects creation wizard: **File -> New -> SQL object** or hotkey (Alt + Insert by default)."
 
 #: ../../project_edit.rst:15
@@ -66,5 +66,20 @@ msgstr "To edit an existing object, it is sufficient to change the content of it
 #~ "**FUNCTION**, а имя объекта будет "
 #~ "частично заполнено именем схемы, в "
 #~ "которой находилась функция."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Примечание:** Ручное редактирование объектов "
+#~ "может привести к ошибкам в работе "
+#~ "программы и к некорректному применению "
+#~ "изменений к БД."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для добавления объектов рекомендуем "
+#~ "воспользоваться мастером создания SQL "
+#~ "объектов: **File -> New -> Объект "
+#~ "SQL** или горячей клавишей (по-умолчанию "
+#~ "Alt + Insert)."
 #~ msgstr ""
 
