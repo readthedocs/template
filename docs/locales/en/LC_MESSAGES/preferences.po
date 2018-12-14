@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-14 07:01\n"
+"PO-Revision-Date: 2018-12-14 07:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -75,11 +75,11 @@ msgstr "**Pattern** – whether or not the object's name is a regular expression
 
 #: ../../preferences.rst:30
 msgid "**Ignore Contents / Игнорировать содержимое** – позволяет пропустить объекты, вложенные в исключенный."
-msgstr ""
+msgstr "**Ignore contents** – allows skipping the objects contained in the ignored one."
 
 #: ../../preferences.rst:31
 msgid "**Type / Тип** – тип объекта (\"ALL\" предназначен для указания любого типа объекта)."
-msgstr ""
+msgstr "**Type** - object type (\"ALL\" is used for specifying any object type)."
 
 #: ../../preferences.rst:35
 msgid "Все настройки списка доступны для редактирования."
@@ -135,7 +135,7 @@ msgstr "Settings managing the database updates."
 
 #: ../../preferences.rst:76
 msgid "На странице настроек **pgCodeKeeper -> Update DB / Обновление БД** Вы можете настроить параметры для работы редактора скрипта наката."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> Update DB** settings page you can adjust parameters for the work of the migration script editor."
 
 #: ../../preferences.rst:78
 msgid "**Create migration script files in project directory / Создавать скрипт миграции в директории проекта** – определяет поведение при создании скриптов миграции."
