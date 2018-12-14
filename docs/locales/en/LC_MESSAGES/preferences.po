@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-14 07:41\n"
+"PO-Revision-Date: 2018-12-14 07:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -307,7 +307,7 @@ msgstr "You can add the parameters specified at https://jdbc.postgresql.org/docu
 
 #: ../../preferences.rst:182
 msgid "Для добавления хранилища на основе данных из уже созданного хранилища следует выделить объект хранилища баз данных, нажать кнопку |copy|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
-msgstr ""
+msgstr "To add a storage basing on data from an already created storage, you should highlight the database storage object and click|copy|. The **DB credentials** will appear, in which you can change the connection parameters."
 
 #: ../../preferences.rst:184
 msgid "Для добавления хранилища на основе данных из файла **.pgpass**, нажать кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать **.pgpass** файл. Далее откроется диалог  **Pgpass sources list / Список источников из pgpass**:"
