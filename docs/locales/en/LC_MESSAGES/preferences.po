@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-14 09:01\n"
+"PO-Revision-Date: 2018-12-14 09:12\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -315,11 +315,11 @@ msgstr "To add a storage basing on the data from the **.pgpass** file, click|pg_
 
 #: ../../preferences.rst:188
 msgid "В нем нужно выбрать строку с данными на основе которых будет создаваться хранилище. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно подтвердить параметры подключения."
-msgstr ""
+msgstr "There, you should select the line with the data, basing on which the storage will be created. The **DB credentials** dialogue will appear, where you can confirm the connection parameters."
 
 #: ../../preferences.rst:192
 msgid "После этого можно закрывать диалог **Pgpass sources list / Список источников из pgpass**."
-msgstr ""
+msgstr "After that, you can close the **Pgpass sources list** dialogue."
 
 #: ../../preferences.rst:194
 msgid "Для редактирования хранилища выделить объект хранилища баз данных, нажать кнопку |editor_area|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
