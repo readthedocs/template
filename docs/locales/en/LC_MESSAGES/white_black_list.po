@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-13 10:17\n"
+"PO-Revision-Date: 2018-12-14 05:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgstr "type of the target object (optional)"
 
 #: ../../white_black_list.rst:95
 msgid "**objectType** может быть равен одному из следующих значений: USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, FUNCTION, PROCEDURE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, CONSTRAINT, INDEX, VIEW, TRIGGER, RULE."
-msgstr ""
+msgstr "**objectType** may be equal to one of the following values: USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, FUNCTION, PROCEDURE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, CONSTRAINT, INDEX, VIEW, TRIGGER, RULE."
 
 #: ../../white_black_list.rst:103
 msgid "identifier"
