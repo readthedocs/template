@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-14 07:11\n"
+"PO-Revision-Date: 2018-12-14 07:23\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -167,7 +167,7 @@ msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to 
 
 #: ../../preferences.rst:85
 msgid "**Print CREATE INDEX ... without taking any locks / Печатать CREATE INDEX ... не захватывая блокировок** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY."
-msgstr ""
+msgstr "**Print CREATE INDEX ... without taking any locks** – allows creating indexes in CONCURRENTLY mode in scripts."
 
 #: ../../preferences.rst:86
 msgid "**Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
@@ -183,7 +183,7 @@ msgstr "Settings managing the project update."
 
 #: ../../preferences.rst:96
 msgid "На странице настроек **pgCodeKeeper -> Update Project / Обновление проекта** Вы можете включить учет зависимостей объектов при обновлении проекта. Это дополнит диалог наката выбранных объектов на проект их зависимостями, без которых накат на проект может происходить с ошибками."
-msgstr ""
+msgstr "On the **pgCodeKeeper-> Project update** settings page you can enable object dependences consideration during the project updating. This will complement the migration dialogue of the selected objects to the project with their dependences without which the migration to the project may occur with errors."
 
 #: ../../preferences.rst:100
 msgid "Отчеты об использовании"
@@ -195,7 +195,7 @@ msgstr "Settings managing the usage reports."
 
 #: ../../preferences.rst:106
 msgid "На странице настроек **pgCodeKeeper -> Usage Reporting / Отчеты об использовании** Вы можете включить или выключить отправление статистики об использовании pgCodeKeeper."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> Usage Reporting** settings page you can enable or disable sending the pgCodeKeeper usage statistics."
 
 #: ../../preferences.rst:108
 msgid "Отправляемые значения для статистики Вы можете просмотреть в поле **Reported Values / Отправляемые значения**."
