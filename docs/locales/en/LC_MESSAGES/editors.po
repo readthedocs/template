@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-13 10:17\n"
+"PO-Revision-Date: 2018-12-14 06:51\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -199,11 +199,11 @@ msgstr "To remove a chain of dependent objects, highlight it and click **Remove*
 
 #: ../../editors.rst:111
 msgid "Переопределенные объекты"
-msgstr ""
+msgstr "Object overrides"
 
 #: ../../editors.rst:113
 msgid "Вид **Object overrides / Переопределенные объекты** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
-msgstr ""
+msgstr "The **Object overrides** view displays the list of overridden objects in libraries for the active project editor. This view is displayed automatically when receiving changes if there is at least one conflict present."
 
 #: ../../editors.rst:117
 msgid "Кнопка |sync| отображает записи, относящиеся только к объектам, выбранным в панели различий активного редактора проекта."
