@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-13 10:17\n"
+"PO-Revision-Date: 2018-12-14 07:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "**Ignore privileges and owners of database objects** - allows to disable
 
 #: ../../preferences.rst:16
 msgid "**Reuse compare editor instead of opening new ones / Использовать открытый редактор сравнения вместо создания новых** - позволяет использовать открытый редактор сравнения при сравнения объектов базы данных (В контекстном меню таблицы различий выбрать пункт **Show Diff / Показать различия**)."
-msgstr ""
+msgstr "**Reuse compare editor instead of opening new ones** - allows using the already running comparison editor for comparing database objects (Select **Show Diff** in the right-click menu of the differences table)."
 
 #: ../../preferences.rst:21
 msgid "Исключенные объекты"
@@ -59,7 +59,7 @@ msgstr "Excluded objects"
 
 #: ../../preferences.rst:23
 msgid "Объекты, которые не должны учитываться при сравнении БД, возможно указать на странице настроек **pgCodeKeeper -> Ignored Objects / Исключенные объекты**."
-msgstr ""
+msgstr "You can specify the objects that should not be considered when comparing databases on the **pgCodeKeeper -> Ignored objects** settings page."
 
 #: ../../preferences.rst:25
 msgid "Для добавления объекта в список исключенных или удаления из него, служат кнопки |add_obj| и  |delete| соответственно."
@@ -71,7 +71,7 @@ msgstr "When adding an object to the list of excluded you can set additional set
 
 #: ../../preferences.rst:29
 msgid "**Pattern / Шаблон** – является ли имя объекта регулярным выражением."
-msgstr ""
+msgstr "**Pattern** – whether or not the object's name is a regular expression."
 
 #: ../../preferences.rst:30
 msgid "**Ignore Contents / Игнорировать содержимое** – позволяет пропустить объекты, вложенные в исключенный."
