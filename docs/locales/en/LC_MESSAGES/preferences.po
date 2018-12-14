@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-14 07:23\n"
+"PO-Revision-Date: 2018-12-14 07:31\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -183,7 +183,7 @@ msgstr "Settings managing the project update."
 
 #: ../../preferences.rst:96
 msgid "На странице настроек **pgCodeKeeper -> Update Project / Обновление проекта** Вы можете включить учет зависимостей объектов при обновлении проекта. Это дополнит диалог наката выбранных объектов на проект их зависимостями, без которых накат на проект может происходить с ошибками."
-msgstr "On the **pgCodeKeeper-> Project update** settings page you can enable object dependences consideration during the project updating. This will complement the migration dialogue of the selected objects to the project with their dependences without which the migration to the project may occur with errors."
+msgstr "On the **pgCodeKeeper -> Update Project** settings page you can enable object dependences consideration during the project updating. This will complement the migration dialogue of the selected objects to the project with their dependences without which the migration to the project may occur with errors."
 
 #: ../../preferences.rst:100
 msgid "Отчеты об использовании"
@@ -211,7 +211,7 @@ msgstr "Settings managing the project editor."
 
 #: ../../preferences.rst:119
 msgid "На странице настроек **pgCodeKeeper -> Project editor / Редактор проекта** Вы можете настроить параметры редактора проекта."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> Project editor** settings page you can adjust the parameters of the project editor."
 
 #: ../../preferences.rst:121
 msgid "**Switch to pgCodeKeeper perspective when opening editor / Переключать в перспективу pgCodeKeeper при открытии редактора** – определяет поведение переключения перспективы при открытии редактора проекта."
@@ -235,7 +235,7 @@ msgstr "Settings managing the SQL editor."
 
 #: ../../preferences.rst:132
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL** Вы можете настроить параметры редактора SQL."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> SQL Editor** settings page you can adjust the options of the SQL editor."
 
 #: ../../preferences.rst:134
 msgid "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в одном из режимов."
@@ -247,7 +247,7 @@ msgstr "**Single bracket** – when selecting a bracket, highlights the matching
 
 #: ../../preferences.rst:136
 msgid "**Both brackets / Обе скобки** – при выборе скобки, подсвечивает текущую и парную скобку."
-msgstr ""
+msgstr "**Both brackets** – when selecting a bracket, highlights the selected and the matching brackets."
 
 #: ../../preferences.rst:137
 msgid "**Current block brackets / Скобки текущего блока** – подсвечивает скобки, между которыми находится курсор."
@@ -267,7 +267,7 @@ msgstr "Settings managing the syntax highlighting."
 
 #: ../../preferences.rst:148
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> Syntax Coloring / Подсветка синтаксиса** Вы можете установить цвет и стиль шрифта, которым будет отображаться соответствующий синтаксис в SQL редакторе pgCodeKeeper."
-msgstr ""
+msgstr "On the **pgCodeKeeper -> SQL Editor -> Syntax highlighting** you can set color and style for the font in which all the corresponding syntax will be displayed in the pgCodeKeeper SQL editor."
 
 #: ../../preferences.rst:151
 msgid "Шаблоны редактора SQL"
