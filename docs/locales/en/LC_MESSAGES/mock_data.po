@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-13 10:17\n"
+"PO-Revision-Date: 2018-12-14 05:11\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -127,7 +127,7 @@ msgstr "After clicking **Finish** you'll see the SQL editor with a ready Insert 
 
 #: ../../mock_data.rst:39
 msgid "Также имеется возможность вызвать данный мастер из контекстного меню файла таблицы. В этом случае данные заполнятся автоматически."
-msgstr ""
+msgstr "This wizard may be launched from the table's right-click menu as well. In this case, all the data is filled in automatically."
 
 #~ msgid ""
 #~ "Для каждой колонки в зависимости от "
