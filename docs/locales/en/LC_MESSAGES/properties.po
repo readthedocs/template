@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-13 10:17\n"
+"PO-Revision-Date: 2018-12-14 06:01\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "The libraries are loaded in order, in which they are indicated in the li
 
 #: ../../properties.rst:55
 msgid "Столбец **Owner / Владелец** позволяет установить нового владельца для всех объектов библиотеки."
-msgstr ""
+msgstr "The **Owner** column allows setting a new owner for all the objects in the library."
 
 #: ../../properties.rst:57
 msgid "Если у библиотеки заполнен владелец, он будет отображен вне зависимости от прочих настроек pgCodeKeeper."
