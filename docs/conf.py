@@ -117,7 +117,7 @@ html_theme = 'default'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'img/HB_logo_final.svg'
+html_logo = 'img/hb_logo_final.svg'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
