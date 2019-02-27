@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-26 15:46+0300\n"
-"PO-Revision-Date: 2019-02-26 13:23\n"
+"PO-Revision-Date: 2019-02-27 07:12\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgstr "Object type - the following object types are supported: SCHEMA, TYPE, FU
 
 #: ../../editors.rst:38
 msgid "Для **PostgreSQL** дополнительно поддерживаются следующие типы: AGGREGATE, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, RULE."
-msgstr ""
+msgstr "TYPE, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, RULE are supported additionally for **PostgreSQL**."
 
 #: ../../editors.rst:40
 msgid "Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY."
