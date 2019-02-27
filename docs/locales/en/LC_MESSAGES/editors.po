@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-26 15:46+0300\n"
-"PO-Revision-Date: 2019-02-27 07:12\n"
+"PO-Revision-Date: 2019-02-27 07:22\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +115,7 @@ msgstr "Change type - an object can be in one of three conditions: exist only in
 
 #: ../../editors.rst:44
 msgid "Контейнер - имя родительского объекта, например для индекса - это имя таблицы или представления, которому он принадлежит."
-msgstr ""
+msgstr "Container is the name of the parent object. For example, for an index, it is the name of a table or a view this index belongs to."
 
 #: ../../editors.rst:46
 msgid "Пользователь git - имя пользователя, который последним изменил файл проекта для данного объекта. В том случае, если файлы были изменены локально, то к имени пользователя будет добавлен символ '*'. Для отображения данного столбца, проект должен быть подключен к системе контроля версий и должна быть включена соответствующая опция на странице настроек :ref:`projEditorPref`."
@@ -143,7 +143,7 @@ msgstr "SQL editor is not different from a regular Eclipse text editor appearanc
 
 #: ../../editors.rst:72
 msgid "При работе с SQL редактором в **панели инструментов Eclipse** доступны следующие возможности:"
-msgstr ""
+msgstr "When using SQL-editor on the **Eclipse tool bar**, you will have the following options:"
 
 #: ../../editors.rst:74
 msgid "|quick_update| - Quick update / Быстрое обновление. Исполнение скрипта миграции для **различий** между объектом в текущем файле проекта и соответствующим объектом в базе данных. Если изменения затрагивают объекты из других файлов или модифицируют данные (например удаление колонки), то обновление не произойдет."
