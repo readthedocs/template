@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2018-12-14 11:02\n"
+"POT-Creation-Date: 2019-02-26 15:46+0300\n"
+"PO-Revision-Date: 2019-02-26 13:23\n"
 "Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -38,82 +38,78 @@ msgid "**pg_dump custom parameters / Дополнительные парамет
 msgstr "**pg_dump custom parameters** - allows to set additional settings for the pg_dump utility activation."
 
 #: ../../preferences.rst:13
-msgid "**Use pg_dbo_timestamp extension / Использовать расширение pg_dbo_timestamps** - позволяет использовать расширение `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. Расширение позволяет ускорить загрузку схем базы данных, а также позволяет отображать в редакторе колонку с пользователем базы данных, совершившем последнее изменение объекта."
-msgstr "**Use pg_dbo_timestamp extension** - allows to use the extension `pg_dbo_timestamp <https://github.com/pgcodekeeper/pg_dbo_timestamp/>`_. This extension allows to speed up the loading of database schemas, as well as to display the column with the data base user, which made the latest changes into the object, in the editor."
-
-#: ../../preferences.rst:14
 msgid "**Show console on new output / Показывать консоль** - позволяет автоматически показывать консоль программы при выводе в нее."
 msgstr "**Show console on new output** - allows to automatically show program console when opening it."
 
-#: ../../preferences.rst:15
+#: ../../preferences.rst:14
 msgid "**Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов** - позволяет отключить поиск различий в свойствах объектов, связанных с ролями БД."
 msgstr "**Ignore privileges and owners of database objects** - allows to disable the search for differences in the properties of the objects related to DB roles."
 
-#: ../../preferences.rst:16
+#: ../../preferences.rst:15
 msgid "**Reuse compare editor instead of opening new ones / Использовать открытый редактор сравнения вместо создания новых** - позволяет использовать открытый редактор сравнения при сравнения объектов базы данных (В контекстном меню таблицы различий выбрать пункт **Show Diff / Показать различия**)."
 msgstr "**Reuse compare editor instead of opening new ones** - allows using the already running comparison editor for comparing database objects (Select **Show Diff** in the right-click menu of the differences table)."
 
-#: ../../preferences.rst:21
+#: ../../preferences.rst:20
 msgid "Исключенные объекты"
 msgstr "Excluded objects"
 
-#: ../../preferences.rst:23
+#: ../../preferences.rst:22
 msgid "Объекты, которые не должны учитываться при сравнении БД, возможно указать на странице настроек **pgCodeKeeper -> Ignored Objects / Исключенные объекты**."
 msgstr "You can specify the objects that should not be considered when comparing databases on the **pgCodeKeeper -> Ignored objects** settings page."
 
-#: ../../preferences.rst:25
+#: ../../preferences.rst:24
 msgid "Для добавления объекта в список исключенных или удаления из него, служат кнопки |add_obj| и  |delete| соответственно."
 msgstr "To add or remove an object to the list of excluded, use the |add_obj| and |delete| buttons respectively."
 
-#: ../../preferences.rst:27
+#: ../../preferences.rst:26
 msgid "При добавлении объекта в список исключенных можно выставить дополнительные настройки, которые влияют на исключение объекта при сравнении:"
 msgstr "When adding an object to the list of excluded you can set additional settings which will affect the object excluding during comparison:"
 
-#: ../../preferences.rst:29
+#: ../../preferences.rst:28
 msgid "**Pattern / Шаблон** – является ли имя объекта регулярным выражением."
 msgstr "**Pattern** – whether or not the object's name is a regular expression."
 
-#: ../../preferences.rst:30
+#: ../../preferences.rst:29
 msgid "**Ignore Contents / Игнорировать содержимое** – позволяет пропустить объекты, вложенные в исключенный."
 msgstr "**Ignore contents** – allows skipping the objects contained in the ignored one."
 
-#: ../../preferences.rst:31
+#: ../../preferences.rst:30
 msgid "**Type / Тип** – тип объекта (\"ALL\" предназначен для указания любого типа объекта)."
 msgstr "**Type** - object type (\"ALL\" is used for specifying any object type)."
 
-#: ../../preferences.rst:35
+#: ../../preferences.rst:34
 msgid "Все настройки списка доступны для редактирования."
 msgstr "All the list settings are adjustable."
 
-#: ../../preferences.rst:39
+#: ../../preferences.rst:38
 msgid "В данном случае список исключаемых объектов будет **общим** и будет распространять свое действие на все проекты находящиеся в директории проектов. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
 msgstr "In this case, the list of excluded objects will be **general** and will expand its effect at all the projects present in the projects directory. A detailed description of work with lists see in :ref:`ignoreList`."
 
-#: ../../preferences.rst:41
+#: ../../preferences.rst:40
 msgid "Переключатель **Черный список** - **Белый список** позволяет инвертировать черный список в белый и обратно."
 msgstr "The **Black list** - **White list** switch allows to invert black list to white list and the other way around."
 
-#: ../../preferences.rst:43
+#: ../../preferences.rst:42
 msgid "**Примеры работы с исключенными объектами**"
 msgstr "**Examples of work with excluded objects**"
 
-#: ../../preferences.rst:45
+#: ../../preferences.rst:44
 msgid "Предположим имеются представление с именем ignore4 и набор таблиц с именами: ignore, ignore2, ignore3. ignore2 в свою очередь содержит индекс idx2."
 msgstr "Suppose there is a view named ignore4 and a set of tables with the names: ignore, ignore2, ignore3. In its turn, ignore2 contains the idx2 index."
 
-#: ../../preferences.rst:52
+#: ../../preferences.rst:51
 msgid "Список исключенных объектов"
 msgstr "List of excluded objects"
 
-#: ../../preferences.rst:52
+#: ../../preferences.rst:51
 msgid "Результат"
 msgstr "Result"
 
-#: ../../preferences.rst:54
+#: ../../preferences.rst:53
 msgid "**Исключение объектов частично попадающих под регулярное выражение \"ignore\"**"
 msgstr "**Excluding the objects partially falling under the regular expression \"ignore\"**"
 
-#: ../../preferences.rst:58
+#: ../../preferences.rst:57
 msgid "**Исключение объектов \"ignore2\" с содержимым**"
 msgstr "**Excluding the \"ignore2\" objects with the content**"
 
@@ -125,492 +121,215 @@ msgstr "**Excluding the objects with the “TABLE” type partially falling unde
 msgid "**под регулярное выражение \"ignore\"**"
 msgstr "**the regular expression \"ignore\"**"
 
-#: ../../preferences.rst:71
+#: ../../preferences.rst:70
 msgid "Обновление БД"
 msgstr "DB update"
 
-#: ../../preferences.rst:72
+#: ../../preferences.rst:71
 msgid "Настройки, управляющие обновлением базы данных."
 msgstr "Settings managing the database updates."
 
-#: ../../preferences.rst:76
+#: ../../preferences.rst:75
 msgid "На странице настроек **pgCodeKeeper -> Update DB / Обновление БД** Вы можете настроить параметры для работы редактора скрипта наката."
 msgstr "On the **pgCodeKeeper -> Update DB** settings page you can adjust parameters for the work of the migration script editor."
 
-#: ../../preferences.rst:78
+#: ../../preferences.rst:77
 msgid "**Create migration script files in project directory / Создавать скрипт миграции в директории проекта** – определяет поведение при создании скриптов миграции."
 msgstr "**Create migration script files in project directory** – sets operations when creating migration scripts."
 
-#: ../../preferences.rst:79
+#: ../../preferences.rst:78
 msgid "**Delete migration script files when closing migration editor / Удалять файлы скриптов миграции после закрытия редактора** – определяет поведение при закрытии скриптов миграции, если они были созданы в директории проекта."
 msgstr "**Delete migration script files when closing migration editor** – sets oprations after closing the migration scripts, if they were created in the project directory."
 
-#: ../../preferences.rst:80
+#: ../../preferences.rst:79
 msgid "**Warn about dangerous scripts containing: / Предупреждать, если в скрипте присутствуют следующие выражения:** – позволяет предупреждать, если при генерации скрипта образовались выбранные опасные выражения."
 msgstr "**Warn about dangerous scripts containing:** - allows to show notifications if any selected dangerous expressions were formed during script generation."
 
-#: ../../preferences.rst:81
+#: ../../preferences.rst:80
 msgid "**Show script output in separate window / Показывать вывод скрипт наката в отдельном окне** – позволяет просмотреть сообщение с ответом сервера при выполнении наката."
 msgstr "**Show script output in separate window** – allows to view the message with the server response when migration is complete."
 
-#: ../../preferences.rst:82
+#: ../../preferences.rst:81
 msgid "**Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION; / Заключить скрипт наката в блок START TRANSACTION; ... COMMIT TRANSACTION;** – позволяет дополнять генерируемые скрипты парой start ... commit."
 msgstr "**Surround migration script with START TRANSACTION; ... COMMIT TRANSACTION;** – allows to add the start ... commit pair to the generating scripts."
 
-#: ../../preferences.rst:83
+#: ../../preferences.rst:82
 msgid "**Allow PostgreSQL to validate function bodies in DDL update script / Разрешить PostgreSQL проверять тела функций в скрипте наката** – позволяет при генерации скрипта добавлять проверку \"SET check_function_bodies = true;\" в начало скрипта."
 msgstr "**Allow PostgreSQL to validate function bodies in DDL update script** – allows to add the \"SET check_function_bodies = true;\" check in the beginning of a generating script."
 
-#: ../../preferences.rst:84
+#: ../../preferences.rst:83
 msgid "**Print ALTER COLUMN ... TYPE with USING expression / Печатать ALTER COLUMN ... TYPE ... с USING expression** – позволяет добавлять в скрипт выражение, позволяющее изменить тип данных, при изменении типа столбца"
 msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to add the expression, permitting to change the data type when changing the column type, to the script"
 
-#: ../../preferences.rst:85
+#: ../../preferences.rst:84
 msgid "**Print CREATE INDEX ... without taking any locks / Печатать CREATE INDEX ... не захватывая блокировок** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY."
 msgstr "**Print CREATE INDEX ... without taking any locks** – allows creating indexes in CONCURRENTLY mode in scripts."
 
-#: ../../preferences.rst:86
+#: ../../preferences.rst:85
 msgid "**Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
 msgstr "**Migration command** - allows to use another utility or bootup options when applying migration script to the database."
 
-#: ../../preferences.rst:90
+#: ../../preferences.rst:89
 msgid "Обновление проекта"
 msgstr "Project update"
 
-#: ../../preferences.rst:92
+#: ../../preferences.rst:91
 msgid "Настройки, управляющие обновлением проекта."
 msgstr "Settings managing the project update."
 
-#: ../../preferences.rst:96
+#: ../../preferences.rst:95
 msgid "На странице настроек **pgCodeKeeper -> Update Project / Обновление проекта** Вы можете включить учет зависимостей объектов при обновлении проекта. Это дополнит диалог наката выбранных объектов на проект их зависимостями, без которых накат на проект может происходить с ошибками."
 msgstr "On the **pgCodeKeeper -> Update Project** settings page you can enable object dependences consideration during the project updating. This will complement the migration dialogue of the selected objects to the project with their dependences without which the migration to the project may occur with errors."
 
-#: ../../preferences.rst:100
+#: ../../preferences.rst:99
 msgid "Отчеты об использовании"
 msgstr "Usage reports"
 
-#: ../../preferences.rst:102
+#: ../../preferences.rst:101
 msgid "Настройки, управляющие отправкой отчетов."
 msgstr "Settings managing the usage reports."
 
-#: ../../preferences.rst:106
+#: ../../preferences.rst:105
 msgid "На странице настроек **pgCodeKeeper -> Usage Reporting / Отчеты об использовании** Вы можете включить или выключить отправление статистики об использовании pgCodeKeeper."
 msgstr "On the **pgCodeKeeper -> Usage Reporting** settings page you can enable or disable sending the pgCodeKeeper usage statistics."
 
-#: ../../preferences.rst:108
+#: ../../preferences.rst:107
 msgid "Отправляемые значения для статистики Вы можете просмотреть в поле **Reported Values / Отправляемые значения**."
 msgstr "The values which are sent for the statistics you can review in the **Reported Values** field."
 
-#: ../../preferences.rst:113
+#: ../../preferences.rst:112
 msgid "Редактор проекта"
 msgstr "Project editor"
 
-#: ../../preferences.rst:115
+#: ../../preferences.rst:114
 msgid "Настройки, управляющие редактором проекта."
 msgstr "Settings managing the project editor."
 
-#: ../../preferences.rst:119
+#: ../../preferences.rst:118
 msgid "На странице настроек **pgCodeKeeper -> Project editor / Редактор проекта** Вы можете настроить параметры редактора проекта."
 msgstr "On the **pgCodeKeeper -> Project editor** settings page you can adjust the parameters of the project editor."
 
-#: ../../preferences.rst:121
+#: ../../preferences.rst:120
 msgid "**Switch to pgCodeKeeper perspective when opening editor / Переключать в перспективу pgCodeKeeper при открытии редактора** – определяет поведение переключения перспективы при открытии редактора проекта."
 msgstr "**Switch to pgCodeKeeper perspective when opening editor** – sets operations for switching the perspective while starting the project editor."
 
-#: ../../preferences.rst:122
+#: ../../preferences.rst:121
 msgid "**After applying a migration to editor's DB do: / После выполнения миграции на БД редактора выполнить:** – определяет поведение редактора при накате скриптов миграции."
 msgstr "**After applying a migration to editor's DB do:** – sets the editor operations while implementing the migration scripts."
 
-#: ../../preferences.rst:123
+#: ../../preferences.rst:122
 msgid "**Display git user that math the change / Отображать пользователя git, совершившего изменение** – позволяет отображать в редакторе колонку с пользователем git, совершившем последнее изменение файла. Проект должен находиться под системой контроля версий."
 msgstr "**Display git user that math the change** – allows to display the column, containing the git user who made the latest change to the file, in the editor. The project should be under the version control system."
 
-#: ../../preferences.rst:126
+#: ../../preferences.rst:125
 msgid "Редактор SQL"
 msgstr "SQL Editor"
 
-#: ../../preferences.rst:128
+#: ../../preferences.rst:127
 msgid "Настройки, управляющие редактором SQL."
 msgstr "Settings managing the SQL editor."
 
-#: ../../preferences.rst:132
+#: ../../preferences.rst:131
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL** Вы можете настроить параметры редактора SQL."
 msgstr "On the **pgCodeKeeper -> SQL Editor** settings page you can adjust the options of the SQL editor."
 
-#: ../../preferences.rst:134
+#: ../../preferences.rst:133
 msgid "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в одном из режимов."
 msgstr "**Bracket highlight** – enables bracket highlight in one of the modes."
 
-#: ../../preferences.rst:135
+#: ../../preferences.rst:134
 msgid "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную скобку."
 msgstr "**Single bracket** – when selecting a bracket, highlights the matching bracket."
 
-#: ../../preferences.rst:136
+#: ../../preferences.rst:135
 msgid "**Both brackets / Обе скобки** – при выборе скобки, подсвечивает текущую и парную скобку."
 msgstr "**Both brackets** – when selecting a bracket, highlights the selected and the matching brackets."
 
-#: ../../preferences.rst:137
+#: ../../preferences.rst:136
 msgid "**Current block brackets / Скобки текущего блока** – подсвечивает скобки, между которыми находится курсор."
 msgstr "**Current block brackets** – highlights the brackets between which the cursor is situated."
 
-#: ../../preferences.rst:138
+#: ../../preferences.rst:137
 msgid "**Bracket highlight color / Цвет подсветки скобок** – позволяет выбрать цвет подсветки скобок."
 msgstr "**Bracket highlight color** – allows to select the color of brackets highlighting."
 
-#: ../../preferences.rst:142
+#: ../../preferences.rst:141
 msgid "Подсветка синтаксиса"
 msgstr "Syntax Coloring"
 
-#: ../../preferences.rst:144
+#: ../../preferences.rst:143
 msgid "Настройки, управляющие подсветкой синтаксиса."
 msgstr "Settings managing the syntax highlighting."
 
-#: ../../preferences.rst:148
+#: ../../preferences.rst:147
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> Syntax Coloring / Подсветка синтаксиса** Вы можете установить цвет и стиль шрифта, которым будет отображаться соответствующий синтаксис в SQL редакторе pgCodeKeeper."
 msgstr "On the **pgCodeKeeper -> SQL Editor -> Syntax highlighting** you can set color and style for the font in which all the corresponding syntax will be displayed in the pgCodeKeeper SQL editor."
 
-#: ../../preferences.rst:151
+#: ../../preferences.rst:150
 msgid "Шаблоны редактора SQL"
 msgstr "SQL Editor Templates"
 
-#: ../../preferences.rst:153
+#: ../../preferences.rst:152
 msgid "Создание, удаление и редактирование шаблонов для автоподстановки в SQL редакторе"
 msgstr "Creating, deleting and editing the templates for auto expand in the SQL editor"
 
-#: ../../preferences.rst:157
+#: ../../preferences.rst:156
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> SQL Editor Templates / Шаблоны редактора SQL** Вы можете управлять SQL шаблонами, доступными в SQL редакторе pgCodeKeeper. Список доступных действий отображается справа от списка шаблонов."
 msgstr "On the **pgCodeKeeper -> SQL Editor -> SQL Editor Templates** settings page you can manage SQL templates, available in the pgCodeKeeper SQL editor. The list of available actions is displayed to the right of the templates list."
 
-#: ../../preferences.rst:162
+#: ../../preferences.rst:161
 msgid "Хранилище БД"
 msgstr "DB storage"
 
-#: ../../preferences.rst:163
+#: ../../preferences.rst:162
 msgid "Настройки, управляющие хранилищем параметров подключения к БД."
 msgstr "Settings managing the storage of the parameters of the DB connection."
 
-#: ../../preferences.rst:165
+#: ../../preferences.rst:164
 msgid "На странице настроек **pgCodeKeeper -> DB Store / Хранилище БД** находится список записей для подключения к базам данных."
 msgstr "On the **pgCodeKeeper -> DB Store** settings page you can find the list of records for connecting to the databases."
 
-#: ../../preferences.rst:169
+#: ../../preferences.rst:168
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**."
 msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear (DB connection data), in which you should specify the parameters of the connection data: host, port, DB name, user, password. You can specify the name of the record manually. To do this, disable the **Auto-generate** option."
 
-#: ../../preferences.rst:173
+#: ../../preferences.rst:172
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
 msgstr ":ref:`ignoreList` can be connected as an external file."
 
-#: ../../preferences.rst:177
+#: ../../preferences.rst:176
 msgid "Свойства соединения можно дополнить параметрами указанными по адресу: https://jdbc.postgresql.org/documentation/head/connect.html."
 msgstr "You can add the parameters specified at https://jdbc.postgresql.org/documentation/head/connect.html to the connection properties."
 
-#: ../../preferences.rst:182
+#: ../../preferences.rst:181
 msgid "Для добавления хранилища на основе данных из уже созданного хранилища следует выделить объект хранилища баз данных, нажать кнопку |copy|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
 msgstr "To add a storage basing on data from an already created storage, you should highlight the database storage object and click|copy|. The **DB credentials** dialogue will appear, in which you can change the connection parameters."
 
-#: ../../preferences.rst:184
+#: ../../preferences.rst:183
 msgid "Для добавления хранилища на основе данных из файла **.pgpass**, нажать кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать **.pgpass** файл. Далее откроется диалог  **Pgpass sources list / Список источников из pgpass**:"
 msgstr "To add a storage basing on the data from the **.pgpass** file, click|pg_pass|. A dialogue will appear, in which you should select the **.pgpass** file. After that, the **Pgpass sources list**  dialogue will open:"
 
-#: ../../preferences.rst:188
+#: ../../preferences.rst:187
 msgid "В нем нужно выбрать строку с данными на основе которых будет создаваться хранилище. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно подтвердить параметры подключения."
 msgstr "There, you should select the line with the data, basing on which the storage will be created. The **DB credentials** dialogue will appear, where you can confirm the connection parameters."
 
-#: ../../preferences.rst:192
+#: ../../preferences.rst:191
 msgid "После этого можно закрывать диалог **Pgpass sources list / Список источников из pgpass**."
 msgstr "After that, you can close the **Pgpass sources list** dialogue."
 
-#: ../../preferences.rst:194
+#: ../../preferences.rst:193
 msgid "Для редактирования хранилища выделить объект хранилища баз данных, нажать кнопку |editor_area|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
 msgstr "To edit a storage, highlight the database storage object and click |editor_area|. The **DB credentials** dialogue will appear in which you can change the connection parameters."
 
-#: ../../preferences.rst:196
+#: ../../preferences.rst:195
 msgid "Для удаления хранилища выбрать необходимую запись и нажать кнопку |delete|."
 msgstr "To delete a storage, select the required record and click |delete|."
 
-#: ../../preferences.rst:198
+#: ../../preferences.rst:197
 msgid "Кнопка **Restore Defaults**, на странице настроек, удаляет все записи для подключения к базам данных и создает одну запись default без данных для подключения."
 msgstr "The **Restore Defaults** button on the settings page deletes all the records for the databases connection and creates one 'default' record without any data on the connection."
 
-#: ../../preferences.rst:200
+#: ../../preferences.rst:199
 msgid "Для сохранения внесенных изменений, в хранилище параметров подключения к БД, на странице настроек необходимо нажать кнопку **Apply** или **Apply and Close**."
 msgstr "To save the changes, you should click **Apply** or **Apply and Close** in the DB connection parameters storage, on the settings page."
-
-#~ msgid ""
-#~ "Наиболее простой и универсальный вариант "
-#~ "– сохранить библиотеку в директории "
-#~ "*C:\\Windows\\System32\\*. В 64-битных системах "
-#~ "эта директория содержит 64-битные библиотеки."
-#~ " В случае использования 32-битного Eclipse"
-#~ " на 64-битной системе, 32-битную библиотеку"
-#~ " следует сохранить в директорию "
-#~ "*C:\\Windows\\SysWOW64\\*."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для использования Windows аутентификации "
-#~ "приложению должна быть доступна DLL "
-#~ "Microsoft JDBC драйвера, *sqljdbc_auth.dll*. "
-#~ "Ее следует извлечь из `пакета "
-#~ "драйвера<https://www.microsoft.com/ru-"
-#~ "RU/download/details.aspx?id=57175>`_. и поместить в"
-#~ " директорию, присутствующую в переменной "
-#~ "окружения *PATH*, либо в свойстве JVM"
-#~ " *java.library.path*. Битность библиотеки должна"
-#~ " соответствовать битности используемой вами "
-#~ "версии Eclipse."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для использования Windows аутентификации "
-#~ "приложению должна быть доступна DLL "
-#~ "Microsoft JDBC драйвера, *sqljdbc_auth.dll*. "
-#~ "Ее следует извлечь из `пакета "
-#~ "драйвера<https://www.microsoft.com/ru-"
-#~ "RU/download/details.aspx?id=57175>`_ и поместить в"
-#~ " директорию, присутствующую в переменной "
-#~ "окружения *PATH*, либо в свойстве JVM"
-#~ " *java.library.path*. Битность библиотеки должна"
-#~ " соответствовать битности используемой вами "
-#~ "версии Eclipse."
-#~ msgstr ""
-
-#~ msgid "Свойства соединения можно дополнить параметрами указанными по адресу:"
-#~ msgstr ""
-
-#~ msgid "https://jdbc.postgresql.org/documentation/head/connect.html."
-#~ msgstr ""
-
-#~ msgid "Windows аутентификация"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "При работе под ОС Windows для "
-#~ "подключения к серверам БД Microsoft SQL"
-#~ " доступен режим Windows аутентификации. Он"
-#~ " позволяет вместо явного указания имени "
-#~ "пользователя и пароля брать эти данные"
-#~ " из текущего пользователя Windows, либо "
-#~ "пользователя, от имени которого запущена "
-#~ "программа."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для использования Windows аутентификации "
-#~ "приложению должна быть доступна DLL "
-#~ "Microsoft JDBC драйвера, *sqljdbc_auth.dll*. "
-#~ "Ее следует извлечь из `пакета драйвера"
-#~ " <https://www.microsoft.com/ru-"
-#~ "RU/download/details.aspx?id=57175>`_ и поместить в"
-#~ " директорию, присутствующую в переменной "
-#~ "окружения *PATH*, либо в свойстве JVM"
-#~ " *java.library.path*. Битность библиотеки должна"
-#~ " соответствовать битности используемой вами "
-#~ "версии Eclipse."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Наиболее простой и универсальный вариант "
-#~ "– сохранить библиотеку в директории "
-#~ "*C:\\\\Windows\\\\System32\\\\*. В 64-битных "
-#~ "системах эта директория содержит 64-битные "
-#~ "библиотеки. В случае использования 32-битного"
-#~ " Eclipse на 64-битной системе, 32-битную"
-#~ " библиотеку следует сохранить в директорию"
-#~ " *C:\\\\Windows\\\\SysWOW64\\\\*."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Объекты, которые не должны учитываться "
-#~ "при сравнении БД, можо указать на "
-#~ "странице настроек **pgCodeKeeper -> "
-#~ "Исключенные объекты**."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "**Warn about dangerous scripts containig: "
-#~ "/ Предупреждать, если в скрипте "
-#~ "присутствуют следующие выражения:** – "
-#~ "позволяет предупреждать, если при генерации"
-#~ " скрипта образовались выбранные опасные "
-#~ "выражения."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для добавления хранилища на основе "
-#~ "данных из файла **.pgpass**, нажать "
-#~ "кнопку |pg_pass|. Откроется диалог в "
-#~ "котором необходимо выбрать **.pgpass** файл."
-#~ " Далее откроется дилог  **Pgpass sources"
-#~ " list** (Список источников из pgpass):"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "После этого можно закрывать дилог "
-#~ "**Pgpass sources list** (Список источников "
-#~ "из pgpass)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "**Reuse compare editor instead of "
-#~ "opening new ones / Использовать открытый"
-#~ " редактор сравнения вместо создания новых**"
-#~ " - позволяет использовать открытый редактор"
-#~ " сравнения при сравнения объектов базы "
-#~ "данных (В контекстном меню таблицы "
-#~ "различий выбрать пункт **Показать различия**)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Объекты, которые не должны учитываться "
-#~ "при сравнении БД, возможно указать на"
-#~ " странице настроек **pgCodeKeeper -> "
-#~ "Исключенные объекты**."
-#~ msgstr ""
-
-#~ msgid "**Шаблон** – является ли имя объекта регулярным выражением."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "**Игнорировать содержимое** – позволяет "
-#~ "пропустить объекты, вложенные в исключенный."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "**Тип** – тип объекта (\"ALL\" "
-#~ "предназначен для указания любого типа "
-#~ "объекта)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "Обновление БД** Вы можете настроить "
-#~ "параметры для работы редактора скрипта "
-#~ "наката."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "**Print CREATE INDEX ... in CONCURRENTLY"
-#~ " mode / Печатать CREATE INDEX ... "
-#~ "в режиме CONCURRENTLY** – позволяет в"
-#~ " скриптах создавать индексы в режиме "
-#~ "CONCURRENTLY. Такие индексы невозможно создать"
-#~ " в блоке транзакции."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "Обновление проекта** Вы можете включить "
-#~ "учет зависимостей объектов при обновлении "
-#~ "проекта. Это дополнит диалог наката "
-#~ "выбранных объектов на проект их "
-#~ "зависимостями, без которых накат на "
-#~ "проект может происходить с ошибками."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "Отчеты об использовании** Вы можете "
-#~ "включить или выключить отправление статистики"
-#~ " об использовании pgCodeKeeper."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "Редактор проекта** Вы можете настроить "
-#~ "параметры редактора проекта."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "Редактор SQL** Вы можете настроить "
-#~ "параметры редактора SQL."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "**Both brackets / Обе скобка** – "
-#~ "при выборе скобки, подсвечивает текущую "
-#~ "и парную скобку."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "Редактор SQL -> Подсветка синтаксиса** "
-#~ "Вы можете установить цвет и стиль "
-#~ "шрифта, которым будет отображаться "
-#~ "соответствующий синтаксис в SQL редакторе "
-#~ "pgCodeKeeper."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "Редактор SQL -> Шаблоны редактора SQL**"
-#~ " Вы можете управлять SQL шаблонами, "
-#~ "доступными в SQL редакторе pgCodeKeeper. "
-#~ "Список доступных действий отображается справа"
-#~ " от списка шаблонов."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "На странице настроек **pgCodeKeeper -> "
-#~ "DB Store** (Хранилище БД) находится "
-#~ "список записей для подключения к базам"
-#~ " данных."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для добавления хранилища нажать кнопку "
-#~ "|add_obj|. Откроется диалог **DB credentials**"
-#~ " (Данные подключения к БД), в котором"
-#~ " нужно указать параметры данных "
-#~ "подключения: хост, порт, имя БД, "
-#~ "пользователь, пароль. Название записи можно"
-#~ " указать вручную, для этого нужно "
-#~ "убрать галочку с чекбокса **Auto-"
-#~ "generate** (Автогенерация)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для добавления хранилища на основе "
-#~ "данных из уже созданного хранилища "
-#~ "следует выделить объект хранилища баз "
-#~ "данных, нажать кнопку |copy|. Откроется "
-#~ "диалог **DB credentials** (Данные подключения"
-#~ " к БД) в котором можно изменить "
-#~ "параметры подключения."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для добавления хранилища на основе "
-#~ "данных из файла **.pgpass**, нажать "
-#~ "кнопку |pg_pass|. Откроется диалог в "
-#~ "котором необходимо выбрать **.pgpass** файл."
-#~ " Далее откроется диалог  **Pgpass sources"
-#~ " list** (Список источников из pgpass):"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "В нем нужно выбрать строку с "
-#~ "данными на основе которых будет "
-#~ "создаваться хранилище. Откроется диалог **DB"
-#~ " credentials** (Данные подключения к БД)"
-#~ " в котором можно подтвердить параметры "
-#~ "подключения."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "После этого можно закрывать диалог "
-#~ "**Pgpass sources list** (Список источников "
-#~ "из pgpass)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Для редактирования хранилища выделить объект"
-#~ " хранилища баз данных, нажать кнопку "
-#~ "|editor_area|. Откроется диалог **DB "
-#~ "credentials** (Данные подключения к БД) "
-#~ "в котором можно изменить параметры "
-#~ "подключения."
-#~ msgstr ""
 
