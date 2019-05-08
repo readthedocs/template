@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-13 11:49+0300\n"
+"POT-Creation-Date: 2019-05-08 16:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../white_black_list.rst:5
 msgid "Список исключаемых объектов"
@@ -112,34 +112,20 @@ msgid ""
 "объекты из отображения."
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "# комментарий"
-msgstr ""
-
-#: ../../white_black_list.rst ../../white_black_list.rst:50
-msgid "SHOW ALL"
-msgstr ""
-
-#: ../../white_black_list.rst
-msgid ""
-"HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # "
-"комментарий"
-msgstr ""
-
-#: ../../white_black_list.rst
-msgid "[ ... ]"
-msgstr ""
-
-#: ../../white_black_list.rst:43
+#: ../../white_black_list.rst:45
 msgid "**Описание частей черного списка**"
 msgstr ""
 
-#: ../../white_black_list.rst:48 ../../white_black_list.rst:73
+#: ../../white_black_list.rst:50 ../../white_black_list.rst:75
 msgid "Строка файла .pgcodekeeperignore"
 msgstr ""
 
-#: ../../white_black_list.rst:48 ../../white_black_list.rst:73
+#: ../../white_black_list.rst:50 ../../white_black_list.rst:75
 msgid "Описание"
+msgstr ""
+
+#: ../../white_black_list.rst:52
+msgid "``SHOW ALL``"
 msgstr ""
 
 #: ../../white_black_list.rst
@@ -154,8 +140,8 @@ msgstr ""
 msgid "все объекты"
 msgstr ""
 
-#: ../../white_black_list.rst:54
-msgid "HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
+#: ../../white_black_list.rst:56
+msgid "``HIDE flag [, ...] objectName [ db=dbName ][ type=objectType[, ...] ]``"
 msgstr ""
 
 #: ../../white_black_list.rst
@@ -163,19 +149,11 @@ msgid "[правило]"
 msgstr ""
 
 #: ../../white_black_list.rst
-msgid "исключает из"
+msgid "исключает из отображения"
 msgstr ""
 
 #: ../../white_black_list.rst
-msgid "отображения"
-msgstr ""
-
-#: ../../white_black_list.rst
-msgid "какой-либо"
-msgstr ""
-
-#: ../../white_black_list.rst
-msgid "объект"
+msgid "какой-либо объект"
 msgstr ""
 
 #: ../../white_black_list.rst:61
@@ -186,71 +164,69 @@ msgid ""
 "правила разрешают объекты для отображения."
 msgstr ""
 
-#: ../../white_black_list.rst ../../white_black_list.rst:75
-msgid "HIDE ALL"
-msgstr ""
-
-#: ../../white_black_list.rst
-msgid ""
-"SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ] # "
-"комментарий"
-msgstr ""
-
-#: ../../white_black_list.rst:68
+#: ../../white_black_list.rst:70
 msgid "**Описание частей белого списка**"
+msgstr ""
+
+#: ../../white_black_list.rst:77
+msgid "``HIDE ALL``"
 msgstr ""
 
 #: ../../white_black_list.rst
 msgid "запрещает показывать"
 msgstr ""
 
-#: ../../white_black_list.rst:79
-msgid "SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
+#: ../../white_black_list.rst:81
+msgid "``SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]``"
 msgstr ""
 
 #: ../../white_black_list.rst
-msgid "разрешает для"
+msgid "разрешает для отображения"
 msgstr ""
 
 #: ../../white_black_list.rst:86
 msgid "Где:"
 msgstr ""
 
-#: ../../white_black_list.rst:89
+#: ../../white_black_list.rst:88
+msgid "qweqweq"
+msgstr ""
+
+#: ../../white_black_list.rst:91
 msgid "objectName, dbName, objectType"
 msgstr ""
 
-#: ../../white_black_list.rst:89
+#: ../../white_black_list.rst:91
 msgid ""
 "идентификаторы для поиска объекта имеющие общее синтаксическое правило "
 "написания описанное в **identifier**"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "objectName"
+#: ../../white_black_list.rst:94
+msgid "**objectName**"
 msgstr ""
 
-#: ../../white_black_list.rst:91
+#: ../../white_black_list.rst:94
 msgid "название искомого объекта (является обязательной частью правила)"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "dbName"
-msgstr ""
-
-#: ../../white_black_list.rst:92
-msgid "имя базы данных в которой будет искаться объект (опционально)"
-msgstr ""
-
-#: ../../white_black_list.rst
-msgid "objectType"
-msgstr ""
-
-#: ../../white_black_list.rst:93
-msgid "тип искомого объекта (опционально)"
+#: ../../white_black_list.rst:95
+msgid "**dbName**"
 msgstr ""
 
 #: ../../white_black_list.rst:95
+msgid "имя базы данных в которой будет искаться объект (опционально)"
+msgstr ""
+
+#: ../../white_black_list.rst:96
+msgid "**objectType**"
+msgstr ""
+
+#: ../../white_black_list.rst:96
+msgid "тип искомого объекта (опционально)"
+msgstr ""
+
+#: ../../white_black_list.rst:99
 msgid ""
 "**objectType** может быть равен одному из следующих значений: USER, ROLE,"
 " ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, FUNCTION, "
@@ -258,7 +234,7 @@ msgid ""
 "FTS_CONFIGURATION, TABLE, CONSTRAINT, INDEX, VIEW, TRIGGER, RULE."
 msgstr ""
 
-#: ../../white_black_list.rst:103
+#: ../../white_black_list.rst:107
 msgid "identifier"
 msgstr ""
 
@@ -284,111 +260,111 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid ""
-"строка, ограниченная двойными кавычками \" или апострофами ' "
+"строка, ограниченная двойными кавычками ``\"`` или апострофами ``'`` "
 "(ограничители в начале и в конце строки должны совпадать);"
 msgstr ""
 
 #: ../../white_black_list.rst
 msgid ""
 "ограничители, содержащиеся в строке экранируются повтором символа "
-"(например: \"1\"\"2'3\" или '1\"2''3')"
+"(например: ``\"1\"\"2'3\"`` или ``'1\"2''3'``)"
 msgstr ""
 
-#: ../../white_black_list.rst:105
+#: ../../white_black_list.rst:109
 msgid ""
 "На текущий момент нельзя использовать квалифицированные имена в качестве "
 "\"objectName\"."
 msgstr ""
 
-#: ../../white_black_list.rst:107
+#: ../../white_black_list.rst:111
 msgid "\"objectType\" чувствителен к регистру."
 msgstr ""
 
-#: ../../white_black_list.rst:110
+#: ../../white_black_list.rst:114
 msgid "flag { NONE | REGEX | CONTENT }"
 msgstr ""
 
-#: ../../white_black_list.rst:110
+#: ../../white_black_list.rst:114
 msgid "флаг способа поиска объекта"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "REGEX"
+#: ../../white_black_list.rst:117
+msgid "**REGEX**"
 msgstr ""
 
-#: ../../white_black_list.rst:112
+#: ../../white_black_list.rst:117
 msgid "воспринимает objectName как регулярное выражение [1]_"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "CONTENT"
+#: ../../white_black_list.rst:118
+msgid "**CONTENT**"
 msgstr ""
 
-#: ../../white_black_list.rst:113
+#: ../../white_black_list.rst:118
 msgid "применяет правило для совпавшего объекта и всего его содержимого"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "NONE"
+#: ../../white_black_list.rst:119
+msgid "**NONE**"
 msgstr ""
 
-#: ../../white_black_list.rst:114
+#: ../../white_black_list.rst:119
 msgid "строгое совпадение без регулярного выражения и без содержимого"
 msgstr ""
 
-#: ../../white_black_list.rst:116
+#: ../../white_black_list.rst:122
 msgid ""
 "Флаг **REGEX** позволяет правилу производить поиск частичных совпадений с"
 " регулярным выражением."
 msgstr ""
 
-#: ../../white_black_list.rst:118
+#: ../../white_black_list.rst:124
 msgid ""
 "*Cодержимое* - это содержимое объекта согласно иерархии проекта "
 "pgCodeKeeper:"
 msgstr ""
 
-#: ../../white_black_list.rst:122
+#: ../../white_black_list.rst:128
 msgid ""
 "Например для \"TABLE1\" содержимым будет являться \"INDEX1\", "
 "\"TRIGGER1\" и \"RULE1\"."
 msgstr ""
 
-#: ../../white_black_list.rst:124
+#: ../../white_black_list.rst:130
 msgid "Дополнительные опции:"
 msgstr ""
 
-#: ../../white_black_list.rst:126
+#: ../../white_black_list.rst:132
 msgid ""
 "db=dbName правило будет применено только к БД, имя которой подходит под "
 "регулярное выражение, заданное этим параметром"
 msgstr ""
 
-#: ../../white_black_list.rst:127
+#: ../../white_black_list.rst:133
 msgid ""
 "type=objectType правило будет применено только к объектам с указанным "
 "типом"
 msgstr ""
 
-#: ../../white_black_list.rst:129
+#: ../../white_black_list.rst:135
 msgid ""
 "Для указания нескольких типов для одного и того же объекта необходимо "
 "написать их через запятую."
 msgstr ""
 
-#: ../../white_black_list.rst:131
+#: ../../white_black_list.rst:137
 msgid "Название базы данных чувствительно к регистру."
 msgstr ""
 
-#: ../../white_black_list.rst:133
+#: ../../white_black_list.rst:139
 msgid "**Примеры для белого списка**"
 msgstr ""
 
-#: ../../white_black_list.rst:138 ../../white_black_list.rst:190
+#: ../../white_black_list.rst:144 ../../white_black_list.rst:196
 msgid "Пример и описание"
 msgstr ""
 
-#: ../../white_black_list.rst:138 ../../white_black_list.rst:190
+#: ../../white_black_list.rst:144 ../../white_black_list.rst:196
 msgid "Область действия"
 msgstr ""
 
@@ -444,7 +420,7 @@ msgstr ""
 msgid "только объект D"
 msgstr ""
 
-#: ../../white_black_list.rst:185
+#: ../../white_black_list.rst:191
 msgid "**Примеры для черного списка**"
 msgstr ""
 
@@ -492,36 +468,32 @@ msgstr ""
 msgid "объект D"
 msgstr ""
 
-#: ../../white_black_list.rst:237
+#: ../../white_black_list.rst:243
 msgid "Ключевые слова:"
 msgstr ""
 
-#: ../../white_black_list.rst:239
+#: ../../white_black_list.rst:245
 msgid "HIDE SHOW ALL REGEX CONTENT NONE"
 msgstr ""
 
-#: ../../white_black_list.rst:241
+#: ../../white_black_list.rst:247
 msgid ""
 "Эти слова не могут быть идентификаторами, для их использования они должны"
 " быть взяты в кавычки. Зарезервированы только слова, полностью "
 "совпадающие по регистру, например Content – разрешенный идентификатор."
 msgstr ""
 
-#: ../../white_black_list.rst:243
+#: ../../white_black_list.rst:249
 msgid ""
 "Пример исключения объекта название, которого полностью совпадает (в том "
 "числе и по регистру) с ключевым словом **SHOW**:"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**HIDE NONE \"SHOW\"**"
-msgstr ""
-
-#: ../../white_black_list.rst:251
+#: ../../white_black_list.rst:259
 msgid "Совместное использование черного и белого списков"
 msgstr ""
 
-#: ../../white_black_list.rst:253
+#: ../../white_black_list.rst:261
 msgid ""
 "Черные и белые списки могут использоваться вместе. В таком случае, их "
 "правила объединяются в один общий список. Правила, контролирующие "
@@ -529,17 +501,17 @@ msgid ""
 "по следующим принципам:"
 msgstr ""
 
-#: ../../white_black_list.rst:255
+#: ../../white_black_list.rst:263
 msgid ""
 "если \"широта\" правил различается, то преобладает более широкое правило "
 "(включающее в себя сам объект и его содержимое)"
 msgstr ""
 
-#: ../../white_black_list.rst:256
+#: ../../white_black_list.rst:264
 msgid "если \"широта\" правил одинакова, то преобладает скрывающее объект правило"
 msgstr ""
 
-#: ../../white_black_list.rst:258
+#: ../../white_black_list.rst:266
 msgid ""
 "\"Широта\" правила - это включение или не включение, в область действия "
 "правила, содержимого того или иного объекта, т.е. состояние флага CONTENT"
@@ -547,23 +519,19 @@ msgid ""
 "\"Игнорировать содержимое\" описанная в разделе :ref:`ignoredObjects`)."
 msgstr ""
 
-#: ../../white_black_list.rst:260
+#: ../../white_black_list.rst:268
 msgid "Пример совместного использования черного и белого списков:"
 msgstr ""
 
-#: ../../white_black_list.rst:264
+#: ../../white_black_list.rst:270
 msgid "файл черного списка"
 msgstr ""
 
-#: ../../white_black_list.rst:268
+#: ../../white_black_list.rst:277
 msgid "файл белого списка"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**SHOW CONTENT KF**"
-msgstr ""
-
-#: ../../white_black_list.rst:270
+#: ../../white_black_list.rst:284
 msgid "**Область действия правила**"
 msgstr ""
 
@@ -575,28 +543,28 @@ msgstr ""
 msgid "Белый список"
 msgstr ""
 
-#: ../../white_black_list.rst:278
+#: ../../white_black_list.rst:292
 msgid ""
 "В результате будет отображен объект с названием \"KF\", т.к. условие "
 "белого списка для данного объекта перекрывают по \"ширине\" условия "
 "черного списка."
 msgstr ""
 
-#: ../../white_black_list.rst:280
+#: ../../white_black_list.rst:294
 msgid ""
 "При работе в графической версии pgCodeKeeper добавление второго списка "
 "исключений производится путем использования **общего списка исключаемых "
 "объектов** или путем добавления внешного списка через :ref:`dbStore`. "
 ":ref:`cliVersion` pgCodeKeeper позволяет добавлять дополнительные списки "
-"исключений, с помощью команды: **pgcodekeeper-cli -I (--ignore-list) "
-"<path> SOURCE DEST**."
+"исключений, с помощью команды: ``pgcodekeeper-cli --ignore-list <path> "
+"SOURCE DEST``."
 msgstr ""
 
-#: ../../white_black_list.rst:283
+#: ../../white_black_list.rst:297
 msgid "Примеры работы с файлом **.pgcodekeeperignore**"
 msgstr ""
 
-#: ../../white_black_list.rst:284
+#: ../../white_black_list.rst:298
 msgid ""
 "Предположим имеется представление с именем ignore4 и набор из таблиц с "
 "именами: ignore, ignore2, ignore3. ignore2 в свою очередь имеет "
@@ -611,39 +579,27 @@ msgstr ""
 msgid "Схема"
 msgstr ""
 
-#: ../../white_black_list.rst:292
+#: ../../white_black_list.rst:306
 msgid ""
 "Для того, чтобы исключить все объекты частично попадающие под регулярное "
 "выражение \"ignore\" нужно в .pgcodekeeperignore написать следующие "
 "правила:"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**HIDE REGEX ignore**"
-msgstr ""
-
-#: ../../white_black_list.rst:306
+#: ../../white_black_list.rst:322
 msgid ""
 "Для того, чтобы исключить объект \"ignore2\" с содержимым нужно в "
 ".pgcodekeeperignore написать следующие правила:"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**HIDE CONTENT ignore2**"
-msgstr ""
-
-#: ../../white_black_list.rst:319
+#: ../../white_black_list.rst:337
 msgid ""
 "Для того, чтобы исключить все объекты с типом \"TABLE\", частично "
 "попадающие под регулярное выражение \"ignore\" нужно в "
 ".pgcodekeeperignore написать следующие правила:"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**HIDE REGEX ignore type=TABLE**"
-msgstr ""
-
-#: ../../white_black_list.rst:332
+#: ../../white_black_list.rst:352
 msgid ""
 "Для того, чтобы исключить все объекты частично попадающие под регулярное "
 "выражение \"ignore\", с типом *TABLE* и содержимым для указанной базы "
@@ -654,59 +610,51 @@ msgstr ""
 msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
 msgstr ""
 
-#: ../../white_black_list.rst:337
+#: ../../white_black_list.rst:357
 msgid ""
 "в вышеуказанных правилах использовано название другой базы данных, не той"
 " с которой ведется работа в данном примере, поэтому все останется без "
 "изменений"
 msgstr ""
 
-#: ../../white_black_list.rst:345
+#: ../../white_black_list.rst:365
 msgid ""
 "но если указать название базы данных с которой ведется работа, то из "
 "отображаемых объектов исчезнут все объекты кроме одного, который не "
 "соответствует типу."
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**HIDE CONTENT,REGEX ignore db=db1 type=TABLE**"
-msgstr ""
-
-#: ../../white_black_list.rst:358
+#: ../../white_black_list.rst:380
 msgid ""
 "Для того, чтобы используя черный и белый списки одновременно разрешить "
 "отобразить объект \"ignore2\" нужно написать следующие правила:"
 msgstr ""
 
-#: ../../white_black_list.rst:362
+#: ../../white_black_list.rst:382
 msgid "файл .pgcodekeeperignore - черный список"
 msgstr ""
 
-#: ../../white_black_list.rst:366
+#: ../../white_black_list.rst:389
 msgid "дополнительный файл списка исключаемых объектов - белый список"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**SHOW CONTENT ignore2**"
-msgstr ""
-
-#: ../../white_black_list.rst:368
+#: ../../white_black_list.rst:396
 msgid ""
 "Добавление дополнительного списка описано в разделе "
 ":ref:`whiteBlackCommonUsing`."
 msgstr ""
 
-#: ../../white_black_list.rst:370
+#: ../../white_black_list.rst:398
 msgid ""
 "Цель черного списка: исключение всех объектов частично попадающих под "
 "регулярное выражение \"ignore\"."
 msgstr ""
 
-#: ../../white_black_list.rst:372
+#: ../../white_black_list.rst:400
 msgid "Цель белого списка: убрать из исключенных объектов объект \"ignore2\"."
 msgstr ""
 
-#: ../../white_black_list.rst:380
+#: ../../white_black_list.rst:408
 msgid ""
 "В результате в сравниваемых объектах останется только объект \"ignore2\","
 " т.к. благодаря флагу \"CONTENT\" для объекта \"ignore2\" правило белого "
@@ -714,7 +662,7 @@ msgid ""
 "ignore\"."
 msgstr ""
 
-#: ../../white_black_list.rst:382
+#: ../../white_black_list.rst:410
 msgid ""
 "Взаимодействие правил разных списков, контролирующих отображение одного и"
 " того же объекта, описано в разделе :ref:`whiteBlackCommonUsing`."
@@ -741,5 +689,114 @@ msgstr ""
 #~ "из следующих значений: CONSTRAINT, DOMAIN, "
 #~ "EXTENSION, FUNCTION, INDEX, RULE, SCHEMA, "
 #~ "SEQUENCE, TABLE, TRIGGER, TYPE, VIEW."
+#~ msgstr ""
+
+#~ msgid "# комментарий"
+#~ msgstr ""
+
+#~ msgid "SHOW ALL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "HIDE flag [, ...] objectName [ "
+#~ "db=dbName ] [ type=objectType [, ...]"
+#~ " ] # комментарий"
+#~ msgstr ""
+
+#~ msgid "[ ... ]"
+#~ msgstr ""
+
+#~ msgid "HIDE flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
+#~ msgstr ""
+
+#~ msgid "исключает из"
+#~ msgstr ""
+
+#~ msgid "отображения"
+#~ msgstr ""
+
+#~ msgid "какой-либо"
+#~ msgstr ""
+
+#~ msgid "объект"
+#~ msgstr ""
+
+#~ msgid "HIDE ALL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "SHOW flag [, ...] objectName [ "
+#~ "db=dbName ] [ type=objectType [, ...]"
+#~ " ] # комментарий"
+#~ msgstr ""
+
+#~ msgid "SHOW flag [, ...] objectName [ db=dbName ] [ type=objectType [, ...] ]"
+#~ msgstr ""
+
+#~ msgid "разрешает для"
+#~ msgstr ""
+
+#~ msgid "objectName"
+#~ msgstr ""
+
+#~ msgid "dbName"
+#~ msgstr ""
+
+#~ msgid "objectType"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "строка, ограниченная двойными кавычками \" "
+#~ "или апострофами ' (ограничители в начале"
+#~ " и в конце строки должны совпадать);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "ограничители, содержащиеся в строке "
+#~ "экранируются повтором символа (например: "
+#~ "\"1\"\"2'3\" или '1\"2''3')"
+#~ msgstr ""
+
+#~ msgid "REGEX"
+#~ msgstr ""
+
+#~ msgid "CONTENT"
+#~ msgstr ""
+
+#~ msgid "NONE"
+#~ msgstr ""
+
+#~ msgid "**HIDE NONE \"SHOW\"**"
+#~ msgstr ""
+
+#~ msgid "**SHOW CONTENT KF**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "При работе в графической версии "
+#~ "pgCodeKeeper добавление второго списка "
+#~ "исключений производится путем использования "
+#~ "**общего списка исключаемых объектов** или "
+#~ "путем добавления внешного списка через "
+#~ ":ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper "
+#~ "позволяет добавлять дополнительные списки "
+#~ "исключений, с помощью команды: "
+#~ "**pgcodekeeper-cli -I (--ignore-list) "
+#~ "<path> SOURCE DEST**."
+#~ msgstr ""
+
+#~ msgid "**HIDE REGEX ignore**"
+#~ msgstr ""
+
+#~ msgid "**HIDE CONTENT ignore2**"
+#~ msgstr ""
+
+#~ msgid "**HIDE REGEX ignore type=TABLE**"
+#~ msgstr ""
+
+#~ msgid "**HIDE CONTENT,REGEX ignore db=db1 type=TABLE**"
+#~ msgstr ""
+
+#~ msgid "**SHOW CONTENT ignore2**"
 #~ msgstr ""
 
