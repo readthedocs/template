@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 16:36+0300\n"
+"POT-Creation-Date: 2019-05-08 16:58+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -606,55 +606,51 @@ msgid ""
 "данных нужно в .pgcodekeeperignore написать следующие правила:"
 msgstr ""
 
-#: ../../white_black_list.rst
-msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
-msgstr ""
-
-#: ../../white_black_list.rst:357
+#: ../../white_black_list.rst:359
 msgid ""
 "в вышеуказанных правилах использовано название другой базы данных, не той"
 " с которой ведется работа в данном примере, поэтому все останется без "
 "изменений"
 msgstr ""
 
-#: ../../white_black_list.rst:365
+#: ../../white_black_list.rst:367
 msgid ""
 "но если указать название базы данных с которой ведется работа, то из "
 "отображаемых объектов исчезнут все объекты кроме одного, который не "
 "соответствует типу."
 msgstr ""
 
-#: ../../white_black_list.rst:380
+#: ../../white_black_list.rst:382
 msgid ""
 "Для того, чтобы используя черный и белый списки одновременно разрешить "
 "отобразить объект \"ignore2\" нужно написать следующие правила:"
 msgstr ""
 
-#: ../../white_black_list.rst:382
+#: ../../white_black_list.rst:384
 msgid "файл .pgcodekeeperignore - черный список"
 msgstr ""
 
-#: ../../white_black_list.rst:389
+#: ../../white_black_list.rst:391
 msgid "дополнительный файл списка исключаемых объектов - белый список"
 msgstr ""
 
-#: ../../white_black_list.rst:396
+#: ../../white_black_list.rst:398
 msgid ""
 "Добавление дополнительного списка описано в разделе "
 ":ref:`whiteBlackCommonUsing`."
 msgstr ""
 
-#: ../../white_black_list.rst:398
+#: ../../white_black_list.rst:400
 msgid ""
 "Цель черного списка: исключение всех объектов частично попадающих под "
 "регулярное выражение \"ignore\"."
 msgstr ""
 
-#: ../../white_black_list.rst:400
+#: ../../white_black_list.rst:402
 msgid "Цель белого списка: убрать из исключенных объектов объект \"ignore2\"."
 msgstr ""
 
-#: ../../white_black_list.rst:408
+#: ../../white_black_list.rst:410
 msgid ""
 "В результате в сравниваемых объектах останется только объект \"ignore2\","
 " т.к. благодаря флагу \"CONTENT\" для объекта \"ignore2\" правило белого "
@@ -662,7 +658,7 @@ msgid ""
 "ignore\"."
 msgstr ""
 
-#: ../../white_black_list.rst:410
+#: ../../white_black_list.rst:412
 msgid ""
 "Взаимодействие правил разных списков, контролирующих отображение одного и"
 " того же объекта, описано в разделе :ref:`whiteBlackCommonUsing`."
@@ -798,5 +794,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "**SHOW CONTENT ignore2**"
+#~ msgstr ""
+
+#~ msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
 #~ msgstr ""
 

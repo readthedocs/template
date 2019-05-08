@@ -351,8 +351,10 @@ flag { NONE | REGEX | CONTENT }
 
 Для того, чтобы исключить все объекты частично попадающие под регулярное выражение "ignore", с типом *TABLE* и содержимым для указанной базы данных нужно в .pgcodekeeperignore написать следующие правила:
 
- | **SHOW ALL**
- | **HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**
+::
+
+ SHOW ALL
+ HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE
 
 в вышеуказанных правилах использовано название другой базы данных, не той с которой ведется работа в данном примере, поэтому все останется без изменений
 
