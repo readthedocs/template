@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 16:36+0300\n"
-"PO-Revision-Date: 2019-05-08 13:49\n"
+"POT-Creation-Date: 2019-05-08 16:58+0300\n"
+"PO-Revision-Date: 2019-05-08 13:59\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -509,47 +509,43 @@ msgstr "To exclude all the objects with the \"TABLE\" type, partially matching t
 msgid "Для того, чтобы исключить все объекты частично попадающие под регулярное выражение \"ignore\", с типом *TABLE* и содержимым для указанной базы данных нужно в .pgcodekeeperignore написать следующие правила:"
 msgstr "To exclude all the objects partially matching the regular expression \"ignore\" with the \"TABLE\" type and content for the specified database, you should write the following rules in .pgcodekeeperignore:"
 
-#: ../../white_black_list.rst
-msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
-msgstr "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
-
-#: ../../white_black_list.rst:357
+#: ../../white_black_list.rst:359
 msgid "в вышеуказанных правилах использовано название другой базы данных, не той с которой ведется работа в данном примере, поэтому все останется без изменений"
 msgstr "abovementioned rules use the name of another database, not the one which is in work in this example, so everything will remain unchanged"
 
-#: ../../white_black_list.rst:365
+#: ../../white_black_list.rst:367
 msgid "но если указать название базы данных с которой ведется работа, то из отображаемых объектов исчезнут все объекты кроме одного, который не соответствует типу."
 msgstr "but if you specify the name of the database in work, then all the objects will disappear from the displayed, except the one which doesn't match the type."
 
-#: ../../white_black_list.rst:380
+#: ../../white_black_list.rst:382
 msgid "Для того, чтобы используя черный и белый списки одновременно разрешить отобразить объект \"ignore2\" нужно написать следующие правила:"
 msgstr "To allow displaying the object \"ignore2\" using black and white lists at the same time, you need to write the following rules:"
 
-#: ../../white_black_list.rst:382
+#: ../../white_black_list.rst:384
 msgid "файл .pgcodekeeperignore - черный список"
 msgstr "file .pgcodekeeperignore - black list"
 
-#: ../../white_black_list.rst:389
+#: ../../white_black_list.rst:391
 msgid "дополнительный файл списка исключаемых объектов - белый список"
 msgstr "additional file of the list of excluded objects - white list"
 
-#: ../../white_black_list.rst:396
+#: ../../white_black_list.rst:398
 msgid "Добавление дополнительного списка описано в разделе :ref:`whiteBlackCommonUsing`."
 msgstr "How to add an additional list is discribed in the :ref:`whiteBlackCommonUsing` section."
 
-#: ../../white_black_list.rst:398
+#: ../../white_black_list.rst:400
 msgid "Цель черного списка: исключение всех объектов частично попадающих под регулярное выражение \"ignore\"."
 msgstr "The aim of the black list is to exclude all the objects partially matching the regular expression \"ignore\"."
 
-#: ../../white_black_list.rst:400
+#: ../../white_black_list.rst:402
 msgid "Цель белого списка: убрать из исключенных объектов объект \"ignore2\"."
 msgstr "The aim of the white list is to remove \"ignore2\" from the excluded objects."
 
-#: ../../white_black_list.rst:408
+#: ../../white_black_list.rst:410
 msgid "В результате в сравниваемых объектах останется только объект \"ignore2\", т.к. благодаря флагу \"CONTENT\" для объекта \"ignore2\" правило белого списка перекрывает по \"ширине\" правило черного списка \"HIDE REGEX ignore\"."
 msgstr "As a result, only \"ignore2\" will remain in the compared objects, because thanks to the \"CONTENT\" flag for the \"ignore2\" the white list rule surpasses the black list rule \"HIDE REGEX ignore\" in \"range\"."
 
-#: ../../white_black_list.rst:410
+#: ../../white_black_list.rst:412
 msgid "Взаимодействие правил разных списков, контролирующих отображение одного и того же объекта, описано в разделе :ref:`whiteBlackCommonUsing`."
 msgstr "Interaction between the rules of different lists which regulate the display of one and the same object is described in the :ref:`whiteBlackCommonUsing` section."
 
@@ -683,5 +679,8 @@ msgstr "Interaction between the rules of different lists which regulate the disp
 #~ msgstr ""
 
 #~ msgid "**SHOW CONTENT ignore2**"
+#~ msgstr ""
+
+#~ msgid "**HIDE CONTENT,REGEX ignore db=name_of_other_db type=TABLE**"
 #~ msgstr ""
 
