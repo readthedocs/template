@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-13 07:20+0300\n"
-"PO-Revision-Date: 2019-05-13 04:22\n"
+"PO-Revision-Date: 2019-05-13 04:41\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -215,11 +215,11 @@ msgstr "**or**"
 
 #: ../../white_black_list.rst
 msgid "строка, ограниченная двойными кавычками ``\"`` или апострофами ``'`` (ограничители в начале и в конце строки должны совпадать);"
-msgstr ""
+msgstr "line limited by double quotes ``\"`` or apostrophes ``'`` (separation symbols in the beginning and the end of the line should match);"
 
 #: ../../white_black_list.rst
 msgid "ограничители, содержащиеся в строке экранируются повтором символа (например: ``\"1\"\"2'3\"`` или ``'1\"2''3'``)"
-msgstr ""
+msgstr "separation symbols contained in the line, are screened off by repeating the symbol (for example: ``\"1\"\"2'3\"`` или ``'1\"2''3'``)"
 
 #: ../../white_black_list.rst:107
 msgid "На текущий момент нельзя использовать квалифицированные имена в качестве \"objectName\"."
@@ -471,7 +471,7 @@ msgstr "As as result, the object with the name \"KF\" will be displayed, because
 
 #: ../../white_black_list.rst:292
 msgid "При работе в графической версии pgCodeKeeper добавление второго списка исключений производится путем использования **общего списка исключаемых объектов** или путем добавления внешного списка через :ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper позволяет добавлять дополнительные списки исключений, с помощью команды: ``pgcodekeeper-cli --ignore-list <path> SOURCE DEST``."
-msgstr ""
+msgstr "When working with the graphic version of pgCodeKeeper, adding the second list of exclusions is possible by using the **general list of the excluded objects** or by adding the external list through :ref:`dbStore`. :ref:`cliVersion` pgCodeKeeper allows to add additional lists of exclusions with the help of the command: ``pgcodekeeper-cli --ignore-list <path> SOURCE DEST``."
 
 #: ../../white_black_list.rst:295
 msgid "Примеры работы с файлом **.pgcodekeeperignore**"
