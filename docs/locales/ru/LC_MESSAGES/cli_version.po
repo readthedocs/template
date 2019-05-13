@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 16:36+0300\n"
+"POT-Creation-Date: 2019-05-13 07:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,35 +69,18 @@ msgid ""
 "выполнив команду:"
 msgstr ""
 
-#: ../../cli_version.rst:22
-msgid "``./pgcodekeeper-cli.sh --help``"
-msgstr ""
-
-#: ../../cli_version.rst:25
+#: ../../cli_version.rst:27
 msgid "Примеры"
 msgstr ""
 
-#: ../../cli_version.rst:27
-msgid ""
-"``./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql "
-"jdbc:postgresql://localhost:5432/testdb1?user=user&password=password "
-"/home/codekeeper/projects/test1/``"
-msgstr ""
-
-#: ../../cli_version.rst:29
+#: ../../cli_version.rst:33
 msgid ""
 "После выполнения этой команды в файл diff.sql будет записан скрипт "
 "миграции различий из проекта в директории test1 в базу данных testdb1 на "
 "сервере localhost:5432."
 msgstr ""
 
-#: ../../cli_version.rst:31
-msgid ""
-"``./pgcodekeeper-cli.sh /home/codekeeper/backup.sql "
-"/home/codekeeper/projects/test1/``"
-msgstr ""
-
-#: ../../cli_version.rst:33
+#: ../../cli_version.rst:39
 msgid ""
 "После выполнения этой команды в консоли будет выведен скрипт миграции из "
 "файла backup в проект в директории test1."
@@ -116,5 +99,20 @@ msgstr ""
 #~ msgid ""
 #~ "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql "
 #~ "/home/codekeeper/projects/test1/"
+#~ msgstr ""
+
+#~ msgid "``./pgcodekeeper-cli.sh --help``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``./pgcodekeeper-cli.sh -o "
+#~ "/home/codekeeper/projects/diff.sql "
+#~ "jdbc:postgresql://localhost:5432/testdb1?user=user&password=password"
+#~ " /home/codekeeper/projects/test1/``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``./pgcodekeeper-cli.sh /home/codekeeper/backup.sql "
+#~ "/home/codekeeper/projects/test1/``"
 #~ msgstr ""
 
