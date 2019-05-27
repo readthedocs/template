@@ -2,11 +2,10 @@
    sphinx-quickstart on Tue Aug 26 14:19:49 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
-Welcome to Read the Docs Template's documentation!
+VinhKool tutorial!
 ==================================================
 
-Contents:
+Chuyên mục:
 
 .. toctree::
    :maxdepth: 2
@@ -16,7 +15,7 @@ Contents:
 
 
 
-Indices and tables
+Bảng và chỉ mục
 ==================
 
 * :ref:`genindex`
