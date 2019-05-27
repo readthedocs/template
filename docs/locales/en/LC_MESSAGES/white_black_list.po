@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-13 07:20+0300\n"
-"PO-Revision-Date: 2019-05-27 06:22\n"
+"PO-Revision-Date: 2019-05-27 06:32\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -219,7 +219,7 @@ msgstr "line limited by double quotes ``\"`` or apostrophes ``'`` (separation sy
 
 #: ../../white_black_list.rst
 msgid "ограничители, содержащиеся в строке экранируются повтором символа (например: ``\"1\"\"2'3\"`` или ``'1\"2''3'``)"
-msgstr "separation symbols contained in the line, are screened off by repeating the symbol (for example: ``\"1\"\"2'3\"`` или ``'1\"2''3'``)"
+msgstr "separation symbols contained in the line, are escaped by repeating the symbol (for example: ``\"1\"\"2'3\"`` или ``'1\"2''3'``)"
 
 #: ../../white_black_list.rst:107
 msgid "На текущий момент нельзя использовать квалифицированные имена в качестве \"objectName\"."
