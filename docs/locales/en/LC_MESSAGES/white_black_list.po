@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-13 07:20+0300\n"
-"PO-Revision-Date: 2019-05-13 04:41\n"
+"PO-Revision-Date: 2019-05-27 04:12\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -127,7 +127,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "какой-либо объект"
-msgstr ""
+msgstr "an object"
 
 #: ../../white_black_list.rst:61
 msgid "**Белый список** работает от обратного, позволяя отображать только те объекты, которые указаны в правилах. Он построен таким образом, что заголовок списка запрещает показывать все объекты, а последующие за ним правила разрешают объекты для отображения."
@@ -151,7 +151,7 @@ msgstr ""
 
 #: ../../white_black_list.rst
 msgid "разрешает для отображения"
-msgstr ""
+msgstr "allows to display"
 
 #: ../../white_black_list.rst:86
 msgid "Где:"
