@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2018-12-13 06:21\n"
-"Last-Translator: MRGaliev <galiev_mr@taximaxim.ru>\n"
+"POT-Creation-Date: 2019-05-13 07:13+0300\n"
+"PO-Revision-Date: 2019-05-13 04:16\n"
+"Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
@@ -53,27 +53,45 @@ msgstr "The latest version of cli build can be downloaded `here <https://github.
 msgid "Набор параметров, доступных для работы с программой Вы можете посмотреть выполнив команду:"
 msgstr "You can view the set of parameters available for work with the program by executing the command:"
 
-#: ../../cli_version.rst:22
-msgid "./pgcodekeeper-cli.sh --help"
-msgstr "./pgcodekeeper-cli.sh --help"
-
-#: ../../cli_version.rst:25
+#: ../../cli_version.rst:27
 msgid "Примеры"
 msgstr "Examples"
 
-#: ../../cli_version.rst:27
-msgid "./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql jdbc:postgresql://localhost:5432/testdb1?user=user&password=password /home/codekeeper/projects/test1/"
-msgstr "./pgcodekeeper-cli.sh -o /home/codekeeper/projects/diff.sql jdbc:postgresql://localhost:5432/testdb1?user=user&password=password /home/codekeeper/projects/test1/"
-
-#: ../../cli_version.rst:29
+#: ../../cli_version.rst:33
 msgid "После выполнения этой команды в файл diff.sql будет записан скрипт миграции различий из проекта в директории test1 в базу данных testdb1 на сервере localhost:5432."
 msgstr "After executing this command, migration script of the differences from the project in the test1 directory into the testdb1 database on the localhost:5432 server will be written into the diff.sql file."
 
-#: ../../cli_version.rst:31
-msgid "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql /home/codekeeper/projects/test1/"
-msgstr "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql /home/codekeeper/projects/test1/"
-
-#: ../../cli_version.rst:33
+#: ../../cli_version.rst:39
 msgid "После выполнения этой команды в консоли будет выведен скрипт миграции из файла backup в проект в директории test1."
 msgstr "After executing this command, the console will display migration script from the backup file into the project in the test1 directory."
+
+#~ msgid "./pgcodekeeper-cli.sh --help"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "./pgcodekeeper-cli.sh -o "
+#~ "/home/codekeeper/projects/diff.sql "
+#~ "jdbc:postgresql://localhost:5432/testdb1?user=user&password=password"
+#~ " /home/codekeeper/projects/test1/"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "./pgcodekeeper-cli.sh /home/codekeeper/backup.sql "
+#~ "/home/codekeeper/projects/test1/"
+#~ msgstr ""
+
+#~ msgid "``./pgcodekeeper-cli.sh --help``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``./pgcodekeeper-cli.sh -o "
+#~ "/home/codekeeper/projects/diff.sql "
+#~ "jdbc:postgresql://localhost:5432/testdb1?user=user&password=password"
+#~ " /home/codekeeper/projects/test1/``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``./pgcodekeeper-cli.sh /home/codekeeper/backup.sql "
+#~ "/home/codekeeper/projects/test1/``"
+#~ msgstr ""
 
