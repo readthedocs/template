@@ -33,6 +33,7 @@ Help topics
    usage
    functional-networks
    tissue-networks
+   modules
    netwas
    expecto
    citations
