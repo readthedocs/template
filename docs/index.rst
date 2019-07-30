@@ -14,7 +14,8 @@ Contents:
    installation
    settings
    usage
-   ChangeLog
+   authors
+   <ChangeLog> ChangeLog
    
    :maxdepth: 2
    :glob:
