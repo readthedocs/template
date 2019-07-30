@@ -35,8 +35,7 @@ Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: Station
-Mapper@groups.io
+We have a mailing list located at: StationMapper@groups.io
 
 End-User License Agreement
 -------
