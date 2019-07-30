@@ -1,13 +1,7 @@
-Template
+StationMapper
 ========
 
 $project was created to allow stations to gauge the band conditions relative to the distance between stations, visually.  After installation the software requires no internet connection to preform its base functions.
-
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
 
 Features
 --------
