@@ -1,7 +1,10 @@
 StationMapper
 ========
 
-$project was created to allow stations to gauge the band conditions relative to the distance between stations, visually.  After installation the software requires no internet connection to preform its base functions.
+.. image:: images/SMapper_v_316.png
+   :width: 600
+
+StationMapper was created to allow stations to gauge the band conditions relative to the distance between stations, visually.  After installation the software requires no internet connection to preform its base functions.
 
 Features
 --------
@@ -26,7 +29,7 @@ The installation file is not kept up to date with the most current version.  Run
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
+- Issue Tracker: github.com/Alex_Pennington/StationMapper/issues
 
 Support
 -------
