@@ -7,9 +7,18 @@ Welcome to StationMappers's documentation!
 ==================================================
 
 Contents:
+
 .. toctree::
+
+   readme
+   installation
+   settings
+   usage
+   ChangeLog
+   
    :maxdepth: 2
    :glob:
+
    *
 
 
