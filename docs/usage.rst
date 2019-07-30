@@ -10,7 +10,7 @@ Starting StationMapper
 		NCSPro.exe - StationManagerV2 Suite
 		NCS.exe - ACPDeluxe Suite
 
-.. image:: ../images/Settings.png
+.. image:: ../images/v316.png
    :width: 604
 
 
