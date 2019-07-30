@@ -1,6 +1,14 @@
 -----------
 CHANGE LOG
 -----------
+v0.316 (Not Yet Published)
+ - Added feature, using ACPDeluxe NCS, stations marked closed now appear crossed out in red.
+ - Added feature, using ACPDeluxe NCS, stations with status (T=4AA), denotes relayed by, now have a line drawn to that station.
+ - Added feature, grey-line (solar terminator), updates every minute.
+ - Added feature, weather radar overlay, updates every minute, requires internet connection, request users that use this feature signup for AerisWeather developer account to offload API call expense.
+ - Created FictionalRoster.csv to aid in debugging.
+ - Linked the readthedocs page in the help menu.
+ - Exported the readthedocs page to a PDF and linked it in the help menu.
 
 v0.315 (Available via update)
  - NOTICE! (Re)Import of address.csv required for v0.315 due to changes in text display orientation.
