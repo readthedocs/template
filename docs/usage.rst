@@ -19,7 +19,7 @@ ACPDeluxe
  - Features
  	- Stations marked as closed (status collumn) apear in red and crossed out.
 	- Stations with a 'relayed by' status (T=4ZZ) are connected to their relay by a dot-dash line.
-		-line are color coded to identify the station relaying. i.e., If ZZZ4ZZ relays 4AA and 4AB the lines running from 4ZZ to 4AA and 4AB are the same color.
+		- Lines are color coded to identify the station relaying. i.e., If ZZZ4ZZ relays 4AA and 4AB the lines running from 4ZZ to 4AA and 4AB are the same color.
 		
 NCSPro
 --------
