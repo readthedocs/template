@@ -17,7 +17,7 @@ Select ACP Deluxe Folder
    - Enter the root folder for ACPDeluxe or click '...' to select one from a dialog window.
    - The default value is "C:/MSC/ACP Deluxe/"
    
-Select Station Manager V2 PENDING_OUT Folder
+Select Station Manager V2 Folder
 --------
    - Enter the PENDING_OUT folder for SMv2 or click '...' to select one from a dialog window.
    - the default value is "C:/MSC/StationManagerV2/PENGING_OUT"
@@ -56,3 +56,10 @@ Weather
    - SecretID
       - Provided by AerisWeather.com developer account.
    
+Import
+--------
+   - Import address.csv
+      - Selects address.csv file to import.  On slower computer a progress dialog may display while the import is preformed.
+   - Advanced
+      - Starts the 'Advanced Database Tool'
+      - Use this tool to import a user created CSV file with City, ST data.  Preforms an online lokup of City,St data and merges the result into the StationManager "Working_DB"
