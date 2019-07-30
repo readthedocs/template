@@ -10,12 +10,12 @@ Contents:
 
 .. toctree::
 
-   <Overview> readme
+   Overview <readme>
    installation
    settings
    usage
    authors
-   <ChangeLog> ChangeLog
+   ChangeLog <ChangeLog>
    
    :maxdepth: 2
    :glob:
