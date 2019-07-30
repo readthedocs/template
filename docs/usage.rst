@@ -30,4 +30,21 @@ NCSPro
 	- No additional features have been added at this time.
 	- SMv2 is depreciated software and further features are not being developed.
 	
+Calculator
+--------
+	Select two station by right clicking them or selecting them from the dropdown box.  Clicking calculate updates the distance and bearing readout.
+	
+Using the Mouse
+--------
+	- Left click centers the map in the point clicked.
+	- Right click selects that station in the calculator bar.
+	- Scroll wheel controls zoom level.
+	- Mouse forward and back buttons adjust font scalar.
+	- Left click and hold drags the map.
 
+Changing Maps
+--------
+	From the menu select Configure->Choose Map
+	- From this menu select the map you want displayed.
+	- Users can create their own maps using an EPSG:3857 projection saved as a bmp (bitmap) file.
+		- More info to follow.  This is not a simple process but users who are interested should start by downloading QGIS and creating a EPSG:3857 projection.
