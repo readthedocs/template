@@ -17,7 +17,7 @@ v0.314
 v0.313
  - Reworked MapperDBCreator into "Advance Database Tool v0.2"
   - This allows users to import a custom csv with city,st data.
-  - i.e. data from region roster excel file. 
+  - i.e. data from region roster excel file.
  - Requires internet connection.
  - Added 'point' to stations that are located with data from MapperDBCreator.exe 
  - Fixed R4_v2.bmp map metadata.  Stations are no longer slightly shifted to the northeast on this map. (this bugfix is available by update)
