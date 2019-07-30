@@ -29,7 +29,7 @@ The installation file is not kept up to date with the most current version.  Run
 Contribute
 ----------
 
-- Issue Tracker: github.com/Alex_Pennington/StationMapper/issues
+- Issue Tracker: https://github.com/Alex-Pennington/StationMapper-Docs/issues
 
 Support
 -------
