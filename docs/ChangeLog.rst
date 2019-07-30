@@ -17,7 +17,7 @@ v0.314
 v0.313
  - Reworked MapperDBCreator into "Advance Database Tool v0.2"
   - This allows users to import a custom csv with city,st data.
-  - i.e. data from region roster excel file. 
+  - i.e. data from region roster excel file.
  - Requires internet connection.
  - Added 'point' to stations that are located with data from MapperDBCreator.exe 
  - Fixed R4_v2.bmp map metadata.  Stations are no longer slightly shifted to the northeast on this map. (this bugfix is available by update)
@@ -38,7 +38,7 @@ v0.31 (Installer Version)
  - Using linked DLLs instead of standalone.exe files for coordinate conversion, results in a much faster conversion.
  - Update now allows for reinstall if major revision available.
  
- v0.3
+v0.3
  - Map display uses mouse to drag, center, and zoom map.
  - Added "Import address.csv" to replace MapperDBCreator.exe
  - Map has been updated to a EPSG:3857 projection, equirectangular.

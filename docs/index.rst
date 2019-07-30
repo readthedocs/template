@@ -9,6 +9,14 @@ Welcome to StationMappers's documentation!
 Contents:
 
 .. toctree::
+
+   Overview <readme>
+   installation
+   settings
+   usage
+   authors
+   ChangeLog <ChangeLog>
+   
    :maxdepth: 2
    :glob:
 
