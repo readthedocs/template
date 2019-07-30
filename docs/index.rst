@@ -10,7 +10,7 @@ Contents:
 
 .. toctree::
 
-   readme
+   <Overview> readme
    installation
    settings
    usage
