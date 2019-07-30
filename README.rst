@@ -12,14 +12,6 @@ Features
 - Mouse Forward and Back button change font scalar(size).
 - Calculator toolbar for distance and azimuth between two stations.
 
-Installation
-------------
-The installation files are available from:
-
-https://groups.io/g/StationMapper/files
-
-The installation file is not kept up to date with the most current version.  Run update after installing to get any bug fixes that have been released since the install file was created.
-
 Contribute
 ----------
 - Issue Tracker: https://github.com/Alex-Pennington/StationMapper-Docs/issues
