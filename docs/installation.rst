@@ -2,6 +2,8 @@
 Installation
 ============
 
-Install the package with pip::
+The installation files are available from:
 
-    $ pip install read-the-docs-template
+https://groups.io/g/StationMapper/files
+
+The installation file is not kept up to date with the most current version.  Run update after installing to get any bug fixes that have been released since the install file was created.
