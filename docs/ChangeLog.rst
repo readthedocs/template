@@ -38,7 +38,7 @@ v0.31 (Installer Version)
  - Using linked DLLs instead of standalone.exe files for coordinate conversion, results in a much faster conversion.
  - Update now allows for reinstall if major revision available.
  
- v0.3
+v0.3
  - Map display uses mouse to drag, center, and zoom map.
  - Added "Import address.csv" to replace MapperDBCreator.exe
  - Map has been updated to a EPSG:3857 projection, equirectangular.
