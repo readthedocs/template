@@ -24,6 +24,7 @@ ACPDeluxe
 NCSPro
 --------
 	Use NCSPro as described in it's documentation.
+	NCSPro does not auto-update StationMapper, rather StationMapper watches the PENDING_OUT folder for files with ROSTER in the filename and imports the newest file when changed.
  - Features
 	- Planning to add closed and relayed by feature
 	- No additional features have been added at this time.
