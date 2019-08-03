@@ -4,9 +4,14 @@ Configuration
 
 Configuration of settings is done through the menu Configure->Settings function.
 
-.. image:: ../images/Settings.png
+.. image:: ../images/settings_v_317.png
    :width: 404
-   
+
+Station Parameters
+--------
+   - Call sign, this is used for the centerpoint of the lightning radius (25mi).  This uses the location for the call sign from the database.
+   - Latitude/Longitude this is preffered over call sign for centerpoint of the lightning search radius.
+
 Select NCS Application
 --------
    - Choose either 'ACP Deluxe NCS' or 'StationManager v2 NCSPro'
@@ -49,6 +54,8 @@ Weather
    This feature is a limited resource, by signing up for your own AerisWeather.com developer account you can ease the burden on the developer of StationMapper (Please do this if you use this feature).  The account is free but requires renewal every two months.
    - Weather Checkbox
       - Displays weather radar overlay on map.
+   - Lightning
+      - Displays the number of lightning strikes within a 25mi raduis of you station.  Updates every 5 minutes with information for the last 5 minute period.  Also puts a point on the map in red denoting the strike location.
    - Signup for IDs
       - Opens URL to signup for API access tokens.
    - AccessID
