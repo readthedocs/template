@@ -1,7 +1,7 @@
 -----------
 CHANGE LOG
 -----------
-v0.316 (Not Yet Published)
+v0.316
  - Added feature, using ACPDeluxe NCS, stations marked closed now appear crossed out in red.
  - Added feature, using ACPDeluxe NCS, stations with status (T=4AA), denotes relayed by, now have a line drawn to that station.
  - Added feature, grey-line (solar terminator), updates every minute.
