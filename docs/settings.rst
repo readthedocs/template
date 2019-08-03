@@ -5,7 +5,7 @@ Configuration
 Configuration of settings is done through the menu Configure->Settings function.
 
 .. image:: ../images/settings_v_317.png
-   :width: 404
+   :width: 476
 
 Station Parameters
 --------
