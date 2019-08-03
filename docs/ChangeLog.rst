@@ -1,6 +1,11 @@
 -----------
 CHANGE LOG
 -----------
+v0.317
+ - Added ability to parse relayed by info from the "How Copy" field (using ACPDeluxe NCS)
+ - Added lightning data(requires internet).  
+ - Added tool tip display to some settings and statusbar items, more to follow.
+
 v0.316
  - Added feature, using ACPDeluxe NCS, stations marked closed now appear crossed out in red.
  - Added feature, using ACPDeluxe NCS, stations with status (T=4AA), denotes relayed by, now have a line drawn to that station.

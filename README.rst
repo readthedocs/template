@@ -9,8 +9,9 @@ Features
 - Import a custom csv with city,st data (requires internet).
 - Map display uses mouse to drag, center, and zoom map.
 - Maps can be user created or downloaded via update.
-- Mouse Forward and Back button change font scalar(size).
 - Calculator toolbar for distance and azimuth between two stations.
+- Weather radar and lightning map overlay.
+- Lightning near warning indicator.
 
 Contribute
 ----------
