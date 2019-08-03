@@ -43,7 +43,7 @@ Settings
       - Select is lines are drawn beteewn station that is relayed to its relay station.
    - Station Status
       - Closed stations are displayed in red and crossed out.
-      - Other funstions will be added. (after v0.316)
+      - Other functions will be added at a later date.
    - Grey Line
       - Displays the solar terminator on the map.
       - Currently a single line moving across the screen. (v0.316)
@@ -54,8 +54,12 @@ Weather
    This feature is a limited resource, by signing up for your own AerisWeather.com developer account you can ease the burden on the developer of StationMapper (Please do this if you use this feature).  The account is free but requires renewal every two months.
    - Weather Checkbox
       - Displays weather radar overlay on map.
-   - Lightning
-      - Displays the number of lightning strikes within a 25mi raduis of you station.  Updates every 5 minutes with information for the last 5 minute period.  Also puts a point on the map in red denoting the strike location.
+   - Lightning Strikes
+      - Also puts a small circle on the map denoting the strike location Updates every 5 minutes with information for the last 5 minute period.
+   - Lightning Summary
+      - Displays the numbers of strikes withing the summary radius for the last 5 minute period, updating every 5 minutes.
+   - Summary Raduis
+      - Set to a value bettween 50 and 800 miles.  Used with lightning summary.
    - Signup for IDs
       - Opens URL to signup for API access tokens.
    - AccessID
