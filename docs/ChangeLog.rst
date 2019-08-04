@@ -1,7 +1,7 @@
 -----------
 CHANGE LOG
 -----------
-v0.317
+v0.317 (Available via update)
  - Added ability to parse relayed by info from the "How Copy" field (using ACPDeluxe NCS)
  - Added lightning data(requires internet).  
  - Added tool tip display to some settings and statusbar items, more to follow.
@@ -15,7 +15,7 @@ v0.316
  - Linked the readthedocs page in the help menu.
  - Exported the readthedocs page to a PDF and linked it in the help menu.
 
-v0.315 (Available via update)
+v0.315
  - NOTICE! (Re)Import of address.csv required for v0.315 due to changes in text display orientation.
  - Changed orientation of text to be centered over location.
  - Added feature, right mouse click on station selects that station in the tool area dropdown box.
