@@ -9,7 +9,7 @@ Configuration of settings is done through the menu Configure->Settings function.
 
 Station Parameters
 --------
-   - Call sign, this is used for the centerpoint of the lightning radius (25mi).  This uses the location for the call sign from the database.
+   - Call sign, this is used for the centerpoint of the lightning summary radius.  This uses the location for the call sign from the database.
    - Latitude/Longitude this is preffered over call sign for centerpoint of the lightning search radius.
 
 Select NCS Application
