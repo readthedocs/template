@@ -55,7 +55,7 @@ Weather
    - Weather Checkbox
       - Displays weather radar overlay on map.
    - Lightning Strikes
-      - Also puts a small circle on the map denoting the strike location Updates every 5 minutes with information for the last 5 minute period.
+      - Displays a small circle on the map denoting the strike location Updates every 5 minutes with information for the last 5 minute period.
    - Lightning Summary
       - Displays the numbers of strikes withing the summary radius for the last 5 minute period, updating every 5 minutes.
    - Summary Raduis
