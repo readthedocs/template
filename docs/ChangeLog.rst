@@ -1,7 +1,22 @@
 -----------
 CHANGE LOG
 -----------
-v0.317 (Available via update)
+v0.3173 (Available via update)
+Fixed bugs regarding change of stations not in database.
+Added feature stations not in the database now displayed over the Gulf of Mexico.
+Added feature 'returned' status now returns closed stations to normal display text.
+Added debug feature "Copy Roster Log to Debug Folder"
+
+v0.3172
+Added warning dialog to alert user if database is outdated or corrupt.
+Started adding --debug command line flag to output log.txt file.
+
+v0.3171
+Fixed bug stations deleted from ACPD NCS were not removed from map.
+Fixed bug corrected stations were not updated on map.
+Fixed a few log folder portability bugs.
+
+v0.317
  - Added ability to parse relayed by info from the "How Copy" field (using ACPDeluxe NCS)
  - Added lightning data(requires internet).  
  - Added tool tip display to some settings and statusbar items, more to follow.
