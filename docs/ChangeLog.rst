@@ -11,8 +11,8 @@ v0.3173 (Installer Version)
 - Added debug feature "Copy Roster Log to Debug Folder"
 
 v0.3172
-Added warning dialog to alert user if database is outdated or corrupt.
-Started adding --debug command line flag to output log.txt file.
+ - Added warning dialog to alert user if database is outdated or corrupt.
+ - Started adding --debug command line flag to output log.txt file.
 
 v0.3171
  - Fixed bug stations deleted from ACPD NCS were not removed from map.
