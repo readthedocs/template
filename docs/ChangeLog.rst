@@ -15,7 +15,7 @@ v0.3172
  - Started adding --debug command line flag to output log.txt file.
 
 v0.3171
- - Fixed bug stations deleted from ACPD NCS were not removed from map.
+- Fixed bug stations deleted from ACPD NCS were not removed from map.
 - Fixed bug corrected stations were not updated on map.
 - Fixed a few log folder portability bugs.
 
