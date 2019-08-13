@@ -1,7 +1,7 @@
 -----------
 CHANGE LOG
 -----------
-V0.32
+V0.32 (Installer Version)(Available via update)
  - Bug fix: Program crashed when displaying the notice text and an update was available.
  - Updated Update.exe and StationMapper.exe to use SSL encryption when checking for updates.
 
@@ -9,10 +9,10 @@ V0.3175
  - Changed debug feature "Copy Roster Log to Debug Folder" to include encrypting snapshot.
  - Added RI_ParkingLot_Tool.exe for use with MMv3->ParkingLot routing.  Strips RIs from FL2 for outgoing messages.
 
-V0.3174 (Available via update)
+V0.3174
  - Added feature, check database for station CALLSIGN + /T, in case station was a /T when database was published.
 
-v0.3173 (Installer Version)
+v0.3173
 - Fixed bugs regarding change of stations not in database.
 - Added feature stations not in the database now displayed over the Gulf of Mexico.
 - Added feature 'returned' status now returns closed stations to normal display text.
