@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 17:28+0300\n"
+"POT-Creation-Date: 2019-08-14 17:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,20 +52,27 @@ msgid ""
 msgstr ""
 
 #: ../../new_project.rst:14
-msgid "Выбираем кодировку проекта."
+msgid ""
+"Выбираем параметр **Bind project to database connection / Привязать "
+"проект к подключению к БД**, если хотим работать только с одной базой "
+"данных."
 msgstr ""
 
 #: ../../new_project.rst:15
+msgid "Выбираем кодировку проекта."
+msgstr ""
+
+#: ../../new_project.rst:16
 msgid ""
 "Выбираем временную зону подключения к БД (имеется возможность получить из"
 " текущей БД). Данный шаг не доступен для проектов MS SQL."
 msgstr ""
 
-#: ../../new_project.rst:16
+#: ../../new_project.rst:17
 msgid "Нажимаем кнопку **Finish**."
 msgstr ""
 
-#: ../../new_project.rst:18
+#: ../../new_project.rst:19
 msgid ""
 "После короткого ожидания получаем новый проект и будет автоматически "
 "открыт :ref:`projEditor`."
