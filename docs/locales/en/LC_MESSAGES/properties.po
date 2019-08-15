@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-15 08:05\n"
+"PO-Revision-Date: 2019-08-15 08:13\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Project main settings"
 
 #: ../../properties.rst:12
 msgid "**Disable SQL parser for unrelated files opened in SQL Editor / Отключить SQL парсер для сторонних файлов, открытых в SQL редакторе** - позволяет отключить сборщик pgCodeKeeper для файлов проекта, находящихся вне стандартных директорий. Это отключает поиск ошибок и ссылок на объекты внутри этих файлов."
-msgstr ""
+msgstr "**Disable SQL parser for unrelated files opened in SQL Editor** allows disabling pgCodeKeeper builder of the project files, which are beyond standard directories. This disables the search for errors and object references within these files."
 
 #: ../../properties.rst:14
 msgid "**Use Unix-style newline characters / Использовать Unix символы переноса строк** - позволяет использовать Unix символы переноса в строках, например в телах функций, комментариях объектов и т.д."
@@ -43,11 +43,11 @@ msgstr ""
 
 #: ../../properties.rst:18
 msgid "**Timezone for all DB connections / Временная зона для всех соединений с БД** - позволяет выбрать, какую временную зону использовать при соединении с базами данных. Отсутствует для MS SQL проектов."
-msgstr ""
+msgstr "**Timezone for all DB connections** allows selecting, which time zone to use when connecting to databases. Not included for MS SQL projects."
 
 #: ../../properties.rst:20
 msgid "**Enable project specific settings / Переопределить глобальные настройки (только для текущего проекта)** - позволяет переопределить некоторые глобальные настройки для текущего проекта."
-msgstr ""
+msgstr "**Enable project specific settings** - allows enabling some of the global settings for the current project."
 
 #: ../../properties.rst:22
 msgid "**Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов** - позволяет отключить поиск различий в свойствах объектов, связанных с ролями БД."
@@ -127,7 +127,7 @@ msgstr "DB update"
 
 #: ../../properties.rst:78
 msgid "Настройки, управляющие обновлением базы данных, которые позволяют переопределить некоторые соответствующие настройки со страницы :ref:`dbUpdate`."
-msgstr ""
+msgstr "Database update managing settings, which allow enabling some of correlating settings from the :ref:`dbUpdate` page."
 
 #~ msgid ""
 #~ "**Библиотеки** - это подключаемые наборы "
