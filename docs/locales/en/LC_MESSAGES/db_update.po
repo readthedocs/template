@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:18+0300\n"
-"PO-Revision-Date: 2019-08-15 05:42\n"
+"PO-Revision-Date: 2019-08-15 05:54\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "To apply the migration script to the database, specify the method of its
 
 #: ../../db_update.rst:21
 msgid "После выбора способа обновления и ввода необходимых параметров нажмите кнопку Обновить DDL или горячей клавишей (по-умолчанию Ctrl+Alt+R). Скрипт наката будет применен для указанной базы данных. Текущий прогресс отображается в консоли pgCodeKeeper."
-msgstr ""
+msgstr "After selecting the update method and entering the necessary parameters, click Update DDL or use hotkey (Ctrl + Alt + R by default). Migration script will be applied to the specified database. You can see current progress in the pgCodeKeeper console."
 
 #: ../../db_update.rst:25
 msgid "Для большей гибкости имеется возможность наката выделенного фрагмента кода."
