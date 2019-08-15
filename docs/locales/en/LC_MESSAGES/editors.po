@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-15 05:54\n"
+"PO-Revision-Date: 2019-08-15 07:02\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "USER, ROLE, ASSEMBLY are supported additionally for **MS SQL**."
 
 #: ../../editors.rst:42
 msgid "Тип изменения - объект может находиться в трех состояниях: существовать только в базе данных, только в проекте или и в проекте и в базе данных. В зависимости от состояния и направления изменений, объекты в списке изменений помечаются как delete, add и edit или CREATE, DROP и ALTER соответственно."
-msgstr ""
+msgstr "Change type - an object can be in one of three conditions: exist only in a database, only in a project, or in both a project and a database. Depending on the condition and the direction of changes, objects in the list are marked as 'delete', 'add' and 'edit' or 'CREATE', 'DROP' and 'ALTER' respectively."
 
 #: ../../editors.rst:44
 msgid "Контейнер - имя родительского объекта, например для индекса - это имя таблицы или представления, которому он принадлежит."
