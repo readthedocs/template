@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-14 14:34\n"
+"PO-Revision-Date: 2019-08-15 05:42\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "On the task panel, click **Get changes**. After a short wait, the list o
 
 #: ../../project_update.rst:11
 msgid "Выбираем направление изменений **К проекту / To project**, флажками отмечаем необходимые изменения, нажимаем на кнопку **Применить / Apply**, открывается диалог **Подтвердите обновление проекта / Confirm Project Update**."
-msgstr ""
+msgstr "Select **To project** as the direction of changes, tick the necessary changes. After you click **Apply**, you will see the **Confirm Project Update** dialogue window."
 
 #: ../../project_update.rst:15
 msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
