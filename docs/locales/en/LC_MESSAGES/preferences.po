@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:50+0300\n"
-"PO-Revision-Date: 2019-08-14 15:00\n"
+"PO-Revision-Date: 2019-08-15 05:11\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -295,11 +295,11 @@ msgstr ""
 
 #: ../../preferences.rst:175
 msgid "https://jdbc.postgresql.org/documentation/head/connect.html (Для PostgreSQL)"
-msgstr ""
+msgstr "https://jdbc.postgresql.org/documentation/head/connect.html (For PostgreSQL)"
 
 #: ../../preferences.rst:176
 msgid "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-properties (Для MS SQL)"
-msgstr ""
+msgstr "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-properties (For MS SQL)"
 
 #: ../../preferences.rst:181
 msgid "**Use external DB loader instead of JDBC / Использовать внешний загрузчик pg_dump** - позволяет использовать внешний загрузчик для базы данных вместо JDBC."
