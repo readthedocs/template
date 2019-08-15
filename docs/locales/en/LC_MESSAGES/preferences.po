@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:50+0300\n"
-"PO-Revision-Date: 2019-08-15 07:24\n"
+"PO-Revision-Date: 2019-08-15 08:44\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "**Reuse compare editor instead of opening new ones** - allows using the 
 
 #: ../../preferences.rst:13
 msgid "**Ignore concurrent modification errors when reading DB / Игнорировать ошибки конкурентной модификации объектов при чтении БД** - позволяют игнорировать ошибки, возникающие при модификации объекта БД во время его чтения."
-msgstr "**Ignore concurrent modification errors when reading DB** - allow to ignore errors appearing when modifying a DB object while reading it."
+msgstr "**Ignore concurrent modification errors when reading DB** - allow ignoring errors appearing when modifying a DB object while reading it."
 
 #: ../../preferences.rst:18
 msgid "Исключенные объекты"
