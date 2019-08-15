@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:18+0300\n"
-"PO-Revision-Date: 2019-08-15 05:32\n"
+"PO-Revision-Date: 2019-08-15 05:42\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "On the action panel, click **Get changes**. After a short wait, the list
 
 #: ../../db_update.rst:11
 msgid "Выбираем направление изменений **БД / DB**, флажками отмечаем необходимые изменения, нажимаем на кнопку **Применить / Apply**."
-msgstr ""
+msgstr "Select **DB** as the direction of changes, tick the necessary changes and click **Apply**."
 
 #: ../../db_update.rst:13
 msgid "После окончания генерации скрипта откроется SQL редактор. Проверяем сгенерированный скрипт, при необходимости вносим изменения самостоятельно."
