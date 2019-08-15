@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:50+0300\n"
-"PO-Revision-Date: 2019-08-15 07:12\n"
+"PO-Revision-Date: 2019-08-15 07:24\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -283,7 +283,7 @@ msgstr "On the **pgCodeKeeper -> DB Store** settings page you can find the list 
 
 #: ../../preferences.rst:166
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль, а также включить запрет на запись в БД и выбрать тип БД (PostgreSQL или MS SQL). Для MS SQL можно указать домен. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**."
-msgstr ""
+msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear, in which you should specify the parameters of the connection data: host, port, DB name, user, password, as well as forbid recording to DB and select DB type (PostgreSQL or MS SQL). For MS SQL, you can specify a domain. You can specify the name of the record manually. To do this, disable the **Auto-generate** option."
 
 #: ../../preferences.rst:170
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
@@ -303,15 +303,15 @@ msgstr "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection
 
 #: ../../preferences.rst:181
 msgid "**Use external DB loader instead of JDBC / Использовать внешний загрузчик pg_dump** - позволяет использовать внешний загрузчик для базы данных вместо JDBC."
-msgstr ""
+msgstr "**Use external DB loader instead of JDBC** - allows using external database loader instead of JDBC."
 
 #: ../../preferences.rst:182
 msgid "**Loader executable / Исполняемый файл загрузчика** - путь к утилите, исполняемому файлу или скрипту, используемый для загрузки."
-msgstr ""
+msgstr "**Loader executable** - path to a utility, executable file or a script used for loading."
 
 #: ../../preferences.rst:183
 msgid "**Loader custom parameters / Дополнительные параметры загрузчика** - дополнительные параметры вызова утилиты."
-msgstr ""
+msgstr "**Loader custom parameters** - utility activation custom parameters."
 
 #: ../../preferences.rst:187
 msgid "Для добавления хранилища на основе данных из уже созданного хранилища следует выделить объект хранилища баз данных, нажать кнопку |copy|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
