@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2019-05-08 13:50\n"
+"POT-Creation-Date: 2019-08-14 17:18+0300\n"
+"PO-Revision-Date: 2019-08-15 05:54\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -22,30 +22,84 @@ msgid "Обновление удаленной базы данных"
 msgstr "Updating remote database"
 
 #: ../../db_update.rst:5
-msgid "На **тулбаре** указываем параметры для получения схемы БД, на основании которой будет сгенерирован DDL скрипт для применения изменений к удаленной базе данных."
-msgstr "On the **toolbar**, set the parameters for getting a DB schema basing on which a DDL script for applying changes to the remote database will be generated."
+msgid "На **Панель инструментов Eclipse** указываем параметры для получения схемы БД, на основании которой будет сгенерирован DDL скрипт для применения изменений к удаленной базе данных."
+msgstr "On the **Eclipse tool bar**, set the parameters for getting a DB schema basing on which a DDL script for applying changes to the remote database will be generated."
 
 #: ../../db_update.rst:7
-msgid "На панели действий нажимаем кнопку **Получить изменения**. После недолгого ожидания на панели различий отображается список объектов с указанием типа изменения."
+msgid "На панели действий нажимаем кнопку **Get changes / Получить изменения**. После недолгого ожидания на панели различий отображается список объектов с указанием типа изменения."
 msgstr "On the action panel, click **Get changes**. After a short wait, the list of objects with indication of change type will be displayed on the differences panel."
 
 #: ../../db_update.rst:11
-msgid "Флажками отмечаем объекты которые мы хотим обновить, нажимаем на кнопку **Применить к базе данных**."
-msgstr "Tick off the objects we would like to update and click **Apply to database**."
+msgid "Выбираем направление изменений **БД / DB**, флажками отмечаем необходимые изменения, нажимаем на кнопку **Применить / Apply**."
+msgstr "Select **DB** as the direction of changes, tick the necessary changes and click **Apply**."
 
 #: ../../db_update.rst:13
 msgid "После окончания генерации скрипта откроется SQL редактор. Проверяем сгенерированный скрипт, при необходимости вносим изменения самостоятельно."
 msgstr "When script generation is finished, SQL editor will open. Check the generated script, make changes manually if needed."
 
 #: ../../db_update.rst:17
-msgid "Для применения скрипта наката к базе данных необходимо указать способ его выполнения. По умолчанию используется обновление через JDBC. При необходимости использования другой утилиты или параметров запуска возможно можно использовать команду, настраиваемую на странице настроек :ref:`dbUpdate`."
-msgstr "For applying the migration script to the database, you must specify the method of its execution. Updating via JDBC is used by default. If you want to use another utility or bootup options it is possible to use the command customizible on the settings page :ref:`dbUpdate`."
+msgid "Для применения скрипта наката к базе данных необходимо указать способ его выполнения. По умолчанию используется обновление через JDBC. При необходимости использования другой утилиты или параметров запуска можно изменить настройки текущей БД. Подробнее :ref:`dbStore`."
+msgstr "To apply the migration script to the database, specify the method of its execution. Updating via JDBC is used by default. If you want to use another utility or bootup options it is possible to change settings of the current DB. See :ref:`dbStore` for more."
 
 #: ../../db_update.rst:21
-msgid "После выбора способа обновления и ввода необходимых параметров нажмите кнопку Обновить DDL или горячей клавишей (по-умолчанию Ctrl+Alt+R). Скрипт наката будет применен для указанной базы данных. В случае успешного применения изменений в консоли pgCodeKeeper появится соответствующее сообщение."
-msgstr "After selecting the update method and entering the necessary parameters, click Update DDL or use hotkey (Ctrl + Alt + R by default). Migration script will be applied to the specified database. If successful, a corresponding message will appear in the pgCodeKeeper console."
+msgid "После выбора способа обновления и ввода необходимых параметров нажмите кнопку Обновить DDL или горячей клавишей (по-умолчанию Ctrl+Alt+R). Скрипт наката будет применен для указанной базы данных. Текущий прогресс отображается в консоли pgCodeKeeper."
+msgstr "After selecting the update method and entering the necessary parameters, click Update DDL or use hotkey (Ctrl + Alt + R by default). Migration script will be applied to the specified database. You can see current progress in the pgCodeKeeper console."
 
-#: ../../db_update.rst:23
+#: ../../db_update.rst:25
 msgid "Для большей гибкости имеется возможность наката выделенного фрагмента кода."
 msgstr "For bigger flexibility, there is an opportunity of migration of a selected fragment of code."
+
+#~ msgid ""
+#~ "На **тулбаре** указываем параметры для "
+#~ "получения схемы БД, на основании которой"
+#~ " будет сгенерирован DDL скрипт для "
+#~ "применения изменений к удаленной базе "
+#~ "данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "На панели действий нажимаем кнопку "
+#~ "**Получить изменения**. После недолгого "
+#~ "ожидания на панели различий отображается "
+#~ "список объектов с указанием типа "
+#~ "изменения."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Флажками отмечаем объекты которые мы "
+#~ "хотим обновить, нажимаем на кнопку "
+#~ "**Применить к базе данных**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для применения скрипта наката к базе "
+#~ "данных необходимо указать способ его "
+#~ "выполнения. По умолчанию используется "
+#~ "обновление через JDBC. При необходимости "
+#~ "использования другой утилиты или параметров"
+#~ " запуска возможно можно использовать "
+#~ "команду, настраиваемую на странице настроек"
+#~ " :ref:`dbUpdate`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "После выбора способа обновления и ввода"
+#~ " необходимых параметров нажмите кнопку "
+#~ "Обновить DDL или горячей клавишей "
+#~ "(по-умолчанию Ctrl+Alt+R). Скрипт наката будет"
+#~ " применен для указанной базы данных. "
+#~ "В случае успешного применения изменений "
+#~ "в консоли pgCodeKeeper появится "
+#~ "соответствующее сообщение."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для применения скрипта наката к базе "
+#~ "данных необходимо указать способ его "
+#~ "выполнения. По умолчанию используется "
+#~ "обновление через JDBC. При необходимости "
+#~ "использования другой утилиты или параметров"
+#~ " запуска можно изменить настройки текущей"
+#~ " БД. Подробнее :ref:`:dbStore`."
+#~ msgstr ""
 

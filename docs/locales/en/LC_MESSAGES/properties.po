@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-13 11:49+0300\n"
-"PO-Revision-Date: 2019-05-08 13:49\n"
+"POT-Creation-Date: 2019-08-14 17:15+0300\n"
+"PO-Revision-Date: 2019-08-15 09:03\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -30,76 +30,104 @@ msgid "Основные настройки проекта"
 msgstr "Project main settings"
 
 #: ../../properties.rst:12
-msgid "**Disable SQL parser for unrelated files opened in SQL Editor / Отключить SQL парсер для сторонних файлов, открытых в SQL редакторе** - позволяет отключить сборщик pgCodeKeeper для файлов проекта, находящихся вне стандартных директорий (SCHEMA и EXTENSION). Это отключает поиск ошибок и ссылок на объекты внутри этих файлов."
-msgstr "**Disable SQL parser for unrelated files opened in SQL Editor** allows to disable pgCodeKeeper builder of the project files, which are beyond standard directories (SCHEMA and EXTENSION). This disables the search for errors and object references within these files."
+msgid "**Disable SQL parser for unrelated files opened in SQL Editor / Отключить SQL парсер для сторонних файлов, открытых в SQL редакторе** - позволяет отключить сборщик pgCodeKeeper для файлов проекта, находящихся вне стандартных директорий. Это отключает поиск ошибок и ссылок на объекты внутри этих файлов."
+msgstr "**Disable SQL parser for unrelated files opened in SQL Editor** allows disabling pgCodeKeeper builder of the project files, which are beyond standard directories. This disables the search for errors and object references within these files."
 
 #: ../../properties.rst:14
 msgid "**Use Unix-style newline characters / Использовать Unix символы переноса строк** - позволяет использовать Unix символы переноса в строках, например в телах функций, комментариях объектов и т.д."
 msgstr "**Use Unix-style newline characters** allows to use Unix hyphens in lines, for example, in function bodies, object commentaries etc."
 
 #: ../../properties.rst:16
-msgid "**Timezone for all DB connections / Временная зона для всех соединений с БД** - позволяет выбрать, какую временную зону использовать при соединении с базами данных."
-msgstr "**Timezone for all DB connections** allows to select, which time zone to use when connecting to databases."
+msgid "**Bind project to database connection / Привязать проект к подключению к БД** - позволяет привязать проект к конкретной БД. Для данного проекта станет невозможно изменить БД на **Панель инструментов Eclipse**."
+msgstr "**Bind project to database connection** - allows binding a project to a specific DB. It will be impossible to change DB to **Eclipse tool bar** for this project."
+
+#: ../../properties.rst:18
+msgid "**Timezone for all DB connections / Временная зона для всех соединений с БД** - позволяет выбрать, какую временную зону использовать при соединении с базами данных. Отсутствует для MS SQL проектов."
+msgstr "**Timezone for all DB connections** allows selecting, which time zone to use when connecting to databases. Not included for MS SQL projects."
 
 #: ../../properties.rst:20
+msgid "**Enable project specific settings / Переопределить глобальные настройки (только для текущего проекта)** - позволяет переопределить некоторые глобальные настройки для текущего проекта."
+msgstr "**Enable project specific settings** - allows enabling some of the global settings for the current project."
+
+#: ../../properties.rst:22
+msgid "**Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов** - позволяет отключить поиск различий в свойствах объектов, связанных с ролями БД."
+msgstr "**Ignore privileges and owners of database objects** - allows disabling the search for differences in the properties of the objects related to DB roles."
+
+#: ../../properties.rst:24
+msgid "**Use global ignore list / Использовать глобальный список игнорирования** - позволяет включить или отключить использование глобального списка различий со страницы настроек :ref:`ignoredObjects`."
+msgstr "**Use global ignore list** - allows enabling/disabling the usage of a global list of differences from the settings page :ref:`ignoredObjects`."
+
+#: ../../properties.rst:27
 msgid "Списки исключений"
 msgstr "Ignore Lists"
 
-#: ../../properties.rst:22
+#: ../../properties.rst:29
 msgid "Настройки, управляющие списками игнор файлов для данного проекта. Подробное описание работы со списками находится в разделе :ref:`ignoreList`."
 msgstr "Settings managing the lists of ignored files for current project. A detailed description of work with the lists see in :ref:`ignoreList`."
 
-#: ../../properties.rst:26
+#: ../../properties.rst:33
+msgid "Кнопка **Edit .pgcodekeeperignore / Редактировать .pgcodekeeperignore** позволяет изменить стандартный игнор файл, находящийся в корне проекта."
+msgstr "**Edit .pgcodekeeperignore** allows changing the default ignored file located in the project's root."
+
+#: ../../properties.rst:35
 msgid "Для добавления существующего файла нажмите кнопку |add_obj|."
 msgstr "To add an existing file, click |add_obj|."
 
-#: ../../properties.rst:28
+#: ../../properties.rst:37
 msgid "Для удаления файла нажмите кнопку |delete|."
 msgstr "To delete a file, click |delete|."
 
-#: ../../properties.rst:30
+#: ../../properties.rst:39
 msgid "Для создания нового файла нажмите кнопку |add_file|. Будет открыт редактор списка правил, аналогичный редактору на странице глобальных настроек :ref:`ignoredObjects`."
 msgstr "To create a new file, click |add_file|. The list of rules editor will open, similar to the one on the :ref:`ignoredObjects` global settings page."
 
-#: ../../properties.rst:34
+#: ../../properties.rst:43
 msgid "Для редактирования файла нажмите кнопку |editor_area|. Будет открыт редактор списка правил из текущего файла."
 msgstr "To edit a file, click |editor_area|. The editor of list of rules from current file will open."
 
-#: ../../properties.rst:44
+#: ../../properties.rst:53
 msgid "Библиотечные зависимости"
 msgstr "Library dependences"
 
-#: ../../properties.rst:46
+#: ../../properties.rst:55
 msgid "Настройки, управляющие библиотеками проекта."
 msgstr "Settings managing project libraries."
 
-#: ../../properties.rst:50
+#: ../../properties.rst:59
 msgid "**Библиотеки** - это подключаемые наборы данных объектов, которые \"*склеиваются*\" с объектами проекта при сравнении с удаленной базой данных. В качестве библиотек можно использовать директории (это может быть как другой pgCodeKeeper проект, так и обычная директория с файлами), дампы или же удаленная база данных. Кроме того, библиотеки возможно упаковать в zip-архив, загрузить на сервер, и подключить, указав URL архива. Для добавления библиотек воспользуйтесь соответствующими кнопками на боковой панели."
 msgstr "**Libraries** are plugged-in sets of object data which are \"*glued*\" with project objects during the comparison with the remote database. Directories (a regular directory with files as well as another pgCodeKeeper project), dumps or remote databases can serve as libraries. Besides, you can compress libraries into a zip-archive, upload them to a server and connect them by specifying the archive's URL. To add libraries, use corresponding buttons on the side panel."
 
-#: ../../properties.rst:53
+#: ../../properties.rst:62
 msgid "Библиотеки загружаются в порядке, в котором они указаны в списке (самая верхняя библиотека будет загружена первой). Для изменения порядка воспользуйтесь соответствующими кнопками на боковой панели."
 msgstr "The libraries are loaded in order, in which they are indicated in the list (the topmost library will be loaded first). To change the order, use corresponding buttons on the side panel."
 
-#: ../../properties.rst:55
+#: ../../properties.rst:64
 msgid "Столбец **Owner / Владелец** позволяет установить нового владельца для всех объектов библиотеки."
 msgstr "The **Owner** column allows setting a new owner for all the objects in the library."
 
-#: ../../properties.rst:57
+#: ../../properties.rst:66
 msgid "Если у библиотеки заполнен владелец, он будет отображен вне зависимости от прочих настроек pgCodeKeeper."
 msgstr "If a library already has an owner, this information will be displayed regardless of other pgCodeKeeper settings."
 
-#: ../../properties.rst:59
-msgid "Если вы не хотите использовать привилегии и владельцев объектов библиотеки, вы можете отключить их в столбце **Ignore privileges / Игнорировать привилегии**."
-msgstr "If you don't want to use privileges and library object owners, you can disable them in the **Ignore privileges** column."
+#: ../../properties.rst:68
+msgid "Если вы не хотите использовать привилегии и владельцев объектов библиотеки, вы можете отключить их в столбце **Ignore privileges/owners / Игнорировать привилегии/владельцев**."
+msgstr "If you don't want to use privileges and library object owners, you can disable them in the **Ignore privileges/owners** column."
 
-#: ../../properties.rst:61
+#: ../../properties.rst:70
 msgid "Если у библиотеки не игнорируются привилегии, они будут отображены вне зависимости от прочих настроек pgCodeKeeper."
 msgstr "If a library doesn't ignore privileges, they will be displayed regardless of other pgCodeKeeper settings."
 
-#: ../../properties.rst:63
+#: ../../properties.rst:72
 msgid "**Disallow overrides / Запретить переопределение.** Не исключена ситуация, когда проект и библиотека (или две библиотеки) содержат объекты с одинаковыми именами. Существует два варианта обработки таких ситуаций. При включенной настройке, такие конфликты вызывают остановку сравнения объектов. Отключенная настройка позволяет игнорировать конфликты: будет использован первый загруженный объект. Вне зависимости от настройки будет отображен вид :ref:`overrideView`, в котором будут отображены все конфликты."
 msgstr "**Disallow overrides.** There might be a situation when a project and a library (or two libraries) contain objects with the same names. There are two ways of processing such situations. When this settings is on, such conflicts will cause the object comparison to stop. When it's off, it will allow you to ignore the conflicts: the first loaded object will be used. Regardless of the settings, the :ref:`overrideView` view will be displayed, showing all the conflicts."
+
+#: ../../properties.rst:76
+msgid "Обновление БД"
+msgstr "DB update"
+
+#: ../../properties.rst:78
+msgid "Настройки, управляющие обновлением базы данных, которые позволяют переопределить некоторые соответствующие настройки со страницы :ref:`dbUpdate`."
+msgstr "Database update managing settings, which allow enabling some of correlating settings from the :ref:`dbUpdate` page."
 
 #~ msgid ""
 #~ "**Библиотеки** - это подключаемые наборы "
@@ -154,5 +182,33 @@ msgstr "**Disallow overrides.** There might be a situation when a project and a 
 #~ "владельцев объектов**, т.е. если у "
 #~ "библиотеки не игнорируются привилегии, они "
 #~ "будут отображены в любом случае."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Disable SQL parser for unrelated files"
+#~ " opened in SQL Editor / Отключить "
+#~ "SQL парсер для сторонних файлов, "
+#~ "открытых в SQL редакторе** - позволяет"
+#~ " отключить сборщик pgCodeKeeper для файлов"
+#~ " проекта, находящихся вне стандартных "
+#~ "директорий (SCHEMA и EXTENSION). Это "
+#~ "отключает поиск ошибок и ссылок на "
+#~ "объекты внутри этих файлов."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Timezone for all DB connections / "
+#~ "Временная зона для всех соединений с "
+#~ "БД** - позволяет выбрать, какую "
+#~ "временную зону использовать при соединении "
+#~ "с базами данных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Если вы не хотите использовать "
+#~ "привилегии и владельцев объектов библиотеки,"
+#~ " вы можете отключить их в столбце "
+#~ "**Ignore privileges / Игнорировать "
+#~ "привилегии**."
 #~ msgstr ""
 

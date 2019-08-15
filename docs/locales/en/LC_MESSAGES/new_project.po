@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2019-05-08 13:49\n"
+"POT-Creation-Date: 2019-08-14 17:15+0300\n"
+"PO-Revision-Date: 2019-08-15 07:02\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -46,18 +46,22 @@ msgid "Выбираем источник базы данных или отклю
 msgstr "Select the database source or disable the **Initialize project using database** parameter."
 
 #: ../../new_project.rst:14
+msgid "Выбираем параметр **Bind project to database connection / Привязать проект к подключению к БД**, если хотим работать только с одной базой данных."
+msgstr "Select **Bind project to database connection** if you want to work with only a single database."
+
+#: ../../new_project.rst:15
 msgid "Выбираем кодировку проекта."
 msgstr "Select the project's encoding."
 
-#: ../../new_project.rst:15
+#: ../../new_project.rst:16
 msgid "Выбираем временную зону подключения к БД (имеется возможность получить из текущей БД). Данный шаг не доступен для проектов MS SQL."
 msgstr "Select the timezone of the DB connection (you can get it from the current DB). This step is not available for MS SQL projects."
 
-#: ../../new_project.rst:16
+#: ../../new_project.rst:17
 msgid "Нажимаем кнопку **Finish**."
 msgstr "Click **Finish**."
 
-#: ../../new_project.rst:18
+#: ../../new_project.rst:19
 msgid "После короткого ожидания получаем новый проект и будет автоматически открыт :ref:`projEditor`."
 msgstr "After a short wait, a new project appears and :ref:`projEditor` opens automatically."
 

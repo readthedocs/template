@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 15:16+0300\n"
-"PO-Revision-Date: 2019-05-08 13:49\n"
+"POT-Creation-Date: 2019-08-14 17:15+0300\n"
+"PO-Revision-Date: 2019-08-15 05:42\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,8 @@ msgid "На панели задач нажимаем кнопку **Получи
 msgstr "On the task panel, click **Get changes**. After a short wait, the list of differences with indication of change type will be displayed on the differences panel."
 
 #: ../../project_update.rst:11
-msgid "Флажками отмечаем объекты, которые мы хотим обновить. Нажимаем на кнопку **Применить к проекту / Apply to project**, открывается диалог **Подтвердите обновление проекта / Confirm Project Update**."
-msgstr "Tick off the object which you want to update. After you click **Apply to project**, the **Confirm Project Update** dialogue will appear on the screen."
+msgid "Выбираем направление изменений **К проекту / To project**, флажками отмечаем необходимые изменения, нажимаем на кнопку **Применить / Apply**, открывается диалог **Подтвердите обновление проекта / Confirm Project Update**."
+msgstr "Select **To project** as the direction of changes, tick the necessary changes. After you click **Apply**, you will see the **Confirm Project Update** dialogue window."
 
 #: ../../project_update.rst:15
 msgid "Проверяем список объектов, выбранных пользователем, и список зависимых объектов. Будьте внимательны! Исключение объектов-зависимостей из обновления может привести к ошибкам или неожиданным результатам."
@@ -62,5 +62,14 @@ msgstr "**Project file update resets the differences list.**"
 #~ "хотим обновить. Нажимаем на кнопку "
 #~ "**Применить к проекту**, открывается **диалог"
 #~ " обновления проекта**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Флажками отмечаем объекты, которые мы "
+#~ "хотим обновить. Нажимаем на кнопку "
+#~ "**Применить к проекту / Apply to "
+#~ "project**, открывается диалог **Подтвердите "
+#~ "обновление проекта / Confirm Project "
+#~ "Update**."
 #~ msgstr ""
 
