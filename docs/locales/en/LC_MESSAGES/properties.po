@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-14 14:34\n"
+"PO-Revision-Date: 2019-08-15 08:05\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -123,7 +123,7 @@ msgstr "**Disallow overrides.** There might be a situation when a project and a 
 
 #: ../../properties.rst:76
 msgid "Обновление БД"
-msgstr ""
+msgstr "DB update"
 
 #: ../../properties.rst:78
 msgid "Настройки, управляющие обновлением базы данных, которые позволяют переопределить некоторые соответствующие настройки со страницы :ref:`dbUpdate`."
