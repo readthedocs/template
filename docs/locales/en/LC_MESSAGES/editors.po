@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-14 14:34\n"
+"PO-Revision-Date: 2019-08-15 05:42\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../editors.rst:31
 msgid "Переключить направление изменений"
-msgstr ""
+msgstr "Switch direction of changes"
 
 #: ../../editors.rst:32
 msgid "Получить изменения"
