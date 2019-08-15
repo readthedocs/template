@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:18+0300\n"
-"PO-Revision-Date: 2019-08-15 05:11\n"
+"PO-Revision-Date: 2019-08-15 05:32\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "When script generation is finished, SQL editor will open. Check the gene
 
 #: ../../db_update.rst:17
 msgid "Для применения скрипта наката к базе данных необходимо указать способ его выполнения. По умолчанию используется обновление через JDBC. При необходимости использования другой утилиты или параметров запуска можно изменить настройки текущей БД. Подробнее :ref:`dbStore`."
-msgstr ""
+msgstr "To apply the migration script to the database, specify the method of its execution. Updating via JDBC is used by default. If you want to use another utility or bootup options it is possible to change settings of the current DB. See :ref:`dbStore` for more."
 
 #: ../../db_update.rst:21
 msgid "После выбора способа обновления и ввода необходимых параметров нажмите кнопку Обновить DDL или горячей клавишей (по-умолчанию Ctrl+Alt+R). Скрипт наката будет применен для указанной базы данных. Текущий прогресс отображается в консоли pgCodeKeeper."
