@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-15 08:13\n"
+"PO-Revision-Date: 2019-08-15 08:34\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "**Enable project specific settings** - allows enabling some of the globa
 
 #: ../../properties.rst:22
 msgid "**Ignore privileges and owners of database objects / Не учитывать привилегии и владельцев объектов** - позволяет отключить поиск различий в свойствах объектов, связанных с ролями БД."
-msgstr ""
+msgstr "**Ignore privileges and owners of database objects** - allows disabling the search for differences in the properties of the objects related to DB roles."
 
 #: ../../properties.rst:24
 msgid "**Use global ignore list / Использовать глобальный список игнорирования** - позволяет включить или отключить использование глобального списка различий со страницы настроек :ref:`ignoredObjects`."
@@ -111,7 +111,7 @@ msgstr "If a library already has an owner, this information will be displayed re
 
 #: ../../properties.rst:68
 msgid "Если вы не хотите использовать привилегии и владельцев объектов библиотеки, вы можете отключить их в столбце **Ignore privileges/owners / Игнорировать привилегии/владельцев**."
-msgstr ""
+msgstr "If you don't want to use privileges and library object owners, you can disable them in the **Ignore privileges/owners** column."
 
 #: ../../properties.rst:70
 msgid "Если у библиотеки не игнорируются привилегии, они будут отображены вне зависимости от прочих настроек pgCodeKeeper."
