@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-15 08:34\n"
+"PO-Revision-Date: 2019-08-15 08:44\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "**Use Unix-style newline characters** allows to use Unix hyphens in line
 
 #: ../../properties.rst:16
 msgid "**Bind project to database connection / Привязать проект к подключению к БД** - позволяет привязать проект к конкретной БД. Для данного проекта станет невозможно изменить БД на **Панель инструментов Eclipse**."
-msgstr ""
+msgstr "**Bind project to database connection** - allows binding a project to a specific DB. It will be impossible to change DB to **Eclipse tool bar** for this project."
 
 #: ../../properties.rst:18
 msgid "**Timezone for all DB connections / Временная зона для всех соединений с БД** - позволяет выбрать, какую временную зону использовать при соединении с базами данных. Отсутствует для MS SQL проектов."
@@ -67,7 +67,7 @@ msgstr "Settings managing the lists of ignored files for current project. A deta
 
 #: ../../properties.rst:33
 msgid "Кнопка **Edit .pgcodekeeperignore / Редактировать .pgcodekeeperignore** позволяет изменить стандартный игнор файл, находящийся в корне проекта."
-msgstr ""
+msgstr "**Edit .pgcodekeeperignore** allows changing the default ignored file located in the project's root."
 
 #: ../../properties.rst:35
 msgid "Для добавления существующего файла нажмите кнопку |add_obj|."
