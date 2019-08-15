@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-15 08:44\n"
+"PO-Revision-Date: 2019-08-15 09:03\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "**Ignore privileges and owners of database objects** - allows disabling 
 
 #: ../../properties.rst:24
 msgid "**Use global ignore list / Использовать глобальный список игнорирования** - позволяет включить или отключить использование глобального списка различий со страницы настроек :ref:`ignoredObjects`."
-msgstr ""
+msgstr "**Use global ignore list** - allows enabling/disabling the usage of a global list of differences from the settings page :ref:`ignoredObjects`."
 
 #: ../../properties.rst:27
 msgid "Списки исключений"
