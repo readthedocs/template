@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-14 14:34\n"
+"PO-Revision-Date: 2019-08-15 07:02\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Select the database source or disable the **Initialize project using dat
 
 #: ../../new_project.rst:14
 msgid "Выбираем параметр **Bind project to database connection / Привязать проект к подключению к БД**, если хотим работать только с одной базой данных."
-msgstr ""
+msgstr "Select **Bind project to database connection** if you want to work with only a single database."
 
 #: ../../new_project.rst:15
 msgid "Выбираем кодировку проекта."
