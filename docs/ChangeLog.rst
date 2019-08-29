@@ -1,7 +1,19 @@
 -----------
 CHANGE LOG
 -----------
-V0.32 (Installer Version)(Available via update)
+v0.42
+ - Added feature, cyclone tracks overlay.
+
+v0.41
+ - Added Maps for each region.
+ - Added ability to delete Coverage Maps.
+
+v0.4
+ - Changed settings to ini file vs registry to make application more portable to off-line users.
+ - Added feature, propagation coverage area prediction map overlay.
+ - Added feature, channel reliability graph.
+
+V0.32
  - Bug fix: Program crashed when displaying the notice text and an update was available.
  - Updated Update.exe and StationMapper.exe to use SSL encryption when checking for updates.
 
