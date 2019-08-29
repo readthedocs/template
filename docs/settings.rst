@@ -42,6 +42,9 @@ General Parameters Tab
       - Currently a single line moving across the screen. (v0.316)
       - Will provide more options for this feature at a later time.
 
+.. image:: ../images/Settings_Station.png
+   :width: 476
+
 Station Tab
 --------
    - Call sign
@@ -58,6 +61,9 @@ Station Tab
    - Transmit Antenna Model
      - These are taken directly from the VOACAP library.  Users that have experiance with creating VOACAP antenna models can place their custom models in the samples folder and they will be loaded automatically during startup.
 
+.. image:: ../images/Settings_Weather.png
+   :width: 476
+
 Weather Tab
 --------
    This feature is a limited resource, by signing up for your own AerisWeather.com developer account you can ease the burden on the developer of StationMapper (Please do this if you use this feature).  The account is free but requires renewal every two months.
@@ -66,7 +72,7 @@ Weather Tab
    - Lightning Strikes
       - Displays a small circle on the map denoting the strike location Updates every 5 minutes with information for the last 5 minute period.
    - Cyclone
-     - Displays an overlay of any cyclone tracks and error cones that are active.
+      - Displays an overlay of any cyclone tracks and error cones that are active.
    - Lightning Summary
       - Displays the numbers of strikes withing the summary radius for the last 5 minute period, updating every 5 minutes.
    - Summary Raduis
@@ -77,7 +83,10 @@ Weather Tab
       - Provided by AerisWeather.com developer account.
    - SecretID
       - Provided by AerisWeather.com developer account.
-   
+
+.. image:: ../images/Settings_Database.png
+   :width: 476
+
 Database Tab
 --------
    - Import address.csv
