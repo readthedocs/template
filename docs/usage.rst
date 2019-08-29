@@ -29,26 +29,23 @@ NCSPro
 	- Planning to add closed and relayed by feature
 	- No additional features have been added at this time.
 	- SMv2 is depreciated software and further features are not being developed.
-	
+
 Calculator
 --------
         - Select two stations by right clicking them or selecting them from the dropdown box.  Distance and bearing are automatically updated each time the station changes.
-        
-Channel and Frequency Graphs
---------
 
 Propagation Graphs
 --------
 
 .. image:: ../images/SMapper_v_42_PropagationTab.png
    :width: 604
-   
-   - Graphs are calculated based on:
-            - The entered noise floor in dBm.
-            - Using ideal horizontal dipoles pointed at each other.
-            - Using the power selected in staiton parameters.
-          - Graphs are displayed on the Progagation tab in the main windows.
-          - Right clicking on the graph will allow you to close the graph.
+
+ - Graphs are calculated based on:
+        - The entered noise floor in dBm.
+        - Using ideal horizontal dipoles pointed at each other.
+        - Using the power selected in staiton parameters.
+        - Graphs are displayed on the Progagation tab in the main windows.
+        - Right clicking on the graph will allow you to close the graph.
 
 Coverage Area Overlays
 --------
@@ -56,11 +53,12 @@ Coverage Area Overlays
 .. image:: ../images/SMapper_v_42_Coverage.png
    :width: 604
 
-          - When you click the Coverage button you will be asked for the channel you want the overlay for.
-          - Up to ten overlays can be loaded at one time.
-          - You can change the current overlay by clicking on the selector buttons under the claculator row.
-          - The button highlighted in green is the currently displayed overlay.
-          - Right clicking on an overlay selection button will allow you to close an overlay.
+ - Overlays
+        - When you click the Coverage button you will be asked for the channel you want the overlay for.
+        - Up to ten overlays can be loaded at one time.
+        - You can change the current overlay by clicking on the selector buttons under the claculator row.
+        - The button highlighted in green is the currently displayed overlay.
+        - Right clicking on an overlay selection button will allow you to close an overlay.
 
 
 Using the Mouse
