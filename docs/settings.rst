@@ -4,11 +4,12 @@ Configuration
 
 Configuration of settings is done through the menu Configure->Settings function.
 
+General Parameters Tab
+--------
+
 .. image:: ../images/Settings_General.png
    :width: 476
 
-General Parameters Tab
---------
  - Select NCS Application
    - Choose either 'ACP Deluxe NCS' or 'StationManager v2 NCSPro'
    - Changing this setting forces StationMapper to restart.
@@ -42,11 +43,12 @@ General Parameters Tab
       - Currently a single line moving across the screen. (v0.316)
       - Will provide more options for this feature at a later time.
 
+Station Tab
+--------
+
 .. image:: ../images/Settings_Station.png
    :width: 476
 
-Station Tab
---------
    - Call sign
      - This is used for the centerpoint of the lightning summary radius and propagation coverage overlay.  This uses the location for the call sign from the database.
    - Latitude/Longitude this is preffered over call sign for centerpoint of the lightning search radius.
@@ -61,11 +63,12 @@ Station Tab
    - Transmit Antenna Model
      - These are taken directly from the VOACAP library.  Users that have experiance with creating VOACAP antenna models can place their custom models in the samples folder and they will be loaded automatically during startup.
 
+Weather Tab
+--------
+
 .. image:: ../images/Settings_Weather.png
    :width: 476
 
-Weather Tab
---------
    This feature is a limited resource, by signing up for your own AerisWeather.com developer account you can ease the burden on the developer of StationMapper (Please do this if you use this feature).  The account is free but requires renewal every two months.
    - Radar Checkbox
       - Displays weather radar overlay on map.
@@ -84,11 +87,12 @@ Weather Tab
    - SecretID
       - Provided by AerisWeather.com developer account.
 
+Database Tab
+--------
+
 .. image:: ../images/Settings_Database.png
    :width: 476
 
-Database Tab
---------
    - Import address.csv
       - Selects address.csv file to import.  On slower computer a progress dialog may display while the import is preformed.
    - Import channel.csv
