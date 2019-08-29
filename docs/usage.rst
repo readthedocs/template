@@ -37,21 +37,18 @@ Calculator
 Propagation Graphs
 --------
 
-.. image:: ../images/SMapper_v_42_PropagationTab.png
-   :width: 604
-
  - Graphs are calculated based on:
         - The entered noise floor in dBm.
         - Using ideal horizontal dipoles pointed at each other.
         - Using the power selected in staiton parameters.
         - Graphs are displayed on the Progagation tab in the main windows.
         - Right clicking on the graph will allow you to close the graph.
+        
+.. image:: ../images/SMapper_v_42_PropagationTab.png
+   :width: 604
 
 Coverage Area Overlays
 --------
-
-.. image:: ../images/SMapper_v_42_Coverage.png
-   :width: 604
 
  - Overlays
         - When you click the Coverage button you will be asked for the channel you want the overlay for.
@@ -60,6 +57,8 @@ Coverage Area Overlays
         - The button highlighted in green is the currently displayed overlay.
         - Right clicking on an overlay selection button will allow you to close an overlay.
 
+.. image:: ../images/SMapper_v_42_Coverage.png
+   :width: 604        
 
 Using the Mouse
 --------
