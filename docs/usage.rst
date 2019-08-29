@@ -33,22 +33,26 @@ NCSPro
 Calculator
 --------
         - Select two stations by right clicking them or selecting them from the dropdown box.  Distance and bearing are automatically updated each time the station changes.
-        - Channel and Frequency Graphs are calculated based on the stations selected to the left.
+        
+Channel and Frequency Graphs
+--------
 
 .. image:: ../images/SMapper_v_42_PropagationTab.png
    :width: 604
-
-          - Graphs are calculated based on:
+   
+   - Graphs are calculated based on:
             - The entered noise floor in dBm.
             - Using ideal horizontal dipoles pointed at each other.
             - Using the power selected in staiton parameters.
           - Graphs are displayed on the Progagation tab in the main windows.
           - Right clicking on the graph will allow you to close the graph.
-        - Coverage Area Overlays
-
+        
+Coverage Area Overlays
+--------
+	
 .. image:: ../images/SMapper_v_42_Coverage.png
    :width: 604
-
+   
           - When you click the Coverage button you will be asked for the channel you want the overlay for.
           - Up to ten overlays can be loaded at one time.
           - You can change the current overlay by clicking on the selector buttons under the claculator row.
