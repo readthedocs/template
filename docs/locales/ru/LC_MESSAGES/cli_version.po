@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-13 07:13+0300\n"
+"POT-Creation-Date: 2019-09-04 10:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../cli_version.rst:5
 msgid "CLI версия"
@@ -50,11 +50,21 @@ msgstr ""
 msgid "создания скриптов наката с использованием соединений к базам данных"
 msgstr ""
 
-#: ../../cli_version.rst:16
+#: ../../cli_version.rst:14
+msgid "просмотра зависимостей объектов"
+msgstr ""
+
+#: ../../cli_version.rst:17
 msgid "Начало работы"
 msgstr ""
 
-#: ../../cli_version.rst:18
+#: ../../cli_version.rst:19
+msgid ""
+"Для начала необходимо установить `Java SDK <https://adoptopenjdk.net/>`_ "
+"для вашей платформы."
+msgstr ""
+
+#: ../../cli_version.rst:21
 msgid ""
 "Последнюю версию cli сборки можно скачать `здесь "
 "<https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В "
@@ -63,27 +73,58 @@ msgid ""
 "Windows систем."
 msgstr ""
 
-#: ../../cli_version.rst:20
+#: ../../cli_version.rst:23
 msgid ""
 "Набор параметров, доступных для работы с программой Вы можете посмотреть "
 "выполнив команду:"
 msgstr ""
 
-#: ../../cli_version.rst:27
+#: ../../cli_version.rst:30
 msgid "Примеры"
 msgstr ""
 
-#: ../../cli_version.rst:33
+#: ../../cli_version.rst:32
 msgid ""
-"После выполнения этой команды в файл diff.sql будет записан скрипт "
-"миграции различий из проекта в директории test1 в базу данных testdb1 на "
-"сервере localhost:5432."
+"Запись в файл diff.sql скрипт миграции различий из проекта в директории "
+"test1 в базу данных testdb1 на сервере localhost:5432:"
 msgstr ""
 
-#: ../../cli_version.rst:39
+#: ../../cli_version.rst:38
 msgid ""
-"После выполнения этой команды в консоли будет выведен скрипт миграции из "
-"файла backup в проект в директории test1."
+"Вывод в консоль скрипт миграции из файла backup в проект в директории "
+"test1:"
+msgstr ""
+
+#: ../../cli_version.rst:44
+msgid ""
+"Создание проекта в директорию test1 на основе базы данных testdb1 на "
+"сервере localhost:5432:"
+msgstr ""
+
+#: ../../cli_version.rst:50
+msgid ""
+"Отображение дерева зависимостей базы данных testdb1 на сервере "
+"localhost:5432:"
+msgstr ""
+
+#: ../../cli_version.rst:56
+msgid ""
+"Отображение дерева объектов, от которых зависят объекты с именами t1 и t2"
+" в базе данных testdb1 на сервере localhost:5432:"
+msgstr ""
+
+#: ../../cli_version.rst:63
+msgid "Все параметры после специального параметра *-vmargs* будут переданы VM."
+msgstr ""
+
+#: ../../cli_version.rst:65
+msgid "Использование с ограничениями потребляемой памяти:"
+msgstr ""
+
+#: ../../cli_version.rst:71
+msgid ""
+"Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать "
+"количество потоков парсера:"
 msgstr ""
 
 #~ msgid "./pgcodekeeper-cli.sh --help"
@@ -114,5 +155,20 @@ msgstr ""
 #~ msgid ""
 #~ "``./pgcodekeeper-cli.sh /home/codekeeper/backup.sql "
 #~ "/home/codekeeper/projects/test1/``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "После выполнения этой команды в файл "
+#~ "diff.sql будет записан скрипт миграции "
+#~ "различий из проекта в директории test1"
+#~ " в базу данных testdb1 на сервере "
+#~ "localhost:5432."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "После выполнения этой команды в консоли"
+#~ " будет выведен скрипт миграции из "
+#~ "файла backup в проект в директории "
+#~ "test1."
 #~ msgstr ""
 
