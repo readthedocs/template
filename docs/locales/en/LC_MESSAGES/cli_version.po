@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 10:13+0300\n"
-"PO-Revision-Date: 2019-09-04 08:32\n"
+"PO-Revision-Date: 2019-09-04 08:45\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -75,11 +75,11 @@ msgstr "Entering migration script from the backup file in the project of the tes
 
 #: ../../cli_version.rst:44
 msgid "Создание проекта в директорию test1 на основе базы данных testdb1 на сервере localhost:5432:"
-msgstr ""
+msgstr "Creation of the project in the test1 directory basing on the testdb1 database on the localhost:5432 server:"
 
 #: ../../cli_version.rst:50
 msgid "Отображение дерева зависимостей базы данных testdb1 на сервере localhost:5432:"
-msgstr ""
+msgstr "Displaying the dependences tree of the testdb1 database on the localhost:5432 server:"
 
 #: ../../cli_version.rst:56
 msgid "Отображение дерева объектов, от которых зависят объекты с именами t1 и t2 в базе данных testdb1 на сервере localhost:5432:"
