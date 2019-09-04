@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 10:13+0300\n"
-"PO-Revision-Date: 2019-09-04 08:12\n"
+"PO-Revision-Date: 2019-09-04 08:22\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "Examples"
 
 #: ../../cli_version.rst:32
 msgid "Запись в файл diff.sql скрипт миграции различий из проекта в директории test1 в базу данных testdb1 на сервере localhost:5432:"
-msgstr ""
+msgstr "Writing migration script of the differences from the project in the test1 directory into the testdb1 database on the localhost:5432 server into the diff.sql file:"
 
 #: ../../cli_version.rst:38
 msgid "Вывод в консоль скрипт миграции из файла backup в проект в директории test1:"
