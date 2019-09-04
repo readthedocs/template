@@ -8,6 +8,7 @@ Welcome to Read the Docs Template's documentation!
 
 Contents:
 
+.. diagramas::
 .. toctree::
    :maxdepth: 2
    :glob:
