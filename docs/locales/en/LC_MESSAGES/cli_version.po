@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-04 10:13+0300\n"
-"PO-Revision-Date: 2019-09-04 09:13\n"
+"PO-Revision-Date: 2019-09-05 08:42\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "Usage with restrictions of the memory used:"
 
 #: ../../cli_version.rst:71
 msgid "Параметр VM *ru.taximaxim.codekeeper.parser.poolsize* позволяет указать количество потоков парсера:"
-msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows specifying the number of parser flows:"
+msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows specifying the number of parser threads:"
 
 #~ msgid "./pgcodekeeper-cli.sh --help"
 #~ msgstr ""
