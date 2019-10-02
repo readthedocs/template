@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 17:21+0300\n"
-"PO-Revision-Date: 2019-10-01 14:35\n"
+"PO-Revision-Date: 2019-10-02 04:21\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "You can specify the objects that should not be considered when comparing
 
 #: ../../preferences.rst:24
 msgid "Для добавления объекта в список исключенных или удаления из него, служат кнопки |add_obj| и |delete| соответственно."
-msgstr ""
+msgstr "To add or remove an object to the list of excluded, use the |add_obj| and |delete| buttons respectively."
 
 #: ../../preferences.rst:26
 msgid "При добавлении объекта в список исключенных можно выставить дополнительные настройки, которые влияют на исключение объекта при сравнении:"
