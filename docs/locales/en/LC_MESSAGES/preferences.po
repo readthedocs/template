@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 17:21+0300\n"
-"PO-Revision-Date: 2019-10-02 05:11\n"
+"PO-Revision-Date: 2019-10-02 05:22\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -163,7 +163,7 @@ msgstr "**Print ALTER COLUMN ... TYPE ... with USING expression** – allows to 
 
 #: ../../preferences.rst:84
 msgid "**Print CREATE INDEX CONCURRENTLY (without locks) / Печатать CREATE INDEX CONCURRENTLY (без блокировок)** – позволяет в скриптах создавать индексы в режиме CONCURRENTLY."
-msgstr ""
+msgstr "**Print CREATE INDEX CONCURRENTLY (without locks)** – allows creating indexes in the CONCURRENTLY mode in scripts."
 
 #: ../../preferences.rst:85
 msgid "**Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
