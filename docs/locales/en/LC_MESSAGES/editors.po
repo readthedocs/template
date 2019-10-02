@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 17:21+0300\n"
-"PO-Revision-Date: 2019-10-01 14:34\n"
+"PO-Revision-Date: 2019-10-02 04:21\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../editors.rst:3
 msgid "Редакторы и панели"
-msgstr ""
+msgstr "Editors and panels"
 
 #: ../../editors.rst:8
 msgid "Редактор проекта pgCodeKeeper"
@@ -215,11 +215,11 @@ msgstr "Right-click menu allows you to open both versions of the object, as well
 
 #: ../../editors.rst:125
 msgid "Результат запроса"
-msgstr ""
+msgstr "Query result"
 
 #: ../../editors.rst:127
 msgid "Панель **Query result / Результат запроса** отображает результат запросов. Каждый запрос отображается отдельной вкладкой."
-msgstr ""
+msgstr "**Query result** panel displays query results. Each query is displayed in a separate tab."
 
 #~ msgid "Применить изменения к проекту"
 #~ msgstr ""
