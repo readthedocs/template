@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 17:21+0300\n"
-"PO-Revision-Date: 2019-10-02 05:01\n"
+"PO-Revision-Date: 2019-10-02 05:11\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "**Enable full dependencies from bodies of functions and procedures (expe
 
 #: ../../preferences.rst:14
 msgid "**Simple formatting for VIEVs when reading via JDBC (not recommended by PostgreSQL) / Упрощенное форматирование представлений при чтении через JDBC (не рекомендовано PostgreSQL)** - позволяет использовать упрощенное форматирование представлений, убирая лишние скобки в выражениях. Данный формат может не поддерживаться в будущих версиях PostgeSQL."
-msgstr ""
+msgstr "**Simple formatting for VIEVs when reading via JDBC (not recommended by PostgreSQL)** - allows using simplified view editing, where all unnecessary brackets are removed from the expression. This format might not be supported in the further PostgeSQL versions."
 
 #: ../../preferences.rst:15
 msgid "**Ignore concurrent modification errors when reading DB / Игнорировать ошибки конкурентной модификации объектов при чтении БД** - позволяют игнорировать ошибки, возникающие при модификации объекта БД во время его чтения."
