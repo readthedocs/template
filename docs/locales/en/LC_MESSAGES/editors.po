@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 17:15+0300\n"
-"PO-Revision-Date: 2019-08-15 07:02\n"
+"POT-Creation-Date: 2019-10-01 17:21+0300\n"
+"PO-Revision-Date: 2019-10-02 06:01\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Language: en_US\n"
 
 #: ../../editors.rst:3
-msgid "Виды и редакторы"
-msgstr "Views and editors"
+msgid "Редакторы и панели"
+msgstr "Editors and views"
 
 #: ../../editors.rst:8
 msgid "Редактор проекта pgCodeKeeper"
@@ -50,8 +50,8 @@ msgid "Счетчик объектов"
 msgstr "Object counter"
 
 #: ../../editors.rst:20
-msgid "**Панель инструментов Eclipse** содержит инструменты для выбора источника данных, с которым предстоит работать."
-msgstr "**Eclipse tool bar** contains tools for selecting the source of data you are going to work with."
+msgid "**Панель инструментов Eclipse** содержит инструменты для выбора источника данных, с которым предстоит работать. Кнопка |file| позволяет открыть новый :ref:`sqlEditor`."
+msgstr "**Eclipse tool bar** contains tools for selecting the source of data you are going to work with. The |file| button allows you to open a new :ref:`sqlEditor`."
 
 #: ../../editors.rst:22
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
@@ -166,7 +166,7 @@ msgid "Просмотр зависимостей объекта БД"
 msgstr "Viewing the dependences of DB objects"
 
 #: ../../editors.rst:88
-msgid "Вид **pg Dependencies / pg Зависимости** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
+msgid "Панель **pg Dependencies / pg Зависимости** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
 msgstr "The **pg Dependencies** view shows the dependencies containing the current object selected on the diff panel of the active project editor."
 
 #: ../../editors.rst:92
@@ -202,7 +202,7 @@ msgid "Переопределенные объекты"
 msgstr "Object overrides"
 
 #: ../../editors.rst:113
-msgid "Вид **Object overrides / Переопределенные объекты** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
+msgid "Панель **Object overrides / Переопределенные объекты** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
 msgstr "The **Object overrides** view displays the list of overridden objects in libraries for the active project editor. This view is displayed automatically when receiving changes if there is at least one conflict present."
 
 #: ../../editors.rst:117
@@ -212,6 +212,14 @@ msgstr "The |sync| button shows the notes concerning only the objects selected o
 #: ../../editors.rst:121
 msgid "Контекстное меню позволяет открыть обе версии объекта, а также просмотреть различия в специальном редакторе сравнения."
 msgstr "Right-click menu allows you to open both versions of the object, as well as to view the differences in a dedicated comparison editor."
+
+#: ../../editors.rst:125
+msgid "Результат запроса"
+msgstr "Query result"
+
+#: ../../editors.rst:127
+msgid "Панель **Query result / Результат запроса** отображает результат запросов. Каждый запрос отображается отдельной вкладкой."
+msgstr "**Query result** view displays query results. Each query is displayed in a separate tab."
 
 #~ msgid "Применить изменения к проекту"
 #~ msgstr ""
@@ -228,5 +236,30 @@ msgstr "Right-click menu allows you to open both versions of the object, as well
 #~ "объекты в списке изменений помечаются "
 #~ "как remote, project и edit "
 #~ "соответственно."
+#~ msgstr ""
+
+#~ msgid "Виды и редакторы"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Панель инструментов Eclipse** содержит "
+#~ "инструменты для выбора источника данных, "
+#~ "с которым предстоит работать."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Вид **pg Dependencies / pg Зависимости**"
+#~ " показывает зависимости, в которых "
+#~ "участвует текущий объект, выбранный в "
+#~ "панели различий активного редактора проекта."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Вид **Object overrides / Переопределенные "
+#~ "объекты** отображает список переопределенных "
+#~ "объектов в библиотеках для активного "
+#~ "редактора проекта. Данный вид автоматически"
+#~ " отображается при получении изменений, если"
+#~ " присутствуют хотя бы один конфликт."
 #~ msgstr ""
 
