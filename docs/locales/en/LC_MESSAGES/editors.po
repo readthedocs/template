@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 17:21+0300\n"
-"PO-Revision-Date: 2019-10-02 04:21\n"
+"PO-Revision-Date: 2019-10-02 04:41\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "Object counter"
 
 #: ../../editors.rst:20
 msgid "**Панель инструментов Eclipse** содержит инструменты для выбора источника данных, с которым предстоит работать. Кнопка |file| позволяет открыть новый :ref:`sqlEditor`."
-msgstr ""
+msgstr "**Eclipse tool bar** contains tools for selecting the source of data you are going to work with. The |file| button allows you to open a new :ref:`sqlEditor`."
 
 #: ../../editors.rst:22
 msgid "**Панель инструментов редактора** предназначена для работы со списком объектов. Существуют следующие возможности:"
