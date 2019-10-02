@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 17:21+0300\n"
-"PO-Revision-Date: 2019-10-02 05:51\n"
+"PO-Revision-Date: 2019-10-02 06:01\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -167,7 +167,7 @@ msgstr "Viewing the dependences of DB objects"
 
 #: ../../editors.rst:88
 msgid "Панель **pg Dependencies / pg Зависимости** показывает зависимости, в которых участвует текущий объект, выбранный в панели различий активного редактора проекта."
-msgstr "The **pg Dependencies** panel shows the dependencies containing the current object selected on the diff panel of the active project editor."
+msgstr "The **pg Dependencies** view shows the dependencies containing the current object selected on the diff panel of the active project editor."
 
 #: ../../editors.rst:92
 msgid "Стрелки указывают на направление связи от зависящего объекта к его зависимости."
@@ -203,7 +203,7 @@ msgstr "Object overrides"
 
 #: ../../editors.rst:113
 msgid "Панель **Object overrides / Переопределенные объекты** отображает список переопределенных объектов в библиотеках для активного редактора проекта. Данный вид автоматически отображается при получении изменений, если присутствуют хотя бы один конфликт."
-msgstr "The **Object overrides** panel displays the list of overridden objects in libraries for the active project editor. This view is displayed automatically when receiving changes if there is at least one conflict present."
+msgstr "The **Object overrides** view displays the list of overridden objects in libraries for the active project editor. This view is displayed automatically when receiving changes if there is at least one conflict present."
 
 #: ../../editors.rst:117
 msgid "Кнопка |sync| отображает записи, относящиеся только к объектам, выбранным в панели различий активного редактора проекта."
@@ -219,7 +219,7 @@ msgstr "Query result"
 
 #: ../../editors.rst:127
 msgid "Панель **Query result / Результат запроса** отображает результат запросов. Каждый запрос отображается отдельной вкладкой."
-msgstr "**Query result** panel displays query results. Each query is displayed in a separate tab."
+msgstr "**Query result** view displays query results. Each query is displayed in a separate tab."
 
 #~ msgid "Применить изменения к проекту"
 #~ msgstr ""
