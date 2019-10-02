@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 17:21+0300\n"
-"PO-Revision-Date: 2019-10-02 04:21\n"
+"PO-Revision-Date: 2019-10-02 05:01\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "**Reuse compare editor instead of opening new ones** - allows using the 
 
 #: ../../preferences.rst:13
 msgid "**Enable full dependencies from bodies of functions and procedures (experimental) / Учитывать все зависимости из тел функций и процедур (экспериментально)** - позволяет искать внутри тел функций и процедур зависимости к другим функциям и процедурам."
-msgstr ""
+msgstr "**Enable full dependencies from bodies of functions and procedures (experimental)** - allows searching the dependences on functions and procedures within the bodies of other functions and procedures."
 
 #: ../../preferences.rst:14
 msgid "**Simple formatting for VIEVs when reading via JDBC (not recommended by PostgreSQL) / Упрощенное форматирование представлений при чтении через JDBC (не рекомендовано PostgreSQL)** - позволяет использовать упрощенное форматирование представлений, убирая лишние скобки в выражениях. Данный формат может не поддерживаться в будущих версиях PostgeSQL."
