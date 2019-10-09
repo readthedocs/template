@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
-"PO-Revision-Date: 2019-05-08 13:50\n"
+"POT-Creation-Date: 2019-10-09 13:38+0300\n"
+"PO-Revision-Date: 2019-10-09 11:21\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -54,8 +54,8 @@ msgid "Альтернативный путь получить установки
 msgstr "Another way to install pgCodeKeeper is the update website: launch Eclipse, version 4.2 or higher, select **Help > Install New Software...** Plug-in installation (with the help of the update web-site) wizard will appear on the screen."
 
 #: ../../installation.rst:25
-msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/release/."
-msgstr "In the **Work With** field specify the path to the update website: http://pgcodekeeper.org/update/release/."
+msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/."
+msgstr "In the **Work With** field specify the path to the update website: http://pgcodekeeper.org/update/."
 
 #: ../../installation.rst:27
 msgid "После нажатия **Enter** в списке ниже появятся доступные для установки плагины."
@@ -64,4 +64,10 @@ msgstr "After pressing **Enter** you'll see the available plug-ins in the list b
 #: ../../installation.rst:29
 msgid "Выберите пакет pgCodeKeeper, согласитесь с установкой, ознакомьтесь с пользовательским соглашением, нажмите кнопку **Finish** и начнется установка."
 msgstr "Select the pgCodeKeeper package, agree to the installation, review the Terms of service and click **Finish** for the installation to begin."
+
+#~ msgid ""
+#~ "В поле **Work With** ввести путь к"
+#~ " сайту обновлений: "
+#~ "http://pgcodekeeper.org/update/release/."
+#~ msgstr ""
 
