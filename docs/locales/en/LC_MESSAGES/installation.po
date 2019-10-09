@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-09 13:38+0300\n"
-"PO-Revision-Date: 2019-10-09 11:02\n"
+"PO-Revision-Date: 2019-10-09 11:21\n"
 "Last-Translator: Galiev Mansur (MRGaliev)\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "Another way to install pgCodeKeeper is the update website: launch Eclips
 
 #: ../../installation.rst:25
 msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/."
-msgstr ""
+msgstr "In the **Work With** field specify the path to the update website: http://pgcodekeeper.org/update/."
 
 #: ../../installation.rst:27
 msgid "После нажатия **Enter** в списке ниже появятся доступные для установки плагины."
