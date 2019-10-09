@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 17:00+0300\n"
+"POT-Creation-Date: 2019-10-09 13:38+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgstr ""
 #: ../../installation.rst:25
 msgid ""
 "В поле **Work With** ввести путь к сайту обновлений: "
-"http://pgcodekeeper.org/update/release/."
+"http://pgcodekeeper.org/update/."
 msgstr ""
 
 #: ../../installation.rst:27
@@ -85,4 +85,10 @@ msgid ""
 "пользовательским соглашением, нажмите кнопку **Finish** и начнется "
 "установка."
 msgstr ""
+
+#~ msgid ""
+#~ "В поле **Work With** ввести путь к"
+#~ " сайту обновлений: "
+#~ "http://pgcodekeeper.org/update/release/."
+#~ msgstr ""
 
