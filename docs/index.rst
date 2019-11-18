@@ -35,6 +35,7 @@ Help topics
    tissue-networks
    modules
    netwas
+   deepsea
    expecto
    citations
 
