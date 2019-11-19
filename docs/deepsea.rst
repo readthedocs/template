@@ -52,7 +52,7 @@ We support three types of input for specifying a sequence to analyze: vcf, fasta
 
 You also need to specify the chromatin feature that you want to analyze (e.g. CEBPB in H1-hESC cell with no treatment). If you have no idea which chromatin feature to look at, you may provide your input to DeepSEA and check which chromatin features are predicted to be on for your sequence.
 
-ISM outputs effects for each of three possible substitutions of all 2000 bases on the chromatin feature you specified. 
+ISM outputs effects for each of three possible substitutions of all 1000 bases on the chromatin feature you specified. 
 
 
 
