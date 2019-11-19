@@ -48,13 +48,11 @@ We support only GRCh37/hg19 genome coordinates. You can use LiftOver to convert 
 
 In-silico mutagenesis
 ------------
-Perofrm "In silico saturated mutagenesis" analysis to discover informative sequence features within any sequence. Specifically, it performs computational mutation scanning to assess effect of mutating every base of the input sequence on chromatin feature predictions. This method for context-specific sequence feature extraction fully utilizes the DeepSEA’s capability of utilizing flanking context sequences information.
+Perform "In silico saturated mutagenesis" (ISM) analysis to discover informative sequence features within any sequence. Specifically, it performs computational mutation scanning to assess the effect of mutating every base of the input sequence on chromatin feature predictions. This method for context-specific sequence feature extraction takes advantage of DeepSEA’s ability to utilize flanking context sequences information.
 
-We support three types of input for specifying a sequence to analyze: vcf, fasta, bed. See the Input section for a brief introduction to the formats. Note that sequence profiler only accepts one sequence / region / variant as input. If a variant is given, we perform analysis on the sequence carrying the alternative allele (if you want to analyze the reference allele, just use bed or fasta format input instead).
+We support three types of input for specifying a sequence to analyze: vcf, fasta, bed. See the Input section for a brief introduction to the formats. Note that ISM only accepts a sequence (FASTA file) as input.
 
-You also need to specify the chromatin feature that you want to analyze (e.g. CEBPB in H1-hESC cell with no treatment). If you have no idea which chromatin feature to look at, you may provide your input to DeepSEA and check which chromatin features are predicted to be on for your sequence.
-
-ISM outputs effects for each of three possible substitutions of all 1000 bases on the chromatin feature you specified. 
+ISM outputs effects for each of three possible substitutions of all 1000 bases, across all chromatin features. 
 
 
 
