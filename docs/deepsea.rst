@@ -43,7 +43,8 @@ Fasta format input should include sequences of 1000bp length each. If a sequence
 
 
 Bed format provides another way to specify sequences in human reference genome (hg19). The bed input should specify 1000bp-length regions. A minimal example is chr1 109817091 109818090. The three columns are chromosome, start position, and end position.
-We recommend using the server if you have <50,000 variants or sequences. For larger set, you may run the standalone version on your local machine.
+
+We recommend using the server if you have <50,000 variants or sequences. For larger set, you may run the standalone version on your local machine, or contact our group directy for possible collaborations.
 
 We support only GRCh37/hg19 genome coordinates. You can use LiftOver to convert your coordinates to the correct version.
 
