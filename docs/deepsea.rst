@@ -7,7 +7,9 @@ Introduction
 
 DeepSEA is a deep learning-based algorithmic framework for predicting the chromatin effects of sequence alterations with single nucleotide sensitivity. DeepSEA can accurately predict the epigenetic state of a sequence, including transcription factors binding, DNase I sensitivities and histone marks in multiple cell types, and further utilize this capability to predict the chromatin effects of sequence variants and prioritize regulatory variants.
 
-The current version of DeepSEA, nicknamed '**Beluga**', can predict **2002** chromatin features.
+The current version of DeepSEA, nicknamed '**Beluga**', can predict **2002** chromatin features. Beluga is described in:
+
+Jian Zhou, Chandra L. Theesfeld, Kevin Yao, Kathleen M. Chen, Aaron K. Wong, and Olga G. Troyanskaya, **Deep learning sequence-based ab initio prediction of variant effects on expression and disease risk**. Nature Genetics (2018).
 
 DeepSEA is described in the following manuscript:
 
