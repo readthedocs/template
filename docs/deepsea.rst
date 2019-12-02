@@ -44,10 +44,13 @@ We support three types of input: vcf, fasta, bed. If you want to predict effects
 
 **Bed format** provides another way to specify sequences in human reference genome (hg19). The bed input should specify 1000bp-length regions. A minimal example is ``chr1 109817091 109818090``. The three columns are chromosome, start position, and end position.
 
-We recommend using the web server if you have <10,000 variants or sequences. You will experience degraded performance when submitting a larger set of sequeneces. In those instances, we suggest that you split the set into multiple <10,000 submissions, or run the standalone version on your local machine, or contact our group directy.
-
+Genome coordinates
+~~~~~~~~~~~~
 We support only ``GRCh37/hg19`` genome coordinates. You can use LiftOver to convert your coordinates to the correct version.
 
+Large submissions
+~~~~~~~~~~~~
+We recommend using the web server if you have <10,000 variants or sequences. You will experience degraded performance when submitting a larger set of sequeneces. In those instances, we suggest that you split the set into multiple <10,000 submissions, or run the standalone version on your local machine, or contact our group directy.
 
 In-silico mutagenesis
 ------------
