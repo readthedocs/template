@@ -46,7 +46,7 @@ We support three types of input: vcf, fasta, bed. If you want to predict effects
 
 We recommend using the web server if you have <10,000 variants or sequences. You will experience degraded performance when submitting a larger set of sequeneces. In those instances, you may run the standalone version on your local machine, or contact our group directy.
 
-We support only GRCh37/hg19 genome coordinates. You can use LiftOver to convert your coordinates to the correct version.
+We support only ``GRCh37/hg19`` genome coordinates. You can use LiftOver to convert your coordinates to the correct version.
 
 
 In-silico mutagenesis
