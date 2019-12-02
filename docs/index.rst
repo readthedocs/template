@@ -42,7 +42,7 @@ Help topics
 
 Licensing
 ---------------------
-All data and predicitons in HumanBase are freely available under a `CC-BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_ license. Please give appropriate credit, provide a link to the license, and indicate if changes were made.
+All data in HumanBase are freely available under a `CC-BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_ license. Please give appropriate credit, provide a link to the license, and indicate if changes were made.
 
 
 Who are we?
