@@ -39,11 +39,12 @@ Help topics
    expecto
    citations
 
-Who are we?
----------------------
-HumanBase is actively developed by the `Genomics group <https://www.simonsfoundation.org/flatiron-institute/simons-center-for-data-analysis/genomics/>`_ at the  `Flatiron Institute <https://www.simonsfoundation.org/flatiron-institute/>`_ .
-
 
 Licensing
 ---------------------
 All data and predicitons in HumanBase are freely available under a `CC-BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_ license. Please give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+
+Who are we?
+---------------------
+HumanBase is actively developed by the `Genomics group <https://www.simonsfoundation.org/flatiron-institute/simons-center-for-data-analysis/genomics/>`_ at the  `Flatiron Institute <https://www.simonsfoundation.org/flatiron-institute/>`_ .
