@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-24 17:44+0300\n"
+"POT-Creation-Date: 2019-12-25 09:31+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../editors.rst:34
 msgid ""
-"Кнопки ⯆ позволяет запустить операции получения или применения изменений "
+"Кнопки ⯆ позволяют запустить операции получения или применения изменений "
 "к БД с одноразовым переопределением некоторых настроек."
 msgstr ""
 
@@ -367,5 +367,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Получить изменения"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Кнопки ⯆ позволяет запустить операции "
+#~ "получения или применения изменений к БД"
+#~ " с одноразовым переопределением некоторых "
+#~ "настроек."
 #~ msgstr ""
 
