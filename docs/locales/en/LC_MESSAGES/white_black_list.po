@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-25 04:11\n"
+"PO-Revision-Date: 2019-12-25 04:21\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr "Ignore List"
 
 #: ../../white_black_list.rst:7
 msgid "Список исключаемых объектов - это список объектов, которые не должны или наоборот должны отображаться при сравнении баз данных."
-msgstr ""
+msgstr "List of excluded objects is a list of objects that should or should not be displayed when comparing databases."
 
 #: ../../white_black_list.rst:9
 msgid "Объекты, отфильтрованные данными списками, участвуют в сравнении и могут попасть в итоговый скрипт миграции по зависимости."
-msgstr ""
+msgstr "Objects filtered with the help of these lists participate in the comparison and can end up in the resulting migration script of the dependance."
 
 #: ../../white_black_list.rst:11
 msgid "Существует два типа списков исключаемых объектов:"
-msgstr ""
+msgstr "There are two types of excluded objects:"
 
 #: ../../white_black_list.rst:14
 msgid "черный список"
