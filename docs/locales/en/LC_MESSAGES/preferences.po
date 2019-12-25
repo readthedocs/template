@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-25 05:11\n"
+"PO-Revision-Date: 2019-12-25 05:41\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -290,7 +290,7 @@ msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will app
 
 #: ../../preferences.rst:162
 msgid "pgCodeKeeper поддерживает работу с `pgpass файлом <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого поле с паролем нужно оставить пустым."
-msgstr ""
+msgstr "pgCodeKeeper supports the `pgpass file <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. To start working with it, leave the password field blank."
 
 #: ../../preferences.rst:167
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
