@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-24 15:02\n"
+"PO-Revision-Date: 2019-12-25 05:41\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "|empty_filter| / |filter_tsk| - disabled / enabled object filter."
 
 #: ../../editors.rst:29
 msgid "Отфильтровать список объектов по имени или регулярному выражению."
-msgstr ""
+msgstr "Filter list of objects by name or regular expression."
 
 #: ../../editors.rst:30
 msgid "Применить изменения"
@@ -90,7 +90,7 @@ msgstr "Switch direction of changes"
 
 #: ../../editors.rst:32
 msgid "|refresh| Получить изменения"
-msgstr ""
+msgstr "|refresh| Get changes"
 
 #: ../../editors.rst:34
 msgid "Кнопки ⯆ позволяет запустить операции получения или применения изменений к БД с одноразовым переопределением некоторых настроек."
