@@ -2,16 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 17:15+0300\n"
-"PO-Revision-Date: 2019-05-08 13:50\n"
-"Last-Translator: Galiev Mansur (MRGaliev)\n"
+"POT-Creation-Date: 2019-12-25 09:22+0300\n"
+"PO-Revision-Date: 2019-12-25 06:42\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Language: en\n"
 "X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/diff.po\n"
@@ -25,27 +24,31 @@ msgstr "Database diff"
 msgid "Открываем мастер сравнения баз данных: **pgCodeKeeper - Diff Wizard / Мастер сравнения** или вызываем контекстное меню pgCodeKeeper проекта и выбираем **pgCodeKeeper - Diff... / Сравнить...**."
 msgstr "Start the database diff wizard: **pgCodeKeeper - Diff Wizard** or right-click for the pgCodeKeeper project menu and select **pgCodeKeeper - Diff...**."
 
-#: ../../diff.rst:6
+#: ../../diff.rst:9
 msgid "Выбираем источник исходной схемы базы данных, которую нужно обновить, и целевой схемы базы данных, на основании которой обновляем исходную базу данных."
 msgstr "Select the source of the original database schema which you want to update and the target database schema, basing on which you are going to update the original one."
 
-#: ../../diff.rst:7
-msgid "Выбираем дополнительные параметры: кодировки источников и временную зона БД."
-msgstr "Select additional parameters: sources encodings and database time zone."
+#: ../../diff.rst:10
+msgid "Выбираем кодировки источников и временную зону БД."
+msgstr "Select source encodings and DB timezone."
 
-#: ../../diff.rst:8
-msgid "При использовании MS SQL дампа, выбираем соответствующую опцию."
-msgstr "If you use MS SQL dump, select the corresponding option."
+#: ../../diff.rst:11
+msgid "При использовании проекта или дампа MS SQL, выбираем соответствующую опцию."
+msgstr "If you use MS SQL project or dump, select the corresponding option."
 
-#: ../../diff.rst:9
+#: ../../diff.rst:12
+msgid "При необходимости переопределить глобальные настройки можно воспользоваться опцией **Show advanced options / Показать дополнительные опции**."
+msgstr "If you need to override the global settings, you can use the **Show advanced options** option."
+
+#: ../../diff.rst:13
 msgid "Нажимаем кнопку **Next**."
 msgstr "Click **Next**."
 
-#: ../../diff.rst:13
+#: ../../diff.rst:17
 msgid "В таблице сравнения отмечаем изменения, которые необходимо применить. Примечание: панель инструментов работает аналогично панели инструментов редактора проектов pgCodeKeeper."
 msgstr "In the comparison table, select the differences that should be applied. Note: tool bar works similarly to the pgCodeKeeper project editor tool bar."
 
-#: ../../diff.rst:18
+#: ../../diff.rst:20
 msgid "При нажатии кнопки **Finish** откроется SQL редактор со скриптом миграции, сгенерированным для выбранных изменений."
 msgstr "After clicking **Finish**, SQL editor with migration script, generated for the selected changes, will open."
 
@@ -62,5 +65,16 @@ msgstr "After clicking **Finish**, SQL editor with migration script, generated f
 #~ "источников и временную зона БД. Нажимаем"
 #~ " кнопку **Next** и переходим к "
 #~ "**таблице сравнения**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выбираем дополнительные параметры: кодировки "
+#~ "источников и временную зона БД."
+#~ msgstr ""
+
+#~ msgid "При использовании MS SQL дампа, выбираем соответствующую опцию."
+#~ msgstr ""
+
+#~ msgid "Выбираем кодировки источников и временную зона БД."
 #~ msgstr ""
 
