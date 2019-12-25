@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-25 06:32\n"
+"POT-Creation-Date: 2019-12-25 09:31+0300\n"
+"PO-Revision-Date: 2019-12-25 06:42\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -93,8 +93,8 @@ msgid "|refresh| Получить изменения"
 msgstr "|refresh| Get changes"
 
 #: ../../editors.rst:34
-msgid "Кнопки ⯆ позволяет запустить операции получения или применения изменений к БД с одноразовым переопределением некоторых настроек."
-msgstr "⯆ buttons allow you to get or apply changes to the DB with one-time overriding of some settings."
+msgid "Кнопки ⯆ позволяют запустить операции получения или применения изменений к БД с одноразовым переопределением некоторых настроек."
+msgstr ""
 
 #: ../../editors.rst:36
 msgid "**Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных."
@@ -270,5 +270,12 @@ msgstr "**Query result** view displays query results. Each query is displayed in
 #~ msgstr ""
 
 #~ msgid "Получить изменения"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Кнопки ⯆ позволяет запустить операции "
+#~ "получения или применения изменений к БД"
+#~ " с одноразовым переопределением некоторых "
+#~ "настроек."
 #~ msgstr ""
 
