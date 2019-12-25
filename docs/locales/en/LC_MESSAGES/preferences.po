@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-24 15:02\n"
+"PO-Revision-Date: 2019-12-25 05:11\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -50,11 +50,11 @@ msgstr "**Ignore concurrent modification errors when reading DB** - allow ignori
 
 #: ../../preferences.rst:16
 msgid "**Free parser cache memory if not used for (minutes): / Освобождать память кэша парсера если он не использовался последние (минут):** - позволяют автоматически очищать неиспользуемый кэш парсера через определенный промежуток времени. Значение равное 0 отключает данное поведение."
-msgstr ""
+msgstr "**Free parser cache memory if not used for (minutes):** - allow to automatically clear parser cache not used for a certain amount of time. Setting this to 0 disables the operations."
 
 #: ../../preferences.rst:17
 msgid "**Clear parser cache / Очистить кэш парсера** - позволяют очистить кэш парсера."
-msgstr ""
+msgstr "**Clear parser cache** - allow to clear parser cache."
 
 #: ../../preferences.rst:22
 msgid "Исключенные объекты"
