@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-24 15:02\n"
+"PO-Revision-Date: 2019-12-25 05:52\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "Select the source of the original database schema which you want to upda
 
 #: ../../diff.rst:10
 msgid "Выбираем кодировки источников и временную зона БД."
-msgstr ""
+msgstr "Select source encodings and temporary DB zone."
 
 #: ../../diff.rst:11
 msgid "При использовании проекта или дампа MS SQL, выбираем соответствующую опцию."
