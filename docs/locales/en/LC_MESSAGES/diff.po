@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-25 06:22\n"
+"POT-Creation-Date: 2019-12-25 09:22+0300\n"
+"PO-Revision-Date: 2019-12-25 06:31\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -29,8 +29,8 @@ msgid "Выбираем источник исходной схемы базы д
 msgstr "Select the source of the original database schema which you want to update and the target database schema, basing on which you are going to update the original one."
 
 #: ../../diff.rst:10
-msgid "Выбираем кодировки источников и временную зона БД."
-msgstr "Select source encodings and temporary DB zone."
+msgid "Выбираем кодировки источников и временную зону БД."
+msgstr ""
 
 #: ../../diff.rst:11
 msgid "При использовании проекта или дампа MS SQL, выбираем соответствующую опцию."
@@ -38,7 +38,7 @@ msgstr "If you use project or MS SQL dump, select the corresponding option."
 
 #: ../../diff.rst:12
 msgid "При необходимости переопределить глобальные настройки можно воспользоваться опцией **Show advanced options / Показать дополнительные опции**."
-msgstr "If you need to redefine the global settings, you can use the **Show advanced options** option."
+msgstr "If you need to override the global settings, you can use the **Show advanced options** option."
 
 #: ../../diff.rst:13
 msgid "Нажимаем кнопку **Next**."
@@ -73,5 +73,8 @@ msgstr "After clicking **Finish**, SQL editor with migration script, generated f
 #~ msgstr ""
 
 #~ msgid "При использовании MS SQL дампа, выбираем соответствующую опцию."
+#~ msgstr ""
+
+#~ msgid "Выбираем кодировки источников и временную зона БД."
 #~ msgstr ""
 
