@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-24 17:44+0300\n"
-"PO-Revision-Date: 2019-12-25 06:02\n"
+"PO-Revision-Date: 2019-12-25 06:22\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "If you use project or MS SQL dump, select the corresponding option."
 
 #: ../../diff.rst:12
 msgid "При необходимости переопределить глобальные настройки можно воспользоваться опцией **Show advanced options / Показать дополнительные опции**."
-msgstr ""
+msgstr "If you need to redefine the global settings, you can use the **Show advanced options** option."
 
 #: ../../diff.rst:13
 msgid "Нажимаем кнопку **Next**."
