@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-25 09:22+0300\n"
-"PO-Revision-Date: 2019-12-25 06:32\n"
+"PO-Revision-Date: 2019-12-25 06:42\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -46,15 +46,15 @@ msgstr "**Simple formatting for VIEVs when reading via JDBC (not recommended by 
 
 #: ../../preferences.rst:15
 msgid "**Ignore concurrent modification errors when reading DB / Игнорировать ошибки конкурентной модификации объектов при чтении БД** - позволяет игнорировать ошибки, возникающие при модификации объекта БД во время его чтения."
-msgstr ""
+msgstr "**Ignore concurrent modification errors when reading DB** - allows you to ignore errors that appear when modifying a DB object while reading it."
 
 #: ../../preferences.rst:16
 msgid "**Free parser cache memory if not used for (minutes): / Освобождать память кэша парсера если он не использовался последние (минут):** - позволяет автоматически очищать неиспользуемый кэш парсера через определенный промежуток времени. Значение равное 0 отключает данное поведение."
-msgstr ""
+msgstr "**Free parser cache memory if not used for (minutes):** - allows you to automatically clear parser cache not used for a certain amount of time. Setting this to 0 disables this behavior."
 
 #: ../../preferences.rst:17
 msgid "**Clear parser cache / Очистить кэш парсера** - позволяет очистить кэш парсера."
-msgstr ""
+msgstr "**Clear parser cache** - allows to clear parser cache."
 
 #: ../../preferences.rst:22
 msgid "Исключенные объекты"
@@ -290,7 +290,7 @@ msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will app
 
 #: ../../preferences.rst:162
 msgid "pgCodeKeeper поддерживает работу с `pgpass файлом <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого поле с паролем нужно оставить пустым."
-msgstr "pgCodeKeeper supports the `pgpass file <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. To start working with it, leave the password field blank."
+msgstr "pgCodeKeeper supports the `pgpass file <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. To do this, leave the password field blank."
 
 #: ../../preferences.rst:167
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
