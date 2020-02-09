@@ -1,8 +1,7 @@
 Contributing
 ---------------
 
-* ozgurturkiye
-* hurturkiye
-* Ahmet Amca
+* @ozgurturkiye (Özgür Bayraktaroğlu)
+* @hurturkiye (Hürol Yalçın)
 
 
