@@ -29,7 +29,7 @@ Destek
 ------
 
 Eğer katkıda bulunmak isterseniz lütfen bize bildirin.
-İletişim için: ozgurturkiye@gmail.com
+İletişim için: ozgurturkiye@gmail.com veya hurolyalcin@gmail.com
 
 
 .. toctree::
