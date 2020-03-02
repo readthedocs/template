@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 17:28+0300\n"
+"POT-Creation-Date: 2020-03-02 16:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,8 +74,8 @@ msgstr ""
 
 #: ../../import_project.rst:20
 msgid ""
-"Укажите путь до директории со структурой проекта pgCodeKeeper и введите "
-"имя проекта."
+"Укажите путь до директории со структурой проекта pgCodeKeeper, введите "
+"имя проекта и выберите его кодировку."
 msgstr ""
 
 #: ../../import_project.rst:21
@@ -121,5 +121,11 @@ msgstr ""
 #~ msgid ""
 #~ "Выберите **Проект pgCodeKeeper** в категории"
 #~ " pgCodeKeeper и нажмите **Next**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Укажите путь до директории со структурой"
+#~ " проекта pgCodeKeeper и введите имя "
+#~ "проекта."
 #~ msgstr ""
 
