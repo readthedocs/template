@@ -1,7 +1,9 @@
 Authors
 -------
 
-* Eric (New contributor)
-* Anthony 
+* Gabriel Santana 
+* Kevin Rojas
+
+$$\int_{1}^{\infty}$$
 
 
