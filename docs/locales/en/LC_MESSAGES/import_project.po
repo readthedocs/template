@@ -2,16 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 17:28+0300\n"
-"PO-Revision-Date: 2019-05-08 13:50\n"
-"Last-Translator: Galiev Mansur (MRGaliev)\n"
+"POT-Creation-Date: 2020-03-02 16:57+0300\n"
+"PO-Revision-Date: 2020-03-03 04:11\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
 "X-Crowdin-Language: en\n"
 "X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/import_project.po\n"
@@ -58,8 +57,8 @@ msgid "Выберите **pgCodeKeeper Project** в категории pgCodeKee
 msgstr "Select **pgCodeKeeper Project** in the pgCodeKeeper category and click **Next**."
 
 #: ../../import_project.rst:20
-msgid "Укажите путь до директории со структурой проекта pgCodeKeeper и введите имя проекта."
-msgstr "Specify the path to the directory containing the pgCodeKeeper project structure and enter the name of the project."
+msgid "Укажите путь до директории со структурой проекта pgCodeKeeper, введите имя проекта и выберите его кодировку."
+msgstr "Specify path to the directory containing the pgCodeKeeper project structure, enter the project's name and select its encoding."
 
 #: ../../import_project.rst:21
 msgid "Если импортируемый проект для MS SQL, то необходимо выбрать соответствующую опцию."
@@ -97,5 +96,11 @@ msgstr "For the correct work, the project should contain the '.pgcodekeeper' fil
 #~ msgid ""
 #~ "Выберите **Проект pgCodeKeeper** в категории"
 #~ " pgCodeKeeper и нажмите **Next**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Укажите путь до директории со структурой"
+#~ " проекта pgCodeKeeper и введите имя "
+#~ "проекта."
 #~ msgstr ""
 

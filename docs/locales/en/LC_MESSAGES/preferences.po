@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-25 09:22+0300\n"
-"PO-Revision-Date: 2019-12-25 06:42\n"
+"POT-Creation-Date: 2020-03-02 16:57+0300\n"
+"PO-Revision-Date: 2020-03-03 07:54\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -229,126 +229,130 @@ msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Р�
 msgstr "On the **pgCodeKeeper -> SQL Editor** settings page you can adjust the options of the SQL editor."
 
 #: ../../preferences.rst:125
+msgid "**Disable parser for files larger than (lines): / Отключить парсер для файлов больше чем (строки):** – позволяет выбрать размер файла, для которого отключается сборщик pgCodeKeeper. Это ускоряет открытие и работу с файлом, но отключает поиск ошибок и ссылок на объекты внутри этого файла. Значение равное 0 отключает данное поведение."
+msgstr "**Disable parser for files larger than (lines):** – allows you to select a size of files for which the pgCodeKeeper builder is disabled. This speeds up the process of opening the file and makes your work with it faster in general, but it also disables the search for errors and links to objects within this file. Setting this to 0 disables this behavior."
+
+#: ../../preferences.rst:126
 msgid "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в одном из режимов."
 msgstr "**Bracket highlight** – enables bracket highlight in one of the modes."
 
-#: ../../preferences.rst:126
+#: ../../preferences.rst:127
 msgid "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную скобку."
 msgstr "**Single bracket** – when selecting a bracket, highlights the matching bracket."
 
-#: ../../preferences.rst:127
+#: ../../preferences.rst:128
 msgid "**Both brackets / Обе скобки** – при выборе скобки, подсвечивает текущую и парную скобку."
 msgstr "**Both brackets** – when selecting a bracket, highlights the selected and the matching brackets."
 
-#: ../../preferences.rst:128
+#: ../../preferences.rst:129
 msgid "**Current block brackets / Скобки текущего блока** – подсвечивает скобки, между которыми находится курсор."
 msgstr "**Current block brackets** – highlights the brackets between which the cursor is situated."
 
-#: ../../preferences.rst:129
+#: ../../preferences.rst:130
 msgid "**Bracket highlight color / Цвет подсветки скобок** – позволяет выбрать цвет подсветки скобок."
 msgstr "**Bracket highlight color** – allows to select the color of brackets highlighting."
 
-#: ../../preferences.rst:133
+#: ../../preferences.rst:134
 msgid "Подсветка синтаксиса"
 msgstr "Syntax Coloring"
 
-#: ../../preferences.rst:135
+#: ../../preferences.rst:136
 msgid "Настройки, управляющие подсветкой синтаксиса."
 msgstr "Settings managing the syntax highlighting."
 
-#: ../../preferences.rst:139
+#: ../../preferences.rst:140
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> Syntax Coloring / Подсветка синтаксиса** Вы можете установить цвет и стиль шрифта, которым будет отображаться соответствующий синтаксис в SQL редакторе pgCodeKeeper."
 msgstr "On the **pgCodeKeeper -> SQL Editor -> Syntax highlighting** you can set color and style for the font in which all the corresponding syntax will be displayed in the pgCodeKeeper SQL editor."
 
-#: ../../preferences.rst:142
+#: ../../preferences.rst:143
 msgid "Шаблоны редактора SQL"
 msgstr "SQL Editor Templates"
 
-#: ../../preferences.rst:144
+#: ../../preferences.rst:145
 msgid "Создание, удаление и редактирование шаблонов для автоподстановки в SQL редакторе"
 msgstr "Creating, deleting and editing the templates for auto expand in the SQL editor"
 
-#: ../../preferences.rst:148
+#: ../../preferences.rst:149
 msgid "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> SQL Editor Templates / Шаблоны редактора SQL** Вы можете управлять SQL шаблонами, доступными в SQL редакторе pgCodeKeeper. Список доступных действий отображается справа от списка шаблонов."
 msgstr "On the **pgCodeKeeper -> SQL Editor -> SQL Editor Templates** settings page you can manage SQL templates, available in the pgCodeKeeper SQL editor. The list of available actions is displayed to the right of the templates list."
 
-#: ../../preferences.rst:153
+#: ../../preferences.rst:154
 msgid "Хранилище БД"
 msgstr "DB storage"
 
-#: ../../preferences.rst:154
+#: ../../preferences.rst:155
 msgid "Настройки, управляющие хранилищем параметров подключения к БД."
 msgstr "Settings managing the storage of the parameters of the DB connection."
 
-#: ../../preferences.rst:156
+#: ../../preferences.rst:157
 msgid "На странице настроек **pgCodeKeeper -> DB Store / Хранилище БД** находится список записей для подключения к базам данных."
 msgstr "On the **pgCodeKeeper -> DB Store** settings page you can find the list of records for connecting to the databases."
 
-#: ../../preferences.rst:160
+#: ../../preferences.rst:161
 msgid "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB credentials** (Данные подключения к БД), в котором нужно указать параметры данных подключения: хост, порт, имя БД, пользователь, пароль, а также включить запрет на запись в БД и выбрать тип БД (PostgreSQL или MS SQL). Для MS SQL можно указать домен. Название записи можно указать вручную, для этого нужно отключить опцию **Auto-generate / Автогенерация**."
 msgstr "Click |add_obj| to add a storage. The **DB credentials** dialog will appear, in which you should specify the parameters of the connection data: host, port, DB name, user, password, as well as forbid recording to DB and select DB type (PostgreSQL or MS SQL). For MS SQL, you can specify a domain. You can specify the name of the record manually. To do this, disable the **Auto-generate** option."
 
-#: ../../preferences.rst:162
+#: ../../preferences.rst:163
 msgid "pgCodeKeeper поддерживает работу с `pgpass файлом <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого поле с паролем нужно оставить пустым."
 msgstr "pgCodeKeeper supports the `pgpass file <https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. To do this, leave the password field blank."
 
-#: ../../preferences.rst:167
+#: ../../preferences.rst:168
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
 msgstr ":ref:`ignoreList` can be connected as an external file."
 
-#: ../../preferences.rst:171
+#: ../../preferences.rst:172
 msgid "Свойства соединения можно дополнить параметрами указанными по адресу:"
 msgstr "You can extend connection properties with the settings specified at:"
 
-#: ../../preferences.rst:172
+#: ../../preferences.rst:173
 msgid "https://jdbc.postgresql.org/documentation/head/connect.html (Для PostgreSQL)"
 msgstr "https://jdbc.postgresql.org/documentation/head/connect.html (For PostgreSQL)"
 
-#: ../../preferences.rst:173
+#: ../../preferences.rst:174
 msgid "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-properties (Для MS SQL)"
 msgstr "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-properties (For MS SQL)"
 
-#: ../../preferences.rst:178
+#: ../../preferences.rst:179
 msgid "**Use external DB loader instead of JDBC / Использовать внешний загрузчик pg_dump** - позволяет использовать внешний загрузчик для базы данных вместо JDBC."
 msgstr "**Use external DB loader instead of JDBC** - allows using external database loader instead of JDBC."
 
-#: ../../preferences.rst:179
+#: ../../preferences.rst:180
 msgid "**Loader executable / Исполняемый файл загрузчика** - путь к утилите, исполняемому файлу или скрипту, используемый для загрузки."
 msgstr "**Loader executable** - path to a utility, executable file or a script used for loading."
 
-#: ../../preferences.rst:180
+#: ../../preferences.rst:181
 msgid "**Loader custom parameters / Дополнительные параметры загрузчика** - дополнительные параметры вызова утилиты."
 msgstr "**Loader custom parameters** - utility activation custom parameters."
 
-#: ../../preferences.rst:184
+#: ../../preferences.rst:185
 msgid "Для добавления хранилища на основе данных из уже созданного хранилища следует выделить объект хранилища баз данных, нажать кнопку |copy|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
 msgstr "To add a storage basing on data from an already created storage, you should highlight the database storage object and click|copy|. The **DB credentials** dialogue will appear, in which you can change the connection parameters."
 
-#: ../../preferences.rst:186
+#: ../../preferences.rst:187
 msgid "Для добавления хранилища на основе данных из файла **.pgpass**, нажать кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать **.pgpass** файл. Далее откроется диалог  **Pgpass sources list / Список источников из pgpass**:"
 msgstr "To add a storage basing on the data from the **.pgpass** file, click|pg_pass|. A dialogue will appear, in which you should select the **.pgpass** file. After that, the **Pgpass sources list**  dialogue will open:"
 
-#: ../../preferences.rst:190
+#: ../../preferences.rst:191
 msgid "В нем нужно выбрать строку с данными на основе которых будет создаваться хранилище. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно подтвердить параметры подключения."
 msgstr "There, you should select the line with the data, basing on which the storage will be created. The **DB credentials** dialogue will appear, where you can confirm the connection parameters."
 
-#: ../../preferences.rst:194
+#: ../../preferences.rst:195
 msgid "После этого можно закрывать диалог **Pgpass sources list / Список источников из pgpass**."
 msgstr "After that, you can close the **Pgpass sources list** dialogue."
 
-#: ../../preferences.rst:196
+#: ../../preferences.rst:197
 msgid "Для редактирования хранилища выделить объект хранилища баз данных, нажать кнопку |editor_area|. Откроется диалог **DB credentials / Данные подключения к БД** в котором можно изменить параметры подключения."
 msgstr "To edit a storage, highlight the database storage object and click |editor_area|. The **DB credentials** dialogue will appear in which you can change the connection parameters."
 
-#: ../../preferences.rst:198
+#: ../../preferences.rst:199
 msgid "Для удаления хранилища выбрать необходимую запись и нажать кнопку |delete|."
 msgstr "To delete a storage, select the required record and click |delete|."
 
-#: ../../preferences.rst:200
+#: ../../preferences.rst:201
 msgid "Кнопка **Restore Defaults**, на странице настроек, удаляет все записи для подключения к базам данных и создает одну запись default без данных для подключения."
 msgstr "The **Restore Defaults** button on the settings page deletes all the records for the databases connection and creates one 'default' record without any data on the connection."
 
-#: ../../preferences.rst:202
+#: ../../preferences.rst:203
 msgid "Для сохранения внесенных изменений, в хранилище параметров подключения к БД, на странице настроек необходимо нажать кнопку **Apply** или **Apply and Close**."
 msgstr "To save the changes, you should click **Apply** or **Apply and Close** in the DB connection parameters storage, on the settings page."
 
