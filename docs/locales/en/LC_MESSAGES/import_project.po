@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-02 16:57+0300\n"
-"PO-Revision-Date: 2020-03-02 13:58\n"
+"PO-Revision-Date: 2020-03-03 04:11\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -58,7 +58,7 @@ msgstr "Select **pgCodeKeeper Project** in the pgCodeKeeper category and click *
 
 #: ../../import_project.rst:20
 msgid "Укажите путь до директории со структурой проекта pgCodeKeeper, введите имя проекта и выберите его кодировку."
-msgstr ""
+msgstr "Specify path to the directory containing the pgCodeKeeper project structure, enter the project's name and select its encoding."
 
 #: ../../import_project.rst:21
 msgid "Если импортируемый проект для MS SQL, то необходимо выбрать соответствующую опцию."
