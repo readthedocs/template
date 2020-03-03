@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-02 16:57+0300\n"
-"PO-Revision-Date: 2020-03-03 04:24\n"
+"PO-Revision-Date: 2020-03-03 07:54\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -230,7 +230,7 @@ msgstr "On the **pgCodeKeeper -> SQL Editor** settings page you can adjust the o
 
 #: ../../preferences.rst:125
 msgid "**Disable parser for files larger than (lines): / Отключить парсер для файлов больше чем (строки):** – позволяет выбрать размер файла, для которого отключается сборщик pgCodeKeeper. Это ускоряет открытие и работу с файлом, но отключает поиск ошибок и ссылок на объекты внутри этого файла. Значение равное 0 отключает данное поведение."
-msgstr "**Disable parser for files larger than (lines):** allows you to select a size of files for which the pgCodeKeeper is disabled. This speeds up the process of opening the file and makes your work with it faster in general, but it also disables the search for errors and links to objects within this file. Setting this to 0 disables this behavior."
+msgstr "**Disable parser for files larger than (lines):** – allows you to select a size of files for which the pgCodeKeeper builder is disabled. This speeds up the process of opening the file and makes your work with it faster in general, but it also disables the search for errors and links to objects within this file. Setting this to 0 disables this behavior."
 
 #: ../../preferences.rst:126
 msgid "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в одном из режимов."
