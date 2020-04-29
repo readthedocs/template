@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-12 13:49+0300\n"
+"POT-Creation-Date: 2020-04-29 15:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../preferences.rst:3
 msgid "Глобальные настройки"
@@ -99,40 +99,45 @@ msgid ""
 "объекты**."
 msgstr ""
 
-#: ../../preferences.rst:26
-msgid ""
-"Для добавления объекта в список исключенных или удаления из него, служат "
-"кнопки |add_obj| и |delete| соответственно."
-msgstr ""
-
 #: ../../preferences.rst:28
 msgid ""
-"При добавлении объекта в список исключенных можно выставить "
-"дополнительные настройки, которые влияют на исключение объекта при "
-"сравнении:"
+"Переключатель **Черный список** - **Белый список** позволяет "
+"инвертировать черный список в белый и обратно."
 msgstr ""
 
 #: ../../preferences.rst:30
-msgid "**Pattern / Шаблон** – является ли имя объекта регулярным выражением."
+msgid "**Text / Текст** – имя объекта."
 msgstr ""
 
 #: ../../preferences.rst:31
-msgid ""
-"**Ignore Contents / Игнорировать содержимое** – позволяет пропустить "
-"объекты, вложенные в исключенный."
+msgid "**Pattern / Шаблон** – воспринимать имя объекта как регулярное выражение."
 msgstr ""
 
 #: ../../preferences.rst:32
+msgid ""
+"**Ignore Contents / Игнорировать содержимое** – применять правило для "
+"совпавшего объекта и всего его содержимого."
+msgstr ""
+
+#: ../../preferences.rst:33
+msgid ""
+"**Qualification / Квалификация** – искать объекты по квалифицированному "
+"имени."
+msgstr ""
+
+#: ../../preferences.rst:34
 msgid ""
 "**Type / Тип** – тип объекта (\"ALL\" предназначен для указания любого "
 "типа объекта)."
 msgstr ""
 
 #: ../../preferences.rst:36
-msgid "Все настройки списка доступны для редактирования."
+msgid ""
+"Для добавления объекта в список исключенных или удаления из него, служат "
+"кнопки |add_obj| и |delete| соответственно."
 msgstr ""
 
-#: ../../preferences.rst:40
+#: ../../preferences.rst:38
 msgid ""
 "В данном случае список исключаемых объектов будет **общим** и будет "
 "распространять свое действие на все проекты находящиеся в директории "
@@ -140,71 +145,28 @@ msgid ""
 ":ref:`ignoreList`."
 msgstr ""
 
-#: ../../preferences.rst:42
-msgid ""
-"Переключатель **Черный список** - **Белый список** позволяет "
-"инвертировать черный список в белый и обратно."
-msgstr ""
-
-#: ../../preferences.rst:44
-msgid "**Примеры работы с исключенными объектами**"
-msgstr ""
-
-#: ../../preferences.rst:46
-msgid ""
-"Предположим имеются представление с именем ignore4 и набор таблиц с "
-"именами: ignore, ignore2, ignore3. ignore2 в свою очередь содержит индекс"
-" idx2."
-msgstr ""
-
-#: ../../preferences.rst:53
-msgid "Список исключенных объектов"
-msgstr ""
-
-#: ../../preferences.rst:53
-msgid "Результат"
-msgstr ""
-
-#: ../../preferences.rst:55
-msgid ""
-"**Исключение объектов частично попадающих под регулярное выражение "
-"\"ignore\"**"
-msgstr ""
-
-#: ../../preferences.rst:59
-msgid "**Исключение объектов \"ignore2\" с содержимым**"
-msgstr ""
-
-#: ../../preferences.rst
-msgid "**Исключение объектов с типом “TABLE” частично попадающих**"
-msgstr ""
-
-#: ../../preferences.rst
-msgid "**под регулярное выражение \"ignore\"**"
-msgstr ""
-
-#: ../../preferences.rst:72
+#: ../../preferences.rst:43
 msgid "Обновление БД"
 msgstr ""
 
-#: ../../preferences.rst:73
+#: ../../preferences.rst:44
 msgid "Настройки, управляющие обновлением базы данных."
 msgstr ""
 
-#: ../../preferences.rst:77
+#: ../../preferences.rst:48
 msgid ""
 "На странице настроек **pgCodeKeeper -> Update DB / Обновление БД** Вы "
 "можете настроить параметры для работы редактора скрипта наката."
 msgstr ""
 
-#: ../../preferences.rst:79
+#: ../../preferences.rst:50
 msgid ""
 "**Create migration script files in project directory / Создавать скрипт "
 "миграции в директории проекта** – определяет поведение при создании "
 "скриптов миграции."
 msgstr ""
 
-#: ../../preferences.rst:80
+#: ../../preferences.rst:51
 msgid ""
 "**Delete migration script files when closing migration editor / Удалять "
 "файлы скриптов миграции после закрытия редактора** – определяет поведение"
@@ -212,21 +174,21 @@ msgid ""
 "проекта."
 msgstr ""
 
-#: ../../preferences.rst:81
+#: ../../preferences.rst:52
 msgid ""
 "**Warn about dangerous scripts containing: / Предупреждать, если в "
 "скрипте присутствуют следующие выражения:** – позволяет предупреждать, "
 "если при генерации скрипта образовались выбранные опасные выражения."
 msgstr ""
 
-#: ../../preferences.rst:82
+#: ../../preferences.rst:53
 msgid ""
 "**Show script output in separate window / Показывать вывод скрипт наката "
 "в отдельном окне** – позволяет просмотреть сообщение с ответом сервера "
 "при выполнении наката."
 msgstr ""
 
-#: ../../preferences.rst:83
+#: ../../preferences.rst:54
 msgid ""
 "**Surround migration script with START TRANSACTION; ... COMMIT "
 "TRANSACTION; / Заключить скрипт наката в блок START TRANSACTION; ... "
@@ -234,7 +196,7 @@ msgid ""
 "start ... commit."
 msgstr ""
 
-#: ../../preferences.rst:84
+#: ../../preferences.rst:55
 msgid ""
 "**Allow PostgreSQL to validate function bodies in DDL update script / "
 "Разрешить PostgreSQL проверять тела функций в скрипте наката** – "
@@ -242,77 +204,77 @@ msgid ""
 "check_function_bodies = true;\" в начало скрипта."
 msgstr ""
 
-#: ../../preferences.rst:85
+#: ../../preferences.rst:56
 msgid ""
 "**Print ALTER COLUMN ... TYPE with USING expression / Печатать ALTER "
 "COLUMN ... TYPE ... с USING expression** – позволяет добавлять в скрипт "
 "выражение, позволяющее изменить тип данных, при изменении типа столбца"
 msgstr ""
 
-#: ../../preferences.rst:86
+#: ../../preferences.rst:57
 msgid ""
 "**Print CREATE INDEX CONCURRENTLY (without locks) / Печатать CREATE INDEX"
 " CONCURRENTLY (без блокировок)** – позволяет в скриптах создавать индексы"
 " в режиме CONCURRENTLY."
 msgstr ""
 
-#: ../../preferences.rst:87
+#: ../../preferences.rst:58
 msgid ""
 "**Migration command / Команда миграции** - позволяет использовать другую "
 "утилиту или параметры запуска при применении скрипта наката к базе "
 "данных."
 msgstr ""
 
-#: ../../preferences.rst:91
+#: ../../preferences.rst:62
 msgid "Отчеты об использовании"
 msgstr ""
 
-#: ../../preferences.rst:93
+#: ../../preferences.rst:64
 msgid "Настройки, управляющие отправкой отчетов."
 msgstr ""
 
-#: ../../preferences.rst:97
+#: ../../preferences.rst:68
 msgid ""
 "На странице настроек **pgCodeKeeper -> Usage Reporting / Отчеты об "
 "использовании** Вы можете включить или выключить отправление статистики "
 "об использовании pgCodeKeeper."
 msgstr ""
 
-#: ../../preferences.rst:99
+#: ../../preferences.rst:70
 msgid ""
 "Отправляемые значения для статистики Вы можете просмотреть в поле "
 "**Reported Values / Отправляемые значения**."
 msgstr ""
 
-#: ../../preferences.rst:104
+#: ../../preferences.rst:75
 msgid "Редактор проекта"
 msgstr ""
 
-#: ../../preferences.rst:106
+#: ../../preferences.rst:77
 msgid "Настройки, управляющие редактором проекта."
 msgstr ""
 
-#: ../../preferences.rst:110
+#: ../../preferences.rst:81
 msgid ""
 "На странице настроек **pgCodeKeeper -> Project editor / Редактор "
 "проекта** Вы можете настроить параметры редактора проекта."
 msgstr ""
 
-#: ../../preferences.rst:112
+#: ../../preferences.rst:83
 msgid ""
 "**Switch to pgCodeKeeper perspective when opening editor / Переключать в "
 "перспективу pgCodeKeeper при открытии редактора** – определяет поведение "
 "переключения перспективы при открытии редактора проекта."
 msgstr ""
 
-#: ../../preferences.rst:113
+#: ../../preferences.rst:84
 msgid ""
 "**After applying a migration to editor's DB do: / После выполнения "
 "миграции на БД редактора выполнить:** – определяет поведение редактора "
 "при накате скриптов миграции."
 msgstr ""
 
-#: ../../preferences.rst:114
+#: ../../preferences.rst:85
 msgid ""
 "**Display git user that math the change / Отображать пользователя git, "
 "совершившего изменение** – позволяет отображать в редакторе колонку с "
@@ -320,28 +282,28 @@ msgid ""
 "находиться под системой контроля версий."
 msgstr ""
 
-#: ../../preferences.rst:115
+#: ../../preferences.rst:86
 msgid ""
 "**Show errors while getting changes / Показывать ошибки во время "
 "получения изменений** – позволяет отображать список ошибок, найденных во "
 "время получения изменений."
 msgstr ""
 
-#: ../../preferences.rst:119
+#: ../../preferences.rst:90
 msgid "Редактор SQL"
 msgstr ""
 
-#: ../../preferences.rst:121
+#: ../../preferences.rst:92
 msgid "Настройки, управляющие редактором SQL."
 msgstr ""
 
-#: ../../preferences.rst:125
+#: ../../preferences.rst:96
 msgid ""
 "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL** Вы "
 "можете настроить параметры редактора SQL."
 msgstr ""
 
-#: ../../preferences.rst:127
+#: ../../preferences.rst:98
 msgid ""
 "**Disable parser for files larger than (lines): / Отключить парсер для "
 "файлов больше чем (строки):** – позволяет выбрать размер файла, для "
@@ -350,45 +312,45 @@ msgid ""
 "файла. Значение равное 0 отключает данное поведение."
 msgstr ""
 
-#: ../../preferences.rst:128
+#: ../../preferences.rst:99
 msgid ""
 "**Bracket highlight / Подсветка скобок** – включает подсветку скобок в "
 "одном из режимов."
 msgstr ""
 
-#: ../../preferences.rst:129
+#: ../../preferences.rst:100
 msgid ""
 "**Single bracket / Одна скобка** – при выборе скобки, подсвечивает парную"
 " скобку."
 msgstr ""
 
-#: ../../preferences.rst:130
+#: ../../preferences.rst:101
 msgid ""
 "**Both brackets / Обе скобки** – при выборе скобки, подсвечивает текущую "
 "и парную скобку."
 msgstr ""
 
-#: ../../preferences.rst:131
+#: ../../preferences.rst:102
 msgid ""
 "**Current block brackets / Скобки текущего блока** – подсвечивает скобки,"
 " между которыми находится курсор."
 msgstr ""
 
-#: ../../preferences.rst:132
+#: ../../preferences.rst:103
 msgid ""
 "**Bracket highlight color / Цвет подсветки скобок** – позволяет выбрать "
 "цвет подсветки скобок."
 msgstr ""
 
-#: ../../preferences.rst:136
+#: ../../preferences.rst:107
 msgid "Подсветка синтаксиса"
 msgstr ""
 
-#: ../../preferences.rst:138
+#: ../../preferences.rst:109
 msgid "Настройки, управляющие подсветкой синтаксиса."
 msgstr ""
 
-#: ../../preferences.rst:142
+#: ../../preferences.rst:113
 msgid ""
 "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> "
 "Syntax Coloring / Подсветка синтаксиса** Вы можете установить цвет и "
@@ -396,17 +358,17 @@ msgid ""
 "редакторе pgCodeKeeper."
 msgstr ""
 
-#: ../../preferences.rst:145
+#: ../../preferences.rst:116
 msgid "Шаблоны редактора SQL"
 msgstr ""
 
-#: ../../preferences.rst:147
+#: ../../preferences.rst:118
 msgid ""
 "Создание, удаление и редактирование шаблонов для автоподстановки в SQL "
 "редакторе"
 msgstr ""
 
-#: ../../preferences.rst:151
+#: ../../preferences.rst:122
 msgid ""
 "На странице настроек **pgCodeKeeper -> SQL Editor / Редактор SQL -> SQL "
 "Editor Templates / Шаблоны редактора SQL** Вы можете управлять SQL "
@@ -414,21 +376,21 @@ msgid ""
 "действий отображается справа от списка шаблонов."
 msgstr ""
 
-#: ../../preferences.rst:156
+#: ../../preferences.rst:127
 msgid "Хранилище БД"
 msgstr ""
 
-#: ../../preferences.rst:157
+#: ../../preferences.rst:128
 msgid "Настройки, управляющие хранилищем параметров подключения к БД."
 msgstr ""
 
-#: ../../preferences.rst:159
+#: ../../preferences.rst:130
 msgid ""
 "На странице настроек **pgCodeKeeper -> DB Store / Хранилище БД** "
 "находится список записей для подключения к базам данных."
 msgstr ""
 
-#: ../../preferences.rst:163
+#: ../../preferences.rst:134
 msgid ""
 "Для добавления хранилища нажать кнопку |add_obj|. Откроется диалог **DB "
 "credentials** (Данные подключения к БД), в котором нужно указать "
@@ -439,53 +401,53 @@ msgid ""
 "Автогенерация**."
 msgstr ""
 
-#: ../../preferences.rst:165
+#: ../../preferences.rst:136
 msgid ""
 "pgCodeKeeper поддерживает работу с `pgpass файлом "
 "<https://www.postgresql.org/docs/current/libpq-pgpass.html>`_. Для этого "
 "поле с паролем нужно оставить пустым."
 msgstr ""
 
-#: ../../preferences.rst:170
+#: ../../preferences.rst:141
 msgid ":ref:`ignoreList` можно подключить как внешний файл."
 msgstr ""
 
-#: ../../preferences.rst:174
+#: ../../preferences.rst:145
 msgid "Свойства соединения можно дополнить параметрами указанными по адресу:"
 msgstr ""
 
-#: ../../preferences.rst:175
+#: ../../preferences.rst:146
 msgid ""
 "https://jdbc.postgresql.org/documentation/head/connect.html (Для "
 "PostgreSQL)"
 msgstr ""
 
-#: ../../preferences.rst:176
+#: ../../preferences.rst:147
 msgid ""
 "https://docs.microsoft.com/ru-ru/sql/connect/jdbc/setting-the-connection-"
 "properties (Для MS SQL)"
 msgstr ""
 
-#: ../../preferences.rst:181
+#: ../../preferences.rst:152
 msgid ""
 "**Use external DB loader instead of JDBC / Использовать внешний загрузчик"
 " pg_dump** - позволяет использовать внешний загрузчик для базы данных "
 "вместо JDBC."
 msgstr ""
 
-#: ../../preferences.rst:182
+#: ../../preferences.rst:153
 msgid ""
 "**Loader executable / Исполняемый файл загрузчика** - путь к утилите, "
 "исполняемому файлу или скрипту, используемый для загрузки."
 msgstr ""
 
-#: ../../preferences.rst:183
+#: ../../preferences.rst:154
 msgid ""
 "**Loader custom parameters / Дополнительные параметры загрузчика** - "
 "дополнительные параметры вызова утилиты."
 msgstr ""
 
-#: ../../preferences.rst:187
+#: ../../preferences.rst:158
 msgid ""
 "Для добавления хранилища на основе данных из уже созданного хранилища "
 "следует выделить объект хранилища баз данных, нажать кнопку |copy|. "
@@ -493,7 +455,7 @@ msgid ""
 "можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:189
+#: ../../preferences.rst:160
 msgid ""
 "Для добавления хранилища на основе данных из файла **.pgpass**, нажать "
 "кнопку |pg_pass|. Откроется диалог в котором необходимо выбрать "
@@ -501,40 +463,40 @@ msgid ""
 "источников из pgpass**:"
 msgstr ""
 
-#: ../../preferences.rst:193
+#: ../../preferences.rst:164
 msgid ""
 "В нем нужно выбрать строку с данными на основе которых будет создаваться "
 "хранилище. Откроется диалог **DB credentials / Данные подключения к БД** "
 "в котором можно подтвердить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:197
+#: ../../preferences.rst:168
 msgid ""
 "После этого можно закрывать диалог **Pgpass sources list / Список "
 "источников из pgpass**."
 msgstr ""
 
-#: ../../preferences.rst:199
+#: ../../preferences.rst:170
 msgid ""
 "Для редактирования хранилища выделить объект хранилища баз данных, нажать"
 " кнопку |editor_area|. Откроется диалог **DB credentials / Данные "
 "подключения к БД** в котором можно изменить параметры подключения."
 msgstr ""
 
-#: ../../preferences.rst:201
+#: ../../preferences.rst:172
 msgid ""
 "Для удаления хранилища выбрать необходимую запись и нажать кнопку "
 "|delete|."
 msgstr ""
 
-#: ../../preferences.rst:203
+#: ../../preferences.rst:174
 msgid ""
 "Кнопка **Restore Defaults**, на странице настроек, удаляет все записи для"
 " подключения к базам данных и создает одну запись default без данных для "
 "подключения."
 msgstr ""
 
-#: ../../preferences.rst:205
+#: ../../preferences.rst:176
 msgid ""
 "Для сохранения внесенных изменений, в хранилище параметров подключения к "
 "БД, на странице настроек необходимо нажать кнопку **Apply** или **Apply "
@@ -651,5 +613,54 @@ msgstr ""
 #~ "**Clear parser cache / Очистить кэш "
 #~ "парсера** - позволяют очистить кэш "
 #~ "парсера."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "При добавлении объекта в список "
+#~ "исключенных можно выставить дополнительные "
+#~ "настройки, которые влияют на исключение "
+#~ "объекта при сравнении:"
+#~ msgstr ""
+
+#~ msgid "**Pattern / Шаблон** – является ли имя объекта регулярным выражением."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Ignore Contents / Игнорировать содержимое**"
+#~ " – позволяет пропустить объекты, вложенные"
+#~ " в исключенный."
+#~ msgstr ""
+
+#~ msgid "Все настройки списка доступны для редактирования."
+#~ msgstr ""
+
+#~ msgid "**Примеры работы с исключенными объектами**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Предположим имеются представление с именем "
+#~ "ignore4 и набор таблиц с именами: "
+#~ "ignore, ignore2, ignore3. ignore2 в свою"
+#~ " очередь содержит индекс idx2."
+#~ msgstr ""
+
+#~ msgid "Список исключенных объектов"
+#~ msgstr ""
+
+#~ msgid "Результат"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Исключение объектов частично попадающих под"
+#~ " регулярное выражение \"ignore\"**"
+#~ msgstr ""
+
+#~ msgid "**Исключение объектов \"ignore2\" с содержимым**"
+#~ msgstr ""
+
+#~ msgid "**Исключение объектов с типом “TABLE” частично попадающих**"
+#~ msgstr ""
+
+#~ msgid "**под регулярное выражение \"ignore\"**"
 #~ msgstr ""
 
