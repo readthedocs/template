@@ -35,9 +35,9 @@
 
 **Таблица различий** отображает список объектов, которые различаются в сравниваемых схемах БД. Здесь доступна информация: тип объекта, тип изменения, имя объекта, контейнер, пользователь git, пользователь базы данных.
 
-Тип объекта - поддерживаются следующие типы объектов: SCHEMA, TYPE, FUNCTION, PROCEDURE, TABLE, VIEW, CONSTRAINT, INDEX, TRIGGER.
+Тип объекта - поддерживаются следующие типы объектов: SCHEMA, TYPE, SEQUENCE, TABLE, FUNCTION, PROCEDURE, VIEW, CONSTRAINT, INDEX, TRIGGER.
 
-Для **PostgreSQL** дополнительно поддерживаются следующие типы: AGGREGATE, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, RULE.
+Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION,  DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE.
 
 Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY.
 
