@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-29 15:07+0300\n"
-"PO-Revision-Date: 2020-04-29 12:17\n"
+"PO-Revision-Date: 2020-05-06 04:01\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -70,19 +70,19 @@ msgstr "The **Black list** - **White list** switch allows to invert black list t
 
 #: ../../preferences.rst:30
 msgid "**Text / Текст** – имя объекта."
-msgstr ""
+msgstr "**Text** – name of the object."
 
 #: ../../preferences.rst:31
 msgid "**Pattern / Шаблон** – воспринимать имя объекта как регулярное выражение."
-msgstr ""
+msgstr "**Pattern** – consider the name of the object as regular expression."
 
 #: ../../preferences.rst:32
 msgid "**Ignore Contents / Игнорировать содержимое** – применять правило для совпавшего объекта и всего его содержимого."
-msgstr ""
+msgstr "**Ignore Contents** – apply the rule for the matched object and all of its content."
 
 #: ../../preferences.rst:33
 msgid "**Qualification / Квалификация** – искать объекты по квалифицированному имени."
-msgstr ""
+msgstr "**Qualification** – search objects by qualified name."
 
 #: ../../preferences.rst:34
 msgid "**Type / Тип** – тип объекта (\"ALL\" предназначен для указания любого типа объекта)."
