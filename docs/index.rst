@@ -5,7 +5,7 @@
 
 Welcome to Read the Docs Template's documentation!
 ==================================================
-
+<a href="https://marinariverside.vn/" rel="nofollow noopener noreferrer" target="_blank">
 Contents:
 
 .. toctree::
