@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Read the Docs Template's documentation!
+Welcome to Acrylic Tape Manufacturer by Hindustan Adhesives Ltd. a subsidiary of Bagla Group (https://www.bagla-group.com/).
 ==================================================
 
 Contents:
