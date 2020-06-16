@@ -98,7 +98,7 @@ objectName, dbName, objectType
  **objectType**    тип искомого объекта (опционально)
 =================  =================================================================
 
-.. important:: **objectType** может быть равен одному из следующих значений: CAST, USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, VIEW, INDEX, TRIGGER, RULE.
+.. important:: **objectType** может быть равен одному из следующих значений: CAST, USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, VIEW, INDEX, TRIGGER, RULE, POLICY.
 
 identifier
     | строка-идентификатор без кавычек, состоящая из латинских букв, цифр и подчеркиваний; 
@@ -116,7 +116,7 @@ flag { NONE | REGEX | CONTENT | QUALIFIED }
 ==============  ================================================================
  **REGEX**      воспринимает objectName как регулярное выражение [1]_
  **CONTENT**    применяет правило для совпавшего объекта и всего его содержимого
- **QUALIFIED**  сравнивать objectName с квалифицированным именем объекта
+ **QUALIFIED**  сравнивает objectName с квалифицированным именем объекта
  **NONE**       строгое совпадение без регулярного выражения и без содержимого
 ==============  ================================================================
 

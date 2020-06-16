@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-29 15:07+0300\n"
+"POT-Creation-Date: 2020-06-16 10:31+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../white_black_list.rst:5
 msgid "Список исключаемых объектов"
@@ -236,7 +236,8 @@ msgid ""
 "**objectType** может быть равен одному из следующих значений: CAST, USER,"
 " ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, OPERATOR, "
 "FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, "
-"FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, VIEW, INDEX, TRIGGER, RULE."
+"FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, VIEW, INDEX, TRIGGER, RULE, "
+"POLICY."
 msgstr ""
 
 #: ../../white_black_list.rst:109
@@ -308,7 +309,7 @@ msgid "**QUALIFIED**"
 msgstr ""
 
 #: ../../white_black_list.rst:119
-msgid "сравнивать objectName с квалифицированным именем объекта"
+msgid "сравнивает objectName с квалифицированным именем объекта"
 msgstr ""
 
 #: ../../white_black_list.rst:120
@@ -910,5 +911,18 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "HIDE SHOW ALL REGEX CONTENT NONE"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**objectType** может быть равен одному "
+#~ "из следующих значений: CAST, USER, ROLE,"
+#~ " ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN,"
+#~ " SEQUENCE, OPERATOR, FTS_PARSER, FTS_TEMPLATE,"
+#~ " FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, "
+#~ "FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, "
+#~ "VIEW, INDEX, TRIGGER, RULE."
+#~ msgstr ""
+
+#~ msgid "сравнивать objectName с квалифицированным именем объекта"
 #~ msgstr ""
 

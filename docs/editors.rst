@@ -37,7 +37,7 @@
 
 Тип объекта - поддерживаются следующие типы объектов: SCHEMA, TYPE, SEQUENCE, TABLE, FUNCTION, PROCEDURE, VIEW, CONSTRAINT, INDEX, TRIGGER.
 
-Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION,  DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE.
+Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION,  DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY.
 
 Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY.
 
