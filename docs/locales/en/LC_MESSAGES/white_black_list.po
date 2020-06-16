@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-16 10:31+0300\n"
-"PO-Revision-Date: 2020-06-16 07:55\n"
+"PO-Revision-Date: 2020-06-16 08:02\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -264,7 +264,7 @@ msgstr "**QUALIFIED**"
 
 #: ../../white_black_list.rst:119
 msgid "сравнивает objectName с квалифицированным именем объекта"
-msgstr ""
+msgstr "compares objectName to the qualified name of the object"
 
 #: ../../white_black_list.rst:120
 msgid "**NONE**"
