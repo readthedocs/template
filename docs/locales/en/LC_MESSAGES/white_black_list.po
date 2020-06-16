@@ -2,18 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-29 15:07+0300\n"
-"PO-Revision-Date: 2020-04-29 12:17\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-06-16 10:31+0300\n"
+"PO-Revision-Date: 2020-06-16 08:02\n"
+"Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Project-ID: 301130\n"
 "X-Crowdin-Language: en\n"
 "X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/white_black_list.po\n"
+"X-Crowdin-File-ID: 46\n"
 "Language: en_US\n"
 
 #: ../../white_black_list.rst:5
@@ -197,8 +199,8 @@ msgid "тип искомого объекта (опционально)"
 msgstr "type of the target object (optional)"
 
 #: ../../white_black_list.rst:101
-msgid "**objectType** может быть равен одному из следующих значений: CAST, USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, VIEW, INDEX, TRIGGER, RULE."
-msgstr ""
+msgid "**objectType** может быть равен одному из следующих значений: CAST, USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, VIEW, INDEX, TRIGGER, RULE, POLICY."
+msgstr "**objectType** may be equal to one of the following values: CAST, USER, ROLE, ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN, SEQUENCE, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, VIEW, INDEX, TRIGGER, RULE, POLICY."
 
 #: ../../white_black_list.rst:109
 msgid "identifier"
@@ -234,7 +236,7 @@ msgstr "\"objectType\" is case sensitive."
 
 #: ../../white_black_list.rst:114
 msgid "flag { NONE | REGEX | CONTENT | QUALIFIED }"
-msgstr ""
+msgstr "flag { NONE | REGEX | CONTENT | QUALIFIED }"
 
 #: ../../white_black_list.rst:114
 msgid "флаг способа поиска объекта"
@@ -258,11 +260,11 @@ msgstr "applies the rule for the matched object and all of its content"
 
 #: ../../white_black_list.rst:119
 msgid "**QUALIFIED**"
-msgstr ""
+msgstr "**QUALIFIED**"
 
 #: ../../white_black_list.rst:119
-msgid "сравнивать objectName с квалифицированным именем объекта"
-msgstr ""
+msgid "сравнивает objectName с квалифицированным именем объекта"
+msgstr "compares objectName to the qualified name of the object"
 
 #: ../../white_black_list.rst:120
 msgid "**NONE**"
@@ -330,7 +332,7 @@ msgstr "all the objects"
 
 #: ../../white_black_list.rst:147
 msgid "|hide_all|"
-msgstr ""
+msgstr "|hide_all|"
 
 #: ../../white_black_list.rst
 msgid "**SHOW REGEX K**"
@@ -354,7 +356,7 @@ msgstr "expression \"K\""
 
 #: ../../white_black_list.rst:152
 msgid "|show_regex|"
-msgstr ""
+msgstr "|show_regex|"
 
 #: ../../white_black_list.rst
 msgid "**SHOW CONTENT D**"
@@ -362,15 +364,15 @@ msgstr "**SHOW CONTENT D**"
 
 #: ../../white_black_list.rst
 msgid "объект D и его содержимое"
-msgstr ""
+msgstr "object D and its content"
 
 #: ../../white_black_list.rst:164
 msgid "|show_content|"
-msgstr ""
+msgstr "|show_content|"
 
 #: ../../white_black_list.rst
 msgid "**SHOW QUALIFIED 'A.C.D'**"
-msgstr ""
+msgstr "**SHOW QUALIFIED 'A.C.D'**"
 
 #: ../../white_black_list.rst
 msgid "только объект D"
@@ -378,11 +380,11 @@ msgstr "object D only"
 
 #: ../../white_black_list.rst
 msgid "с родителем A.C"
-msgstr ""
+msgstr "with parent A.C"
 
 #: ../../white_black_list.rst:174 ../../white_black_list.rst:185
 msgid "|show_none|"
-msgstr ""
+msgstr "|show_none|"
 
 #: ../../white_black_list.rst
 msgid "**SHOW NONE D**"
@@ -398,7 +400,7 @@ msgstr "**SHOW ALL**"
 
 #: ../../white_black_list.rst:203
 msgid "|show_all|"
-msgstr ""
+msgstr "|show_all|"
 
 #: ../../white_black_list.rst
 msgid "**HIDE REGEX K**"
@@ -406,19 +408,19 @@ msgstr "**HIDE REGEX K**"
 
 #: ../../white_black_list.rst
 msgid "исключает объекты которые"
-msgstr ""
+msgstr "excludes objects which"
 
 #: ../../white_black_list.rst
 msgid "частично попадают под"
-msgstr ""
+msgstr "partially match the"
 
 #: ../../white_black_list.rst
 msgid "регулярное выражение \"K\""
-msgstr ""
+msgstr "regular expression \"K\""
 
 #: ../../white_black_list.rst:208
 msgid "|hide_regex|"
-msgstr ""
+msgstr "|hide_regex|"
 
 #: ../../white_black_list.rst
 msgid "все объекты)"
@@ -438,19 +440,19 @@ msgstr "and its content"
 
 #: ../../white_black_list.rst:219
 msgid "|hide_content|"
-msgstr ""
+msgstr "|hide_content|"
 
 #: ../../white_black_list.rst
 msgid "**HIDE QUALIFIED 'A.C.D'**"
-msgstr ""
+msgstr "**HIDE QUALIFIED 'A.C.D'**"
 
 #: ../../white_black_list.rst
 msgid "исключает только объект D"
-msgstr ""
+msgstr "excludes object D only"
 
 #: ../../white_black_list.rst:229 ../../white_black_list.rst:239
 msgid "|hide_none|"
-msgstr ""
+msgstr "|hide_none|"
 
 #: ../../white_black_list.rst
 msgid "**HIDE NONE D**"
@@ -462,7 +464,7 @@ msgstr "Key words:"
 
 #: ../../white_black_list.rst:262
 msgid "HIDE SHOW ALL REGEX CONTENT QUALIFIED NONE"
-msgstr ""
+msgstr "HIDE SHOW ALL REGEX CONTENT QUALIFIED NONE"
 
 #: ../../white_black_list.rst:264
 msgid "Эти слова не могут быть идентификаторами, для их использования они должны быть взяты в кавычки. Зарезервированы только слова, полностью совпадающие по регистру, например Content – разрешенный идентификатор."
@@ -795,5 +797,18 @@ msgstr "Interaction between the rules of different lists which regulate the disp
 #~ msgstr ""
 
 #~ msgid "HIDE SHOW ALL REGEX CONTENT NONE"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**objectType** может быть равен одному "
+#~ "из следующих значений: CAST, USER, ROLE,"
+#~ " ASSEMBLY, SCHEMA, EXTENSION, TYPE, DOMAIN,"
+#~ " SEQUENCE, OPERATOR, FTS_PARSER, FTS_TEMPLATE,"
+#~ " FTS_DICTIONARY, FTS_CONFIGURATION, TABLE, "
+#~ "FUNCTION, PROCEDURE, AGGREGATE, CONSTRAINT, "
+#~ "VIEW, INDEX, TRIGGER, RULE."
+#~ msgstr ""
+
+#~ msgid "сравнивать objectName с квалифицированным именем объекта"
 #~ msgstr ""
 

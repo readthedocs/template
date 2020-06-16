@@ -2,18 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-29 15:07+0300\n"
-"PO-Revision-Date: 2020-04-29 12:17\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-06-16 10:37+0300\n"
+"PO-Revision-Date: 2020-06-16 07:55\n"
+"Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Project-ID: 301130\n"
 "X-Crowdin-Language: en\n"
 "X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/editors.po\n"
+"X-Crowdin-File-ID: 33\n"
 "Language: en_US\n"
 
 #: ../../editors.rst:3
@@ -102,11 +104,11 @@ msgstr "**Diff table** shows the list of objects different for the DB schemas un
 
 #: ../../editors.rst:38
 msgid "Тип объекта - поддерживаются следующие типы объектов: SCHEMA, TYPE, SEQUENCE, TABLE, FUNCTION, PROCEDURE, VIEW, CONSTRAINT, INDEX, TRIGGER."
-msgstr ""
+msgstr "Object type - the following object types are supported: SCHEMA, TYPE, SEQUENCE, TABLE, FUNCTION, PROCEDURE, VIEW, CONSTRAINT, INDEX, TRIGGER."
 
 #: ../../editors.rst:40
-msgid "Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION,  DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE."
-msgstr ""
+msgid "Для **PostgreSQL** дополнительно поддерживаются следующие типы: CAST, EXTENSION,  DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE, POLICY."
+msgstr "CAST, EXTENSION, DOMAIN, OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, FTS_CONFIGURATION, AGGREGATE, RULE are supported additionally for **PostgreSQL**."
 
 #: ../../editors.rst:42
 msgid "Для **MS SQL** дополнительно поддерживаются следующие типы: USER, ROLE, ASSEMBLY."
@@ -291,5 +293,19 @@ msgstr "**Query result** view displays query results. Each query is displayed in
 #~ "следующие типы: AGGREGATE, DOMAIN, OPERATOR,"
 #~ " FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY, "
 #~ "FTS_CONFIGURATION, RULE."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для **PostgreSQL** дополнительно поддерживаются "
+#~ "следующие типы: CAST, EXTENSION,  DOMAIN, "
+#~ "OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY,"
+#~ " FTS_CONFIGURATION, AGGREGATE, RULE."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для **PostgreSQL** дополнительно поддерживаются "
+#~ "следующие типы: CAST, EXTENSION,  DOMAIN, "
+#~ "OPERATOR, FTS_PARSER, FTS_TEMPLATE, FTS_DICTIONARY,"
+#~ " FTS_CONFIGURATION, AGGREGATE, POLICY."
 #~ msgstr ""
 

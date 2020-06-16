@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-09 13:38+0300\n"
-"PO-Revision-Date: 2020-04-29 11:23\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-06-16 10:31+0300\n"
+"PO-Revision-Date: 2020-06-16 08:02\n"
+"Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,8 +12,10 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pgcodekeeper-docs\n"
+"X-Crowdin-Project-ID: 301130\n"
 "X-Crowdin-Language: en\n"
 "X-Crowdin-File: /master/docs/locales/ru/LC_MESSAGES/installation.po\n"
+"X-Crowdin-File-ID: 38\n"
 "Language: en_US\n"
 
 #: ../../installation.rst:3
@@ -25,8 +27,8 @@ msgid "Eclipse Marketplace"
 msgstr "Eclipse Marketplace"
 
 #: ../../installation.rst:8
-msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.2 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
-msgstr "The easiest way to install pgCodeKeeper is Eclipse Marketplace: launch Eclipse, version 4.2 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Markeplace...**."
+msgid "Самый простой путь установить pgCodeKeeper - Eclipse Marketplace : в запущенном экземпляре Eclipse версии 4.6 или выше с установленным Eclipse Marketplace, выбрать **Help > Eclipse Markeplace...**."
+msgstr "The easiest way to install pgCodeKeeper is Eclipse Marketplace: launch Eclipse, version 4.6 or higher, with the installed Eclipse Marketplace, and select **Help > Eclipse Markeplace...**."
 
 #: ../../installation.rst:10
 msgid "В поле поиска ввести: pgCodeKeeper."
@@ -49,8 +51,8 @@ msgid "Сайт обновления"
 msgstr "Update website"
 
 #: ../../installation.rst:23
-msgid "Альтернативный путь получить установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.2 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
-msgstr "Another way to install pgCodeKeeper is the update website: launch Eclipse, version 4.2 or higher, select **Help > Install New Software...** Plug-in installation (with the help of the update web-site) wizard will appear on the screen."
+msgid "Альтернативный путь получить установки pgCodeKeeper – сайт обновлений: в запущенном экземпляре Eclipse версии 4.6 или выше, выбрать **Help > Install New Software...** Откроется мастер установки плагинов средствами сайта обновлений."
+msgstr "Another way to install pgCodeKeeper is the update website: launch Eclipse, version 4.6 or higher, select **Help > Install New Software...** Plug-in installation (with the help of the update web-site) wizard will appear on the screen."
 
 #: ../../installation.rst:25
 msgid "В поле **Work With** ввести путь к сайту обновлений: http://pgcodekeeper.org/update/."
@@ -68,5 +70,22 @@ msgstr "Select the pgCodeKeeper package, agree to the installation, review the T
 #~ "В поле **Work With** ввести путь к"
 #~ " сайту обновлений: "
 #~ "http://pgcodekeeper.org/update/release/."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Самый простой путь установить pgCodeKeeper "
+#~ "- Eclipse Marketplace : в запущенном "
+#~ "экземпляре Eclipse версии 4.2 или выше"
+#~ " с установленным Eclipse Marketplace, "
+#~ "выбрать **Help > Eclipse Markeplace...**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Альтернативный путь получить установки "
+#~ "pgCodeKeeper – сайт обновлений: в "
+#~ "запущенном экземпляре Eclipse версии 4.2 "
+#~ "или выше, выбрать **Help > Install "
+#~ "New Software...** Откроется мастер установки"
+#~ " плагинов средствами сайта обновлений."
 #~ msgstr ""
 
