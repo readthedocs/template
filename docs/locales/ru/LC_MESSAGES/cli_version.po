@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-04 10:13+0300\n"
+"POT-Creation-Date: 2020-07-30 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,8 +60,8 @@ msgstr ""
 
 #: ../../cli_version.rst:19
 msgid ""
-"Для начала необходимо установить `Java SDK <https://adoptopenjdk.net/>`_ "
-"для вашей платформы."
+"Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей"
+" платформы."
 msgstr ""
 
 #: ../../cli_version.rst:21
@@ -170,5 +170,11 @@ msgstr ""
 #~ " будет выведен скрипт миграции из "
 #~ "файла backup в проект в директории "
 #~ "test1."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://adoptopenjdk.net/>`_ для вашей "
+#~ "платформы."
 #~ msgstr ""
 

@@ -16,7 +16,7 @@ CLI версия
 Начало работы
 ~~~~~~~~~~~~~
 
-Для начала необходимо установить `Java SDK <https://adoptopenjdk.net/>`_ для вашей платформы.
+Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы.
 
 Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем.
 

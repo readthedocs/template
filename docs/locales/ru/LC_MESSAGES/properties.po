@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgCodeKeeper 4.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-01 17:21+0300\n"
+"POT-Creation-Date: 2020-07-30 13:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,13 +80,20 @@ msgstr ""
 
 #: ../../properties.rst:24
 msgid ""
+"**Ignore differences in table column order / Игнорировать различия в "
+"порядке столбцов таблицы** - позволяет не учитывать порядок столбцов при "
+"сравнении таблиц."
+msgstr ""
+
+#: ../../properties.rst:26
+msgid ""
 "**Enable full dependencies from bodies of functions and procedures "
 "(experimental) / Учитывать все зависимости из тел функций и процедур "
 "(экспериментально)** - позволяет искать внутри тел функций и процедур "
 "зависимости к другим функциям и процедурам."
 msgstr ""
 
-#: ../../properties.rst:26
+#: ../../properties.rst:28
 msgid ""
 "**Simple formatting for VIEVs when reading via JDBC (not recommended by "
 "PostgreSQL) / Упрощенное форматирование представлений при чтении через "
@@ -95,60 +102,60 @@ msgid ""
 "формат может не поддерживаться в будущих версиях PostgeSQL."
 msgstr ""
 
-#: ../../properties.rst:28
+#: ../../properties.rst:30
 msgid ""
 "**Use global ignore list / Использовать глобальный список игнорирования**"
 " - позволяет включить или отключить использование глобального списка "
 "различий со страницы настроек :ref:`ignoredObjects`."
 msgstr ""
 
-#: ../../properties.rst:31
+#: ../../properties.rst:33
 msgid "Списки исключений"
 msgstr ""
 
-#: ../../properties.rst:33
+#: ../../properties.rst:35
 msgid ""
 "Настройки, управляющие списками игнор файлов для данного проекта. "
 "Подробное описание работы со списками находится в разделе "
 ":ref:`ignoreList`."
 msgstr ""
 
-#: ../../properties.rst:37
+#: ../../properties.rst:39
 msgid ""
 "Кнопка **Edit .pgcodekeeperignore / Редактировать .pgcodekeeperignore** "
 "позволяет изменить стандартный игнор файл, находящийся в корне проекта."
 msgstr ""
 
-#: ../../properties.rst:39
+#: ../../properties.rst:41
 msgid "Для добавления существующего файла нажмите кнопку |add_obj|."
 msgstr ""
 
-#: ../../properties.rst:41
+#: ../../properties.rst:43
 msgid "Для удаления файла нажмите кнопку |delete|."
 msgstr ""
 
-#: ../../properties.rst:43
+#: ../../properties.rst:45
 msgid ""
 "Для создания нового файла нажмите кнопку |add_file|. Будет открыт "
 "редактор списка правил, аналогичный редактору на странице глобальных "
 "настроек :ref:`ignoredObjects`."
 msgstr ""
 
-#: ../../properties.rst:47
+#: ../../properties.rst:49
 msgid ""
 "Для редактирования файла нажмите кнопку |editor_area|. Будет открыт "
 "редактор списка правил из текущего файла."
 msgstr ""
 
-#: ../../properties.rst:57
+#: ../../properties.rst:59
 msgid "Библиотечные зависимости"
 msgstr ""
 
-#: ../../properties.rst:59
+#: ../../properties.rst:61
 msgid "Настройки, управляющие библиотеками проекта."
 msgstr ""
 
-#: ../../properties.rst:63
+#: ../../properties.rst:65
 msgid ""
 "**Библиотеки** - это подключаемые наборы данных объектов, которые "
 "\"*склеиваются*\" с объектами проекта при сравнении с удаленной базой "
@@ -160,39 +167,39 @@ msgid ""
 " на боковой панели."
 msgstr ""
 
-#: ../../properties.rst:66
+#: ../../properties.rst:68
 msgid ""
 "Библиотеки загружаются в порядке, в котором они указаны в списке (самая "
 "верхняя библиотека будет загружена первой). Для изменения порядка "
 "воспользуйтесь соответствующими кнопками на боковой панели."
 msgstr ""
 
-#: ../../properties.rst:68
+#: ../../properties.rst:70
 msgid ""
 "Столбец **Owner / Владелец** позволяет установить нового владельца для "
 "всех объектов библиотеки."
 msgstr ""
 
-#: ../../properties.rst:70
+#: ../../properties.rst:72
 msgid ""
 "Если у библиотеки заполнен владелец, он будет отображен вне зависимости "
 "от прочих настроек pgCodeKeeper."
 msgstr ""
 
-#: ../../properties.rst:72
+#: ../../properties.rst:74
 msgid ""
 "Если вы не хотите использовать привилегии и владельцев объектов "
 "библиотеки, вы можете отключить их в столбце **Ignore privileges/owners /"
 " Игнорировать привилегии/владельцев**."
 msgstr ""
 
-#: ../../properties.rst:74
+#: ../../properties.rst:76
 msgid ""
 "Если у библиотеки не игнорируются привилегии, они будут отображены вне "
 "зависимости от прочих настроек pgCodeKeeper."
 msgstr ""
 
-#: ../../properties.rst:76
+#: ../../properties.rst:78
 msgid ""
 "**Disallow overrides / Запретить переопределение.** Не исключена "
 "ситуация, когда проект и библиотека (или две библиотеки) содержат объекты"
@@ -204,11 +211,11 @@ msgid ""
 "конфликты."
 msgstr ""
 
-#: ../../properties.rst:80
+#: ../../properties.rst:82
 msgid "Обновление БД"
 msgstr ""
 
-#: ../../properties.rst:82
+#: ../../properties.rst:84
 msgid ""
 "Настройки, управляющие обновлением базы данных, которые позволяют "
 "переопределить некоторые соответствующие настройки со страницы "
