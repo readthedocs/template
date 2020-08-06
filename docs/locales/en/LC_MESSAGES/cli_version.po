@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-04 10:13+0300\n"
-"PO-Revision-Date: 2020-06-16 07:42\n"
+"POT-Creation-Date: 2020-07-30 13:09+0300\n"
+"PO-Revision-Date: 2020-08-06 04:23\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -51,8 +51,8 @@ msgid "Начало работы"
 msgstr "Getting Started"
 
 #: ../../cli_version.rst:19
-msgid "Для начала необходимо установить `Java SDK <https://adoptopenjdk.net/>`_ для вашей платформы."
-msgstr "First off, install `Java SDK <https://adoptopenjdk.net/>`_ for your platform."
+msgid "Для начала необходимо установить `Java SDK <https://jdk.dev/>`_ для вашей платформы."
+msgstr "First off, install `Java SDK <https://jdk.dev/>`_ for your platform."
 
 #: ../../cli_version.rst:21
 msgid "Последнюю версию cli сборки можно скачать `здесь <https://github.com/pgcodekeeper/pgcodekeeper/releases>`_. В распакованном архиве использовать файл для передачи параметров: **pgcodekeeper-cli.sh** для Linux систем и **pgcodekeeper-cli.bat** для Windows систем."
@@ -141,5 +141,11 @@ msgstr "The VM parameter *ru.taximaxim.codekeeper.parser.poolsize* allows specif
 #~ " будет выведен скрипт миграции из "
 #~ "файла backup в проект в директории "
 #~ "test1."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для начала необходимо установить `Java "
+#~ "SDK <https://adoptopenjdk.net/>`_ для вашей "
+#~ "платформы."
 #~ msgstr ""
 
