@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-30 13:09+0300\n"
-"PO-Revision-Date: 2020-08-06 05:22\n"
+"PO-Revision-Date: 2020-08-06 11:34\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "**Ignore privileges and owners of database objects** - allows to disable
 
 #: ../../preferences.rst:12
 msgid "**Ignore differences in table column order / Игнорировать различия в порядке столбцов таблицы** - позволяет не учитывать порядок столбцов при сравнении таблиц."
-msgstr "**Ignore differences in table column order** - allows to ignore the order of columts when comparing the tables."
+msgstr "**Ignore differences in table column order** - allows to ignore the order of colums when comparing the tables."
 
 #: ../../preferences.rst:13
 msgid "**Reuse compare editor instead of opening new ones / Использовать открытый редактор сравнения вместо создания новых** - позволяет использовать открытый редактор сравнения при сравнения объектов базы данных (В контекстном меню таблицы различий выбрать пункт **Show Diff / Показать различия**)."
