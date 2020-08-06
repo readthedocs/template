@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgcodekeeper-docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-30 13:09+0300\n"
-"PO-Revision-Date: 2020-08-06 04:23\n"
+"PO-Revision-Date: 2020-08-06 05:22\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -148,7 +148,7 @@ msgstr "**Print CREATE INDEX CONCURRENTLY (without locks)** – allows creating 
 
 #: ../../preferences.rst:59
 msgid "**Create a script only from objects selected in the comparison panel / Создавать скрипт только из объектов, выбранных в панели сравнения** – позволяет исключить из скрипта объекты, которые не были выбраны явно."
-msgstr ""
+msgstr "**Create a script only from objects selected in the comparison panel** – allows to exclude the objects, which were not selected explicitly, from the script."
 
 #: ../../preferences.rst:60
 msgid "**Migration command / Команда миграции** - позволяет использовать другую утилиту или параметры запуска при применении скрипта наката к базе данных."
