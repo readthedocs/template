@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Read the Docs Template's documentation!
+欢迎来到迅鸣物联网文档系统
 ==================================================
 
-Contents:
+目录:
 
 .. toctree::
    :maxdepth: 2
