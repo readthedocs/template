@@ -7,7 +7,7 @@ The main use is to let users know when a bot goes offline and becomes unusable.
 
 It also lets users know once said bot goes back online. This is useful mostly for server owners with self-hosted bots and need a way of getting notified when they bots go offline.
 
-***Invite Downtime Detector:*** `Click Here <https://discord.com/api/oauth2/authorize?client_id=653755293943201793&permissions=8&scope=bot>`_
+**Invite Downtime Detector:** `Click Here <https://discord.com/api/oauth2/authorize?client_id=653755293943201793&permissions=8&scope=bot>`_
 
 .. list-table:: Dependencies
    :widths: 25 25 50
