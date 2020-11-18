@@ -27,13 +27,11 @@ It also lets users know once said bot goes back online. This is useful mostly fo
    :widths: 25 25 50
    :header-rows: 1
 
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
-   * - Row 2, column 1
+   * - discord.js
+     - fs
+     - logger
+     - realm
+   * - `discord.js <https://github.com/discordjs/discord.js>`_ is a powerful JavaScript library for interacting with the Discord API.
      - Row 2, column 2
      - Row 2, column 3
 
