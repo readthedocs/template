@@ -4,15 +4,22 @@ Commands
 
 Here is a list of the bots available commands.
 
-.. list-table:: Commands List 
+.. list-table:: Commands List
    :widths: 25 25 50
    :header-rows: 1
 
-   * - Command Name
+   * - Name
+     - Usage
      - Description
-     - Command Usage
-     - Required Perms
    * - help
-     - Show a help message with the available commands and a link to this Docs site.
      - dd>help
-     - None
+     - Show a help message with a list of commands and link to this site.
+   * - channel
+     - dd>channel @Channel
+     - Set the channel to send Downtime Notifications to, Provide no channel mention for help.
+   * - add
+     - dd>add @Bot
+     - Add the specified bot to Downtime Detectors list of bots to monitor, Provide no bot mention for help
+   * - remove
+     - dd>remove @Bot
+     - Remove the specified bot from Downtime Detectors list of bots to monitor, Provide no bot mention for help
