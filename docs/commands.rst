@@ -1,10 +1,10 @@
 ============
-Commands List
+Commands
 ============
 
 Here is a list of the bots available commands.
 
-.. list-table:: Commands
+.. list-table:: Commands List 
    :widths: 25 25 50
    :header-rows: 1
 
