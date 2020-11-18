@@ -32,7 +32,7 @@ Permissions
 Downtime Detector uses a custom permission schema, 
 which is applied to each command individually.
 
-.. code-block:: php
+.. code-block:: js
    :linenos:
 
 const PERMISSIONS = {
