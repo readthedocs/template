@@ -1,25 +1,11 @@
-.. Read the Docs Template documentation master file, created by
-   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Downtime Detector
 ==================================================
 
-This is a small bot that notifies a server through a message when another bot goes offline. 
+Welcome to the Officia Documentation for Downtime Detector a small bot that notifies a server through a message when another bot goes offline. 
 
 The main use is to let users know when a bot goes offline and becomes unusable. 
 
 It also lets users know once said bot goes back online. This is useful mostly for server owners with self-hosted bots and need a way of getting notified when they bots go offline.
-
-## Dependencies
-
-| Dependency:                                           | Description:                                                             |
-|-------------------------------------------------------|--------------------------------------------------------------------------|
-| [discord.js](https://github.com/discordjs/discord.js) | A powerful JavaScript library for interacting with the Discord API.      |
-| [fs](https://www.npmjs.com/package/fs)                | File system utilities for Node.js.                                       |
-| [logger](https://github.com/moonstar-x/logger)        | A small logger module for Node.js.                                       |
-| [realm](https://www.npmjs.com/package/realm)          | Realm is a mobile database: an alternative to SQLite & key-value stores. |
 
 ---
 
@@ -33,21 +19,20 @@ It also lets users know once said bot goes back online. This is useful mostly fo
    * - discord.js
      - `discord.js.org <https://discord.js.org/#/>`_
      - A powerful JavaScript library for interacting with the Discord API.
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+   * - fs
+     - `npmjs.com/package/fs <https://www.npmjs.com/package/fs>`_
+     - File system utilities for Node.js.
+   * - logger
+     - `github.com/moonstar-x/logger <https://github.com/moonstar-x/logger>`_
+     - A small logger module for Node.js.
+   * - realm
+     - `npmjs.com/package/fs <https://www.npmjs.com/package/fs>`_
+     - Realm is a mobile database: an alternative to SQLite & key-value stores.
+   * - mongoose
+     - `npmjs.com/package/fs <https://www.npmjs.com/package/fs>`_
+     - Just the best Web Database.
 
-.. list-table:: Title
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - discord.js
-     - fs
-     - logger
-     - realm
-   * - `discord.js <https://github.com/discordjs/discord.js>`_ is a powerful JavaScript library for interacting with the Discord API.
-     - Row 2, column 2
-     - Row 2, column 3
+---
 
 Contents:
 
