@@ -6,6 +6,9 @@ Downtime Detector
 
 Discords best and most reliable Downtime Notification bot.
 
+**Invite Downtime Detector:** `Click Here <https://discord.com/api/oauth2/authorize?client_id=653755293943201793&permissions=8&scope=bot>`_
+
+
 Proof/Examples
 =================
 
