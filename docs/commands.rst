@@ -32,11 +32,6 @@ Permissions
 Downtime Detector uses a custom permission schema, 
 which is applied to each command individually.
 
-.. highlight:: js
-
-.. code-block::
-   :linenos:
-
 const PERMISSIONS = {
   administrator: 'ADMINISTRATOR',
   createInstantInvite: 'CREATE_INSTANT_INVITE',
@@ -68,6 +63,7 @@ const PERMISSIONS = {
   manageRoles: 'MANAGE_ROLES',
   manageWebhooks: 'MANAGE_WEBHOOKS',
   manageEmojis: 'MANAGE_EMOJIS'
-}; ::
+};::
+
 
 
