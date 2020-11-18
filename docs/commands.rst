@@ -68,6 +68,6 @@ const PERMISSIONS = {
   manageRoles: 'MANAGE_ROLES',
   manageWebhooks: 'MANAGE_WEBHOOKS',
   manageEmojis: 'MANAGE_EMOJIS'
-};
+}; ::
 
 
