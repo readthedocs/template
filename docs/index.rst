@@ -23,6 +23,20 @@ It also lets users know once said bot goes back online. This is useful mostly fo
 
 ---
 
+.. list-table:: Dependencies
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Name
+     - Link
+     - Description
+   * - discord.js
+     - `discord.js.org <https://discord.js.org/#/>`_
+     - A powerful JavaScript library for interacting with the Discord API.
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+
 .. list-table:: Title
    :widths: 25 25 50
    :header-rows: 1
