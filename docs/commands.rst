@@ -1,5 +1,5 @@
 Commands
-============
+==================================================
 
 Here is a list of the bots available commands.
 
@@ -24,7 +24,6 @@ Here is a list of the bots available commands.
      - Remove the specified bot from Downtime Detectors list of bots to monitor, Provide no bot mention for help
 
 
-========
 Permissions
 ========
 
