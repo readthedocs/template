@@ -1,7 +1,7 @@
 Commands
 ==================================================
 
-Here is a list of the bots available commands.
+Here is a list of Downtime Detectors available commands.
 
 .. list-table:: Commands List
    :widths: 25 25 50
@@ -22,3 +22,5 @@ Here is a list of the bots available commands.
    * - remove
      - dd>remove @Bot
      - Remove the specified bot from Downtime Detectors list of bots to monitor, Provide no bot mention for help
+
+• View the `Permissions Docs <http://www.python.org>`_ for permission info.
