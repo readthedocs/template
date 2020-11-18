@@ -22,15 +22,3 @@ Here is a list of the bots available commands.
    * - remove
      - dd>remove @Bot
      - Remove the specified bot from Downtime Detectors list of bots to monitor, Provide no bot mention for help
-
-
-Permissions
-========
-
-Downtime Detector uses a custom permission schema, 
-which is applied to each command individually.
-
-.. literalinclude:: perms.js
-   :language: js
-   :emphasize-lines: 12,15-18
-   :linenos:
