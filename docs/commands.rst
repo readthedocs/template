@@ -34,7 +34,7 @@ which is applied to each command individually.
 
 .. highlight:: js
 
-.. source-code::
+.. code-block::
    :linenos:
 
 const PERMISSIONS = {
