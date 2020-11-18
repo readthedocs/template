@@ -35,7 +35,7 @@ which is applied to each command individually.
 .. code-block:: js
     :linenos:
 
- const PERMISSIONS = {
+        const PERMISSIONS = {
   administrator: 'ADMINISTRATOR',
   createInstantInvite: 'CREATE_INSTANT_INVITE',
   kickMembers: 'KICK_MEMBERS',
@@ -67,8 +67,3 @@ which is applied to each command individually.
   manageWebhooks: 'MANAGE_WEBHOOKS',
   manageEmojis: 'MANAGE_EMOJIS'
 };
-
-::
-
-
-
