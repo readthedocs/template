@@ -66,7 +66,7 @@ which is applied to each command individually.
   manageRoles: 'MANAGE_ROLES',
   manageWebhooks: 'MANAGE_WEBHOOKS',
   manageEmojis: 'MANAGE_EMOJIS'
-};::
+};
 
 
 
