@@ -9,10 +9,7 @@ It also lets users know once said bot goes back online. This is useful mostly fo
 
 ---
 
-Header: 
-Dependencies 
-
-.. list-table:: Dependency Table
+.. list-table:: Dependencies
    :widths: 25 25 50
    :header-rows: 1
 
