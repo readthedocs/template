@@ -35,8 +35,7 @@ which is applied to each command individually.
 .. code-block:: javascript
     :linenos:
 
-
-const PERMISSIONS = {
+ const PERMISSIONS = {
   administrator: 'ADMINISTRATOR',
   createInstantInvite: 'CREATE_INSTANT_INVITE',
   kickMembers: 'KICK_MEMBERS',
