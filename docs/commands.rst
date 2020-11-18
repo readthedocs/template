@@ -23,4 +23,4 @@ Here is a list of Downtime Detectors available commands.
      - dd>remove @Bot
      - Remove the specified bot from Downtime Detectors list of bots to monitor, Provide no bot mention for help
 
-• View the `Permissions Docs <http://www.python.org>`_ for permission info.
+• View the `Permissions Docs <https://downtime.docs.toxicdev.me/en/latest/permissions.html>`_ for permission info.
