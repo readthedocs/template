@@ -1,7 +1,7 @@
 Downtime Detector
 ==================================================
 
-Welcome to the Officia Documentation for Downtime Detector a small bot that notifies a server through a message when another bot goes offline. 
+Welcome to the Official Documentation for Downtime Detector a small bot that notifies a server through a message when another bot goes offline. 
 
 The main use is to let users know when a bot goes offline and becomes unusable. 
 
