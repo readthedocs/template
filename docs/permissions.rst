@@ -2,7 +2,7 @@ Permissions
 ========
 
 Downtime Detector uses a custom permission schema, 
-which is applied to each command individually.
+which is applied to each command  and event that the bot handles individually.
 
 If you're having issues getting the bot to post notifications
 Users have had success with providing the bot administrator perms.
