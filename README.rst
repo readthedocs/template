@@ -11,7 +11,7 @@ Look how easy it is to use:
     project.do_stuff()
 
 Features
---------
+========
 
 - Be awesome
 - Make things faster
