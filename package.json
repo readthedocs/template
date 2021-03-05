@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "book:prepare": "gitbook install",
+    "book:watch": "npm run book:prepare && gitbook serve",
+    "book:build": "npm run book:prepare && del /S /Q _book && gitbook build",
+    "book:publish": "npm run book:build && cd _book && git init && git commit --allow-empty -m  \"Update site [ci skip]\"  && git checkout -b gh-pages && git add . && git commit -am \"Update site\" && git push https://github.com/noname/noname.git gh-pages --force",
+    "book:build-linux": "npm run book:prepare && rm -rf _book && gitbook build",
+    "book:publish-linux": "npm run book:build-linux && cd _book && git init && git commit --allow-empty -m  \"Update site [ci skip]\"  && git checkout -b gh-pages && git add . && git commit -am \"Update site\" && git push https://github.com/noname/noname.git gh-pages --force"
+  }
+}
