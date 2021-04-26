@@ -1,1 +1,1 @@
-.. include:: ../README.rst
+By Phuoc Nguyen include:: vsdg.org/README.rst
