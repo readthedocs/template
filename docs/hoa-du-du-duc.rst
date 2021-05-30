@@ -72,5 +72,5 @@ Hoa đu đủ là dược liệu lành tính, an toàn cho người dùng. Nhưn
 •	Người bệnh uống trà hoa đu đủ sau bữa ăn là tốt nhất.
 •	Bài thuốc nam phát huy hiệu quả chậm nên cần duy trì ít nhất 6 tháng trở lên.
 •	Người bệnh cần kiêng dùng chất kích thích, rượu bia, thuốc lá và duy trì chế độ luyện tập, nghỉ ngơi phù hợp.
-Tất tần tật thông tin về hoa đu đủ đực được chia sẻ trên đây sẽ giúp bạn đọc có câu trả lời cho những thắc mắc. Hãy note lại những bài thuốc chữa bệnh hiệu quả từ hoa đu đủ để áp dụng khi cần thiết nhé!
+Tất tần tật thông tin về hoa đu đủ đực được chia sẻ trên đây sẽ giúp bạn đọc có câu trả lời cho những thắc mắc. Hãy note lại những bài thuốc chữa bệnh hiệu quả từ hoa đu đủ để áp dụng khi cần thiết nhé.
 
