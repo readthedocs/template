@@ -12,7 +12,8 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   *
+   *Acoustic Echo Cancel
+   *Beamforming
 
 
 
