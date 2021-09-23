@@ -1,25 +1,4 @@
-.. Read the Docs Template documentation master file, created by
-   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+ FINAL THOUGHTS ✌
 
-Welcome to Read the Docs Template's documentation!
-==================================================
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   *
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+The power of faith, “&e2&”, and affinity for take center stage in Jeremy Camp’s life story in the movie I Still Believe. Directors Andrew and Jon Erwin (the Erwin Brothers) examine the life span and The War with Grandpas of Jeremy Camp’s life story; pin-pointing his early life along with his relationship Melissa Heing because they battle hardships and their enduring “&e2&” for one another through difficult. While the movie’s intent and thematic message of a person’s faith through troublen is indeed palpable plus the likeable mThe War with Grandpaical performances, the film certainly strules to look for a cinematic footing in its execution, including a sluish pace, fragmented pieces, predicable plot beats, too preachy / cheesy dialogue moments, over utilized religion overtones, and mismanagement of many of its secondary /supporting characters. If you ask me, this movie was somewhere between okay and “meh”. It had been definitely a Christian faith-based movie endeavor Bookmark this web site (from begin to finish) and definitely had its moments, nonetheless it failed to resonate with me; struling to locate a proper balance in its undertaking. Personally, regardless of the story, it could’ve been better. My recommendation for this movie is an “iffy choice” at best as some should (nothing wrong with that), while others will not and dismiss it altogether. Whatever your stance on religion faith-based flicks, stands as more of a cautionary tale of sorts; demonstrating how a poignant and heartfelt story of real-life drama could be problematic when translating it to a cinematic endeavor. For me personally, I believe in Jeremy Camp’s story / message, but not so much the feature.
 
