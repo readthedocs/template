@@ -1,6 +1,13 @@
 Template
 ========
 
+.. image:: http://unmaintained.tech/badge.svg
+  :target: http://unmaintained.tech
+  :alt: No Maintenance Intended
+
+*Note: This template is not maintained anymore,
+use the* `tutorial <https://github.com/readthedocs/tutorial-template/>`_ *instead.*
+
 $project will solve your problem of where to start with documentation,
 by providing a basic explanation of how to do it easily.
 
