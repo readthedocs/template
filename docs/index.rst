@@ -3,7 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Read the Docs Template's documentation!
+T}' FREE SPINS COIN MASTER GENERATOR 2021
+FREE COIN MASTER FREE HACK
+SPINS GENERATOR!
 ==================================================
 
 Contents:
